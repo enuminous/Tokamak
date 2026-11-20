@@ -7,11 +7,29 @@
 <link rel="stylesheet" href="style.css">
 <script defer src="model.js"></script>
 <script defer src="lab.js"></script>
+<script defer src="reactor.js"></script>
 </head>
 <body>
 <main>
 <header><p class="label">PLASMA TOPOLOGY LAB</p><h1>Tri-Sphere / Tokamak</h1>
 <p>A physical analogue for the hourglass waist, toroidal confinement, and partial recycling in Beth’s blueprint.</p></header>
+<section class="reactor">
+<h2>Reactor schematic in 3D + time</h2>
+<p>Rotate the view and open the cutaway to inspect the plasma, vessel, field coils, and divertor. Animated tracers show the direction of the illustrative field lines.</p>
+<canvas id="reactor" role="img" aria-label="Rotatable wireframe tokamak with plasma, vacuum vessel, field coils, divertor targets, and moving field-line tracers."></canvas>
+<div class="controls">
+  <div><label for="yaw">Azimuth <output id="yawValue" for="yaw"></output></label><input id="yaw" type="range" min="0" max="360" value="26"></div>
+  <div><label for="tilt">Elevation <output id="tiltValue" for="tilt"></output></label><input id="tilt" type="range" min="5" max="85" value="34"></div>
+  <div><label for="cut">Cutaway <output id="cutValue" for="cut"></output></label><input id="cut" type="range" min="0" max="180" value="55"></div>
+  <div><label for="speed">Tracer speed <output id="speedValue" for="speed"></output></label><input id="speed" type="range" min="0" max="2" step="0.1" value="1"></div>
+  <div><label for="pitch">Poloidal turns per toroidal turn <output id="pitchValue" for="pitch"></output></label><input id="pitch" type="range" min="1" max="5" step="1" value="2"></div>
+</div>
+<button id="animate" type="button">Play tracers</button>
+<label class="toggle"><input id="annotations" type="checkbox" checked> Show labels</label>
+<p class="legend">Teal · plasma surfaces | Blue-gray · vacuum vessel | Lavender · toroidal-field coils | Blue · poloidal-field coils | Gold · divertor targets and tracers</p>
+<details open><summary>Model boundaries</summary>
+<p>The 3D reactor is a generic schematic. Its circular plasma surfaces, coil positions, and targets are illustrative. The separate poloidal cross-section below shows the analytic X-point and separatrix. Tracers follow prescribed paths in normalized animation time. They do not model particle orbits, exhaust transport, heat load, or reactor performance. The radial oscillator is an illustrative closure of Jones’s Equation 10, with a specified center kick and a chosen harmonic potential.</p></details>
+</section>
 <div class="layout">
 <figure>
 <canvas id="section" role="img" aria-label="Tokamak cross-section with nested closed flux contours, an X-point, and open contours reaching a divertor target."></canvas>
@@ -25,10 +43,32 @@
 <label for="recycle">Recycling <output id="recycleValue" for="recycle"></output></label>
 <input id="recycle" type="range" min="0" max="100" value="60">
 <dl><dt>Retained</dt><dd id="retained"></dd><dt>Returned</dt><dd id="returned"></dd><dt>Removed</dt><dd id="removed"></dd><dt>Next inventory</dt><dd id="nextInventory"></dd></dl>
+<h3>Energy inventory</h3>
+<label for="energyLeak">Outward energy <output id="energyLeakValue" for="energyLeak"></output></label>
+<input id="energyLeak" type="range" min="0" max="100" value="25">
+<label for="energyReturn">Energy return <output id="energyReturnValue" for="energyReturn"></output></label>
+<input id="energyReturn" type="range" min="0" max="100" value="10">
+<dl><dt>Energy returned</dt><dd id="energyReturned"></dd><dt>Energy removed</dt><dd id="energyRemoved"></dd><dt>Next energy inventory</dt><dd id="energyNext"></dd></dl>
 <button id="reset" type="button">Reset inputs</button>
 </section>
 </div>
-<footer>The flux drawing and the particle inventory are separate toy models. The sliders do not change the field geometry.</footer>
+<footer>The flux drawing and the particle and energy inventories are separate toy models. The sliders do not change the field geometry.</footer>
+<section class="dynamics">
+<h2>TriSphere radial dynamics</h2>
+<p>A. Beth Jones’s Equation 10 motivates this example. Each arc follows a damped radial oscillator. At the center, an idealized pump adds a fixed amount of energy on each return.</p>
+<label for="damping">Damping γ <output id="dampingValue" for="damping"></output></label>
+<input id="damping" type="range" min="0.05" max="1" step="0.05" value="0.25">
+<label for="kick">Drive work per return <output id="kickValue" for="kick"></output></label>
+<input id="kick" type="range" min="0" max="1" step="0.05" value="0.35">
+<canvas id="breaths" role="img" aria-label="Radius versus time for eight out-and-back excursions."></canvas>
+<dl><dt>First excursion damping loss</dt><dd id="firstLoss"></dd><dt>Steady launch energy</dt><dd id="steadyEnergy"></dd></dl>
+<p>Set drive work to zero to see the excursions decay. These are dimensionless radial dynamics. The magnetic plot above uses a separate flux model.</p>
+<h3>Hopf map on a layer shell</h3>
+<label for="layer">Layer radius ρ <output id="layerValue" for="layer"></output></label>
+<input id="layer" type="range" min="0" max="12" step="1" value="6">
+<p id="hopfValue"></p>
+<p><a href="https://tri-sphere-text.abethjones.workers.dev/">A. Beth Jones’s TriSphere equations</a> · <a href="https://github.com/enuminous/papers/blob/main/Energy-Through-the-Hourglass-TriSphere-Tokamak-2026-11-19.md">Energy Through the Hourglass</a></p>
+</section>
 </main>
 </body>
 </html>
