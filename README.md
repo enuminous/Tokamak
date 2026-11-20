@@ -20,3 +20,7 @@ The model illustrates topology and accounting. Predicting plasma behavior would 
 ## Reactor and TriSphere controls
 
 The 3D + time schematic has azimuth, elevation, cutaway, tracer speed, field-line pitch, play/pause, and labels. The 2D flux section resolves the X-point independently. The particle and energy sliders reproduce the paper's 90% and 77.5% default inventories. The radial lab implements a center-kick example inspired by A. Beth Jones’s Equation 10, and a layer selector evaluates one point on each Hopf shell. See [model boundaries and live-source comparison](PHYSICS.md#joness-equations-and-the-model).
+
+## Recirculating muon engine
+
+Open [engine.html](engine.html) for the TriSphere-inspired engine simulator. It accounts for catalyst survival, sticking, recirculation, energy recovery, bootstrap power and ideal jet thrust. The proposed quark chamber appears as a speculative stage and carries zero power credit. See [ENGINE.md](ENGINE.md) for the model and its assumptions.
