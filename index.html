@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tri-Sphere / Tokamak Lab</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="model.js"></script>
+<script defer src="lab.js"></script>
+</head>
+<body>
+<main>
+<header><p class="label">PLASMA TOPOLOGY LAB</p><h1>Tri-Sphere / Tokamak</h1>
+<p>A physical analogue for the hourglass waist, toroidal confinement, and partial recycling in Beth’s blueprint.</p></header>
+<div class="layout">
+<figure>
+<canvas id="section" role="img" aria-label="Tokamak cross-section with nested closed flux contours, an X-point, and open contours reaching a divertor target."></canvas>
+<figcaption><span class="gold">Gold · separatrix</span> <span class="cyan">Teal · confined contours</span> <span class="gray">Blue-gray · open contours</span> <span>Bottom line · idealized target</span></figcaption>
+</figure>
+<section>
+<h2>Particle inventory</h2>
+<p>Start with one unit of particles. Set the fraction that crosses the boundary and the fraction of those particles that returns.</p>
+<label for="leak">Outward crossing <output id="leakValue" for="leak"></output></label>
+<input id="leak" type="range" min="0" max="100" value="25">
+<label for="recycle">Recycling <output id="recycleValue" for="recycle"></output></label>
+<input id="recycle" type="range" min="0" max="100" value="60">
+<dl><dt>Retained</dt><dd id="retained"></dd><dt>Returned</dt><dd id="returned"></dd><dt>Removed</dt><dd id="removed"></dd><dt>Next inventory</dt><dd id="nextInventory"></dd></dl>
+<button id="reset" type="button">Reset inputs</button>
+</section>
+</div>
+<footer>The flux drawing and the particle inventory are separate toy models. The sliders do not change the field geometry.</footer>
+</main>
+</body>
+</html>
