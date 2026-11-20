@@ -16,3 +16,7 @@ A flat, dependency-free repository for exploring the tokamak analogue of Beth's 
 With 25% outward crossing and 60% recycling of the crossing fraction, 75% stays confined, 15% returns, and 10% is removed. The next inventory is 90% of the starting inventory. Changing these fractions leaves the static flux contours fixed.
 
 The model illustrates topology and accounting. Predicting plasma behavior would require an equilibrium solution, transport equations, material interactions, and comparison with measurements.
+
+## Reactor and TriSphere controls
+
+The 3D + time schematic has azimuth, elevation, cutaway, tracer speed, field-line pitch, play/pause, and labels. The 2D flux section resolves the X-point independently. The particle and energy sliders reproduce the paper's 90% and 77.5% default inventories. The radial lab implements a center-kick example inspired by A. Beth Jones’s Equation 10, and a layer selector evaluates one point on each Hopf shell. See [model boundaries and live-source comparison](PHYSICS.md#joness-equations-and-the-model).
