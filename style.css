@@ -20,3 +20,12 @@ dd { margin: 0; font-variant-numeric: tabular-nums; }
 button { padding: .65rem .9rem; border: 1px solid #758da4; border-radius: 5px; background: #24384a; color: inherit; cursor: pointer; }
 footer { margin-top: 1.3rem; font-size: .9rem; }
 @media (max-width: 720px) { .layout { grid-template-columns: 1fr; } main { margin-top: 1.5rem; } }
+.dynamics { margin-top: 1.25rem; }
+.dynamics canvas { height: 240px; margin-top: 1rem; border-bottom: 1px solid #415264; }
+a { color: #94cbd0; }
+.reactor { margin-bottom: 1.25rem; }
+.reactor canvas { height: clamp(320px, 52vw, 570px); }
+.controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0 1.25rem; margin-bottom: 1rem; }
+.toggle { display: inline-flex; align-items: center; margin: 0 0 0 .7rem; }
+.toggle input { width: auto; margin: 0; }
+.legend { font-size: .88rem; }
