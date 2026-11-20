@@ -12,6 +12,28 @@ const Tokamak = (() => {
     const removed = leak * (1 - recycle);
     return { retained, returned, removed, nextInventory: retained + returned };
   }
+  // Unnormalized Hopf map in real coordinates; output radius is rho squared.
+  function hopf(a, b, c, d) {
+    return [a*a + b*b - c*c - d*d, 2*(a*c + b*d), 2*(b*c - a*d)];
+  }
+
+  // Unit frequency, unit mass. Reflect at rho=0, then add work once per return.
+  function radialBreaths(gamma, kick, count = 8) {
+    const frequency = Math.sqrt(1 - gamma * gamma / 4);
+    const duration = Math.PI / frequency;
+    const retention = Math.exp(-gamma * duration);
+    let energy = 1;
+    const cycles = [];
+    for (let i = 0; i < count; i++) {
+      const next = retention * energy + kick;
+      cycles.push({ energy, loss: (1 - retention) * energy, next });
+      energy = next;
+    }
+    return { cycles, duration, retention, equilibrium: kick / (1 - retention),
+      position: (energy, time) => Math.sqrt(2 * energy) *
+        Math.exp(-gamma * time / 2) * Math.sin(frequency * time) / frequency };
+  }
+
   function draw(ctx, width, height) {
     const px = x => (x - view.left) / (view.right - view.left) * width;
     const py = z => (view.top - z) / (view.top - view.bottom) * height;
@@ -59,6 +81,6 @@ const Tokamak = (() => {
       ctx.fillText(label, px(0) + 11, py(z) + 5);
     }
   }
-  return { edge, view, flux, field, budget, draw };
+  return { edge, view, flux, field, budget, draw, hopf, radialBreaths };
 })();
 if (typeof module !== "undefined") module.exports = Tokamak;
