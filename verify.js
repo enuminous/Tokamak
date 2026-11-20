@@ -26,3 +26,20 @@ for (const leak of [0, 0.25, 1]) {
   }
 }
 console.log("PASS: critical points, separatrix, field tangency, target intersection, and particle accounting.");
+
+const { hopf, radialBreaths } = require("./model.js");
+const image = hopf(1, 2, 3, 4);
+const rotated = hopf(-2, 1, -4, 3);
+for (let i = 0; i < image.length; i++) near(image[i], rotated[i]);
+near(Math.hypot(...image), 30);
+near(Math.hypot(...hopf(0, 0, 0, 0)), 0);
+for (const kick of [0, 0.35, 1]) {
+  const run = radialBreaths(0.25, kick, 120);
+  for (const cycle of run.cycles) {
+    near(cycle.next - cycle.energy, kick - cycle.loss);
+    near(run.position(cycle.energy, 0), 0);
+    near(run.position(cycle.energy, run.duration), 0);
+  }
+  near(run.cycles.at(-1).next, run.equilibrium);
+}
+console.log("PASS: Hopf phase invariance and norm, radial returns, drive–loss balance, and fixed point.");
