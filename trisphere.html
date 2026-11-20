@@ -3,7 +3,7 @@
 <title>TriSphere model configurations</title><link rel="stylesheet" href="style.css">
 <script defer src="trisphere.js"></script></head>
 <body><main>
-<header><p><a href="index.html">Tokamak lab</a></p><h1>TriSphere model configurations</h1>
+<header><p><a href="index.html">Tokamak lab</a> · <a href="trisphere-prototype.html">New dynamics and comparison simulator</a></p><h1>TriSphere model configurations</h1>
 <p>A. Beth Jones’s thirteen-layer model and alternate Five-Structure, compared under the same routing and boundary settings.</p></header>
 <section><h2>Shared controls</h2>
 <label for="boundary">Outer boundary</label><select id="boundary"><option value="contain">Containment</option><option value="exhaust">Exhaust</option></select>
@@ -15,3 +15,4 @@
 <p>The alternate keeps the transit time of compressed paths but pools shelf inventory by membrane. Its release rate is the arithmetic mean of the individual shelf rates in that membrane. This closure makes compression testable and is not derived from the blueprint. Both modes split the outbound flow at tick six and share the same outbound route clock. The upper membrane carries outbound flow and has no resting inventory under this routing rule. Containment blocks export at the shell, and damping transfers stored motion energy into an internal heat ledger. Exhaust can export separate fractions of material and energy. The powered drive adds a recorded amount at each completed return.</p>
 <p>The model tracks discrete inventories and circulation times. It does not solve Jones’s continuous radial equation or establish limit-cycle stability. The <a href="index.html">Tokamak lab</a> retains the separate center-kick example. <a href="https://tri-sphere-text.abethjones.workers.dev/">A. Beth Jones’s TriSphere framework</a></p></section>
 </main></body></html>
+

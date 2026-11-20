@@ -1,0 +1,598 @@
+{
+  "schema": "trisphere-scan/2",
+  "parameters": {
+    "k": 0.7,
+    "gamma": 0.3,
+    "period": 8,
+    "height": 0.16,
+    "amplitude": 1.2,
+    "dt": 0.01,
+    "duration": 96,
+    "x0": 0.15,
+    "v0": 0,
+    "boundary": "contain",
+    "product": 0.45,
+    "modulation": 0,
+    "weights": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "release": 0.6,
+    "mode": "maintain",
+    "pump": 0.15,
+    "particleExhaust": 0.25,
+    "energyExhaust": 0.6
+  },
+  "kGrid": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "gammaGrid": [
+    0,
+    0.15,
+    0.3,
+    0.6,
+    1
+  ],
+  "perturbation": "+0.02 initial position",
+  "sourceSHA256": "312976f809ea1c3215872e6b18542321d99af84982e80cb01c3529dd4f7e8320",
+  "version": "2.0.0",
+  "rows": [
+    {
+      "k": 0,
+      "gamma": 0,
+      "thirteen": {
+        "response": "SETTLED",
+        "amplitude": 0,
+        "recurrence": 0,
+        "perturbationDistance": 0,
+        "attractionCandidate": false,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 2.9085837904840872e-11
+      },
+      "five": {
+        "response": "SETTLED",
+        "amplitude": 0,
+        "recurrence": 0,
+        "perturbationDistance": 0,
+        "attractionCandidate": false,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 1.559382345472926e-10
+      }
+    },
+    {
+      "k": 0.25,
+      "gamma": 0,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.38323067713033226,
+        "recurrence": 1.3900071141264454e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.000003583953530839068
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.06823251662978973,
+        "recurrence": 1.8544714533416013e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 1.9829149433547855e-10
+      }
+    },
+    {
+      "k": 0.5,
+      "gamma": 0,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 8.786443485761035e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00008954717555731406
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 6.240821511817329e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.0006335785181477149
+      }
+    },
+    {
+      "k": 0.75,
+      "gamma": 0,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.59021552050521e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00003321665570843457
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.3791893561828943e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00021436256123053
+      }
+    },
+    {
+      "k": 1,
+      "gamma": 0,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 2.3164453750794663e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00021887724827607258
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 2.1352852222979172e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00013954380210634554
+      }
+    },
+    {
+      "k": 0,
+      "gamma": 0.15,
+      "thirteen": {
+        "response": "SETTLED",
+        "amplitude": 0,
+        "recurrence": 0,
+        "perturbationDistance": 0,
+        "attractionCandidate": false,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 3.981514423712085e-11
+      },
+      "five": {
+        "response": "SETTLED",
+        "amplitude": 0,
+        "recurrence": 0,
+        "perturbationDistance": 0,
+        "attractionCandidate": false,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 1.956884446152607e-10
+      }
+    },
+    {
+      "k": 0.25,
+      "gamma": 0.15,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.21288422917485816,
+        "recurrence": 2.902466936201418e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 2.2218160644627005e-10
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.0654994928554741,
+        "recurrence": 1.7446750852744783e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 2.5157502123174247e-10
+      }
+    },
+    {
+      "k": 0.5,
+      "gamma": 0.15,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 7.718465206725549e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.000027967082578683744
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 5.166056805217754e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00019351057883021383
+      }
+    },
+    {
+      "k": 0.75,
+      "gamma": 0.15,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.4495652163010985e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00023449102574701897
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.2517819806233865e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.000015647378232785947
+      }
+    },
+    {
+      "k": 1,
+      "gamma": 0.15,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 2.104042692336812e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00009236489605157772
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.9340282549522577e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.0002670053185980237
+      }
+    },
+    {
+      "k": 0,
+      "gamma": 0.3,
+      "thirteen": {
+        "response": "SETTLED",
+        "amplitude": 0,
+        "recurrence": 0,
+        "perturbationDistance": 0,
+        "attractionCandidate": false,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 4.6923354091177316e-11
+      },
+      "five": {
+        "response": "SETTLED",
+        "amplitude": 0,
+        "recurrence": 0,
+        "perturbationDistance": 0,
+        "attractionCandidate": false,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 2.1785846043842483e-10
+      }
+    },
+    {
+      "k": 0.25,
+      "gamma": 0.3,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.18194170983028307,
+        "recurrence": 3.392155835306367e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 3.2945202121936745e-10
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.06314955743062715,
+        "recurrence": 1.6641906341509965e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 2.7891103662747163e-10
+      }
+    },
+    {
+      "k": 0.5,
+      "gamma": 0.3,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 7.117478973310665e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00009606600285572142
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 4.396756547553588e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00029592496413854974
+      }
+    },
+    {
+      "k": 0.75,
+      "gamma": 0.3,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.3300433770117097e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.000259786188806288
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.1754938557727407e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00017171087115741557
+      }
+    },
+    {
+      "k": 1,
+      "gamma": 0.3,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.9053850256767347e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.0002984586413461443
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.7904065268396683e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00007534921127572147
+      }
+    },
+    {
+      "k": 0,
+      "gamma": 0.6,
+      "thirteen": {
+        "response": "SETTLED",
+        "amplitude": 0,
+        "recurrence": 0,
+        "perturbationDistance": 0,
+        "attractionCandidate": false,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 5.6925270053298505e-11
+      },
+      "five": {
+        "response": "SETTLED",
+        "amplitude": 0,
+        "recurrence": 0,
+        "perturbationDistance": 0,
+        "attractionCandidate": false,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 2.544770366652571e-10
+      }
+    },
+    {
+      "k": 0.25,
+      "gamma": 0.6,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.15009539950026163,
+        "recurrence": 2.218751669066717e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 3.093830192035796e-10
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.05934682079381794,
+        "recurrence": 1.592659965704612e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 3.033075630931581e-10
+      }
+    },
+    {
+      "k": 0.5,
+      "gamma": 0.6,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 7.165567318799321e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00002753957851631128
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.8902036606849011,
+        "recurrence": 1.1999563011097391e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00003350613727093332
+      }
+    },
+    {
+      "k": 0.75,
+      "gamma": 0.6,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.1295802521390698e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.0000832039161551279
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.0703342805857533e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00007119650011944145
+      }
+    },
+    {
+      "k": 1,
+      "gamma": 0.6,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.5924275668013615e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00037167320199671394
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.5087296916160638e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.0004971239969542296
+      }
+    },
+    {
+      "k": 0,
+      "gamma": 1,
+      "thirteen": {
+        "response": "SETTLED",
+        "amplitude": 0,
+        "recurrence": 0,
+        "perturbationDistance": 0,
+        "attractionCandidate": false,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 6.237858840574262e-11
+      },
+      "five": {
+        "response": "SETTLED",
+        "amplitude": 0,
+        "recurrence": 0,
+        "perturbationDistance": 0,
+        "attractionCandidate": false,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 2.6331228170084486e-10
+      }
+    },
+    {
+      "k": 0.25,
+      "gamma": 1,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.12682574499080412,
+        "recurrence": 1.9490645532760596e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 2.647614905093576e-10
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.05560322842392518,
+        "recurrence": 1.3550254080384637e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 2.7983890205085515e-10
+      }
+    },
+    {
+      "k": 0.5,
+      "gamma": 1,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.7932554871371276,
+        "recurrence": 4.972868202929394e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00004909504259309472
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 0.5736113505995534,
+        "recurrence": 3.90938927474329e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00007233856503052749
+      }
+    },
+    {
+      "k": 0.75,
+      "gamma": 1,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 9.257824840091666e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.000043697866853875666
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 8.278430955278663e-16,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00011239744308610966
+      }
+    },
+    {
+      "k": 1,
+      "gamma": 1,
+      "thirteen": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.33991681786077e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.000015646767022037267
+      },
+      "five": {
+        "response": "PERIODIC_CANDIDATE",
+        "amplitude": 1,
+        "recurrence": 1.2194786639579908e-15,
+        "perturbationDistance": 0,
+        "attractionCandidate": true,
+        "numericalChecks": "PASS",
+        "maxEnergyResidual": 0.00034238260482766236
+      }
+    }
+  ],
+  "scope": "Finite-window recurrence and one initial-position perturbation; no bifurcation proof"
+}

@@ -1,0 +1,594 @@
+{
+  "schema": "trisphere-evidence/2",
+  "version": "2.0.0",
+  "date": "2026-11-20",
+  "runtime": {
+    "node": "v24.22.3",
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "hashes": {
+    "core": "1307eabb8bd2ae033aed1154f45dd7d4c321ca121e9f41fbc405dc04d2b28af6",
+    "runner": "106139c67b01140af3ca5619495ce4f8237664bfbc4e4844d1b8cb0f678a3cea",
+    "source": "312976f809ea1c3215872e6b18542321d99af84982e80cb01c3529dd4f7e8320"
+  },
+  "command": "node run-trisphere.js",
+  "stochastic": false,
+  "seeds": "NOT_APPLICABLE",
+  "independentReview": "UNRESOLVED",
+  "browserQA": "Recorded separately in the publication report",
+  "cases": {
+    "containment": {
+      "schema": "trisphere-run/2",
+      "version": "2.0.0",
+      "sourceSHA256": "312976f809ea1c3215872e6b18542321d99af84982e80cb01c3529dd4f7e8320",
+      "parameters": {
+        "k": 0.7,
+        "gamma": 0.3,
+        "period": 8,
+        "height": 0.16,
+        "amplitude": 1.2,
+        "dt": 0.01,
+        "duration": 96,
+        "x0": 0.15,
+        "v0": 0,
+        "boundary": "contain",
+        "product": 0.45,
+        "modulation": 0,
+        "weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "release": 0.6,
+        "mode": "maintain",
+        "pump": 0.15,
+        "particleExhaust": 0.25,
+        "energyExhaust": 0.6
+      },
+      "assumptions": "TRISPHERE-CONTRACT.md",
+      "thresholds": {
+        "mass": 1e-10,
+        "transportEnergy": 1e-10,
+        "radialEnergy": 0.001,
+        "radialRMSE": 0.05,
+        "shelfL1": 0.1,
+        "firstReturn": 0.05,
+        "periodicDistance": 0.01,
+        "activeAmplitude": 0.02
+      },
+      "thirteen": {
+        "radial": {
+          "initial": 0.03226815363485925,
+          "final": {
+            "t": 96,
+            "x": 0,
+            "v": 1.57803833561477e-17,
+            "energy": 1.2451024943349166e-34,
+            "work": 18.18161528229026,
+            "dampingHeat": 4.872651834868086,
+            "contactHeat": 13.341146488313754,
+            "exported": 0,
+            "residual": -0.00008511274327815954
+          },
+          "maxResidual": 0.00009043272979880612,
+          "contacts": 24,
+          "dwell": [
+            2.5199999999999902,
+            2.2799999999999954,
+            7.199999999999891
+          ],
+          "amplitude": 1,
+          "speedRMS": 0.41184019813157957,
+          "recurrence": 1.2315620908078615e-15,
+          "state": "PERIODIC_CANDIDATE"
+        },
+        "transport": {
+          "final": {
+            "t": 96,
+            "mass": 1.0000000000000004,
+            "energy": 0.03827772776062107,
+            "heat": 1.9759087333977068,
+            "work": 1.0141864611583513,
+            "exportedMass": 0,
+            "exportedEnergy": 0,
+            "returned": 9.658918677698539,
+            "returnedEnergy": 0.14352662788800022,
+            "firstReturned": 0.9999999999999972,
+            "firstReturnedEnergy": 0.06975236612839054,
+            "product": 4.72539060461305,
+            "compost": 5.775477405638172,
+            "occupancy": [
+              0,
+              0.037352915405019935,
+              0.033618816295947325,
+              0.03059658038716683,
+              0.028100494179629204,
+              0.08510491918081543,
+              0,
+              0.07421861975073578,
+              0.021338558483119253,
+              0.020162016151972526,
+              0.01912037964586495,
+              0.01819177697774438,
+              0
+            ],
+            "massResidual": 4.440892098500626e-16,
+            "energyResidual": -2.3314683517128287e-14
+          },
+          "firstTime": 6.5,
+          "conditionalMeanFirstReturn": 9.490710704097733,
+          "maxMassResidual": 1.1102230246251565e-15,
+          "maxEnergyResidual": 2.3314683517128287e-14,
+          "elapsed": 96,
+          "tick": 0.25
+        }
+      },
+      "five": {
+        "radial": {
+          "initial": 0.04998805136654634,
+          "final": {
+            "t": 96,
+            "x": 0,
+            "v": 1.57803833561477e-17,
+            "energy": 1.2451024943349166e-34,
+            "work": 18.01471308990256,
+            "dampingHeat": 4.749631023490915,
+            "contactHeat": 13.315391246560027,
+            "exported": 0,
+            "residual": 0.0003211287818345454
+          },
+          "maxResidual": 0.0003211287818345454,
+          "contacts": 24,
+          "dwell": [
+            2.869999999999983,
+            2.2799999999999954,
+            2.769999999999985
+          ],
+          "amplitude": 1,
+          "speedRMS": 0.4068182756931011,
+          "recurrence": 1.0948769250775254e-15,
+          "state": "PERIODIC_CANDIDATE"
+        },
+        "transport": {
+          "final": {
+            "t": 96,
+            "mass": 1,
+            "energy": 0.03837971976508792,
+            "heat": 1.9785669818458431,
+            "work": 1.0169467016109244,
+            "exportedMass": 0,
+            "exportedEnergy": 0,
+            "returned": 9.685206682008841,
+            "returnedEnergy": 0.14431169118171613,
+            "firstReturned": 1,
+            "firstReturnedEnergy": 0.07002077507815231,
+            "product": 4.737030364740025,
+            "compost": 5.789703779126698,
+            "occupancy": [
+              0,
+              0.12847020757396693,
+              0.1589380275277847,
+              0.07871208339026262,
+              0
+            ],
+            "massResidual": 0,
+            "energyResidual": 6.661338147750939e-15
+          },
+          "firstTime": 6.5,
+          "conditionalMeanFirstReturn": 9.4654885527203,
+          "maxMassResidual": 1.1102230246251565e-15,
+          "maxEnergyResidual": 2.3175905639050143e-14,
+          "elapsed": 96,
+          "tick": 0.25
+        }
+      },
+      "comparison": {
+        "radialRMSE": 0.054597183753970206,
+        "shelfL1": 0.001684757966001399,
+        "firstReturnDifference": 2.7755575615628914e-15,
+        "mappedThirteenShelf": [
+          0,
+          0.1296688062677633,
+          0.1593235389315512,
+          0.07881273125870111,
+          0
+        ],
+        "agreement": "FAIL",
+        "numericalChecks": "PASS",
+        "physicalValidation": "UNRESOLVED",
+        "observerProjection": "NOT_APPLICABLE"
+      }
+    },
+    "exhaust": {
+      "schema": "trisphere-run/2",
+      "version": "2.0.0",
+      "sourceSHA256": "312976f809ea1c3215872e6b18542321d99af84982e80cb01c3529dd4f7e8320",
+      "parameters": {
+        "k": 0.7,
+        "gamma": 0.3,
+        "period": 8,
+        "height": 0.16,
+        "amplitude": 1.2,
+        "dt": 0.01,
+        "duration": 96,
+        "x0": 0.15,
+        "v0": 0,
+        "boundary": "exhaust",
+        "product": 0.45,
+        "modulation": 0,
+        "weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "release": 0.6,
+        "mode": "maintain",
+        "pump": 0.15,
+        "particleExhaust": 0.25,
+        "energyExhaust": 0.6
+      },
+      "assumptions": "TRISPHERE-CONTRACT.md",
+      "thresholds": {
+        "mass": 1e-10,
+        "transportEnergy": 1e-10,
+        "radialEnergy": 0.001,
+        "radialRMSE": 0.05,
+        "shelfL1": 0.1,
+        "firstReturn": 0.05,
+        "periodicDistance": 0.01,
+        "activeAmplitude": 0.02
+      },
+      "thirteen": {
+        "radial": {
+          "initial": 0.03226815363485925,
+          "final": {
+            "t": 96,
+            "x": 0,
+            "v": 1.57803833561477e-17,
+            "energy": 1.2451024943349166e-34,
+            "work": 18.18161528229026,
+            "dampingHeat": 4.872651834868086,
+            "contactHeat": 10.327327274287969,
+            "exported": 3.0138192140257836,
+            "residual": -0.00008511274328171226
+          },
+          "maxResidual": 0.00009043272980235884,
+          "contacts": 24,
+          "dwell": [
+            2.5199999999999902,
+            2.2799999999999954,
+            7.199999999999891
+          ],
+          "amplitude": 1,
+          "speedRMS": 0.41184019813157957,
+          "recurrence": 1.2315620908078615e-15,
+          "state": "PERIODIC_CANDIDATE"
+        },
+        "transport": {
+          "final": {
+            "t": 96,
+            "mass": 0.0548756763491538,
+            "energy": 0.0018682550693723213,
+            "heat": 1.0696199721431,
+            "work": 0.2948541570807732,
+            "exportedMass": 0.9451243236508459,
+            "exportedEnergy": 0.22336592986825984,
+            "returned": 2.8081348293406934,
+            "returnedEnergy": 0.036991288496680354,
+            "firstReturned": 0.7499999999999986,
+            "firstReturnedEnergy": 0.027900946451356202,
+            "product": 1.7096813721104547,
+            "compost": 2.0896105659127775,
+            "occupancy": [
+              0,
+              0.002042922969439561,
+              0.001813423421883166,
+              0.0016307926813215502,
+              0.001482172737664379,
+              0.004447821278684173,
+              0,
+              0.00447259554679522,
+              0.0012918655656222907,
+              0.0012267259201791988,
+              0.0011694991996708591,
+              0.0011188593962698553,
+              0
+            ],
+            "massResidual": -3.3306690738754696e-16,
+            "energyResidual": -4.1300296516055823e-14
+          },
+          "firstTime": 6.5,
+          "conditionalMeanFirstReturn": 9.49071070409774,
+          "maxMassResidual": 1.1102230246251565e-15,
+          "maxEnergyResidual": 4.2743586448068527e-14,
+          "elapsed": 96,
+          "tick": 0.25
+        }
+      },
+      "five": {
+        "radial": {
+          "initial": 0.04998805136654634,
+          "final": {
+            "t": 96,
+            "x": 0,
+            "v": 1.57803833561477e-17,
+            "energy": 1.2451024943349166e-34,
+            "work": 18.01471308990256,
+            "dampingHeat": 4.749631023490915,
+            "contactHeat": 10.375307000230617,
+            "exported": 2.9400842463294112,
+            "residual": 0.0003211287818345454
+          },
+          "maxResidual": 0.0003211287818345454,
+          "contacts": 24,
+          "dwell": [
+            2.869999999999983,
+            2.2799999999999954,
+            2.769999999999985
+          ],
+          "amplitude": 1,
+          "speedRMS": 0.4068182756931011,
+          "recurrence": 1.0948769250775254e-15,
+          "state": "PERIODIC_CANDIDATE"
+        },
+        "transport": {
+          "final": {
+            "t": 96,
+            "mass": 0.0545323088861763,
+            "energy": 0.0018627565719069993,
+            "heat": 1.0717616915987016,
+            "work": 0.2950163932473885,
+            "exportedMass": 0.9454676911138208,
+            "exportedEnergy": 0.22139194507676765,
+            "returned": 2.809679935689406,
+            "returnedEnergy": 0.037143368906792165,
+            "firstReturned": 0.7500000000000002,
+            "firstReturnedEnergy": 0.02800831003126092,
+            "product": 1.7103970879921333,
+            "compost": 2.0904853297681645,
+            "occupancy": [
+              0,
+              0.006838625865862813,
+              0.0088900428574622,
+              0.004765634841783793,
+              0
+            ],
+            "massResidual": -2.886579864025407e-15,
+            "energyResidual": -1.2323475573339238e-14
+          },
+          "firstTime": 6.5,
+          "conditionalMeanFirstReturn": 9.465488552720343,
+          "maxMassResidual": 3.1086244689504383e-15,
+          "maxEnergyResidual": 2.65898414397725e-14,
+          "elapsed": 96,
+          "tick": 0.25
+        }
+      },
+      "comparison": {
+        "radialRMSE": 0.054597183753970206,
+        "shelfL1": 0.00020237515242144816,
+        "firstReturnDifference": 1.6653345369377348e-15,
+        "mappedThirteenShelf": [
+          0,
+          0.006969311810308656,
+          0.008920416825479394,
+          0.004806950081742204,
+          0
+        ],
+        "agreement": "FAIL",
+        "numericalChecks": "PASS",
+        "physicalValidation": "UNRESOLVED",
+        "observerProjection": "NOT_APPLICABLE"
+      }
+    },
+    "no-drive": {
+      "schema": "trisphere-run/2",
+      "version": "2.0.0",
+      "sourceSHA256": "312976f809ea1c3215872e6b18542321d99af84982e80cb01c3529dd4f7e8320",
+      "parameters": {
+        "k": 0,
+        "gamma": 0.3,
+        "period": 8,
+        "height": 0.16,
+        "amplitude": 1.2,
+        "dt": 0.01,
+        "duration": 96,
+        "x0": 0.15,
+        "v0": 0,
+        "boundary": "contain",
+        "product": 0.45,
+        "modulation": 0,
+        "weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "release": 0.6,
+        "mode": "maintain",
+        "pump": 0.15,
+        "particleExhaust": 0.25,
+        "energyExhaust": 0.6
+      },
+      "assumptions": "TRISPHERE-CONTRACT.md",
+      "thresholds": {
+        "mass": 1e-10,
+        "transportEnergy": 1e-10,
+        "radialEnergy": 0.001,
+        "radialRMSE": 0.05,
+        "shelfL1": 0.1,
+        "firstReturn": 0.05,
+        "periodicDistance": 0.01,
+        "activeAmplitude": 0.02
+      },
+      "thirteen": {
+        "radial": {
+          "initial": 0.03226815363485925,
+          "final": {
+            "t": 96,
+            "x": 0,
+            "v": 0,
+            "energy": 0,
+            "work": 0,
+            "dampingHeat": 0.007921489603792796,
+            "contactHeat": 0.0243466640706969,
+            "exported": 0,
+            "residual": 3.9630444759186645e-11
+          },
+          "maxResidual": 3.9630444759186645e-11,
+          "contacts": 1,
+          "dwell": [
+            0,
+            0,
+            0
+          ],
+          "amplitude": 0,
+          "speedRMS": 0,
+          "recurrence": 0,
+          "state": "SETTLED"
+        },
+        "transport": {
+          "final": {
+            "t": 96,
+            "mass": 1.0000000000000004,
+            "energy": 3.1068402375434056e-13,
+            "heat": 0.9999999999996803,
+            "work": 0,
+            "exportedMass": 0,
+            "exportedEnergy": 0,
+            "returned": 9.658918677698539,
+            "returnedEnergy": 0.07498257838935808,
+            "firstReturned": 0.9999999999999972,
+            "firstReturnedEnergy": 0.06975236612839054,
+            "product": 4.72539060461305,
+            "compost": 5.775477405638172,
+            "occupancy": [
+              0,
+              0.037352915405019935,
+              0.033618816295947325,
+              0.03059658038716683,
+              0.028100494179629204,
+              0.08510491918081543,
+              0,
+              0.07421861975073578,
+              0.021338558483119253,
+              0.020162016151972526,
+              0.01912037964586495,
+              0.01819177697774438,
+              0
+            ],
+            "massResidual": 4.440892098500626e-16,
+            "energyResidual": -9.103828801926284e-15
+          },
+          "firstTime": 6.5,
+          "conditionalMeanFirstReturn": 9.490710704097733,
+          "maxMassResidual": 1.1102230246251565e-15,
+          "maxEnergyResidual": 2.353672812205332e-14,
+          "elapsed": 96,
+          "tick": 0.25
+        }
+      },
+      "five": {
+        "radial": {
+          "initial": 0.04998805136654634,
+          "final": {
+            "t": 96,
+            "x": 0,
+            "v": 0,
+            "energy": 0,
+            "work": 0,
+            "dampingHeat": 0.00971008960701705,
+            "contactHeat": 0.040277961955635135,
+            "exported": 0,
+            "residual": 1.9610583990026242e-10
+          },
+          "maxResidual": 1.9610583990026242e-10,
+          "contacts": 1,
+          "dwell": [
+            0,
+            0,
+            0
+          ],
+          "amplitude": 0,
+          "speedRMS": 0,
+          "recurrence": 0,
+          "state": "SETTLED"
+        },
+        "transport": {
+          "final": {
+            "t": 96,
+            "mass": 1,
+            "energy": 3.1068402375434066e-13,
+            "heat": 0.9999999999996729,
+            "work": 0,
+            "exportedMass": 0,
+            "exportedEnergy": 0,
+            "returned": 9.685206682008841,
+            "returnedEnergy": 0.07529283794908309,
+            "firstReturned": 1,
+            "firstReturnedEnergy": 0.07002077507815231,
+            "product": 4.737030364740025,
+            "compost": 5.789703779126698,
+            "occupancy": [
+              0,
+              0.12847020757396693,
+              0.1589380275277847,
+              0.07871208339026262,
+              0
+            ],
+            "massResidual": 0,
+            "energyResidual": -1.6431300764452317e-14
+          },
+          "firstTime": 6.5,
+          "conditionalMeanFirstReturn": 9.4654885527203,
+          "maxMassResidual": 1.1102230246251565e-15,
+          "maxEnergyResidual": 2.919886554764162e-14,
+          "elapsed": 96,
+          "tick": 0.25
+        }
+      },
+      "comparison": {
+        "radialRMSE": 0.001687257140304722,
+        "shelfL1": 0.001684757966001399,
+        "firstReturnDifference": 2.7755575615628914e-15,
+        "mappedThirteenShelf": [
+          0,
+          0.1296688062677633,
+          0.1593235389315512,
+          0.07881273125870111,
+          0
+        ],
+        "agreement": "PASS",
+        "numericalChecks": "PASS",
+        "physicalValidation": "UNRESOLVED",
+        "observerProjection": "NOT_APPLICABLE"
+      }
+    }
+  },
+  "convergence": [
+    {
+      "dt": 0.02,
+      "radialRMSE": 0.05459422760446586,
+      "agreement": "FAIL",
+      "thirteenMaxResidual": 0.00009322853519466712,
+      "fiveMaxResidual": 0.000456380354311392
+    },
+    {
+      "dt": 0.01,
+      "radialRMSE": 0.054597183753970206,
+      "agreement": "FAIL",
+      "thirteenMaxResidual": 0.00009043272979880612,
+      "fiveMaxResidual": 0.0003211287818345454
+    },
+    {
+      "dt": 0.005,
+      "radialRMSE": 0.054600302414343584,
+      "agreement": "FAIL",
+      "thirteenMaxResidual": 0.00000867671717230678,
+      "fiveMaxResidual": 0.000005623599753201702
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "trisphere-source/1",
+  "title": "TriSphere Prototype Simulator \u2014 Model Specification",
+  "author_attribution": "A. Beth Jones framework; specification supplied for Matthew Chenoweth Wright and Millie",
+  "url": "https://docs.google.com/document/d/1Ajw-ss0aNZPIG2YZgruOFmTccbNZNgW-/",
+  "provider_modified_time": "2026-11-20T16:15:10.877Z",
+  "captured_date": "2026-11-20",
+  "snapshot_file": "TRISPHERE-SOURCE-2026-11-20.md",
+  "snapshot_sha256": "312976f809ea1c3215872e6b18542321d99af84982e80cb01c3529dd4f7e8320",
+  "base_repository": "enuminous/Tokamak",
+  "base_commit": "26bd86971c76a39128f0844c69b53dcefb69e2c2"
+}

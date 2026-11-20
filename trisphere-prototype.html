@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TriSphere · Dynamics & comparison</title>
+  <meta name="description" content="An exploratory TriSphere simulator with explicit equations, thirteen and five position comparisons, and separate particle and energy accounting.">
+  <link rel="stylesheet" href="trisphere-prototype.css">
+  <script defer src="trisphere-core.js"></script><script defer src="trisphere-prototype.js"></script>
+</head>
+<body>
+<main>
+  <nav aria-label="Lab navigation"><a href="index.html">MONOLITHIC / TOKAMAK</a><div><a href="trisphere.html">Earlier comparison</a><a href="TRISPHERE-CONTRACT.md">Model contract</a><a href="https://github.com/enuminous/Tokamak">Repository</a></div></nav>
+  <header><div><p class="eyebrow">A. BETH JONES FRAMEWORK · PROTOTYPE 02</p><h1>One breath.<br>Two descriptions.</h1><p class="intro">Explore the thirteen-layer atlas and a five-position candidate. Follow the motion, account for the energy, and see where the descriptions diverge.</p></div><div class="scope"><span>EXPLORATORY MODEL</span><p>Specified equations. Chosen closures.<br>Physical interpretation unresolved.</p><a href="TRISPHERE-SOURCE-2026-11-20.md">Read the supplied blueprint</a></div></header>
+  <div class="workspace">
+    <aside>
+      <form id="settings">
+        <div class="section-heading"><h2>Set the experiment</h2><button type="button" id="reset" class="quiet">Reset</button></div>
+        <label for="boundary">Outer shell</label><select id="boundary"><option value="contain">Contain energy and material</option><option value="exhaust">Export chosen fractions</option></select>
+        <div id="core-controls"></div>
+        <details><summary>Routing & shelf controls</summary>
+          <div id="routing-controls"></div>
+          <label for="mode">Prescribed shelf release</label><select id="mode"><option value="maintain">Maintain · base release</option><option value="repair">Repair · 1.5× release</option><option value="decay">Decay · 0.5× release</option></select>
+          <p class="hint">Names and rate multipliers are assumptions. No biological mechanism is inferred.</p>
+          <fieldset><legend>Compost weights · layers 8–11</legend><div class="weights"><label>8<input id="w0" type="number" min="0" max="10" value="1" step="0.1"></label><label>9<input id="w1" type="number" min="0" max="10" value="1" step="0.1"></label><label>10<input id="w2" type="number" min="0" max="10" value="1" step="0.1"></label><label>11<input id="w3" type="number" min="0" max="10" value="1" step="0.1"></label></div></fieldset>
+        </details>
+        <button id="run" class="primary" type="submit">Run comparison</button>
+        <p id="run-status" role="status" aria-live="polite">Preparing default run…</p>
+      </form>
+      <details class="view-settings"><summary>Observer view</summary>
+        <label for="standing">Standing · rendering only</label><select id="standing"><option value="source">Source / curved view</option><option value="ego">Ego / boxed view</option></select>
+        <label for="nodes">Avatar node count</label><select id="nodes"><option>3</option><option selected>5</option><option>7</option></select>
+        <p class="hint">These change the schematic only. They never enter the force or the inventory equations.</p>
+      </details>
+      <p class="hint">Dimensionless time and energy. The radial probe and inventory circuit have separate ledgers; neither is a plasma solver.</p>
+    </aside>
+    <div class="results">
+      <div class="result-heading"><h2>The comparison</h2><button id="export" type="button">Export run JSON</button></div>
+      <div class="metrics" aria-live="polite"><article><span>Accounting checks</span><strong id="accounting">—</strong><small>Numerical tolerances only</small></article><article><span>Candidate agreement</span><strong id="agreement">—</strong><small id="agreement-detail">Declared finite-run criteria</small></article><article><span>Physical validation</span><strong class="unresolved">UNRESOLVED</strong><small>No measurement comparison</small></article></div>
+      <section class="schematic-panel"><div class="section-heading"><h3>Atlas and journey</h3><span class="legend"><i class="teal"></i>13 layers <i class="gold"></i>5 positions</span></div>
+        <canvas id="structure" width="980" height="300" role="img" aria-label="Two schematic circuits showing the thirteen-layer atlas and five-position candidate. Decorative geometry is not a field solution."></canvas>
+        <div class="playback"><button id="play" type="button">Play recorded motion</button><label for="time">Time <output id="time-label">0.0</output></label><input id="time" type="range" min="0" max="96" step="0.1" value="0"></div>
+        <p class="hint">The moving marker replays the computed radial trace. Rings and polygons are schematic views. Endpoints remain separate.</p>
+      </section>
+      <div class="plots"><section><h3>Radial motion</h3><p>Normalized position x = ρ / L</p><canvas id="motion" width="600" height="270" role="img" aria-label="Thirteen and five position traces over dimensionless time"></canvas><p id="radial-metric" class="chart-note"></p></section><section><h3>Energy in the circuit</h3><p>Mobile energy and retained heat · transport ledger</p><canvas id="energy" width="600" height="270" role="img" aria-label="Mobile energy and retained heat for both inventory circuits"></canvas><p class="chart-note">Solid: mobile energy. Dashed: internal heat. External work is counted separately below.</p></section></div>
+      <section><div class="section-heading"><h3>Where the material rests</h3><span class="hint">Final shelf inventory</span></div><canvas id="shelves" width="980" height="240" role="img" aria-label="Final material occupancy mapped to five shelf groups for comparison"></canvas><p class="hint">The thirteen-layer inventory is aggregated with an explicit mirror-preserving map. Transit inventories are excluded from these bars.</p></section>
+      <section class="ledger"><h3>Two ledgers, fully accounted</h3><p>Columns compare configurations. Radial and transport energy units are independently normalized and must not be added together.</p><div class="table-scroll"><table><thead><tr><th scope="col">Observable</th><th scope="col">Thirteen</th><th scope="col">Five</th></tr></thead><tbody id="ledger"></tbody></table></div></section>
+      <section><div class="section-heading"><div><h3>Drive × damping scan</h3><p>25 settings with a second initial position to probe attraction.</p></div><button id="sweep" type="button">Run parameter scan</button></div><p id="sweep-status" role="status">Not run. A repeating response is a finite-run candidate, not a stability proof.</p><div id="sweep-grid" class="table-scroll"></div><button id="export-sweep" type="button" hidden>Export scan JSON</button></section>
+      <details class="contract" open><summary>What this run can establish</summary><div class="contract-grid"><div><h3>Implemented</h3><p>A driven radial equation with three flat shelf bands; explicit boundary losses; Product/Compost routing; mirror shelves; first-return accounting; five-position comparison; replay and export.</p></div><div><h3>Still open</h3><p>LCL material laws, gravity sourcing, a seam-derived potential, recognition-driven node growth, and a physical thirteen-to-five reduction. The five count remains a model choice.</p></div></div><p>Standing is kept outside the equations. Damping converts mechanical energy to heat; it does not by itself break time-translation invariance. The separate inventory clock is prescribed and is not driven by the radial probe.</p><p><a href="TRISPHERE-CONTRACT.md">Equations, thresholds & limitations</a> · <a href="TRISPHERE-RESULTS-2026-11-20.md">Recorded results</a> · <a href="trisphere-source.json">Source provenance</a></p></details>
+    </div>
+  </div>
+  <footer>A. Beth Jones’s TriSphere framework · Matthew Chenoweth Wright / Monolithic LLC · Model 2.0.0<br>Established mathematics, interpretive assembly, speculative physical mechanisms: kept distinct.</footer>
+</main>
+</body></html>

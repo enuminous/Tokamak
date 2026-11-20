@@ -4,6 +4,8 @@ A flat, dependency-free repository for exploring the tokamak analogue of Beth's 
 
 ## Start here
 
+**New, November 20:** open [TriSphere prototype 02](trisphere-prototype.html) for the radial equation, a thirteen-versus-five comparison, separate particle and energy ledgers, a parameter scan, and complete JSON export. Read the [simulation contract](TRISPHERE-CONTRACT.md), [source snapshot](TRISPHERE-SOURCE-2026-11-20.md), and [recorded results](TRISPHERE-RESULTS-2026-11-20.md). Run `node verify-trisphere.js` for the new checks and `node run-trisphere.js` to reproduce the result bundle. The earlier labs remain available below.
+
 1. Extract the ZIP into an empty folder. All files are at the archive root.
 2. Open `index.html` in a modern browser. The lab runs offline with no build step.
 3. Set the outward crossing and recycling fractions. The readout shows how the assumed fractions change the particle inventory.
@@ -28,3 +30,4 @@ Open [engine.html](engine.html) for the TriSphere-inspired engine simulator. It 
 The [TriSphere–Tokamak comparison](https://github.com/enuminous/papers/blob/main/TriSphere-Tokamak-Model-Comparison-2026-11-19.md) documents which parts run today and specifies the proposed exhaust-versus-containment experiment.
 
 Open the [TriSphere configuration lab](trisphere.html) to compare A. Beth Jones’s primary thirteen-layer model and her alternate Five-Structure under the same routing and boundary settings.
+

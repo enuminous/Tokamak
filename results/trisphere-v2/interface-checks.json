@@ -1,0 +1,54 @@
+{
+  "schema": "trisphere-interface-checks/1",
+  "date": "2026-11-20",
+  "method": "Observed browser interaction against local preview",
+  "checks": [
+    {
+      "name": "Default run renders numerical PASS, candidate FAIL, physical UNRESOLVED",
+      "status": "PASS"
+    },
+    {
+      "name": "Exhaust run renders exported energy and material",
+      "status": "PASS"
+    },
+    {
+      "name": "Playback advances computed time and can pause",
+      "status": "PASS"
+    },
+    {
+      "name": "Observer standing and avatar node changes leave ledger text identical",
+      "status": "PASS"
+    },
+    {
+      "name": "Run JSON download parses with 9601 radial samples per configuration",
+      "status": "PASS"
+    },
+    {
+      "name": "25-cell scan completes and exposes results",
+      "status": "PASS"
+    },
+    {
+      "name": "390px iframe viewport has equal document client and scroll widths (375px after scrollbar)",
+      "status": "PASS"
+    },
+    {
+      "name": "Mobile diagrams stack and canvas backing width matches displayed width",
+      "status": "PASS"
+    },
+    {
+      "name": "All local simulator links resolve",
+      "status": "PASS"
+    }
+  ],
+  "limits": [
+    "Mobile emulation used a narrow iframe, not a physical phone.",
+    "Numerical and UI checks were performed by the implementing assistant, not an independent reviewer."
+  ],
+  "source_sha256": "312976f809ea1c3215872e6b18542321d99af84982e80cb01c3529dd4f7e8320",
+  "file_sha256": {
+    "trisphere-core.js": "1307eabb8bd2ae033aed1154f45dd7d4c321ca121e9f41fbc405dc04d2b28af6",
+    "trisphere-prototype.js": "5003ffb06718550b947113c854f460f52b51efe2ae39e2af7ccf6cd9eea7e738",
+    "trisphere-prototype.html": "5e5e1d6fa3b671df8a52cef7a02ce5fdd657c0016aeeb41a205148f8f1acd570",
+    "trisphere-prototype.css": "2c194ff0115ac533d77010a90995e5b55dabc37d03366578fc64bb8acfa720ee"
+  }
+}

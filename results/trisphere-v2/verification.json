@@ -1,0 +1,65 @@
+{
+  "schema": "trisphere-verification/1",
+  "version": "2.0.0",
+  "checks": [
+    {
+      "name": "source snapshot hash matches the recorded model provenance",
+      "status": "PASS"
+    },
+    {
+      "name": "compression preserves the mirror, separate endpoints, and Filter",
+      "status": "PASS"
+    },
+    {
+      "name": "potential gradient agrees with differentiation; plateau locations are explicit",
+      "status": "PASS"
+    },
+    {
+      "name": "force-free damped motion agrees with the analytic solution",
+      "status": "PASS"
+    },
+    {
+      "name": "wall impact retains kinetic energy as heat or exports its declared fraction",
+      "status": "PASS"
+    },
+    {
+      "name": "zero drive dissipates initial radial energy without injecting work",
+      "status": "PASS"
+    },
+    {
+      "name": "particle and energy balances and nonnegativity across routing extremes",
+      "status": "PASS"
+    },
+    {
+      "name": "first return is separate from repeated circulation; full exhaust blocks particle return",
+      "status": "PASS"
+    },
+    {
+      "name": "zero-loss and zero-work inventory retains all initial energy",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid, nonfinite, and unknown inputs are rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "default numerical checks pass while the declared model comparison fails",
+      "status": "PASS"
+    },
+    {
+      "name": "halving the timestep preserves the comparison and reduces energy error",
+      "status": "PASS"
+    },
+    {
+      "name": "short runs cannot claim agreement or periodicity",
+      "status": "PASS"
+    },
+    {
+      "name": "repeated runs are deterministic",
+      "status": "PASS"
+    }
+  ],
+  "count": 14,
+  "status": "PASS",
+  "scope": "implementation and prescribed numerical closures; no physical confirmation"
+}
