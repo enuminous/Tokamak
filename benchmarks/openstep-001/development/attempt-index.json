@@ -1,0 +1,96 @@
+{
+  "note": "Adaptive solver-development records, excluded from scored results. Some intermediate wrappers contained an aliasing bug; see METHODS.md. Raw flux arrays for these excluded trials are not distributed.",
+  "attempts": [
+    {
+      "file": "baseline-129-cell.json",
+      "converged": false,
+      "final_defect": 0.01792121010508455,
+      "error": null,
+      "scored": false
+    },
+    {
+      "file": "baseline-129-cell2.json",
+      "converged": true,
+      "final_defect": 8.619900386557658e-08,
+      "error": null,
+      "scored": false
+    },
+    {
+      "file": "baseline-129-corrected.json",
+      "converged": false,
+      "final_defect": null,
+      "error": "RuntimeError: Critical-point refinement failed",
+      "scored": false
+    },
+    {
+      "file": "baseline-129-newton.json",
+      "converged": false,
+      "final_defect": 0.2676649347697369,
+      "error": null,
+      "scored": false
+    },
+    {
+      "file": "baseline-129-precise.json",
+      "converged": false,
+      "final_defect": 0.2683121985804043,
+      "error": null,
+      "scored": false
+    },
+    {
+      "file": "baseline-129.json",
+      "converged": false,
+      "final_defect": null,
+      "error": null,
+      "scored": false
+    },
+    {
+      "file": "baseline-65.json",
+      "converged": false,
+      "final_defect": null,
+      "error": null,
+      "scored": false
+    },
+    {
+      "file": "p9-inward-65-cell.json",
+      "converged": false,
+      "final_defect": 0.10646483857748888,
+      "error": null,
+      "scored": false
+    },
+    {
+      "file": "p9-inward-65-cell2.json",
+      "converged": false,
+      "final_defect": 0.013048821407890656,
+      "error": null,
+      "scored": false
+    },
+    {
+      "file": "p9-inward-65-corrected.json",
+      "converged": false,
+      "final_defect": 0.07885252670476162,
+      "error": null,
+      "scored": false
+    },
+    {
+      "file": "p9-inward-65-newton.json",
+      "converged": false,
+      "final_defect": 0.08044332078922889,
+      "error": null,
+      "scored": false
+    },
+    {
+      "file": "p9-inward-65-precise.json",
+      "converged": false,
+      "final_defect": 0.06810160020685337,
+      "error": null,
+      "scored": false
+    },
+    {
+      "file": "p9-inward-65.json",
+      "converged": false,
+      "final_defect": null,
+      "error": null,
+      "scored": false
+    }
+  ]
+}

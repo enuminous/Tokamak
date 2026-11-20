@@ -1,0 +1,303 @@
+{
+  "benchmark": "OPENSTEP-001",
+  "date": "2026-11-20",
+  "reference_commit": "6f66ae09c60b361d600b178416ef3f22b8d0aa6a",
+  "checks": [
+    {
+      "name": "baseline_medium_nonlinear_defect",
+      "value": 8.26281300937477e-08,
+      "limit": 1e-05,
+      "status": "PASS"
+    },
+    {
+      "name": "baseline_fine_nonlinear_defect",
+      "value": 4.392203693517748e-08,
+      "limit": 1e-05,
+      "status": "PASS"
+    },
+    {
+      "name": "modified_medium_nonlinear_defect",
+      "value": 3.009149406874844e-06,
+      "limit": 1e-05,
+      "status": "PASS"
+    },
+    {
+      "name": "modified_fine_nonlinear_defect",
+      "value": 6.960255721411353e-09,
+      "limit": 1e-05,
+      "status": "PASS"
+    },
+    {
+      "name": "baseline_core_flux_nrmse",
+      "value": 0.0015418034134780927,
+      "limit": 0.01,
+      "status": "PASS"
+    },
+    {
+      "name": "baseline_axis_error_m",
+      "value": 0.0006125872341060656,
+      "limit": 0.05,
+      "status": "PASS"
+    },
+    {
+      "name": "baseline_primary_xpoint_max_error_m",
+      "value": 0.012125806952415295,
+      "limit": 0.1,
+      "status": "PASS"
+    },
+    {
+      "name": "baseline_current_relative_error",
+      "value": 0.0006128764993831304,
+      "limit": 0.01,
+      "status": "PASS"
+    },
+    {
+      "name": "baseline_axis_refinement_m",
+      "value": 0.0009410653027561722,
+      "limit": 0.05,
+      "status": "PASS"
+    },
+    {
+      "name": "baseline_xpoint_refinement_m",
+      "value": 0.018599633510438737,
+      "limit": 0.05,
+      "status": "PASS"
+    },
+    {
+      "name": "baseline_current_refinement_fraction",
+      "value": 0.00010034915076140294,
+      "limit": 0.01,
+      "status": "PASS"
+    },
+    {
+      "name": "modified_axis_refinement_m",
+      "value": 0.0004626391821380693,
+      "limit": 0.05,
+      "status": "PASS"
+    },
+    {
+      "name": "modified_xpoint_refinement_m",
+      "value": 0.018764043236771586,
+      "limit": 0.05,
+      "status": "PASS"
+    },
+    {
+      "name": "modified_current_refinement_fraction",
+      "value": 0.0004998433744253239,
+      "limit": 0.01,
+      "status": "PASS"
+    }
+  ],
+  "numerical_status": "PASS",
+  "reference": {
+    "axis": [
+      4.389041864665162,
+      1.184255782213076e-13,
+      6.110909763942432
+    ],
+    "xpoints": [
+      [
+        2.520214871063738,
+        6.117618260719366,
+        1.6796687390816882
+      ],
+      [
+        2.5202148710637085,
+        -6.117618260719408,
+        1.6796687390816782
+      ],
+      [
+        8.251648683546895,
+        -4.765927581047578,
+        -16.81299331381712
+      ],
+      [
+        8.251648683546856,
+        4.765927581047589,
+        -16.812993313817117
+      ]
+    ],
+    "ip_A": 22760461.199999996
+  },
+  "baseline": {
+    "axis": [
+      4.389654451899268,
+      -7.04887563582198e-14,
+      6.118358115345108
+    ],
+    "xpoints": [
+      [
+        2.5254324424051706,
+        6.106672387362561,
+        1.6795752847844683
+      ],
+      [
+        2.5254324424051653,
+        -6.106672387362565,
+        1.679575284784468
+      ],
+      [
+        8.251797522678547,
+        4.765641324371998,
+        -16.800530265794563
+      ],
+      [
+        8.251797522678574,
+        -4.76564132437206,
+        -16.800530265794563
+      ]
+    ],
+    "ip_A": 22774410.551784597,
+    "core_area_m2": 33.750457763671875,
+    "core_volume_m3": 710.468560168542,
+    "pressure_integral_J": 400867458.1575782,
+    "pressure_axis_Pa": 1335266.8464644956,
+    "core_flux_nrmse": 0.0015418034134780927,
+    "gauge_offset_Wb_per_rad": 0.003565349504819726,
+    "midplane_radii_m": [
+      1.5830112065102553,
+      5.626672170754231
+    ],
+    "psi_axis": 6.118358115345108,
+    "psi_boundary": 1.6795752847844683,
+    "up_down_asymmetry": 2.1316282072803006e-14
+  },
+  "modified": {
+    "axis": [
+      4.405653081247145,
+      -2.887327235512425e-14,
+      6.273240560120758
+    ],
+    "xpoints": [
+      [
+        2.5286281386551943,
+        -6.084949260948961,
+        1.6729541927854488
+      ],
+      [
+        2.5286281386551903,
+        6.084949260948968,
+        1.6729541927854492
+      ],
+      [
+        8.234163298651412,
+        -4.693064749760345,
+        -17.101954367352587
+      ],
+      [
+        8.234163298651419,
+        4.6930647497603255,
+        -17.101954367352587
+      ]
+    ],
+    "ip_A": 23016890.894557927,
+    "core_area_m2": 33.84513854980469,
+    "core_volume_m3": 713.0131865592451,
+    "pressure_integral_J": 414129831.2161395,
+    "pressure_axis_Pa": 1383850.0564285517,
+    "core_flux_nrmse": 0.014514848930006735,
+    "gauge_offset_Wb_per_rad": 0.05971235406393926,
+    "midplane_radii_m": [
+      1.566577223969001,
+      5.658649018761107
+    ],
+    "psi_axis": 6.273240560120758,
+    "psi_boundary": 1.6729541927854488,
+    "up_down_asymmetry": 1.4210854715202004e-14
+  },
+  "refinement": {
+    "baseline": {
+      "axis_m": 0.0009410653027561722,
+      "xpoint_m": 0.018599633510438737,
+      "current_fraction": 0.00010034915076140294,
+      "core_flux_nrmse": 0.001247434100530596
+    },
+    "modified": {
+      "axis_m": 0.0004626391821380693,
+      "xpoint_m": 0.018764043236771586,
+      "current_fraction": 0.0004998433744253239,
+      "core_flux_nrmse": 0.0004874064598344606
+    }
+  },
+  "deltas": {
+    "ip_A": {
+      "medium": 233260.89511777833,
+      "fine": 242480.34277332947,
+      "relative_to_baseline": 0.010647052410949391,
+      "refinement_bound": 13790.233171477914,
+      "resolved_vs_refinement": true
+    },
+    "core_volume_m3": {
+      "medium": 1.8644008488073496,
+      "fine": 2.5446263907031152,
+      "relative_to_baseline": 0.0035816171655779707,
+      "refinement_bound": 0.6802255418957657,
+      "resolved_vs_refinement": true
+    },
+    "core_area_m2": {
+      "medium": 0.0518798828125,
+      "fine": 0.0946807861328125,
+      "relative_to_baseline": 0.00280531857658904,
+      "refinement_bound": 0.0479888916015625,
+      "resolved_vs_refinement": true
+    },
+    "pressure_axis_Pa": {
+      "medium": 45907.79776264634,
+      "fine": 48583.209964056034,
+      "relative_to_baseline": 0.03638464483162605,
+      "refinement_bound": 4472.042577845044,
+      "resolved_vs_refinement": true
+    },
+    "pressure_integral_J": {
+      "medium": 12186017.711933315,
+      "fine": 13262373.058561325,
+      "relative_to_baseline": 0.03308418478146455,
+      "refinement_bound": 1345836.2839476466,
+      "resolved_vs_refinement": true
+    },
+    "axis_R_m": {
+      "medium": 0.015520203227258556,
+      "fine": 0.01599862934787666,
+      "refinement_bound": 0.0014037044848942415,
+      "resolved_vs_refinement": true
+    },
+    "upper_X_R_m": {
+      "medium": 0.0045721526163151616,
+      "fine": 0.0031956962500196973,
+      "refinement_bound": 0.011522962222514366,
+      "resolved_vs_refinement": false
+    },
+    "upper_X_Z_m": {
+      "medium": -0.02144949915505112,
+      "fine": -0.021723126413593086,
+      "refinement_bound": 0.035515112392349835,
+      "resolved_vs_refinement": false
+    },
+    "midplane_inner_R_m": {
+      "medium": -0.013340720059951128,
+      "fine": -0.016433982541254277,
+      "refinement_bound": 0.0030932624813031495,
+      "resolved_vs_refinement": true
+    },
+    "midplane_outer_R_m": {
+      "medium": 0.02966740412502844,
+      "fine": 0.03197684800687561,
+      "refinement_bound": 0.0030507707877642787,
+      "resolved_vs_refinement": true
+    }
+  },
+  "inputs": {
+    "profile_current_nrmse": 0.00014683932306183982,
+    "netcdf_native_flux_identity_max_error_Wb": 2.842170943040401e-14
+  },
+  "runs": {
+    "baseline_medium": "baseline-129-symmetric",
+    "baseline_fine": "baseline-257-symmetric",
+    "modified_medium": "p9-inward-129-symmetric",
+    "modified_fine": "p9-inward-257-symmetric"
+  },
+  "python": "3.12.14",
+  "physical_confinement": "NOT_APPLICABLE",
+  "mhd_stability": "NOT_APPLICABLE",
+  "engineering_readiness": "NOT_APPLICABLE"
+}

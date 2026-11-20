@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "NetCDF declares DD4",
+      "status": "PASS",
+      "detail": "COCOS17; native flux has opposite sign"
+    },
+    {
+      "name": "Native and NetCDF flux identity",
+      "status": "PASS",
+      "detail": 2.842170943040401e-14
+    },
+    {
+      "name": "Native and NetCDF dpressure_dpsi",
+      "status": "PASS",
+      "detail": 1.4613317937757025e-16
+    },
+    {
+      "name": "Native and NetCDF f_df_dpsi",
+      "status": "PASS",
+      "detail": 1.368981262239436e-16
+    },
+    {
+      "name": "NetCDF and native current density",
+      "status": "PASS",
+      "detail": 0.0
+    },
+    {
+      "name": "Explicit coils reproduce native vacuum flux",
+      "status": "PASS",
+      "detail": 9.237055564881302e-14
+    },
+    {
+      "name": "Free-boundary response is deterministic",
+      "status": "PASS",
+      "detail": 0.0
+    },
+    {
+      "name": "Trial field survives boundary updates",
+      "status": "PASS",
+      "detail": "Regression check for root-variable aliasing"
+    },
+    {
+      "name": "Published profile/current consistency",
+      "status": "PASS",
+      "detail": 0.00014683932306183982
+    },
+    {
+      "name": "baseline_medium uses current solver source",
+      "status": "PASS",
+      "detail": "f04df6075229e9291b70c9897c3397f3988cd258cb776aba68f780b0892f76db"
+    },
+    {
+      "name": "baseline_medium independently checked residual",
+      "status": "PASS",
+      "detail": 8.26281300937477e-08
+    },
+    {
+      "name": "baseline_medium finite field",
+      "status": "PASS",
+      "detail": [
+        129,
+        257
+      ]
+    },
+    {
+      "name": "baseline_medium real toroidal field",
+      "status": "PASS",
+      "detail": 114.9078380242589
+    },
+    {
+      "name": "baseline_fine uses current solver source",
+      "status": "PASS",
+      "detail": "f04df6075229e9291b70c9897c3397f3988cd258cb776aba68f780b0892f76db"
+    },
+    {
+      "name": "baseline_fine independently checked residual",
+      "status": "PASS",
+      "detail": 4.392203693517748e-08
+    },
+    {
+      "name": "baseline_fine finite field",
+      "status": "PASS",
+      "detail": [
+        257,
+        513
+      ]
+    },
+    {
+      "name": "baseline_fine real toroidal field",
+      "status": "PASS",
+      "detail": 114.95535787432969
+    },
+    {
+      "name": "modified_medium uses current solver source",
+      "status": "PASS",
+      "detail": "f04df6075229e9291b70c9897c3397f3988cd258cb776aba68f780b0892f76db"
+    },
+    {
+      "name": "modified_medium independently checked residual",
+      "status": "PASS",
+      "detail": 3.009149406874844e-06
+    },
+    {
+      "name": "modified_medium finite field",
+      "status": "PASS",
+      "detail": [
+        129,
+        257
+      ]
+    },
+    {
+      "name": "modified_medium real toroidal field",
+      "status": "PASS",
+      "detail": 114.2974020763203
+    },
+    {
+      "name": "modified_fine uses current solver source",
+      "status": "PASS",
+      "detail": "f04df6075229e9291b70c9897c3397f3988cd258cb776aba68f780b0892f76db"
+    },
+    {
+      "name": "modified_fine independently checked residual",
+      "status": "PASS",
+      "detail": 6.960255721411353e-09
+    },
+    {
+      "name": "modified_fine finite field",
+      "status": "PASS",
+      "detail": [
+        257,
+        513
+      ]
+    },
+    {
+      "name": "modified_fine real toroidal field",
+      "status": "PASS",
+      "detail": 114.30934697261661
+    }
+  ]
+}
