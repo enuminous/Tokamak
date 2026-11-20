@@ -24,3 +24,5 @@ The 3D + time schematic has azimuth, elevation, cutaway, tracer speed, field-lin
 ## Recirculating muon engine
 
 Open [engine.html](engine.html) for the TriSphere-inspired engine simulator. It accounts for catalyst survival, sticking, recirculation, energy recovery, bootstrap power and ideal jet thrust. The proposed quark chamber appears as a speculative stage and carries zero power credit. See [ENGINE.md](ENGINE.md) for the model and its assumptions.
+
+The [TriSphere–Tokamak comparison](https://github.com/enuminous/papers/blob/main/TriSphere-Tokamak-Model-Comparison-2026-11-19.md) documents which parts run today and specifies the proposed exhaust-versus-containment experiment.
