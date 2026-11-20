@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recirculating Muon Engine Simulator</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="engine.js"></script>
+</head>
+<body><main>
+<header><p><a href="index.html">Tri-Sphere / Tokamak Lab</a></p>
+<h1>Recirculating Muon Engine</h1>
+<p>Concept simulator inspired by A. Beth Jones’s TriSphere return loop. Follow one cohort of muons through a bootstrap stage, a D–T fusion stage, and a power ledger for a hypothetical torch.</p></header>
+<section><h2>Engine schematic</h2>
+<ol>
+<li><strong>Bootstrap chamber.</strong> An external source supplies muons at an assumed energy cost per delivered muon.</li>
+<li><strong>D–T chamber.</strong> Surviving muons catalyze fusion. Decay and sticking remove muons from the recirculating population.</li>
+<li><strong>Recirculation.</strong> Surviving unstuck muons may return for another cycle. Neutron and charged-product energy take separate accounting paths.</li>
+<li><strong>Quark stage.</strong> This proposed chamber has no validated energy-producing reaction or coupling. Its output is fixed at zero in both views.</li>
+<li><strong>Torch tail.</strong> Only uncommitted budgeted power can feed the idealized jet. External bootstrap power must be explicitly selected.</li>
+</ol>
+<label class="toggle"><input id="concept" type="checkbox"> Show proposed quark-stage view</label>
+<p id="quark"></p>
+</section>
+<div class="layout" style="margin-top:1.25rem">
+<section><h2>Model inputs</h2>
+<div id="inputs"></div>
+<label class="toggle"><input id="external" type="checkbox"> Supply bootstrap power externally</label>
+<p class="legend">Starting values are illustrative. The sliders explore sensitivity, including counterfactual regimes.</p>
+</section>
+<section aria-live="polite"><h2>Energy and thrust ledger</h2>
+<dl id="ledger"></dl>
+<p id="status"></p>
+</section>
+</div>
+<section class="dynamics"><h2>Model boundaries</h2>
+<p>This is a deterministic systems model with constant cycle time, independent loss probabilities, and fresh fuel assumed available. It does not simulate muon production, transport, fusion kinetics, neutron capture, shielding, or nozzle plasma. The nozzle estimate assumes a nonrelativistic ideal jet and excludes auxiliary loads. A positive ledger under hypothetical slider settings is neither a feasibility finding nor a measured gain.</p>
+<p>The Tokamak lab’s magnetic geometry is a visual reference. Its field and the TriSphere oscillator do not confine or recycle muons in this model. No hardware specifications, build instructions, or radiation safety analysis are supplied.</p>
+<p><a href="https://pdg.lbl.gov/">Particle Data Group</a> · <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.105.1127">Alvarez et al., muon-catalyzed fusion</a> · <a href="https://www.iter.org/sites/default/files/media/2026-01/vol.1_ch.04_role_and_distinctive_feature_dv4qgd_v2_0.pdf">ITER, D–T energy split</a> · <a href="https://home.web.cern.ch/science/physics/heavy-ions-and-quark-gluon-plasma/">CERN, quark–gluon plasma</a> · <a href="https://tri-sphere-text.abethjones.workers.dev/">A. Beth Jones, TriSphere</a></p>
+</section>
+</main></body></html>
