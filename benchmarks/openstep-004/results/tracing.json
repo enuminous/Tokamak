@@ -1,0 +1,5983 @@
+{
+  "stage": "tracing",
+  "parent_commit": "2438abacf652478ec7865b3ce1fce5d17ad8ab1c",
+  "started_utc": "2026-11-21T19:38:24.251676+00:00",
+  "code_sha256": "19d807308f6a147ad5c2054e4bb10157fc147795d66fe249f03b4e9d327c6ac5",
+  "protocol_sha256": "e832b494b2f5a38fe52be740cbfbedd96a145646c8364b3efd4fb8382814ce03",
+  "checks": [
+    {
+      "name": "recovery-homotopy-10:0.001:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:0.001:False:flux",
+      "status": "FAIL",
+      "value": 2.1979503490216986e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:0.001:False:wall_event",
+      "status": "PASS",
+      "value": 1.8872957389902495e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:0.001:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:0.001:True:flux",
+      "status": "PASS",
+      "value": 2.3850413008221273e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:0.001:True:wall_event",
+      "status": "PASS",
+      "value": 7.401159760746077e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 7.652471824893318e-06,
+        "length_m": 0.0018172695755467316,
+        "heat_relative": 3.6084860525198437e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "recovery-homotopy-10:0.001:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.308730690476632e-06,
+        "length_m": 2.4469716940700437e-05,
+        "heat_relative": 1.0886945879251542e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "recovery-homotopy-10:0.002:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:0.002:False:flux",
+      "status": "FAIL",
+      "value": 3.0501120378424015e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:0.002:False:wall_event",
+      "status": "PASS",
+      "value": 1.3877174551398894e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:0.002:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:0.002:True:flux",
+      "status": "PASS",
+      "value": 4.054588432861288e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:0.002:True:wall_event",
+      "status": "PASS",
+      "value": 4.625724850466298e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.080176523953128e-05,
+        "length_m": 0.00013161325173882688,
+        "heat_relative": 5.2303348822002604e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "recovery-homotopy-10:0.002:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.8863789235074844e-06,
+        "length_m": 4.0896996694073096e-05,
+        "heat_relative": 1.3976572590390646e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "recovery-homotopy-10:0.005:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:0.005:False:flux",
+      "status": "FAIL",
+      "value": 2.1237001450721508e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:0.005:False:wall_event",
+      "status": "PASS",
+      "value": 5.088297335512927e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:0.005:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:0.005:True:flux",
+      "status": "PASS",
+      "value": 2.1926749032966557e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:0.005:True:wall_event",
+      "status": "PASS",
+      "value": 9.899051179997878e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 7.232265093913289e-06,
+        "length_m": 0.0006098036415664865,
+        "heat_relative": 3.7752558086356913e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "recovery-homotopy-10:0.005:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.0375933784096197e-06,
+        "length_m": 1.478702542812016e-05,
+        "heat_relative": 1.0636498142257977e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "recovery-homotopy-10:0.01:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:0.01:False:flux",
+      "status": "FAIL",
+      "value": 6.527065655959588e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:0.01:False:wall_event",
+      "status": "PASS",
+      "value": 7.401159760746076e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:0.01:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:0.01:True:flux",
+      "status": "PASS",
+      "value": 5.5743636566153906e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:0.01:True:wall_event",
+      "status": "PASS",
+      "value": 1.0639167156072485e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:0.01:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.826444374157737e-06,
+        "length_m": 0.0002345296187016288,
+        "heat_relative": 1.0753436867627642e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "recovery-homotopy-10:0.01:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.781697521419578e-06,
+        "length_m": 2.672692694716261e-06,
+        "heat_relative": 1.0490047035460748e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "recovery-homotopy-10:0.02:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:0.02:False:flux",
+      "status": "FAIL",
+      "value": 1.4182491250316899e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:0.02:False:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:0.02:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:0.02:True:flux",
+      "status": "PASS",
+      "value": 4.603889853846086e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:0.02:True:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:0.02:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 7.582941954353828e-07,
+        "length_m": 0.00022453926754195663,
+        "heat_relative": 1.2827459283659692e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "recovery-homotopy-10:0.02:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.5345749676830565e-07,
+        "length_m": 5.116193499077326e-06,
+        "heat_relative": 4.287534360880585e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "recovery-homotopy-10:reverse:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:reverse:flux",
+      "status": "PASS",
+      "value": 1.2702065908898885e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:reverse:wall_event",
+      "status": "PASS",
+      "value": 1.0315366416539844e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:mirror_trace",
+      "status": "PASS",
+      "value": {
+        "position_m": 7.11177594931223e-08,
+        "length_m": 4.9300714586308914e-05,
+        "heat_relative": 3.353581345955092e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--050mm-129:0.001:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:0.001:False:flux",
+      "status": "FAIL",
+      "value": 1.185024686702714e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:0.001:False:wall_event",
+      "status": "PASS",
+      "value": 1.3322087569342937e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:0.001:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:0.001:True:flux",
+      "status": "PASS",
+      "value": 1.1812469858237293e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:0.001:True:wall_event",
+      "status": "PASS",
+      "value": 2.220347928223823e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 3.974360058902716e-06,
+        "length_m": 0.0026248911502122496,
+        "heat_relative": 1.2512091552840943e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--050mm-129:0.001:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.690766967338849e-06,
+        "length_m": 1.073151945263362e-05,
+        "heat_relative": 8.471245142027684e-07
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--050mm-129:0.002:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:0.002:False:flux",
+      "status": "FAIL",
+      "value": 8.628343370010952e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:0.002:False:wall_event",
+      "status": "PASS",
+      "value": 3.6080653833637126e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:0.002:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:0.002:True:flux",
+      "status": "PASS",
+      "value": 5.3442643795625505e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:0.002:True:wall_event",
+      "status": "PASS",
+      "value": 4.995782838503602e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.3473313857526983e-06,
+        "length_m": 0.0003920944738382559,
+        "heat_relative": 4.4020841438729974e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--050mm-129:0.002:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.219853444534124e-06,
+        "length_m": 5.244049503971837e-05,
+        "heat_relative": 1.052023245962097e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--050mm-129:0.005:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:0.005:False:flux",
+      "status": "FAIL",
+      "value": 1.027416450733939e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:0.005:False:wall_event",
+      "status": "PASS",
+      "value": 1.5727464491585412e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:0.005:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:0.005:True:flux",
+      "status": "PASS",
+      "value": 4.547479652512015e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:0.005:True:wall_event",
+      "status": "PASS",
+      "value": 1.3877174551398892e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 3.848638057668019e-06,
+        "length_m": 0.00025751081595615233,
+        "heat_relative": 1.39051722092276e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--050mm-129:0.005:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.5866677353663577e-06,
+        "length_m": 1.2159518604448749e-05,
+        "heat_relative": 1.2958645025928917e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--050mm-129:0.01:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:0.01:False:flux",
+      "status": "FAIL",
+      "value": 1.262539672688052e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:0.01:False:wall_event",
+      "status": "PASS",
+      "value": 6.290985796634165e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:0.01:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:0.01:True:flux",
+      "status": "FAIL",
+      "value": 1.1232381639442014e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:0.01:True:wall_event",
+      "status": "PASS",
+      "value": 1.0176594671025856e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:0.01:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.1578658047171512e-07,
+        "length_m": 0.0004587745064910109,
+        "heat_relative": 4.901384664801611e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--050mm-129:0.01:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.1160963060895962e-06,
+        "length_m": 1.3358518963002552e-05,
+        "heat_relative": 1.319089758200498e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--050mm-129:0.02:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:0.02:False:flux",
+      "status": "FAIL",
+      "value": 2.9641964187976497e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:0.02:False:wall_event",
+      "status": "PASS",
+      "value": 5.735898814578209e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:0.02:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:0.02:True:flux",
+      "status": "PASS",
+      "value": 2.060086939724835e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:0.02:True:wall_event",
+      "status": "PASS",
+      "value": 1.165682662317507e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:0.02:adaptive_tightening",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.248628104448577e-07,
+        "length_m": 2.388379481743641e-05,
+        "heat_relative": 1.2157704487592014e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--050mm-129:0.02:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.2127495075133713e-07,
+        "length_m": 5.917744942962599e-07,
+        "heat_relative": 6.556995624240614e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--050mm-129:reverse:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:reverse:flux",
+      "status": "PASS",
+      "value": 3.332615765001348e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:reverse:wall_event",
+      "status": "PASS",
+      "value": 2.220347928223823e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:mirror_trace",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.0529756825446949e-07,
+        "length_m": 6.333477548281508e-05,
+        "heat_relative": 3.3150171718787647e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-129:0.001:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:0.001:False:flux",
+      "status": "FAIL",
+      "value": 7.512292036744848e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:0.001:False:wall_event",
+      "status": "PASS",
+      "value": 1.3044544078314958e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:0.001:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:0.001:True:flux",
+      "status": "PASS",
+      "value": 1.0974772925914691e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:0.001:True:wall_event",
+      "status": "PASS",
+      "value": 3.88560887439169e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 7.045872740009489e-07,
+        "length_m": 0.0010587141735953765,
+        "heat_relative": 3.213442776317521e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-129:0.001:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.9615538016580082e-06,
+        "length_m": 2.8765034954858493e-05,
+        "heat_relative": 8.946165344081436e-07
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--010mm-129:0.002:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:0.002:False:flux",
+      "status": "FAIL",
+      "value": 4.026407905654888e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:0.002:False:wall_event",
+      "status": "PASS",
+      "value": 1.6190036976632043e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:0.002:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:0.002:True:flux",
+      "status": "PASS",
+      "value": 3.7762054574401405e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:0.002:True:wall_event",
+      "status": "PASS",
+      "value": 1.2674486090277656e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.4093401467105395e-05,
+        "length_m": 0.002503102907311927,
+        "heat_relative": 6.610912506088695e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-129:0.002:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.747597520083895e-06,
+        "length_m": 1.5066351835457681e-05,
+        "heat_relative": 1.2888871880889496e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--010mm-129:0.005:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:0.005:False:flux",
+      "status": "FAIL",
+      "value": 1.942042745775312e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:0.005:False:wall_event",
+      "status": "PASS",
+      "value": 3.88560887439169e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:0.005:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:0.005:True:flux",
+      "status": "PASS",
+      "value": 1.1370528761438387e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:0.005:True:wall_event",
+      "status": "PASS",
+      "value": 7.30864526373675e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 6.7717661786706985e-06,
+        "length_m": 0.00012880470989529158,
+        "heat_relative": 3.4288696886264347e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-129:0.005:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.655020926937432e-06,
+        "length_m": 4.010548302346706e-06,
+        "heat_relative": 1.3443884474551027e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--010mm-129:0.01:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:0.01:False:flux",
+      "status": "FAIL",
+      "value": 1.798315940543415e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:0.01:False:wall_event",
+      "status": "PASS",
+      "value": 1.4802319521492153e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:0.01:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:0.01:True:flux",
+      "status": "PASS",
+      "value": 6.762977841837635e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:0.01:True:wall_event",
+      "status": "PASS",
+      "value": 2.035318934205171e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:0.01:adaptive_tightening",
+      "status": "PASS",
+      "value": {
+        "position_m": 6.066461014937409e-06,
+        "length_m": 2.062137100011796e-05,
+        "heat_relative": 3.4810388871431286e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-129:0.01:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.5745735257630989e-06,
+        "length_m": 8.854394799584497e-06,
+        "heat_relative": 9.035081530717193e-07
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--010mm-129:0.02:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:0.02:False:flux",
+      "status": "FAIL",
+      "value": 1.12822930036856e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:0.02:False:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:0.02:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:0.02:True:flux",
+      "status": "PASS",
+      "value": 1.6406503386794147e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:0.02:True:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:0.02:adaptive_tightening",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.008736998959697e-08,
+        "length_m": 5.995449961204713e-05,
+        "heat_relative": 3.408546778160826e-09
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-129:0.02:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 4.859339011176189e-07,
+        "length_m": 3.417579776510138e-06,
+        "heat_relative": 8.245611582413659e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--010mm-129:reverse:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:reverse:flux",
+      "status": "PASS",
+      "value": 3.0784330059227256e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:reverse:wall_event",
+      "status": "PASS",
+      "value": 8.349433355091668e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:mirror_trace",
+      "status": "PASS",
+      "value": {
+        "position_m": 5.3641960805438314e-08,
+        "length_m": 3.5220874046615336e-05,
+        "heat_relative": 2.4464703374249552e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-129:0.001:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:0.001:False:flux",
+      "status": "FAIL",
+      "value": 2.1280733051647547e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:0.001:False:wall_event",
+      "status": "PASS",
+      "value": 1.7022667449715974e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:0.001:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:0.001:True:flux",
+      "status": "PASS",
+      "value": 4.0950123602839015e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:0.001:True:wall_event",
+      "status": "PASS",
+      "value": 6.383500293643491e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 7.306082614174517e-06,
+        "length_m": 0.0027254685458331096,
+        "heat_relative": 3.7866859379231954e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-129:0.001:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.419120858781122e-06,
+        "length_m": 7.962879584511029e-05,
+        "heat_relative": 1.2538398950212581e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-010mm-129:0.002:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:0.002:False:flux",
+      "status": "FAIL",
+      "value": 1.842673938965166e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:0.002:False:wall_event",
+      "status": "PASS",
+      "value": 1.1101739641119114e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:0.002:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:0.002:True:flux",
+      "status": "PASS",
+      "value": 1.477588906659281e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:0.002:True:wall_event",
+      "status": "PASS",
+      "value": 1.1101739641119114e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 6.457105985117335e-06,
+        "length_m": 0.00010325329173355158,
+        "heat_relative": 3.4420750076868956e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-129:0.002:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 5.68818009076761e-07,
+        "length_m": 3.3780072783429205e-07,
+        "heat_relative": 3.0321424737689284e-07
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-010mm-129:0.005:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:0.005:False:flux",
+      "status": "FAIL",
+      "value": 2.9944772166818444e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:0.005:False:wall_event",
+      "status": "PASS",
+      "value": 6.661043784671468e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:0.005:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:0.005:True:flux",
+      "status": "PASS",
+      "value": 1.6040651470045038e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:0.005:True:wall_event",
+      "status": "PASS",
+      "value": 2.9604639042984307e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.0319013156943827e-05,
+        "length_m": 0.0004408608524570923,
+        "heat_relative": 5.933634546151367e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-129:0.005:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.809833502841886e-06,
+        "length_m": 2.798301750317478e-06,
+        "heat_relative": 1.0406700918785816e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-010mm-129:0.01:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:0.01:False:flux",
+      "status": "FAIL",
+      "value": 8.835069985736776e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:0.01:False:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:0.01:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:0.01:True:flux",
+      "status": "PASS",
+      "value": 2.3128185860981826e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:0.01:True:wall_event",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:0.01:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 2.7077295072786006e-07,
+        "length_m": 0.00019081233075013415,
+        "heat_relative": 4.660504204778704e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-129:0.01:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 4.4172393742769605e-07,
+        "length_m": 6.839388149160186e-07,
+        "heat_relative": 7.602880991441907e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-010mm-129:0.02:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:0.02:False:flux",
+      "status": "FAIL",
+      "value": 1.6831936582685926e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:0.02:False:wall_event",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:0.02:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:0.02:True:flux",
+      "status": "PASS",
+      "value": 5.629750328795363e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:0.02:True:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:0.02:adaptive_tightening",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.1251930107647468e-06,
+        "length_m": 1.0218610412948692e-05,
+        "heat_relative": 1.8831739456715013e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-129:0.02:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.9365309472950685e-07,
+        "length_m": 2.957864111863273e-06,
+        "heat_relative": 4.9147147462846874e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-010mm-129:reverse:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:reverse:flux",
+      "status": "PASS",
+      "value": 5.503216497811062e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:reverse:wall_event",
+      "status": "PASS",
+      "value": 1.358806674824475e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:mirror_trace",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.8543422975919603e-08,
+        "length_m": 9.151531713769145e-05,
+        "heat_relative": 1.997710985524037e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift-+000mm-257:0.001:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:False:flux",
+      "status": "FAIL",
+      "value": 1.7976783449144428e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:False:wall_event",
+      "status": "PASS",
+      "value": 6.846072778690121e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:True:flux",
+      "status": "PASS",
+      "value": 8.365026698476887e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:True:wall_event",
+      "status": "PASS",
+      "value": 1.008408017401653e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 6.146312240359032e-06,
+        "length_m": 0.005214004460775357,
+        "heat_relative": 3.042379443485288e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift-+000mm-257:0.001:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.0604331795832158e-06,
+        "length_m": 0.00019944660916593193,
+        "heat_relative": 1.5149211622933478e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift-+000mm-257:0.002:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.002:False:flux",
+      "status": "FAIL",
+      "value": 8.80891992735253e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.002:False:wall_event",
+      "status": "PASS",
+      "value": 1.8502899401865192e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.002:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.002:True:flux",
+      "status": "PASS",
+      "value": 3.367296311279099e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.002:True:wall_event",
+      "status": "PASS",
+      "value": 6.661043784671468e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 3.050982767338949e-06,
+        "length_m": 0.0009815046238870195,
+        "heat_relative": 1.549939809053491e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift-+000mm-257:0.002:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.569380538197609e-06,
+        "length_m": 2.73584172063579e-05,
+        "heat_relative": 1.305293700459842e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift-+000mm-257:0.005:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:False:flux",
+      "status": "FAIL",
+      "value": 8.106721827211017e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:False:wall_event",
+      "status": "PASS",
+      "value": 9.251449700932596e-18,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:True:flux",
+      "status": "PASS",
+      "value": 2.5669129837839124e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:True:wall_event",
+      "status": "PASS",
+      "value": 1.9150500880930473e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 2.719043296682332e-06,
+        "length_m": 0.000228448871865794,
+        "heat_relative": 1.4905540025589303e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift-+000mm-257:0.005:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.3487902811282634e-06,
+        "length_m": 5.6752138206661584e-06,
+        "heat_relative": 7.393999793547934e-07
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift-+000mm-257:0.01:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:False:flux",
+      "status": "FAIL",
+      "value": 8.380250716322622e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:False:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:True:flux",
+      "status": "PASS",
+      "value": 2.288289983157637e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:True:wall_event",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 5.542507288680554e-07,
+        "length_m": 0.0001213748737072251,
+        "heat_relative": 9.621403940229811e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift-+000mm-257:0.01:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.321167714176454e-07,
+        "length_m": 9.660527737764824e-07,
+        "heat_relative": 5.765315358452483e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift-+000mm-257:0.02:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.02:False:flux",
+      "status": "FAIL",
+      "value": 1.2428110595640185e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.02:False:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.02:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.02:True:flux",
+      "status": "PASS",
+      "value": 5.3129560977582984e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.02:True:wall_event",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.02:adaptive_tightening",
+      "status": "PASS",
+      "value": {
+        "position_m": 8.499556898300398e-07,
+        "length_m": 6.147991224736415e-05,
+        "heat_relative": 1.433283218776893e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift-+000mm-257:0.02:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.7838020838212293e-07,
+        "length_m": 6.8389139471491944e-06,
+        "heat_relative": 3.00803335573363e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift-+000mm-257:reverse:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:reverse:flux",
+      "status": "PASS",
+      "value": 5.051788547825879e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:reverse:wall_event",
+      "status": "PASS",
+      "value": 8.719491343128971e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:mirror_trace",
+      "status": "FAIL",
+      "value": {
+        "position_m": 2.2415431931674196e-07,
+        "length_m": 0.00024093320188711687,
+        "heat_relative": 1.1095632423963053e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00025:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00025:flux",
+      "status": "FAIL",
+      "value": 5.714350147594839e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00025:wall_event",
+      "status": "PASS",
+      "value": 3.1454928983170824e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000286689357121:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000286689357121:flux",
+      "status": "FAIL",
+      "value": 8.176370055544998e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000286689357121:wall_event",
+      "status": "PASS",
+      "value": 1.5819978988594738e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000328763149947:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000328763149947:flux",
+      "status": "FAIL",
+      "value": 7.787925388186474e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000328763149947:wall_event",
+      "status": "PASS",
+      "value": 7.401159760746077e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000377011584413:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000377011584413:flux",
+      "status": "FAIL",
+      "value": 7.06798439282558e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000377011584413:wall_event",
+      "status": "PASS",
+      "value": 2.405376922242475e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000432340835051:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000432340835051:flux",
+      "status": "FAIL",
+      "value": 5.586134805046481e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000432340835051:wall_event",
+      "status": "PASS",
+      "value": 3.88560887439169e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000495790064232:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000495790064232:flux",
+      "status": "FAIL",
+      "value": 6.578836484650062e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000495790064232:wall_event",
+      "status": "PASS",
+      "value": 2.3498682240368793e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000568550939128:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000568550939128:flux",
+      "status": "FAIL",
+      "value": 8.260450365584322e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000568550939128:wall_event",
+      "status": "PASS",
+      "value": 1.5264892006538782e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000651990012917:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000651990012917:flux",
+      "status": "FAIL",
+      "value": 9.77723844985779e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000651990012917:wall_event",
+      "status": "PASS",
+      "value": 1.4987348515510805e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000747674390611:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000747674390611:flux",
+      "status": "FAIL",
+      "value": 6.359844709651751e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000747674390611:wall_event",
+      "status": "PASS",
+      "value": 3.238007395326408e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000857401161521:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000857401161521:flux",
+      "status": "FAIL",
+      "value": 3.908704897845088e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000857401161521:wall_event",
+      "status": "PASS",
+      "value": 7.956246742802032e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000983231151166:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000983231151166:flux",
+      "status": "FAIL",
+      "value": 4.982076761804346e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.000983231151166:wall_event",
+      "status": "PASS",
+      "value": 9.251449700932596e-18,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.001:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.001:flux",
+      "status": "FAIL",
+      "value": 1.7976783449144428e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.001:wall_event",
+      "status": "PASS",
+      "value": 6.846072778690121e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00112752762652:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00112752762652:flux",
+      "status": "FAIL",
+      "value": 1.5189072448964304e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00112752762652:wall_event",
+      "status": "PASS",
+      "value": 1.757775443177193e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00129300068153:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00129300068153:flux",
+      "status": "FAIL",
+      "value": 5.466768579001363e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00129300068153:wall_event",
+      "status": "PASS",
+      "value": 1.998313135401441e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00148275813658:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00148275813658:flux",
+      "status": "FAIL",
+      "value": 5.141740581216752e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00148275813658:wall_event",
+      "status": "PASS",
+      "value": 5.920927808596861e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00170036390777:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00170036390777:flux",
+      "status": "FAIL",
+      "value": 1.335108250468024e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00170036390777:wall_event",
+      "status": "PASS",
+      "value": 2.7754349102797786e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00194990494237:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00194990494237:flux",
+      "status": "FAIL",
+      "value": 2.6889724955401885e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00194990494237:wall_event",
+      "status": "PASS",
+      "value": 1.7670268928781257e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.002:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.002:flux",
+      "status": "FAIL",
+      "value": 8.80891992735253e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.002:wall_event",
+      "status": "PASS",
+      "value": 1.8502899401865192e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0022360679775:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0022360679775:flux",
+      "status": "FAIL",
+      "value": 4.745988238482545e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0022360679775:wall_event",
+      "status": "PASS",
+      "value": 1.813284141382789e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0025642275638:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0025642275638:flux",
+      "status": "FAIL",
+      "value": 6.05161897582144e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0025642275638:wall_event",
+      "status": "PASS",
+      "value": 3.238007395326408e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00294054700711:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00294054700711:flux",
+      "status": "FAIL",
+      "value": 9.190758521570501e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00294054700711:wall_event",
+      "status": "PASS",
+      "value": 1.443226153345485e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00337209412421:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00337209412421:flux",
+      "status": "FAIL",
+      "value": 1.5396973670359605e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00337209412421:wall_event",
+      "status": "PASS",
+      "value": 1.3877174551398892e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00386697398649:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00386697398649:flux",
+      "status": "FAIL",
+      "value": 4.537707688420149e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00386697398649:wall_event",
+      "status": "PASS",
+      "value": 5.550869820559557e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00443448114477:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00443448114477:flux",
+      "status": "FAIL",
+      "value": 7.136595354496238e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00443448114477:wall_event",
+      "status": "PASS",
+      "value": 4.625724850466298e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.005:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.005:flux",
+      "status": "FAIL",
+      "value": 8.106721827211017e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.005:wall_event",
+      "status": "PASS",
+      "value": 9.251449700932596e-18,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00508527419424:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00508527419424:flux",
+      "status": "FAIL",
+      "value": 3.703342141126677e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00508527419424:wall_event",
+      "status": "PASS",
+      "value": 6.753558281680795e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00583157595813:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00583157595813:flux",
+      "status": "FAIL",
+      "value": 3.3726217021429116e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00583157595813:wall_event",
+      "status": "PASS",
+      "value": 9.436478694951247e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00668740304976:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00668740304976:flux",
+      "status": "FAIL",
+      "value": 6.078244014730753e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00668740304976:wall_event",
+      "status": "PASS",
+      "value": 1.350711656336159e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00766882912459:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00766882912459:flux",
+      "status": "FAIL",
+      "value": 2.414392061633675e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00766882912459:wall_event",
+      "status": "PASS",
+      "value": 8.788877215885965e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00879428676641:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00879428676641:flux",
+      "status": "FAIL",
+      "value": 2.1731496655628268e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.00879428676641:wall_event",
+      "status": "PASS",
+      "value": 1.850289940186519e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.01:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.01:flux",
+      "status": "FAIL",
+      "value": 8.380250716322622e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.01:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0100849136776:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0100849136776:flux",
+      "status": "FAIL",
+      "value": 1.4930356384897056e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0100849136776:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0115649496754:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0115649496754:flux",
+      "status": "FAIL",
+      "value": 2.1449789604191857e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0115649496754:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0132621919504:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0132621919504:flux",
+      "status": "FAIL",
+      "value": 9.38883971631613e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0132621919504:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0152085171371:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0152085171371:flux",
+      "status": "FAIL",
+      "value": 1.5383186762588034e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0152085171371:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0174404800032:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0174404800032:flux",
+      "status": "FAIL",
+      "value": 4.923202160044751e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.0174404800032:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.02:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.02:flux",
+      "status": "FAIL",
+      "value": 1.2428110595640185e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:dense:0.02:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:False:flux",
+      "status": "FAIL",
+      "value": 4.4876937483504634e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:False:wall_event",
+      "status": "PASS",
+      "value": 4.995782838503602e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:True:flux",
+      "status": "PASS",
+      "value": 4.702002109786482e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:True:wall_event",
+      "status": "PASS",
+      "value": 1.5264892006538782e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.6012897070517284e-07,
+        "length_m": 0.0007285896689808169,
+        "heat_relative": 7.441542404507118e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-257:0.001:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.8159367708062392e-06,
+        "length_m": 2.8383822609612253e-05,
+        "heat_relative": 8.439081391475867e-07
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--010mm-257:0.002:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.002:False:flux",
+      "status": "FAIL",
+      "value": 7.822144484426489e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.002:False:wall_event",
+      "status": "PASS",
+      "value": 3.5155508863543865e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.002:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.002:True:flux",
+      "status": "PASS",
+      "value": 2.7329654929062754e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.002:True:wall_event",
+      "status": "PASS",
+      "value": 1.4802319521492153e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 2.8148349695689955e-06,
+        "length_m": 0.0006487276175022316,
+        "heat_relative": 1.3458305658797798e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-257:0.002:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.052545976705839e-06,
+        "length_m": 1.7379066967748713e-05,
+        "heat_relative": 1.4594837697279317e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--010mm-257:0.005:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:False:flux",
+      "status": "FAIL",
+      "value": 1.0777947761287824e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:False:wall_event",
+      "status": "PASS",
+      "value": 7.123616269718099e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:True:flux",
+      "status": "PASS",
+      "value": 3.3715167235296275e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:True:wall_event",
+      "status": "PASS",
+      "value": 2.7754349102797786e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:adaptive_tightening",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.885747836118417e-06,
+        "length_m": 6.253524088606355e-05,
+        "heat_relative": 2.0075923461426726e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-257:0.005:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.908051956889634e-06,
+        "length_m": 2.0369462170322095e-05,
+        "heat_relative": 1.50245495100787e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--010mm-257:0.01:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:False:flux",
+      "status": "FAIL",
+      "value": 6.695001463368102e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:False:wall_event",
+      "status": "PASS",
+      "value": 1.3322087569342937e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:True:flux",
+      "status": "PASS",
+      "value": 5.5412970750693675e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:True:wall_event",
+      "status": "PASS",
+      "value": 1.2952029581305633e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:adaptive_tightening",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.1312475695468975e-06,
+        "length_m": 5.974698184019189e-05,
+        "heat_relative": 1.2369162480929674e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-257:0.01:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.214563819038685e-06,
+        "length_m": 1.1899498147727172e-05,
+        "heat_relative": 1.2852796020812463e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--010mm-257:0.02:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.02:False:flux",
+      "status": "FAIL",
+      "value": 5.407724739971132e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.02:False:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.02:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.02:True:flux",
+      "status": "PASS",
+      "value": 5.519764392786919e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.02:True:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.02:adaptive_tightening",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.369776067074781e-07,
+        "length_m": 1.98760354308547e-05,
+        "heat_relative": 5.723640905674898e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-257:0.02:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.2286547185501604e-07,
+        "length_m": 1.1695963173963264e-05,
+        "heat_relative": 3.7854180789942404e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "shift--010mm-257:reverse:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:reverse:flux",
+      "status": "PASS",
+      "value": 3.463943041621756e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:reverse:wall_event",
+      "status": "PASS",
+      "value": 7.563060130512396e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:mirror_trace",
+      "status": "PASS",
+      "value": {
+        "position_m": 8.895359597993315e-08,
+        "length_m": 6.792673474365074e-06,
+        "heat_relative": 4.1338676148861e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00025:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00025:flux",
+      "status": "FAIL",
+      "value": 9.415299638299787e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00025:wall_event",
+      "status": "PASS",
+      "value": 1.5727464491585412e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000286689357121:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000286689357121:flux",
+      "status": "FAIL",
+      "value": 8.945379837436099e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000286689357121:wall_event",
+      "status": "PASS",
+      "value": 5.550869820559557e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000328763149947:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000328763149947:flux",
+      "status": "FAIL",
+      "value": 6.692163877693414e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000328763149947:wall_event",
+      "status": "PASS",
+      "value": 1.443226153345485e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000377011584413:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000377011584413:flux",
+      "status": "FAIL",
+      "value": 8.91181751015905e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000377011584413:wall_event",
+      "status": "PASS",
+      "value": 1.21193991082217e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000432340835051:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000432340835051:flux",
+      "status": "FAIL",
+      "value": 3.224727859463481e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000432340835051:wall_event",
+      "status": "PASS",
+      "value": 1.554243549756676e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000495790064232:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000495790064232:flux",
+      "status": "FAIL",
+      "value": 6.746565478545932e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000495790064232:wall_event",
+      "status": "PASS",
+      "value": 2.100079082111699e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000568550939128:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000568550939128:flux",
+      "status": "FAIL",
+      "value": 7.648251454446907e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000568550939128:wall_event",
+      "status": "PASS",
+      "value": 4.625724850466299e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000651990012917:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000651990012917:flux",
+      "status": "FAIL",
+      "value": 4.279880421967226e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000651990012917:wall_event",
+      "status": "PASS",
+      "value": 3.4230363893450603e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000747674390611:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000747674390611:flux",
+      "status": "FAIL",
+      "value": 3.6092866042681995e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000747674390611:wall_event",
+      "status": "PASS",
+      "value": 1.1564312126165744e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000857401161521:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000857401161521:flux",
+      "status": "FAIL",
+      "value": 6.227870607260737e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000857401161521:wall_event",
+      "status": "PASS",
+      "value": 1.831787040784654e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000983231151166:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000983231151166:flux",
+      "status": "FAIL",
+      "value": 2.1192936972915058e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.000983231151166:wall_event",
+      "status": "PASS",
+      "value": 7.031101772708773e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.001:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.001:flux",
+      "status": "FAIL",
+      "value": 4.4876937483504634e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.001:wall_event",
+      "status": "PASS",
+      "value": 4.995782838503602e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00112752762652:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00112752762652:flux",
+      "status": "FAIL",
+      "value": 4.6250722632935825e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00112752762652:wall_event",
+      "status": "PASS",
+      "value": 5.273326329531579e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00129300068153:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00129300068153:flux",
+      "status": "FAIL",
+      "value": 1.516278131685189e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00129300068153:wall_event",
+      "status": "PASS",
+      "value": 5.550869820559557e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00148275813658:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00148275813658:flux",
+      "status": "FAIL",
+      "value": 7.683895842342014e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00148275813658:wall_event",
+      "status": "PASS",
+      "value": 1.4709805024482827e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00170036390777:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00170036390777:flux",
+      "status": "FAIL",
+      "value": 7.766879558533957e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00170036390777:wall_event",
+      "status": "PASS",
+      "value": 1.2026884611212374e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00194990494237:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00194990494237:flux",
+      "status": "FAIL",
+      "value": 4.733721456885703e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00194990494237:wall_event",
+      "status": "PASS",
+      "value": 1.8410384904855868e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.002:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.002:flux",
+      "status": "FAIL",
+      "value": 7.822144484426489e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.002:wall_event",
+      "status": "PASS",
+      "value": 3.5155508863543865e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0022360679775:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0022360679775:flux",
+      "status": "FAIL",
+      "value": 2.439417724429747e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0022360679775:wall_event",
+      "status": "PASS",
+      "value": 6.753558281680795e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0025642275638:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0025642275638:flux",
+      "status": "FAIL",
+      "value": 1.534071974034545e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0025642275638:wall_event",
+      "status": "PASS",
+      "value": 3.88560887439169e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00294054700711:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00294054700711:flux",
+      "status": "FAIL",
+      "value": 8.61418503128978e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00294054700711:wall_event",
+      "status": "PASS",
+      "value": 2.8679494072891045e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00337209412421:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00337209412421:flux",
+      "status": "FAIL",
+      "value": 6.72742641184438e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00337209412421:wall_event",
+      "status": "PASS",
+      "value": 3.7005798803730383e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00386697398649:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00386697398649:flux",
+      "status": "FAIL",
+      "value": 5.857789668613647e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00386697398649:wall_event",
+      "status": "PASS",
+      "value": 8.326304730839337e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00443448114477:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00443448114477:flux",
+      "status": "FAIL",
+      "value": 6.569368425656241e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00443448114477:wall_event",
+      "status": "PASS",
+      "value": 1.1101739641119114e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.005:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.005:flux",
+      "status": "FAIL",
+      "value": 1.0777947761287824e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.005:wall_event",
+      "status": "PASS",
+      "value": 7.123616269718099e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00508527419424:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00508527419424:flux",
+      "status": "FAIL",
+      "value": 5.39330031153813e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00508527419424:wall_event",
+      "status": "PASS",
+      "value": 8.696362718876639e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00583157595813:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00583157595813:flux",
+      "status": "FAIL",
+      "value": 1.7563998745234505e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00583157595813:wall_event",
+      "status": "PASS",
+      "value": 1.2952029581305632e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00668740304976:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00668740304976:flux",
+      "status": "FAIL",
+      "value": 1.3445354154722876e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00668740304976:wall_event",
+      "status": "PASS",
+      "value": 2.5904059162611267e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00766882912459:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00766882912459:flux",
+      "status": "FAIL",
+      "value": 9.610462664343654e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00766882912459:wall_event",
+      "status": "PASS",
+      "value": 4.81075384448495e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00879428676641:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00879428676641:flux",
+      "status": "FAIL",
+      "value": 5.375080802859281e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.00879428676641:wall_event",
+      "status": "PASS",
+      "value": 1.3877174551398894e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.01:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.01:flux",
+      "status": "FAIL",
+      "value": 6.695001463368102e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.01:wall_event",
+      "status": "PASS",
+      "value": 1.3322087569342937e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0100849136776:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0100849136776:flux",
+      "status": "FAIL",
+      "value": 9.55254015042393e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0100849136776:wall_event",
+      "status": "PASS",
+      "value": 4.81075384448495e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0115649496754:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0115649496754:flux",
+      "status": "FAIL",
+      "value": 4.510042924487948e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0115649496754:wall_event",
+      "status": "PASS",
+      "value": 1.2211913605231025e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0132621919504:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0132621919504:flux",
+      "status": "FAIL",
+      "value": 3.455990106354024e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0132621919504:wall_event",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0152085171371:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0152085171371:flux",
+      "status": "FAIL",
+      "value": 6.101391915411279e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0152085171371:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0174404800032:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0174404800032:flux",
+      "status": "FAIL",
+      "value": 1.2264534818877964e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.0174404800032:wall_event",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:dense:0.02:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:dense:0.02:flux",
+      "status": "FAIL",
+      "value": 5.407724739971132e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:dense:0.02:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:False:flux",
+      "status": "FAIL",
+      "value": 7.369252888223719e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:False:wall_event",
+      "status": "PASS",
+      "value": 8.511333724857987e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:True:flux",
+      "status": "PASS",
+      "value": 2.6959214561930527e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:True:wall_event",
+      "status": "PASS",
+      "value": 1.1101739641119114e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 2.288977929093747e-06,
+        "length_m": 0.0022528289518817246,
+        "heat_relative": 1.2261453442574677e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-257:0.001:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.7323595314651456e-06,
+        "length_m": 0.00012909524414084217,
+        "heat_relative": 9.279869870315594e-07
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-010mm-257:0.002:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.002:False:flux",
+      "status": "FAIL",
+      "value": 7.272346662569036e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.002:False:wall_event",
+      "status": "PASS",
+      "value": 3.238007395326408e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.002:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.002:True:flux",
+      "status": "PASS",
+      "value": 1.9955458613106177e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.002:True:wall_event",
+      "status": "PASS",
+      "value": 1.942804437195845e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.3011780868240164e-06,
+        "length_m": 0.0011070165383344488,
+        "heat_relative": 7.148790188704623e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-257:0.002:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 5.62897483787852e-07,
+        "length_m": 7.124603676800234e-06,
+        "heat_relative": 3.0926038663281474e-07
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-010mm-257:0.005:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:False:flux",
+      "status": "FAIL",
+      "value": 7.999566830424525e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:False:wall_event",
+      "status": "PASS",
+      "value": 1.3322087569342937e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:True:flux",
+      "status": "PASS",
+      "value": 6.103375405619605e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:True:wall_event",
+      "status": "PASS",
+      "value": 7.216130766727425e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 4.104534853950543e-07,
+        "length_m": 0.0005744086883865407,
+        "heat_relative": 2.4150633870512195e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-257:0.005:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.7643135194099097e-06,
+        "length_m": 2.0623767944982774e-05,
+        "heat_relative": 1.0381060286945853e-06
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-010mm-257:0.01:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:False:flux",
+      "status": "FAIL",
+      "value": 1.1971988220610329e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:False:wall_event",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:True:flux",
+      "status": "PASS",
+      "value": 1.8103252818502218e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:True:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 6.609675189395148e-07,
+        "length_m": 0.0003266700982749171,
+        "heat_relative": 1.1360592144793458e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-257:0.01:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 4.658437333660004e-07,
+        "length_m": 4.957386522619345e-06,
+        "heat_relative": 8.00682842250211e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-010mm-257:0.02:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.02:False:flux",
+      "status": "FAIL",
+      "value": 7.105561386205716e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.02:False:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.02:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.02:True:flux",
+      "status": "PASS",
+      "value": 2.8948413187711317e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.02:True:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.02:adaptive_tightening",
+      "status": "PASS",
+      "value": {
+        "position_m": 4.6928792585276824e-07,
+        "length_m": 8.867221109909451e-05,
+        "heat_relative": 7.842225535625857e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-257:0.02:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.212982999656333e-07,
+        "length_m": 5.563417069254228e-06,
+        "heat_relative": 5.369185762660322e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-010mm-257:reverse:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:reverse:flux",
+      "status": "PASS",
+      "value": 1.7896429691995185e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:reverse:wall_event",
+      "status": "PASS",
+      "value": 9.829665307240883e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:mirror_trace",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.3912652333615758e-08,
+        "length_m": 6.248787170903825e-05,
+        "heat_relative": 7.452655825801457e-09
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00025:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00025:flux",
+      "status": "FAIL",
+      "value": 7.426385088385293e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00025:wall_event",
+      "status": "PASS",
+      "value": 2.220347928223823e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000286689357121:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000286689357121:flux",
+      "status": "FAIL",
+      "value": 1.523777165438529e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000286689357121:wall_event",
+      "status": "PASS",
+      "value": 8.233790233830011e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000328763149947:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000328763149947:flux",
+      "status": "FAIL",
+      "value": 1.132415017992664e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000328763149947:wall_event",
+      "status": "PASS",
+      "value": 3.395282040242262e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000377011584413:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000377011584413:flux",
+      "status": "FAIL",
+      "value": 6.098155326442392e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000377011584413:wall_event",
+      "status": "PASS",
+      "value": 2.497891419251801e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000432340835051:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000432340835051:flux",
+      "status": "FAIL",
+      "value": 9.275806296263097e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000432340835051:wall_event",
+      "status": "PASS",
+      "value": 6.568529287662142e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000495790064232:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000495790064232:flux",
+      "status": "FAIL",
+      "value": 2.12186037866679e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000495790064232:wall_event",
+      "status": "PASS",
+      "value": 2.405376922242475e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000568550939128:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000568550939128:flux",
+      "status": "FAIL",
+      "value": 1.0851616774029088e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000568550939128:wall_event",
+      "status": "PASS",
+      "value": 1.6282551473641369e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000651990012917:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000651990012917:flux",
+      "status": "FAIL",
+      "value": 6.646789751712839e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000651990012917:wall_event",
+      "status": "PASS",
+      "value": 4.81075384448495e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000747674390611:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000747674390611:flux",
+      "status": "FAIL",
+      "value": 5.053514621737082e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000747674390611:wall_event",
+      "status": "PASS",
+      "value": 8.973906209904619e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000857401161521:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000857401161521:flux",
+      "status": "FAIL",
+      "value": 1.2491157787689385e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000857401161521:wall_event",
+      "status": "PASS",
+      "value": 1.8502899401865192e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000983231151166:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000983231151166:flux",
+      "status": "FAIL",
+      "value": 6.274566526029966e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.000983231151166:wall_event",
+      "status": "PASS",
+      "value": 2.2295993779247553e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.001:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.001:flux",
+      "status": "FAIL",
+      "value": 7.369252888223719e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.001:wall_event",
+      "status": "PASS",
+      "value": 8.511333724857987e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00112752762652:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00112752762652:flux",
+      "status": "FAIL",
+      "value": 7.228731270050741e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00112752762652:wall_event",
+      "status": "PASS",
+      "value": 6.661043784671468e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00129300068153:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00129300068153:flux",
+      "status": "FAIL",
+      "value": 1.5458549060974223e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00129300068153:wall_event",
+      "status": "PASS",
+      "value": 5.920927808596861e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00148275813658:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00148275813658:flux",
+      "status": "FAIL",
+      "value": 4.2471207616097544e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00148275813658:wall_event",
+      "status": "PASS",
+      "value": 2.7754349102797784e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00170036390777:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00170036390777:flux",
+      "status": "FAIL",
+      "value": 9.490861666186614e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00170036390777:wall_event",
+      "status": "PASS",
+      "value": 1.2674486090277656e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00194990494237:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00194990494237:flux",
+      "status": "FAIL",
+      "value": 2.565787942961145e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00194990494237:wall_event",
+      "status": "PASS",
+      "value": 1.0916710647100463e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.002:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.002:flux",
+      "status": "FAIL",
+      "value": 7.272346662569036e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.002:wall_event",
+      "status": "PASS",
+      "value": 3.238007395326408e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0022360679775:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0022360679775:flux",
+      "status": "FAIL",
+      "value": 1.1247451385172263e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0022360679775:wall_event",
+      "status": "PASS",
+      "value": 1.1101739641119114e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0025642275638:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0025642275638:flux",
+      "status": "FAIL",
+      "value": 7.178373673593838e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0025642275638:wall_event",
+      "status": "PASS",
+      "value": 2.497891419251801e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00294054700711:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00294054700711:flux",
+      "status": "FAIL",
+      "value": 8.095530756499139e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00294054700711:wall_event",
+      "status": "PASS",
+      "value": 1.2952029581305633e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00337209412421:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00337209412421:flux",
+      "status": "FAIL",
+      "value": 5.165977627220928e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00337209412421:wall_event",
+      "status": "PASS",
+      "value": 4.903268341494276e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00386697398649:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00386697398649:flux",
+      "status": "FAIL",
+      "value": 5.110416169613067e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00386697398649:wall_event",
+      "status": "PASS",
+      "value": 7.493674257755403e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00443448114477:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00443448114477:flux",
+      "status": "FAIL",
+      "value": 3.937444605453299e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00443448114477:wall_event",
+      "status": "PASS",
+      "value": 1.443226153345485e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.005:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.005:flux",
+      "status": "FAIL",
+      "value": 7.999566830424525e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.005:wall_event",
+      "status": "PASS",
+      "value": 1.3322087569342937e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00508527419424:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00508527419424:flux",
+      "status": "FAIL",
+      "value": 1.6419264123677713e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00508527419424:wall_event",
+      "status": "PASS",
+      "value": 6.476014790652817e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00583157595813:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00583157595813:flux",
+      "status": "FAIL",
+      "value": 9.756755303013813e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00583157595813:wall_event",
+      "status": "PASS",
+      "value": 8.326304730839335e-17,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00668740304976:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00668740304976:flux",
+      "status": "FAIL",
+      "value": 1.1442557969459632e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00668740304976:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00766882912459:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00766882912459:flux",
+      "status": "FAIL",
+      "value": 7.291787725203612e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00766882912459:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00879428676641:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00879428676641:flux",
+      "status": "FAIL",
+      "value": 1.5691731856588622e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.00879428676641:wall_event",
+      "status": "PASS",
+      "value": 3.552713678800502e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.01:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.01:flux",
+      "status": "FAIL",
+      "value": 1.1971988220610329e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.01:wall_event",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0100849136776:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0100849136776:flux",
+      "status": "FAIL",
+      "value": 6.371233330678155e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0100849136776:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0115649496754:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0115649496754:flux",
+      "status": "FAIL",
+      "value": 1.001429570480808e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0115649496754:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0132621919504:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0132621919504:flux",
+      "status": "FAIL",
+      "value": 1.4903979278067406e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0132621919504:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0152085171371:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0152085171371:flux",
+      "status": "FAIL",
+      "value": 1.9732388271424133e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0152085171371:wall_event",
+      "status": "PASS",
+      "value": 3.552713678800502e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0174404800032:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0174404800032:flux",
+      "status": "FAIL",
+      "value": 1.258250634319969e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.0174404800032:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:dense:0.02:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:dense:0.02:flux",
+      "status": "FAIL",
+      "value": 7.105561386205716e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:dense:0.02:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.001:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:False:flux",
+      "status": "FAIL",
+      "value": 6.981955017797493e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.001:False:wall_event",
+      "status": "PASS",
+      "value": 3.552713678800502e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.001:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:True:flux",
+      "status": "PASS",
+      "value": 5.727106318789349e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.001:True:wall_event",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 4.5866294229313103e-07,
+        "length_m": 0.000486822580541002,
+        "heat_relative": 7.814503732994638e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-050mm-257:0.001:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.3596401693405377e-07,
+        "length_m": 1.6637804989727556e-05,
+        "heat_relative": 2.316494940313163e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-050mm-257:0.002:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.002:False:flux",
+      "status": "FAIL",
+      "value": 8.062892761222277e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.002:False:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.002:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.002:True:flux",
+      "status": "PASS",
+      "value": 3.764744460695081e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.002:True:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 4.5552403094006877e-07,
+        "length_m": 0.0009472840293298646,
+        "heat_relative": 7.737459883916387e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-050mm-257:0.002:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 4.1707712661320784e-07,
+        "length_m": 5.559686505307582e-05,
+        "heat_relative": 7.084399400447694e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-050mm-257:0.005:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:False:flux",
+      "status": "FAIL",
+      "value": 2.182559544893521e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.005:False:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.005:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:True:flux",
+      "status": "PASS",
+      "value": 3.1172366301683675e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.005:True:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.37334020422486e-06,
+        "length_m": 0.0011729305833867443,
+        "heat_relative": 2.3133420057330767e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-050mm-257:0.005:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.0784727894351818e-07,
+        "length_m": 4.141911155386424e-06,
+        "heat_relative": 3.5011064936085745e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-050mm-257:0.01:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:False:flux",
+      "status": "FAIL",
+      "value": 7.7301826863708e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.01:False:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.01:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:True:flux",
+      "status": "PASS",
+      "value": 7.463671995274869e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.01:True:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.01:adaptive_tightening",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.3583386382929353e-07,
+        "length_m": 4.1948322142104644e-05,
+        "heat_relative": 5.5804775245249516e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-050mm-257:0.01:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 4.7474560460614157e-07,
+        "length_m": 3.281448267955511e-05,
+        "heat_relative": 7.888741904160668e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-050mm-257:0.02:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.02:False:flux",
+      "status": "FAIL",
+      "value": 7.470733395517797e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.02:False:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.02:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.02:True:flux",
+      "status": "PASS",
+      "value": 8.291887536986531e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.02:True:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.02:adaptive_tightening",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.215295697993725e-07,
+        "length_m": 8.309130456041203e-05,
+        "heat_relative": 3.580582053075432e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-050mm-257:0.02:old_RK4_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 4.735490293228395e-07,
+        "length_m": 1.273134373747098e-05,
+        "heat_relative": 7.653969003040828e-08
+      },
+      "limit": {
+        "position_m": 0.001,
+        "length_m": 0.01,
+        "heat_relative": 0.005
+      }
+    },
+    {
+      "name": "inward-050mm-257:reverse:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:reverse:flux",
+      "status": "PASS",
+      "value": 8.518154106076952e-09,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:reverse:wall_event",
+      "status": "PASS",
+      "value": 6.217248937900877e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:mirror_trace",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.307972917809992e-08,
+        "length_m": 1.396229342276456e-05,
+        "heat_relative": 5.6359867883770676e-09
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00025:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00025:flux",
+      "status": "FAIL",
+      "value": 6.556336343111242e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00025:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000286689357121:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000286689357121:flux",
+      "status": "FAIL",
+      "value": 3.627235532299632e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000286689357121:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000328763149947:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000328763149947:flux",
+      "status": "FAIL",
+      "value": 2.1622391880865546e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000328763149947:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000377011584413:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000377011584413:flux",
+      "status": "FAIL",
+      "value": 7.052814859601023e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000377011584413:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000432340835051:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000432340835051:flux",
+      "status": "FAIL",
+      "value": 9.053198978756164e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000432340835051:wall_event",
+      "status": "PASS",
+      "value": 3.552713678800502e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000495790064232:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000495790064232:flux",
+      "status": "FAIL",
+      "value": 4.562486078039628e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000495790064232:wall_event",
+      "status": "PASS",
+      "value": 3.552713678800502e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000568550939128:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000568550939128:flux",
+      "status": "FAIL",
+      "value": 1.016631132355056e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000568550939128:wall_event",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000651990012917:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000651990012917:flux",
+      "status": "FAIL",
+      "value": 7.192503006893835e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000651990012917:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000747674390611:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000747674390611:flux",
+      "status": "FAIL",
+      "value": 1.5246064878264442e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000747674390611:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000857401161521:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000857401161521:flux",
+      "status": "FAIL",
+      "value": 8.937732040542241e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000857401161521:wall_event",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000983231151166:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000983231151166:flux",
+      "status": "FAIL",
+      "value": 7.812930897807681e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.000983231151166:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.001:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.001:flux",
+      "status": "FAIL",
+      "value": 6.981955017797493e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.001:wall_event",
+      "status": "PASS",
+      "value": 3.552713678800502e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00112752762652:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00112752762652:flux",
+      "status": "FAIL",
+      "value": 1.4589342851610842e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00112752762652:wall_event",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00129300068153:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00129300068153:flux",
+      "status": "FAIL",
+      "value": 1.2007247823107433e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00129300068153:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00148275813658:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00148275813658:flux",
+      "status": "FAIL",
+      "value": 9.890077586327092e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00148275813658:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00170036390777:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00170036390777:flux",
+      "status": "FAIL",
+      "value": 2.028637283318989e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00170036390777:wall_event",
+      "status": "PASS",
+      "value": 6.217248937900877e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00194990494237:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00194990494237:flux",
+      "status": "FAIL",
+      "value": 9.360892814822829e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00194990494237:wall_event",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.002:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.002:flux",
+      "status": "FAIL",
+      "value": 8.062892761222277e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.002:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0022360679775:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0022360679775:flux",
+      "status": "FAIL",
+      "value": 1.5577564375662172e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0022360679775:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0025642275638:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0025642275638:flux",
+      "status": "FAIL",
+      "value": 6.899679960704635e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0025642275638:wall_event",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00294054700711:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00294054700711:flux",
+      "status": "FAIL",
+      "value": 1.762264542811595e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00294054700711:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00337209412421:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00337209412421:flux",
+      "status": "FAIL",
+      "value": 3.6221422226510906e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00337209412421:wall_event",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00386697398649:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00386697398649:flux",
+      "status": "FAIL",
+      "value": 1.180554223327057e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00386697398649:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001252e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00443448114477:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00443448114477:flux",
+      "status": "FAIL",
+      "value": 6.048382710328377e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00443448114477:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.005:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.005:flux",
+      "status": "FAIL",
+      "value": 2.182559544893521e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.005:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00508527419424:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00508527419424:flux",
+      "status": "FAIL",
+      "value": 1.34579726576934e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00508527419424:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00583157595813:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00583157595813:flux",
+      "status": "FAIL",
+      "value": 1.8109326332581932e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00583157595813:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00668740304976:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00668740304976:flux",
+      "status": "FAIL",
+      "value": 2.5956642013934494e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00668740304976:wall_event",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00766882912459:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00766882912459:flux",
+      "status": "FAIL",
+      "value": 5.127717446116229e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00766882912459:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00879428676641:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00879428676641:flux",
+      "status": "FAIL",
+      "value": 1.6245913993084332e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.00879428676641:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.01:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.01:flux",
+      "status": "FAIL",
+      "value": 7.7301826863708e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.01:wall_event",
+      "status": "PASS",
+      "value": 1.776356839400251e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0100849136776:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0100849136776:flux",
+      "status": "FAIL",
+      "value": 1.3235691361760606e-06,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0100849136776:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0115649496754:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0115649496754:flux",
+      "status": "FAIL",
+      "value": 4.787613127921972e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0115649496754:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0132621919504:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0132621919504:flux",
+      "status": "FAIL",
+      "value": 9.877035843858078e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0132621919504:wall_event",
+      "status": "PASS",
+      "value": 3.552713678800502e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0152085171371:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0152085171371:flux",
+      "status": "FAIL",
+      "value": 9.52091672643053e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0152085171371:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0174404800032:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0174404800032:flux",
+      "status": "FAIL",
+      "value": 4.2814506600255764e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.0174404800032:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:dense:0.02:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:dense:0.02:flux",
+      "status": "FAIL",
+      "value": 7.470733395517797e-07,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:dense:0.02:wall_event",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-09
+    }
+  ],
+  "trace_count": 88,
+  "dense_samples": 148,
+  "comparisons": [
+    {
+      "tag": "recovery-homotopy-10",
+      "grid": 129,
+      "shift_m": 0,
+      "offset_m": 0.001,
+      "position_m": 2.308730690476632e-06,
+      "length_m": 2.4469716940700437e-05,
+      "heat_relative": 1.0886945879251542e-06,
+      "adaptive_heat_MW_m2": 10.555263458498871,
+      "previous_heat_MW_m2": 10.555274949969583
+    },
+    {
+      "tag": "recovery-homotopy-10",
+      "grid": 129,
+      "shift_m": 0,
+      "offset_m": 0.002,
+      "position_m": 2.8863789235074844e-06,
+      "length_m": 4.0896996694073096e-05,
+      "heat_relative": 1.3976572590390646e-06,
+      "adaptive_heat_MW_m2": 8.959973366726317,
+      "previous_heat_MW_m2": 8.959985889715636
+    },
+    {
+      "tag": "recovery-homotopy-10",
+      "grid": 129,
+      "shift_m": 0,
+      "offset_m": 0.005,
+      "position_m": 2.0375933784096197e-06,
+      "length_m": 1.478702542812016e-05,
+      "heat_relative": 1.0636498142257977e-06,
+      "adaptive_heat_MW_m2": 5.482923540910501,
+      "previous_heat_MW_m2": 5.48292937282731
+    },
+    {
+      "tag": "recovery-homotopy-10",
+      "grid": 129,
+      "shift_m": 0,
+      "offset_m": 0.01,
+      "position_m": 1.781697521419578e-06,
+      "length_m": 2.672692694716261e-06,
+      "heat_relative": 1.0490047035460748e-06,
+      "adaptive_heat_MW_m2": 2.422115657635714,
+      "previous_heat_MW_m2": 2.422118198449097
+    },
+    {
+      "tag": "recovery-homotopy-10",
+      "grid": 129,
+      "shift_m": 0,
+      "offset_m": 0.02,
+      "position_m": 2.5345749676830565e-07,
+      "length_m": 5.116193499077326e-06,
+      "heat_relative": 4.287534360880585e-08,
+      "adaptive_heat_MW_m2": 2.3635485319381955,
+      "previous_heat_MW_m2": 2.3635486332761553
+    },
+    {
+      "tag": "shift--050mm-129",
+      "grid": 129,
+      "shift_m": -0.05,
+      "offset_m": 0.001,
+      "position_m": 2.690766967338849e-06,
+      "length_m": 1.073151945263362e-05,
+      "heat_relative": 8.471245142027684e-07,
+      "adaptive_heat_MW_m2": 10.667935878201742,
+      "previous_heat_MW_m2": 10.667944915279396
+    },
+    {
+      "tag": "shift--050mm-129",
+      "grid": 129,
+      "shift_m": -0.05,
+      "offset_m": 0.002,
+      "position_m": 3.219853444534124e-06,
+      "length_m": 5.244049503971837e-05,
+      "heat_relative": 1.052023245962097e-06,
+      "adaptive_heat_MW_m2": 9.043928322574788,
+      "previous_heat_MW_m2": 9.043937837007627
+    },
+    {
+      "tag": "shift--050mm-129",
+      "grid": 129,
+      "shift_m": -0.05,
+      "offset_m": 0.005,
+      "position_m": 3.5866677353663577e-06,
+      "length_m": 1.2159518604448749e-05,
+      "heat_relative": 1.2958645025928917e-06,
+      "adaptive_heat_MW_m2": 5.5132859145809885,
+      "previous_heat_MW_m2": 5.513293059061756
+    },
+    {
+      "tag": "shift--050mm-129",
+      "grid": 129,
+      "shift_m": -0.05,
+      "offset_m": 0.01,
+      "position_m": 3.1160963060895962e-06,
+      "length_m": 1.3358518963002552e-05,
+      "heat_relative": 1.319089758200498e-06,
+      "adaptive_heat_MW_m2": 2.420514696437857,
+      "previous_heat_MW_m2": 2.4205178893182144
+    },
+    {
+      "tag": "shift--050mm-129",
+      "grid": 129,
+      "shift_m": -0.05,
+      "offset_m": 0.02,
+      "position_m": 1.2127495075133713e-07,
+      "length_m": 5.917744942962599e-07,
+      "heat_relative": 6.556995624240614e-08,
+      "adaptive_heat_MW_m2": 0.469408765589754,
+      "previous_heat_MW_m2": 0.46940879636886823
+    },
+    {
+      "tag": "shift--010mm-129",
+      "grid": 129,
+      "shift_m": -0.01,
+      "offset_m": 0.001,
+      "position_m": 1.9615538016580082e-06,
+      "length_m": 2.8765034954858493e-05,
+      "heat_relative": 8.946165344081436e-07,
+      "adaptive_heat_MW_m2": 10.376503030322132,
+      "previous_heat_MW_m2": 10.376512313321617
+    },
+    {
+      "tag": "shift--010mm-129",
+      "grid": 129,
+      "shift_m": -0.01,
+      "offset_m": 0.002,
+      "position_m": 2.747597520083895e-06,
+      "length_m": 1.5066351835457681e-05,
+      "heat_relative": 1.2888871880889496e-06,
+      "adaptive_heat_MW_m2": 8.806001332196796,
+      "previous_heat_MW_m2": 8.806012682153721
+    },
+    {
+      "tag": "shift--010mm-129",
+      "grid": 129,
+      "shift_m": -0.01,
+      "offset_m": 0.005,
+      "position_m": 2.655020926937432e-06,
+      "length_m": 4.010548302346706e-06,
+      "heat_relative": 1.3443884474551027e-06,
+      "adaptive_heat_MW_m2": 5.385423159329978,
+      "previous_heat_MW_m2": 5.385430399440391
+    },
+    {
+      "tag": "shift--010mm-129",
+      "grid": 129,
+      "shift_m": -0.01,
+      "offset_m": 0.01,
+      "position_m": 1.5745735257630989e-06,
+      "length_m": 8.854394799584497e-06,
+      "heat_relative": 9.035081530717193e-07,
+      "adaptive_heat_MW_m2": 2.3776373390925793,
+      "previous_heat_MW_m2": 2.3776394873092412
+    },
+    {
+      "tag": "shift--010mm-129",
+      "grid": 129,
+      "shift_m": -0.01,
+      "offset_m": 0.02,
+      "position_m": 4.859339011176189e-07,
+      "length_m": 3.417579776510138e-06,
+      "heat_relative": 8.245611582413659e-08,
+      "adaptive_heat_MW_m2": 2.313102186009863,
+      "previous_heat_MW_m2": 2.3131023767393004
+    },
+    {
+      "tag": "inward-010mm-129",
+      "grid": 129,
+      "shift_m": 0.01,
+      "offset_m": 0.001,
+      "position_m": 2.419120858781122e-06,
+      "length_m": 7.962879584511029e-05,
+      "heat_relative": 1.2538398950212581e-06,
+      "adaptive_heat_MW_m2": 10.499384031070475,
+      "previous_heat_MW_m2": 10.499397195633552
+    },
+    {
+      "tag": "inward-010mm-129",
+      "grid": 129,
+      "shift_m": 0.01,
+      "offset_m": 0.002,
+      "position_m": 5.68818009076761e-07,
+      "length_m": 3.3780072783429205e-07,
+      "heat_relative": 3.0321424737689284e-07,
+      "adaptive_heat_MW_m2": 8.915817429570618,
+      "previous_heat_MW_m2": 8.915820132974309
+    },
+    {
+      "tag": "inward-010mm-129",
+      "grid": 129,
+      "shift_m": 0.01,
+      "offset_m": 0.005,
+      "position_m": 1.809833502841886e-06,
+      "length_m": 2.798301750317478e-06,
+      "heat_relative": 1.0406700918785816e-06,
+      "adaptive_heat_MW_m2": 5.46262453817475,
+      "previous_heat_MW_m2": 5.462630222970646
+    },
+    {
+      "tag": "inward-010mm-129",
+      "grid": 129,
+      "shift_m": 0.01,
+      "offset_m": 0.01,
+      "position_m": 4.4172393742769605e-07,
+      "length_m": 6.839388149160186e-07,
+      "heat_relative": 7.602880991441907e-08,
+      "adaptive_heat_MW_m2": 12.47483282044639,
+      "previous_heat_MW_m2": 12.474833768893154
+    },
+    {
+      "tag": "inward-010mm-129",
+      "grid": 129,
+      "shift_m": 0.01,
+      "offset_m": 0.02,
+      "position_m": 2.9365309472950685e-07,
+      "length_m": 2.957864111863273e-06,
+      "heat_relative": 4.9147147462846874e-08,
+      "adaptive_heat_MW_m2": 2.356789350362433,
+      "previous_heat_MW_m2": 2.356789466191912
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "grid": 257,
+      "shift_m": 0,
+      "offset_m": 0.001,
+      "position_m": 3.0604331795832158e-06,
+      "length_m": 0.00019944660916593193,
+      "heat_relative": 1.5149211622933478e-06,
+      "adaptive_heat_MW_m2": 10.45222309612593,
+      "previous_heat_MW_m2": 10.45223893044388
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "grid": 257,
+      "shift_m": 0,
+      "offset_m": 0.002,
+      "position_m": 2.569380538197609e-06,
+      "length_m": 2.73584172063579e-05,
+      "heat_relative": 1.305293700459842e-06,
+      "adaptive_heat_MW_m2": 8.871998480262961,
+      "previous_heat_MW_m2": 8.872010060841804
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "grid": 257,
+      "shift_m": 0,
+      "offset_m": 0.005,
+      "position_m": 1.3487902811282634e-06,
+      "length_m": 5.6752138206661584e-06,
+      "heat_relative": 7.393999793547934e-07,
+      "adaptive_heat_MW_m2": 5.429577355400967,
+      "previous_heat_MW_m2": 5.42958137003332
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "grid": 257,
+      "shift_m": 0,
+      "offset_m": 0.01,
+      "position_m": 3.321167714176454e-07,
+      "length_m": 9.660527737764824e-07,
+      "heat_relative": 5.765315358452483e-08,
+      "adaptive_heat_MW_m2": 12.350722811624026,
+      "previous_heat_MW_m2": 12.350723523682186
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "grid": 257,
+      "shift_m": 0,
+      "offset_m": 0.02,
+      "position_m": 1.7838020838212293e-07,
+      "length_m": 6.8389139471491944e-06,
+      "heat_relative": 3.00803335573363e-08,
+      "adaptive_heat_MW_m2": 2.33838053696782,
+      "previous_heat_MW_m2": 2.3383806073070885
+    },
+    {
+      "tag": "shift--010mm-257",
+      "grid": 257,
+      "shift_m": -0.01,
+      "offset_m": 0.001,
+      "position_m": 1.8159367708062392e-06,
+      "length_m": 2.8383822609612253e-05,
+      "heat_relative": 8.439081391475867e-07,
+      "adaptive_heat_MW_m2": 10.467542115008415,
+      "previous_heat_MW_m2": 10.467550948659857
+    },
+    {
+      "tag": "shift--010mm-257",
+      "grid": 257,
+      "shift_m": -0.01,
+      "offset_m": 0.002,
+      "position_m": 3.052545976705839e-06,
+      "length_m": 1.7379066967748713e-05,
+      "heat_relative": 1.4594837697279317e-06,
+      "adaptive_heat_MW_m2": 8.885795163880795,
+      "previous_heat_MW_m2": 8.885808132573546
+    },
+    {
+      "tag": "shift--010mm-257",
+      "grid": 257,
+      "shift_m": -0.01,
+      "offset_m": 0.005,
+      "position_m": 2.908051956889634e-06,
+      "length_m": 2.0369462170322095e-05,
+      "heat_relative": 1.50245495100787e-06,
+      "adaptive_heat_MW_m2": 5.438362742546981,
+      "previous_heat_MW_m2": 5.4383709134542855
+    },
+    {
+      "tag": "shift--010mm-257",
+      "grid": 257,
+      "shift_m": -0.01,
+      "offset_m": 0.01,
+      "position_m": 2.214563819038685e-06,
+      "length_m": 1.1899498147727172e-05,
+      "heat_relative": 1.2852796020812463e-06,
+      "adaptive_heat_MW_m2": 2.403160600574982,
+      "previous_heat_MW_m2": 2.4031636893122523
+    },
+    {
+      "tag": "shift--010mm-257",
+      "grid": 257,
+      "shift_m": -0.01,
+      "offset_m": 0.02,
+      "position_m": 2.2286547185501604e-07,
+      "length_m": 1.1695963173963264e-05,
+      "heat_relative": 3.7854180789942404e-08,
+      "adaptive_heat_MW_m2": 2.334256904182128,
+      "previous_heat_MW_m2": 2.3342569925435144
+    },
+    {
+      "tag": "inward-010mm-257",
+      "grid": 257,
+      "shift_m": 0.01,
+      "offset_m": 0.001,
+      "position_m": 1.7323595314651456e-06,
+      "length_m": 0.00012909524414084217,
+      "heat_relative": 9.279869870315594e-07,
+      "adaptive_heat_MW_m2": 10.46570061496267,
+      "previous_heat_MW_m2": 10.465710327005663
+    },
+    {
+      "tag": "inward-010mm-257",
+      "grid": 257,
+      "shift_m": 0.01,
+      "offset_m": 0.002,
+      "position_m": 5.62897483787852e-07,
+      "length_m": 7.124603676800234e-06,
+      "heat_relative": 3.0926038663281474e-07,
+      "adaptive_heat_MW_m2": 8.887717433663463,
+      "previous_heat_MW_m2": 8.887720182283243
+    },
+    {
+      "tag": "inward-010mm-257",
+      "grid": 257,
+      "shift_m": 0.01,
+      "offset_m": 0.005,
+      "position_m": 1.7643135194099097e-06,
+      "length_m": 2.0623767944982774e-05,
+      "heat_relative": 1.0381060286945853e-06,
+      "adaptive_heat_MW_m2": 5.445976326479399,
+      "previous_heat_MW_m2": 5.445981979986125
+    },
+    {
+      "tag": "inward-010mm-257",
+      "grid": 257,
+      "shift_m": 0.01,
+      "offset_m": 0.01,
+      "position_m": 4.658437333660004e-07,
+      "length_m": 4.957386522619345e-06,
+      "heat_relative": 8.00682842250211e-08,
+      "adaptive_heat_MW_m2": 12.397366712334087,
+      "previous_heat_MW_m2": 12.397367704970048
+    },
+    {
+      "tag": "inward-010mm-257",
+      "grid": 257,
+      "shift_m": 0.01,
+      "offset_m": 0.02,
+      "position_m": 3.212982999656333e-07,
+      "length_m": 5.563417069254228e-06,
+      "heat_relative": 5.369185762660322e-08,
+      "adaptive_heat_MW_m2": 2.3428413989981465,
+      "previous_heat_MW_m2": 2.34284152478966
+    },
+    {
+      "tag": "inward-050mm-257",
+      "grid": 257,
+      "shift_m": 0.05,
+      "offset_m": 0.001,
+      "position_m": 1.3596401693405377e-07,
+      "length_m": 1.6637804989727556e-05,
+      "heat_relative": 2.316494940313163e-08,
+      "adaptive_heat_MW_m2": 56.04329069852227,
+      "previous_heat_MW_m2": 56.04329199676229
+    },
+    {
+      "tag": "inward-050mm-257",
+      "grid": 257,
+      "shift_m": 0.05,
+      "offset_m": 0.002,
+      "position_m": 4.1707712661320784e-07,
+      "length_m": 5.559686505307582e-05,
+      "heat_relative": 7.084399400447694e-08,
+      "adaptive_heat_MW_m2": 47.42788350106669,
+      "previous_heat_MW_m2": 47.42788686104762
+    },
+    {
+      "tag": "inward-050mm-257",
+      "grid": 257,
+      "shift_m": 0.05,
+      "offset_m": 0.005,
+      "position_m": 2.0784727894351818e-07,
+      "length_m": 4.141911155386424e-06,
+      "heat_relative": 3.5011064936085745e-08,
+      "adaptive_heat_MW_m2": 28.748586667915248,
+      "previous_heat_MW_m2": 28.748587674433917
+    },
+    {
+      "tag": "inward-050mm-257",
+      "grid": 257,
+      "shift_m": 0.05,
+      "offset_m": 0.01,
+      "position_m": 4.7474560460614157e-07,
+      "length_m": 3.281448267955511e-05,
+      "heat_relative": 7.888741904160668e-08,
+      "adaptive_heat_MW_m2": 12.486153495674115,
+      "previous_heat_MW_m2": 12.486154480674616
+    },
+    {
+      "tag": "inward-050mm-257",
+      "grid": 257,
+      "shift_m": 0.05,
+      "offset_m": 0.02,
+      "position_m": 4.735490293228395e-07,
+      "length_m": 1.273134373747098e-05,
+      "heat_relative": 7.653969003040828e-08,
+      "adaptive_heat_MW_m2": 2.358860101499553,
+      "previous_heat_MW_m2": 2.358860282045988
+    }
+  ],
+  "symmetry": [
+    {
+      "tag": "recovery-homotopy-10",
+      "position_m": 7.11177594931223e-08,
+      "length_m": 4.9300714586308914e-05,
+      "heat_relative": 3.353581345955092e-08
+    },
+    {
+      "tag": "shift--050mm-129",
+      "position_m": 1.0529756825446949e-07,
+      "length_m": 6.333477548281508e-05,
+      "heat_relative": 3.3150171718787647e-08
+    },
+    {
+      "tag": "shift--010mm-129",
+      "position_m": 5.3641960805438314e-08,
+      "length_m": 3.5220874046615336e-05,
+      "heat_relative": 2.4464703374249552e-08
+    },
+    {
+      "tag": "inward-010mm-129",
+      "position_m": 3.8543422975919603e-08,
+      "length_m": 9.151531713769145e-05,
+      "heat_relative": 1.997710985524037e-08
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "position_m": 2.2415431931674196e-07,
+      "length_m": 0.00024093320188711687,
+      "heat_relative": 1.1095632423963053e-07
+    },
+    {
+      "tag": "shift--010mm-257",
+      "position_m": 8.895359597993315e-08,
+      "length_m": 6.792673474365074e-06,
+      "heat_relative": 4.1338676148861e-08
+    },
+    {
+      "tag": "inward-010mm-257",
+      "position_m": 1.3912652333615758e-08,
+      "length_m": 6.248787170903825e-05,
+      "heat_relative": 7.452655825801457e-09
+    },
+    {
+      "tag": "inward-050mm-257",
+      "position_m": 3.307972917809992e-08,
+      "length_m": 1.396229342276456e-05,
+      "heat_relative": 5.6359867883770676e-09
+    }
+  ]
+}

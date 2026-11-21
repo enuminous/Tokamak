@@ -1,0 +1,358 @@
+{
+  "stage": "representative_refinement",
+  "parent_commit": "2438abacf652478ec7865b3ce1fce5d17ad8ab1c",
+  "started_utc": "2026-11-21T19:41:00.638199+00:00",
+  "code_sha256": "19d807308f6a147ad5c2054e4bb10157fc147795d66fe249f03b4e9d327c6ac5",
+  "protocol_sha256": "e832b494b2f5a38fe52be740cbfbedd96a145646c8364b3efd4fb8382814ce03",
+  "driver_sha256": "210612866c1d99e2de7c8317d186de6625da1739c9fcd0da0afbfef52f9e6d18",
+  "amendment_sha256": "7b2aa2c9a487fc3613786eb7f2de4619558b08355ae90815d22ae947e0f4ee61",
+  "settings": {
+    "rtol": 1e-12,
+    "atol": [
+      1e-13,
+      1e-13,
+      1e-11
+    ],
+    "max_step_rad": 0.025
+  },
+  "rows": [
+    {
+      "tag": "recovery-homotopy-10",
+      "grid": 129,
+      "offset_m": 0.001,
+      "direction": 1,
+      "tight": true,
+      "success": true,
+      "hit": true,
+      "domain_exit": false,
+      "R_target_m": 5.790703979332388,
+      "Z_target_m": -8.536619669340432,
+      "connection_length_m": 63.12685587651617,
+      "phi_end_rad": 18.99772451762706,
+      "normalized_flux_drift": 3.1975520900288136e-09,
+      "evaluations": 21116,
+      "component": 0,
+      "segment": 12,
+      "wall_distance_m": 1.5264892006538782e-15,
+      "Bnormal_target_T": 0.2162601849577294,
+      "Bpol_upstream_T": 1.4650586192840984,
+      "area_expansion": 6.774518479073998,
+      "representative_heat_MW_m2": 10.555263847358027,
+      "tolerance_level": "third"
+    },
+    {
+      "tag": "shift--050mm-129",
+      "grid": 129,
+      "offset_m": 0.001,
+      "direction": 1,
+      "tight": true,
+      "success": true,
+      "hit": true,
+      "domain_exit": false,
+      "R_target_m": 5.713732602496582,
+      "Z_target_m": -8.552732785986386,
+      "connection_length_m": 63.47970256486648,
+      "phi_end_rad": 19.014038364466135,
+      "normalized_flux_drift": 3.721333445820345e-09,
+      "evaluations": 21125,
+      "component": 0,
+      "segment": 12,
+      "wall_distance_m": 1.1101739641119114e-16,
+      "Bnormal_target_T": 0.2217138566027283,
+      "Bpol_upstream_T": 1.4655400888131909,
+      "area_expansion": 6.6100518536339266,
+      "representative_heat_MW_m2": 10.667935888320837,
+      "tolerance_level": "third"
+    },
+    {
+      "tag": "shift--010mm-129",
+      "grid": 129,
+      "offset_m": 0.001,
+      "direction": 1,
+      "tight": true,
+      "success": true,
+      "hit": true,
+      "domain_exit": false,
+      "R_target_m": 5.783271856001012,
+      "Z_target_m": -8.538175503146304,
+      "connection_length_m": 63.127400650319295,
+      "phi_end_rad": 18.95421873303516,
+      "normalized_flux_drift": 2.0177402489875452e-08,
+      "evaluations": 20705,
+      "component": 0,
+      "segment": 12,
+      "wall_distance_m": 2.035318934205171e-16,
+      "Bnormal_target_T": 0.21730723519681608,
+      "Bpol_upstream_T": 1.4887215492542185,
+      "area_expansion": 6.850768442688423,
+      "representative_heat_MW_m2": 10.376502872534727,
+      "tolerance_level": "third"
+    },
+    {
+      "tag": "inward-010mm-129",
+      "grid": 129,
+      "offset_m": 0.001,
+      "direction": 1,
+      "tight": true,
+      "success": true,
+      "hit": true,
+      "domain_exit": false,
+      "R_target_m": 5.81261738245773,
+      "Z_target_m": -8.53203233785198,
+      "connection_length_m": 63.10458722395007,
+      "phi_end_rad": 18.996922100344914,
+      "normalized_flux_drift": 8.694639110343166e-09,
+      "evaluations": 21635,
+      "component": 0,
+      "segment": 12,
+      "wall_distance_m": 1.1379283132147092e-15,
+      "Bnormal_target_T": 0.21582868256552462,
+      "Bpol_upstream_T": 1.4711688243001542,
+      "area_expansion": 6.816373091901323,
+      "representative_heat_MW_m2": 10.49938309544747,
+      "tolerance_level": "third"
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "grid": 257,
+      "offset_m": 0.001,
+      "direction": 1,
+      "tight": true,
+      "success": true,
+      "hit": true,
+      "domain_exit": false,
+      "R_target_m": 5.80161377808008,
+      "Z_target_m": -8.534335822188,
+      "connection_length_m": 63.72064900887104,
+      "phi_end_rad": 19.209799742649178,
+      "normalized_flux_drift": 4.114048821118309e-09,
+      "evaluations": 28040,
+      "component": 0,
+      "segment": 12,
+      "wall_distance_m": 9.6215076889699e-16,
+      "Bnormal_target_T": 0.21692065203854943,
+      "Bpol_upstream_T": 1.480625287820809,
+      "area_expansion": 6.8256538688519335,
+      "representative_heat_MW_m2": 10.452224093598833,
+      "tolerance_level": "third"
+    },
+    {
+      "tag": "shift--010mm-257",
+      "grid": 257,
+      "offset_m": 0.001,
+      "direction": 1,
+      "tight": true,
+      "success": true,
+      "hit": true,
+      "domain_exit": false,
+      "R_target_m": 5.787933755986645,
+      "Z_target_m": -8.537199585326611,
+      "connection_length_m": 63.645010152351595,
+      "phi_end_rad": 19.149892172798044,
+      "normalized_flux_drift": 1.2409493223308142e-08,
+      "evaluations": 27905,
+      "component": 0,
+      "segment": 12,
+      "wall_distance_m": 1.2674486090277656e-15,
+      "Bnormal_target_T": 0.21772408757909162,
+      "Bpol_upstream_T": 1.4786359170904229,
+      "area_expansion": 6.791329032683559,
+      "representative_heat_MW_m2": 10.467542715544996,
+      "tolerance_level": "third"
+    },
+    {
+      "tag": "inward-010mm-257",
+      "grid": 257,
+      "offset_m": 0.001,
+      "direction": 1,
+      "tight": true,
+      "success": true,
+      "hit": true,
+      "domain_exit": false,
+      "R_target_m": 5.819519493555211,
+      "Z_target_m": -8.530587456315637,
+      "connection_length_m": 63.7415672203334,
+      "phi_end_rad": 19.237113941095775,
+      "normalized_flux_drift": 6.73869771019005e-09,
+      "evaluations": 28016,
+      "component": 0,
+      "segment": 12,
+      "wall_distance_m": 8.881391712895292e-16,
+      "Bnormal_target_T": 0.21641973780243193,
+      "Bpol_upstream_T": 1.4783624698464384,
+      "area_expansion": 6.83099649254739,
+      "representative_heat_MW_m2": 10.465700497283349,
+      "tolerance_level": "third"
+    },
+    {
+      "tag": "inward-050mm-257",
+      "grid": 257,
+      "offset_m": 0.001,
+      "direction": 1,
+      "tight": true,
+      "success": true,
+      "hit": true,
+      "domain_exit": false,
+      "R_target_m": 5.855000000000001,
+      "Z_target_m": -8.517715195873684,
+      "connection_length_m": 63.78988037012299,
+      "phi_end_rad": 19.368928267888645,
+      "normalized_flux_drift": 1.066539470468901e-08,
+      "evaluations": 28823,
+      "component": 0,
+      "segment": 13,
+      "wall_distance_m": 8.881784197001254e-16,
+      "Bnormal_target_T": 1.1462873108924105,
+      "Bpol_upstream_T": 1.479006062661583,
+      "area_expansion": 1.2902577291116861,
+      "representative_heat_MW_m2": 56.04329031611838,
+      "tolerance_level": "third"
+    }
+  ],
+  "checks": [
+    {
+      "name": "recovery-homotopy-10:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:third:flux",
+      "status": "PASS",
+      "value": 3.1975520900288136e-09,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:third:wall_event",
+      "status": "PASS",
+      "value": 1.5264892006538782e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:third:flux",
+      "status": "PASS",
+      "value": 3.721333445820345e-09,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:third:wall_event",
+      "status": "PASS",
+      "value": 1.1101739641119114e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:third:flux",
+      "status": "PASS",
+      "value": 2.0177402489875452e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:third:wall_event",
+      "status": "PASS",
+      "value": 2.035318934205171e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:third:flux",
+      "status": "PASS",
+      "value": 8.694639110343166e-09,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:third:wall_event",
+      "status": "PASS",
+      "value": 1.1379283132147092e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:third:flux",
+      "status": "PASS",
+      "value": 4.114048821118309e-09,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:third:wall_event",
+      "status": "PASS",
+      "value": 9.6215076889699e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:third:flux",
+      "status": "PASS",
+      "value": 1.2409493223308142e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:third:wall_event",
+      "status": "PASS",
+      "value": 1.2674486090277656e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:third:flux",
+      "status": "PASS",
+      "value": 6.73869771019005e-09,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:third:wall_event",
+      "status": "PASS",
+      "value": 8.881391712895292e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:third:flux",
+      "status": "PASS",
+      "value": 1.066539470468901e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:third:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    }
+  ]
+}

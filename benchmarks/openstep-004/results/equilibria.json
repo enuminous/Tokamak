@@ -1,0 +1,433 @@
+{
+  "stage": "equilibria",
+  "parent_commit": "2438abacf652478ec7865b3ce1fce5d17ad8ab1c",
+  "started_utc": "2026-11-21T19:38:24.228808+00:00",
+  "code_sha256": "19d807308f6a147ad5c2054e4bb10157fc147795d66fe249f03b4e9d327c6ac5",
+  "protocol_sha256": "e832b494b2f5a38fe52be740cbfbedd96a145646c8364b3efd4fb8382814ce03",
+  "checks": [
+    {
+      "name": "recovery-homotopy-10:uncached_full_domain_residual",
+      "status": "PASS",
+      "value": 4.339039220391924e-08,
+      "limit": 1e-05
+    },
+    {
+      "name": "negative_control:perturbed_equilibrium_rejected",
+      "status": "PASS",
+      "value": 0.01079152616343984,
+      "limit": 1e-05
+    },
+    {
+      "name": "recovery-homotopy-10:analytic_coil_force_agreement",
+      "status": "PASS",
+      "value": 0.00011172740779685775,
+      "limit": 0.01
+    },
+    {
+      "name": "recovery-homotopy-10:analytic_force_step",
+      "status": "PASS",
+      "value": 9.132468896666524e-07,
+      "limit": 0.001
+    },
+    {
+      "name": "recovery-homotopy-10:analytic_zero_force",
+      "status": "PASS",
+      "value": -1.1596057447604835e-09,
+      "limit": 1.0
+    },
+    {
+      "name": "shift--050mm-129:uncached_full_domain_residual",
+      "status": "PASS",
+      "value": 4.409195974317002e-10,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--050mm-129:analytic_coil_force_agreement",
+      "status": "PASS",
+      "value": 0.00011418466970414265,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--050mm-129:analytic_force_step",
+      "status": "PASS",
+      "value": 9.333291131063959e-07,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--050mm-129:analytic_zero_force",
+      "status": "PASS",
+      "value": 4.638422979041934e-10,
+      "limit": 1.0
+    },
+    {
+      "name": "shift--010mm-129:uncached_full_domain_residual",
+      "status": "PASS",
+      "value": 7.01565810419342e-11,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-129:analytic_coil_force_agreement",
+      "status": "PASS",
+      "value": 0.00011389024530905623,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-129:analytic_force_step",
+      "status": "PASS",
+      "value": 9.308760204884692e-07,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-129:analytic_zero_force",
+      "status": "PASS",
+      "value": 1.2175860319985077e-09,
+      "limit": 1.0
+    },
+    {
+      "name": "inward-010mm-129:uncached_full_domain_residual",
+      "status": "PASS",
+      "value": 5.144449130144215e-09,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-129:analytic_coil_force_agreement",
+      "status": "PASS",
+      "value": 0.00011191235741891958,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-129:analytic_force_step",
+      "status": "PASS",
+      "value": 9.147908992535037e-07,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-129:analytic_zero_force",
+      "status": "PASS",
+      "value": 2.319211489520967e-10,
+      "limit": 1.0
+    },
+    {
+      "name": "shift-+000mm-257:uncached_full_domain_residual",
+      "status": "PASS",
+      "value": 1.1201249212820932e-11,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:analytic_coil_force_agreement",
+      "status": "PASS",
+      "value": 2.6523065308925453e-05,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:analytic_force_step",
+      "status": "PASS",
+      "value": 9.012203801006535e-07,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:analytic_zero_force",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1.0
+    },
+    {
+      "name": "shift--010mm-257:uncached_full_domain_residual",
+      "status": "PASS",
+      "value": 9.218269532489403e-10,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:analytic_coil_force_agreement",
+      "status": "PASS",
+      "value": 2.672379622881138e-05,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:analytic_force_step",
+      "status": "PASS",
+      "value": 9.080672789263389e-07,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:analytic_zero_force",
+      "status": "PASS",
+      "value": 3.092281986027956e-10,
+      "limit": 1.0
+    },
+    {
+      "name": "inward-010mm-257:uncached_full_domain_residual",
+      "status": "PASS",
+      "value": 1.3939414936753238e-08,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:analytic_coil_force_agreement",
+      "status": "PASS",
+      "value": 2.6494395123144443e-05,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:analytic_force_step",
+      "status": "PASS",
+      "value": 9.002852698891672e-07,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:analytic_zero_force",
+      "status": "PASS",
+      "value": -7.73070496506989e-11,
+      "limit": 1.0
+    },
+    {
+      "name": "inward-050mm-257:uncached_full_domain_residual",
+      "status": "PASS",
+      "value": 1.924854409333549e-08,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:analytic_coil_force_agreement",
+      "status": "PASS",
+      "value": 2.5908828100495995e-05,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:analytic_force_step",
+      "status": "PASS",
+      "value": 8.80351864962492e-07,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:analytic_zero_force",
+      "status": "PASS",
+      "value": -3.865352482534945e-11,
+      "limit": 1.0
+    }
+  ],
+  "rows": [
+    {
+      "tag": "recovery-homotopy-10",
+      "grid": 129,
+      "shift_m": 0,
+      "field_sha256": "78daf7821dbf58e492bf07cb335132bd417ec9fa160b535f561eeeb669f68d64",
+      "uncached_defect": 4.339039220391924e-08,
+      "recorded_defect": 4.339039220391924e-08,
+      "perturbed_control_defect": 0.01079152616343984,
+      "force_zero_N": -1.1596057447604835e-09,
+      "force_steps": [
+        {
+          "step_m": 0.001,
+          "minus_N": -20709.785096531774,
+          "plus_N": 20709.78509653007,
+          "stiffness_N_per_m": 20709785.09653092
+        },
+        {
+          "step_m": 0.005,
+          "minus_N": -103549.02004838972,
+          "plus_N": 103549.02004838776,
+          "stiffness_N_per_m": 20709804.00967775
+        }
+      ],
+      "stiffness_N_per_m": 20709785.09653092,
+      "force_relative_difference": 0.00011172740779685775,
+      "force_step_relative_difference": 9.132468896666524e-07,
+      "seconds": 13.447726726531982
+    },
+    {
+      "tag": "shift--050mm-129",
+      "grid": 129,
+      "shift_m": -0.05,
+      "field_sha256": "0227b07fba356e215ee7f32c76bd06804559edb902bc970232f0071fcdb4f21e",
+      "uncached_defect": 4.409195974317002e-10,
+      "recorded_defect": 4.4151009985339463e-10,
+      "perturbed_control_defect": null,
+      "force_zero_N": 4.638422979041934e-10,
+      "force_steps": [
+        {
+          "step_m": 0.001,
+          "minus_N": -20446.64755378174,
+          "plus_N": 20446.64755378228,
+          "stiffness_N_per_m": 20446647.55378201
+        },
+        {
+          "step_m": 0.005,
+          "minus_N": -102233.33318616702,
+          "plus_N": 102233.33318616732,
+          "stiffness_N_per_m": 20446666.637233436
+        }
+      ],
+      "stiffness_N_per_m": 20446647.55378201,
+      "force_relative_difference": 0.00011418466970414265,
+      "force_step_relative_difference": 9.333291131063959e-07,
+      "seconds": 14.261035919189453
+    },
+    {
+      "tag": "shift--010mm-129",
+      "grid": 129,
+      "shift_m": -0.01,
+      "field_sha256": "52ceb95e685e237fe1dd3ed83596faa9304c33bd159db9d5b3072d85f72b16a5",
+      "uncached_defect": 7.01565810419342e-11,
+      "recorded_defect": 7.009981774308942e-11,
+      "perturbed_control_defect": null,
+      "force_zero_N": 1.2175860319985077e-09,
+      "force_steps": [
+        {
+          "step_m": 0.001,
+          "minus_N": -20582.571944399493,
+          "plus_N": 20582.57194440251,
+          "stiffness_N_per_m": 20582571.944401003
+        },
+        {
+          "step_m": 0.005,
+          "minus_N": -102912.955521117,
+          "plus_N": 102912.95552111964,
+          "stiffness_N_per_m": 20582591.104223665
+        }
+      ],
+      "stiffness_N_per_m": 20582571.944401003,
+      "force_relative_difference": 0.00011389024530905623,
+      "force_step_relative_difference": 9.308760204884692e-07,
+      "seconds": 14.391148567199707
+    },
+    {
+      "tag": "inward-010mm-129",
+      "grid": 129,
+      "shift_m": 0.01,
+      "field_sha256": "5704490383ba9f80dd7589bc95d72330421d98f00399c684431699df82eaad39",
+      "uncached_defect": 5.144449130144215e-09,
+      "recorded_defect": 5.1444487292557665e-09,
+      "perturbed_control_defect": null,
+      "force_zero_N": 2.319211489520967e-10,
+      "force_steps": [
+        {
+          "step_m": 0.001,
+          "minus_N": -20722.41554507697,
+          "plus_N": 20722.41554507813,
+          "stiffness_N_per_m": 20722415.54507755
+        },
+        {
+          "step_m": 0.005,
+          "minus_N": -103612.17250877313,
+          "plus_N": 103612.1725087739,
+          "stiffness_N_per_m": 20722434.5017547
+        }
+      ],
+      "stiffness_N_per_m": 20722415.54507755,
+      "force_relative_difference": 0.00011191235741891958,
+      "force_step_relative_difference": 9.147908992535037e-07,
+      "seconds": 13.673791408538818
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "grid": 257,
+      "shift_m": 0,
+      "field_sha256": "49ca25493b5d97fdb34c885b7b2139fc4d0a8fe102e30e4ff8e7650f5f691ce7",
+      "uncached_defect": 1.1201249212820932e-11,
+      "recorded_defect": 6.423034732047751e-12,
+      "perturbed_control_defect": null,
+      "force_zero_N": 0.0,
+      "force_steps": [
+        {
+          "step_m": 0.001,
+          "minus_N": -20642.61326567478,
+          "plus_N": 20642.613265675747,
+          "stiffness_N_per_m": 20642613.26567526
+        },
+        {
+          "step_m": 0.005,
+          "minus_N": -103213.15934609484,
+          "plus_N": 103213.15934609549,
+          "stiffness_N_per_m": 20642631.869219035
+        }
+      ],
+      "stiffness_N_per_m": 20642613.26567526,
+      "force_relative_difference": 2.6523065308925453e-05,
+      "force_step_relative_difference": 9.012203801006535e-07,
+      "seconds": 57.03866147994995
+    },
+    {
+      "tag": "shift--010mm-257",
+      "grid": 257,
+      "shift_m": -0.01,
+      "field_sha256": "56dfcb608702bfbe2c0c1d3839a24db79ada462bc0b9e6cb8beb2873f1e85da2",
+      "uncached_defect": 9.218269532489403e-10,
+      "recorded_defect": 9.205970274869928e-10,
+      "perturbed_control_defect": null,
+      "force_zero_N": 3.092281986027956e-10,
+      "force_steps": [
+        {
+          "step_m": 0.001,
+          "minus_N": -20574.611706686344,
+          "plus_N": 20574.611706686846,
+          "stiffness_N_per_m": 20574611.706686594
+        },
+        {
+          "step_m": 0.005,
+          "minus_N": -102873.15194909116,
+          "plus_N": 102873.15194909148,
+          "stiffness_N_per_m": 20574630.389818262
+        }
+      ],
+      "stiffness_N_per_m": 20574611.706686594,
+      "force_relative_difference": 2.672379622881138e-05,
+      "force_step_relative_difference": 9.080672789263389e-07,
+      "seconds": 54.1180157661438
+    },
+    {
+      "tag": "inward-010mm-257",
+      "grid": 257,
+      "shift_m": 0.01,
+      "field_sha256": "0db3b2d3d9a1c571d4125720b6cda350a40291e6dee30629fc47ae9b00f6090a",
+      "uncached_defect": 1.3939414936753238e-08,
+      "recorded_defect": 1.3940806420560186e-08,
+      "perturbed_control_defect": null,
+      "force_zero_N": -7.73070496506989e-11,
+      "force_steps": [
+        {
+          "step_m": 0.001,
+          "minus_N": -20678.703315662115,
+          "plus_N": 20678.703315662424,
+          "stiffness_N_per_m": 20678703.315662272
+        },
+        {
+          "step_m": 0.005,
+          "minus_N": -103393.60966197119,
+          "plus_N": 103393.60966197147,
+          "stiffness_N_per_m": 20678721.932394266
+        }
+      ],
+      "stiffness_N_per_m": 20678703.315662272,
+      "force_relative_difference": 2.6494395123144443e-05,
+      "force_step_relative_difference": 9.002852698891672e-07,
+      "seconds": 54.70930552482605
+    },
+    {
+      "tag": "inward-050mm-257",
+      "grid": 257,
+      "shift_m": 0.05,
+      "field_sha256": "c044ff5e3f3eb1ebacc66242841f620c9b18ea00a23d2586e3fee2040f7dcf30",
+      "uncached_defect": 1.924854409333549e-08,
+      "recorded_defect": 1.9249466700517882e-08,
+      "perturbed_control_defect": null,
+      "force_zero_N": -3.865352482534945e-11,
+      "force_steps": [
+        {
+          "step_m": 0.001,
+          "minus_N": -20890.589223703664,
+          "plus_N": 20890.58922370382,
+          "stiffness_N_per_m": 20890589.22370374
+        },
+        {
+          "step_m": 0.005,
+          "minus_N": -104453.03807386453,
+          "plus_N": 104453.03807386463,
+          "stiffness_N_per_m": 20890607.61477292
+        }
+      ],
+      "stiffness_N_per_m": 20890589.22370374,
+      "force_relative_difference": 2.5908828100495995e-05,
+      "force_step_relative_difference": 8.80351864962492e-07,
+      "seconds": 56.49696350097656
+    }
+  ]
+}

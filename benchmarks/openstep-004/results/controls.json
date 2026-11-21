@@ -1,0 +1,143 @@
+{
+  "stage": "controls",
+  "parent_commit": "2438abacf652478ec7865b3ce1fce5d17ad8ab1c",
+  "started_utc": "2026-11-21T19:38:13.519830+00:00",
+  "code_sha256": "19d807308f6a147ad5c2054e4bb10157fc147795d66fe249f03b4e9d327c6ac5",
+  "protocol_sha256": "e832b494b2f5a38fe52be740cbfbedd96a145646c8364b3efd4fb8382814ce03",
+  "checks": [
+    {
+      "name": "analytic:1:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "analytic:1:flux",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-07
+    },
+    {
+      "name": "analytic:1:wall_event",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "analytic:1:exact_position",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "analytic:1:exact_length",
+      "status": "PASS",
+      "value": 1.4210854715202004e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "analytic:-1:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "analytic:-1:flux",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-07
+    },
+    {
+      "name": "analytic:-1:wall_event",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "analytic:-1:exact_position",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "analytic:-1:exact_length",
+      "status": "PASS",
+      "value": 1.4210854715202004e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "negative_control:inconsistent_flux_rejected",
+      "status": "PASS",
+      "value": 0.10000000000000009,
+      "limit": 1e-07
+    }
+  ],
+  "analytic_traces": [
+    {
+      "tag": "analytic-uniform",
+      "grid": 0,
+      "offset_m": 0.001,
+      "direction": 1,
+      "tight": false,
+      "success": true,
+      "hit": true,
+      "domain_exit": false,
+      "R_target_m": 2.0,
+      "Z_target_m": 1.0,
+      "connection_length_m": 5.846161133598711,
+      "phi_end_rad": 2.880000000000003,
+      "normalized_flux_drift": 0.0,
+      "evaluations": 452,
+      "component": 0,
+      "segment": 2,
+      "wall_distance_m": 0.0,
+      "Bnormal_target_T": 1.0,
+      "Bpol_upstream_T": 1.0,
+      "area_expansion": 1.0
+    },
+    {
+      "tag": "analytic-uniform",
+      "grid": 0,
+      "offset_m": 0.001,
+      "direction": -1,
+      "tight": false,
+      "success": true,
+      "hit": true,
+      "domain_exit": false,
+      "R_target_m": 2.0,
+      "Z_target_m": -1.0,
+      "connection_length_m": 5.846161133598711,
+      "phi_end_rad": 2.880000000000003,
+      "normalized_flux_drift": 0.0,
+      "evaluations": 452,
+      "component": 0,
+      "segment": 0,
+      "wall_distance_m": 0.0,
+      "Bnormal_target_T": 1.0,
+      "Bpol_upstream_T": 1.0,
+      "area_expansion": 1.0
+    }
+  ],
+  "inconsistent_trace": {
+    "tag": "analytic-uniform",
+    "grid": 0,
+    "offset_m": 0.001,
+    "direction": 1,
+    "tight": false,
+    "success": true,
+    "hit": true,
+    "domain_exit": false,
+    "R_target_m": 2.0,
+    "Z_target_m": 1.0,
+    "connection_length_m": 5.846161133598711,
+    "phi_end_rad": 2.880000000000003,
+    "normalized_flux_drift": 0.10000000000000009,
+    "evaluations": 452,
+    "component": 0,
+    "segment": 2,
+    "wall_distance_m": 0.0,
+    "Bnormal_target_T": 1.0,
+    "Bpol_upstream_T": 1.0,
+    "area_expansion": 1.0
+  }
+}

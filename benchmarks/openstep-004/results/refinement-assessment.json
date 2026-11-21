@@ -1,0 +1,328 @@
+{
+  "scope": "Post hoc representative-point precision diagnosis; original verdict retained",
+  "cases": 8,
+  "passed": 32,
+  "failed": 1,
+  "comparisons": [
+    {
+      "tag": "recovery-homotopy-10",
+      "position_m": 7.812538013819431e-08,
+      "length_m": 2.190970266013892e-05,
+      "heat_relative": 3.684030791539783e-08,
+      "flux_drift": 3.1975520900288136e-09
+    },
+    {
+      "tag": "shift--050mm-129",
+      "position_m": 3.0129577215785113e-09,
+      "length_m": 2.0916942190751797e-05,
+      "heat_relative": 9.485523477792412e-10,
+      "flux_drift": 3.721333445820345e-09
+    },
+    {
+      "tag": "shift--010mm-129",
+      "position_m": 3.334159497621087e-08,
+      "length_m": 1.4324121067943452e-05,
+      "heat_relative": 1.520622161521601e-08,
+      "flux_drift": 2.0177402489875452e-08
+    },
+    {
+      "tag": "inward-010mm-129",
+      "position_m": 1.7193123267529792e-07,
+      "length_m": 7.481366627359876e-05,
+      "heat_relative": 8.911218052354286e-08,
+      "flux_drift": 8.694639110343166e-09
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "position_m": 1.9279131217966926e-07,
+      "length_m": 0.0002382981066944012,
+      "heat_relative": 9.543165058190084e-08,
+      "flux_drift": 4.114048821118309e-09
+    },
+    {
+      "tag": "shift--010mm-257",
+      "position_m": 1.2345302143230916e-07,
+      "length_m": 2.152238226216241e-05,
+      "heat_relative": 5.7371307704556784e-08,
+      "flux_drift": 1.2409493223308142e-08
+    },
+    {
+      "tag": "inward-010mm-257",
+      "position_m": 2.0990822747123722e-08,
+      "length_m": 5.8718449345462886e-05,
+      "heat_relative": 1.1244285058609194e-08,
+      "flux_drift": 6.73869771019005e-09
+    },
+    {
+      "tag": "inward-050mm-257",
+      "position_m": 4.0048940164183636e-08,
+      "length_m": 4.594620442333053e-06,
+      "heat_relative": 6.823366094366179e-09,
+      "flux_drift": 1.066539470468901e-08
+    }
+  ],
+  "checks": [
+    {
+      "name": "recovery-homotopy-10:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:third:flux",
+      "status": "PASS",
+      "value": 3.1975520900288136e-09,
+      "limit": 1e-07
+    },
+    {
+      "name": "recovery-homotopy-10:third:wall_event",
+      "status": "PASS",
+      "value": 1.5264892006538782e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:third:flux",
+      "status": "PASS",
+      "value": 3.721333445820345e-09,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--050mm-129:third:wall_event",
+      "status": "PASS",
+      "value": 1.1101739641119114e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:third:flux",
+      "status": "PASS",
+      "value": 2.0177402489875452e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-129:third:wall_event",
+      "status": "PASS",
+      "value": 2.035318934205171e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:third:flux",
+      "status": "PASS",
+      "value": 8.694639110343166e-09,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-129:third:wall_event",
+      "status": "PASS",
+      "value": 1.1379283132147092e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:third:flux",
+      "status": "PASS",
+      "value": 4.114048821118309e-09,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:third:wall_event",
+      "status": "PASS",
+      "value": 9.6215076889699e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:third:flux",
+      "status": "PASS",
+      "value": 1.2409493223308142e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:third:wall_event",
+      "status": "PASS",
+      "value": 1.2674486090277656e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:third:flux",
+      "status": "PASS",
+      "value": 6.73869771019005e-09,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:third:wall_event",
+      "status": "PASS",
+      "value": 8.881391712895292e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:third:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:third:flux",
+      "status": "PASS",
+      "value": 1.066539470468901e-08,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:third:wall_event",
+      "status": "PASS",
+      "value": 8.881784197001254e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:tight_third_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 7.812538013819431e-08,
+        "length_m": 2.190970266013892e-05,
+        "heat_relative": 3.684030791539783e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--050mm-129:tight_third_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.0129577215785113e-09,
+        "length_m": 2.0916942190751797e-05,
+        "heat_relative": 9.485523477792412e-10
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-129:tight_third_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 3.334159497621087e-08,
+        "length_m": 1.4324121067943452e-05,
+        "heat_relative": 1.520622161521601e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-129:tight_third_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.7193123267529792e-07,
+        "length_m": 7.481366627359876e-05,
+        "heat_relative": 8.911218052354286e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift-+000mm-257:tight_third_agreement",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.9279131217966926e-07,
+        "length_m": 0.0002382981066944012,
+        "heat_relative": 9.543165058190084e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "shift--010mm-257:tight_third_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 1.2345302143230916e-07,
+        "length_m": 2.152238226216241e-05,
+        "heat_relative": 5.7371307704556784e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-010mm-257:tight_third_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 2.0990822747123722e-08,
+        "length_m": 5.8718449345462886e-05,
+        "heat_relative": 1.1244285058609194e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "inward-050mm-257:tight_third_agreement",
+      "status": "PASS",
+      "value": {
+        "position_m": 4.0048940164183636e-08,
+        "length_m": 4.594620442333053e-06,
+        "heat_relative": 6.823366094366179e-09
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "name": "refinement:code_and_amendment_hashes",
+      "status": "PASS",
+      "value": true,
+      "limit": true
+    }
+  ]
+}

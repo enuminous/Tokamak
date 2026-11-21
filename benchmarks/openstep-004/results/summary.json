@@ -1,0 +1,2300 @@
+{
+  "experiment": "OPENSTEP-004",
+  "parent_commit": "2438abacf652478ec7865b3ce1fce5d17ad8ab1c",
+  "completed_utc": "2026-11-21T19:50:12.777800+00:00",
+  "execution_status": "COMPLETED",
+  "numerical_status": "FAIL",
+  "physics_status": "UNRESOLVED",
+  "passed": 792,
+  "failed": 220,
+  "groups": [
+    {
+      "stage": "preflight",
+      "passed": 164,
+      "failed": 0
+    },
+    {
+      "stage": "controls",
+      "passed": 11,
+      "failed": 0
+    },
+    {
+      "stage": "equilibria",
+      "passed": 33,
+      "failed": 0
+    },
+    {
+      "stage": "tracing",
+      "passed": 577,
+      "failed": 219
+    },
+    {
+      "stage": "sampling",
+      "passed": 3,
+      "failed": 1
+    },
+    {
+      "stage": "provenance",
+      "passed": 4,
+      "failed": 0
+    }
+  ],
+  "failures": [
+    {
+      "stage": "tracing",
+      "name": "recovery-homotopy-10:0.001:False:flux",
+      "status": "FAIL",
+      "value": 2.1979503490216986e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "recovery-homotopy-10:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 7.652471824893318e-06,
+        "length_m": 0.0018172695755467316,
+        "heat_relative": 3.6084860525198437e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "recovery-homotopy-10:0.002:False:flux",
+      "status": "FAIL",
+      "value": 3.0501120378424015e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "recovery-homotopy-10:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.080176523953128e-05,
+        "length_m": 0.00013161325173882688,
+        "heat_relative": 5.2303348822002604e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "recovery-homotopy-10:0.005:False:flux",
+      "status": "FAIL",
+      "value": 2.1237001450721508e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "recovery-homotopy-10:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 7.232265093913289e-06,
+        "length_m": 0.0006098036415664865,
+        "heat_relative": 3.7752558086356913e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "recovery-homotopy-10:0.01:False:flux",
+      "status": "FAIL",
+      "value": 6.527065655959588e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "recovery-homotopy-10:0.01:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.826444374157737e-06,
+        "length_m": 0.0002345296187016288,
+        "heat_relative": 1.0753436867627642e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "recovery-homotopy-10:0.02:False:flux",
+      "status": "FAIL",
+      "value": 1.4182491250316899e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "recovery-homotopy-10:0.02:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 7.582941954353828e-07,
+        "length_m": 0.00022453926754195663,
+        "heat_relative": 1.2827459283659692e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--050mm-129:0.001:False:flux",
+      "status": "FAIL",
+      "value": 1.185024686702714e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--050mm-129:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 3.974360058902716e-06,
+        "length_m": 0.0026248911502122496,
+        "heat_relative": 1.2512091552840943e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--050mm-129:0.002:False:flux",
+      "status": "FAIL",
+      "value": 8.628343370010952e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--050mm-129:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.3473313857526983e-06,
+        "length_m": 0.0003920944738382559,
+        "heat_relative": 4.4020841438729974e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--050mm-129:0.005:False:flux",
+      "status": "FAIL",
+      "value": 1.027416450733939e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--050mm-129:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 3.848638057668019e-06,
+        "length_m": 0.00025751081595615233,
+        "heat_relative": 1.39051722092276e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--050mm-129:0.01:False:flux",
+      "status": "FAIL",
+      "value": 1.262539672688052e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--050mm-129:0.01:True:flux",
+      "status": "FAIL",
+      "value": 1.1232381639442014e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--050mm-129:0.01:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.1578658047171512e-07,
+        "length_m": 0.0004587745064910109,
+        "heat_relative": 4.901384664801611e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--050mm-129:0.02:False:flux",
+      "status": "FAIL",
+      "value": 2.9641964187976497e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-129:0.001:False:flux",
+      "status": "FAIL",
+      "value": 7.512292036744848e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-129:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 7.045872740009489e-07,
+        "length_m": 0.0010587141735953765,
+        "heat_relative": 3.213442776317521e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-129:0.002:False:flux",
+      "status": "FAIL",
+      "value": 4.026407905654888e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-129:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.4093401467105395e-05,
+        "length_m": 0.002503102907311927,
+        "heat_relative": 6.610912506088695e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-129:0.005:False:flux",
+      "status": "FAIL",
+      "value": 1.942042745775312e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-129:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 6.7717661786706985e-06,
+        "length_m": 0.00012880470989529158,
+        "heat_relative": 3.4288696886264347e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-129:0.01:False:flux",
+      "status": "FAIL",
+      "value": 1.798315940543415e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-129:0.02:False:flux",
+      "status": "FAIL",
+      "value": 1.12822930036856e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-129:0.001:False:flux",
+      "status": "FAIL",
+      "value": 2.1280733051647547e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-129:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 7.306082614174517e-06,
+        "length_m": 0.0027254685458331096,
+        "heat_relative": 3.7866859379231954e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-129:0.002:False:flux",
+      "status": "FAIL",
+      "value": 1.842673938965166e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-129:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 6.457105985117335e-06,
+        "length_m": 0.00010325329173355158,
+        "heat_relative": 3.4420750076868956e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-129:0.005:False:flux",
+      "status": "FAIL",
+      "value": 2.9944772166818444e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-129:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.0319013156943827e-05,
+        "length_m": 0.0004408608524570923,
+        "heat_relative": 5.933634546151367e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-129:0.01:False:flux",
+      "status": "FAIL",
+      "value": 8.835069985736776e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-129:0.01:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 2.7077295072786006e-07,
+        "length_m": 0.00019081233075013415,
+        "heat_relative": 4.660504204778704e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-129:0.02:False:flux",
+      "status": "FAIL",
+      "value": 1.6831936582685926e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:0.001:False:flux",
+      "status": "FAIL",
+      "value": 1.7976783449144428e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 6.146312240359032e-06,
+        "length_m": 0.005214004460775357,
+        "heat_relative": 3.042379443485288e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:0.002:False:flux",
+      "status": "FAIL",
+      "value": 8.80891992735253e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 3.050982767338949e-06,
+        "length_m": 0.0009815046238870195,
+        "heat_relative": 1.549939809053491e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:0.005:False:flux",
+      "status": "FAIL",
+      "value": 8.106721827211017e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 2.719043296682332e-06,
+        "length_m": 0.000228448871865794,
+        "heat_relative": 1.4905540025589303e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:0.01:False:flux",
+      "status": "FAIL",
+      "value": 8.380250716322622e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:0.01:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 5.542507288680554e-07,
+        "length_m": 0.0001213748737072251,
+        "heat_relative": 9.621403940229811e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:0.02:False:flux",
+      "status": "FAIL",
+      "value": 1.2428110595640185e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:mirror_trace",
+      "status": "FAIL",
+      "value": {
+        "position_m": 2.2415431931674196e-07,
+        "length_m": 0.00024093320188711687,
+        "heat_relative": 1.1095632423963053e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00025:flux",
+      "status": "FAIL",
+      "value": 5.714350147594839e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.000286689357121:flux",
+      "status": "FAIL",
+      "value": 8.176370055544998e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.000328763149947:flux",
+      "status": "FAIL",
+      "value": 7.787925388186474e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.000377011584413:flux",
+      "status": "FAIL",
+      "value": 7.06798439282558e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.000432340835051:flux",
+      "status": "FAIL",
+      "value": 5.586134805046481e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.000495790064232:flux",
+      "status": "FAIL",
+      "value": 6.578836484650062e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.000568550939128:flux",
+      "status": "FAIL",
+      "value": 8.260450365584322e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.000651990012917:flux",
+      "status": "FAIL",
+      "value": 9.77723844985779e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.000747674390611:flux",
+      "status": "FAIL",
+      "value": 6.359844709651751e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.000857401161521:flux",
+      "status": "FAIL",
+      "value": 3.908704897845088e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.000983231151166:flux",
+      "status": "FAIL",
+      "value": 4.982076761804346e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.001:flux",
+      "status": "FAIL",
+      "value": 1.7976783449144428e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00112752762652:flux",
+      "status": "FAIL",
+      "value": 1.5189072448964304e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00129300068153:flux",
+      "status": "FAIL",
+      "value": 5.466768579001363e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00148275813658:flux",
+      "status": "FAIL",
+      "value": 5.141740581216752e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00170036390777:flux",
+      "status": "FAIL",
+      "value": 1.335108250468024e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00194990494237:flux",
+      "status": "FAIL",
+      "value": 2.6889724955401885e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.002:flux",
+      "status": "FAIL",
+      "value": 8.80891992735253e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.0022360679775:flux",
+      "status": "FAIL",
+      "value": 4.745988238482545e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.0025642275638:flux",
+      "status": "FAIL",
+      "value": 6.05161897582144e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00294054700711:flux",
+      "status": "FAIL",
+      "value": 9.190758521570501e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00337209412421:flux",
+      "status": "FAIL",
+      "value": 1.5396973670359605e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00386697398649:flux",
+      "status": "FAIL",
+      "value": 4.537707688420149e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00443448114477:flux",
+      "status": "FAIL",
+      "value": 7.136595354496238e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.005:flux",
+      "status": "FAIL",
+      "value": 8.106721827211017e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00508527419424:flux",
+      "status": "FAIL",
+      "value": 3.703342141126677e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00583157595813:flux",
+      "status": "FAIL",
+      "value": 3.3726217021429116e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00668740304976:flux",
+      "status": "FAIL",
+      "value": 6.078244014730753e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00766882912459:flux",
+      "status": "FAIL",
+      "value": 2.414392061633675e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.00879428676641:flux",
+      "status": "FAIL",
+      "value": 2.1731496655628268e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.01:flux",
+      "status": "FAIL",
+      "value": 8.380250716322622e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.0100849136776:flux",
+      "status": "FAIL",
+      "value": 1.4930356384897056e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.0115649496754:flux",
+      "status": "FAIL",
+      "value": 2.1449789604191857e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.0132621919504:flux",
+      "status": "FAIL",
+      "value": 9.38883971631613e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.0152085171371:flux",
+      "status": "FAIL",
+      "value": 1.5383186762588034e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.0174404800032:flux",
+      "status": "FAIL",
+      "value": 4.923202160044751e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift-+000mm-257:dense:0.02:flux",
+      "status": "FAIL",
+      "value": 1.2428110595640185e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:0.001:False:flux",
+      "status": "FAIL",
+      "value": 4.4876937483504634e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.6012897070517284e-07,
+        "length_m": 0.0007285896689808169,
+        "heat_relative": 7.441542404507118e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:0.002:False:flux",
+      "status": "FAIL",
+      "value": 7.822144484426489e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 2.8148349695689955e-06,
+        "length_m": 0.0006487276175022316,
+        "heat_relative": 1.3458305658797798e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:0.005:False:flux",
+      "status": "FAIL",
+      "value": 1.0777947761287824e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:0.01:False:flux",
+      "status": "FAIL",
+      "value": 6.695001463368102e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:0.02:False:flux",
+      "status": "FAIL",
+      "value": 5.407724739971132e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00025:flux",
+      "status": "FAIL",
+      "value": 9.415299638299787e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.000286689357121:flux",
+      "status": "FAIL",
+      "value": 8.945379837436099e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.000328763149947:flux",
+      "status": "FAIL",
+      "value": 6.692163877693414e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.000377011584413:flux",
+      "status": "FAIL",
+      "value": 8.91181751015905e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.000432340835051:flux",
+      "status": "FAIL",
+      "value": 3.224727859463481e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.000495790064232:flux",
+      "status": "FAIL",
+      "value": 6.746565478545932e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.000568550939128:flux",
+      "status": "FAIL",
+      "value": 7.648251454446907e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.000651990012917:flux",
+      "status": "FAIL",
+      "value": 4.279880421967226e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.000747674390611:flux",
+      "status": "FAIL",
+      "value": 3.6092866042681995e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.000857401161521:flux",
+      "status": "FAIL",
+      "value": 6.227870607260737e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.000983231151166:flux",
+      "status": "FAIL",
+      "value": 2.1192936972915058e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.001:flux",
+      "status": "FAIL",
+      "value": 4.4876937483504634e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00112752762652:flux",
+      "status": "FAIL",
+      "value": 4.6250722632935825e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00129300068153:flux",
+      "status": "FAIL",
+      "value": 1.516278131685189e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00148275813658:flux",
+      "status": "FAIL",
+      "value": 7.683895842342014e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00170036390777:flux",
+      "status": "FAIL",
+      "value": 7.766879558533957e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00194990494237:flux",
+      "status": "FAIL",
+      "value": 4.733721456885703e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.002:flux",
+      "status": "FAIL",
+      "value": 7.822144484426489e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.0022360679775:flux",
+      "status": "FAIL",
+      "value": 2.439417724429747e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.0025642275638:flux",
+      "status": "FAIL",
+      "value": 1.534071974034545e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00294054700711:flux",
+      "status": "FAIL",
+      "value": 8.61418503128978e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00337209412421:flux",
+      "status": "FAIL",
+      "value": 6.72742641184438e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00386697398649:flux",
+      "status": "FAIL",
+      "value": 5.857789668613647e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00443448114477:flux",
+      "status": "FAIL",
+      "value": 6.569368425656241e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.005:flux",
+      "status": "FAIL",
+      "value": 1.0777947761287824e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00508527419424:flux",
+      "status": "FAIL",
+      "value": 5.39330031153813e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00583157595813:flux",
+      "status": "FAIL",
+      "value": 1.7563998745234505e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00668740304976:flux",
+      "status": "FAIL",
+      "value": 1.3445354154722876e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00766882912459:flux",
+      "status": "FAIL",
+      "value": 9.610462664343654e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.00879428676641:flux",
+      "status": "FAIL",
+      "value": 5.375080802859281e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.01:flux",
+      "status": "FAIL",
+      "value": 6.695001463368102e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.0100849136776:flux",
+      "status": "FAIL",
+      "value": 9.55254015042393e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.0115649496754:flux",
+      "status": "FAIL",
+      "value": 4.510042924487948e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.0132621919504:flux",
+      "status": "FAIL",
+      "value": 3.455990106354024e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.0152085171371:flux",
+      "status": "FAIL",
+      "value": 6.101391915411279e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.0174404800032:flux",
+      "status": "FAIL",
+      "value": 1.2264534818877964e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "shift--010mm-257:dense:0.02:flux",
+      "status": "FAIL",
+      "value": 5.407724739971132e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:0.001:False:flux",
+      "status": "FAIL",
+      "value": 7.369252888223719e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 2.288977929093747e-06,
+        "length_m": 0.0022528289518817246,
+        "heat_relative": 1.2261453442574677e-06
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:0.002:False:flux",
+      "status": "FAIL",
+      "value": 7.272346662569036e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.3011780868240164e-06,
+        "length_m": 0.0011070165383344488,
+        "heat_relative": 7.148790188704623e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:0.005:False:flux",
+      "status": "FAIL",
+      "value": 7.999566830424525e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 4.104534853950543e-07,
+        "length_m": 0.0005744086883865407,
+        "heat_relative": 2.4150633870512195e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:0.01:False:flux",
+      "status": "FAIL",
+      "value": 1.1971988220610329e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:0.01:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 6.609675189395148e-07,
+        "length_m": 0.0003266700982749171,
+        "heat_relative": 1.1360592144793458e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:0.02:False:flux",
+      "status": "FAIL",
+      "value": 7.105561386205716e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00025:flux",
+      "status": "FAIL",
+      "value": 7.426385088385293e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.000286689357121:flux",
+      "status": "FAIL",
+      "value": 1.523777165438529e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.000328763149947:flux",
+      "status": "FAIL",
+      "value": 1.132415017992664e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.000377011584413:flux",
+      "status": "FAIL",
+      "value": 6.098155326442392e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.000432340835051:flux",
+      "status": "FAIL",
+      "value": 9.275806296263097e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.000495790064232:flux",
+      "status": "FAIL",
+      "value": 2.12186037866679e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.000568550939128:flux",
+      "status": "FAIL",
+      "value": 1.0851616774029088e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.000651990012917:flux",
+      "status": "FAIL",
+      "value": 6.646789751712839e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.000747674390611:flux",
+      "status": "FAIL",
+      "value": 5.053514621737082e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.000857401161521:flux",
+      "status": "FAIL",
+      "value": 1.2491157787689385e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.000983231151166:flux",
+      "status": "FAIL",
+      "value": 6.274566526029966e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.001:flux",
+      "status": "FAIL",
+      "value": 7.369252888223719e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00112752762652:flux",
+      "status": "FAIL",
+      "value": 7.228731270050741e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00129300068153:flux",
+      "status": "FAIL",
+      "value": 1.5458549060974223e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00148275813658:flux",
+      "status": "FAIL",
+      "value": 4.2471207616097544e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00170036390777:flux",
+      "status": "FAIL",
+      "value": 9.490861666186614e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00194990494237:flux",
+      "status": "FAIL",
+      "value": 2.565787942961145e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.002:flux",
+      "status": "FAIL",
+      "value": 7.272346662569036e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.0022360679775:flux",
+      "status": "FAIL",
+      "value": 1.1247451385172263e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.0025642275638:flux",
+      "status": "FAIL",
+      "value": 7.178373673593838e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00294054700711:flux",
+      "status": "FAIL",
+      "value": 8.095530756499139e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00337209412421:flux",
+      "status": "FAIL",
+      "value": 5.165977627220928e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00386697398649:flux",
+      "status": "FAIL",
+      "value": 5.110416169613067e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00443448114477:flux",
+      "status": "FAIL",
+      "value": 3.937444605453299e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.005:flux",
+      "status": "FAIL",
+      "value": 7.999566830424525e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00508527419424:flux",
+      "status": "FAIL",
+      "value": 1.6419264123677713e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00583157595813:flux",
+      "status": "FAIL",
+      "value": 9.756755303013813e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00668740304976:flux",
+      "status": "FAIL",
+      "value": 1.1442557969459632e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00766882912459:flux",
+      "status": "FAIL",
+      "value": 7.291787725203612e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.00879428676641:flux",
+      "status": "FAIL",
+      "value": 1.5691731856588622e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.01:flux",
+      "status": "FAIL",
+      "value": 1.1971988220610329e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.0100849136776:flux",
+      "status": "FAIL",
+      "value": 6.371233330678155e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.0115649496754:flux",
+      "status": "FAIL",
+      "value": 1.001429570480808e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.0132621919504:flux",
+      "status": "FAIL",
+      "value": 1.4903979278067406e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.0152085171371:flux",
+      "status": "FAIL",
+      "value": 1.9732388271424133e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.0174404800032:flux",
+      "status": "FAIL",
+      "value": 1.258250634319969e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-010mm-257:dense:0.02:flux",
+      "status": "FAIL",
+      "value": 7.105561386205716e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:0.001:False:flux",
+      "status": "FAIL",
+      "value": 6.981955017797493e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:0.001:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 4.5866294229313103e-07,
+        "length_m": 0.000486822580541002,
+        "heat_relative": 7.814503732994638e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:0.002:False:flux",
+      "status": "FAIL",
+      "value": 8.062892761222277e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:0.002:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 4.5552403094006877e-07,
+        "length_m": 0.0009472840293298646,
+        "heat_relative": 7.737459883916387e-08
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:0.005:False:flux",
+      "status": "FAIL",
+      "value": 2.182559544893521e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:0.005:adaptive_tightening",
+      "status": "FAIL",
+      "value": {
+        "position_m": 1.37334020422486e-06,
+        "length_m": 0.0011729305833867443,
+        "heat_relative": 2.3133420057330767e-07
+      },
+      "limit": {
+        "position_m": 1e-05,
+        "length_m": 0.0001,
+        "heat_relative": 0.001
+      }
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:0.01:False:flux",
+      "status": "FAIL",
+      "value": 7.7301826863708e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:0.02:False:flux",
+      "status": "FAIL",
+      "value": 7.470733395517797e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00025:flux",
+      "status": "FAIL",
+      "value": 6.556336343111242e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.000286689357121:flux",
+      "status": "FAIL",
+      "value": 3.627235532299632e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.000328763149947:flux",
+      "status": "FAIL",
+      "value": 2.1622391880865546e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.000377011584413:flux",
+      "status": "FAIL",
+      "value": 7.052814859601023e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.000432340835051:flux",
+      "status": "FAIL",
+      "value": 9.053198978756164e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.000495790064232:flux",
+      "status": "FAIL",
+      "value": 4.562486078039628e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.000568550939128:flux",
+      "status": "FAIL",
+      "value": 1.016631132355056e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.000651990012917:flux",
+      "status": "FAIL",
+      "value": 7.192503006893835e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.000747674390611:flux",
+      "status": "FAIL",
+      "value": 1.5246064878264442e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.000857401161521:flux",
+      "status": "FAIL",
+      "value": 8.937732040542241e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.000983231151166:flux",
+      "status": "FAIL",
+      "value": 7.812930897807681e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.001:flux",
+      "status": "FAIL",
+      "value": 6.981955017797493e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00112752762652:flux",
+      "status": "FAIL",
+      "value": 1.4589342851610842e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00129300068153:flux",
+      "status": "FAIL",
+      "value": 1.2007247823107433e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00148275813658:flux",
+      "status": "FAIL",
+      "value": 9.890077586327092e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00170036390777:flux",
+      "status": "FAIL",
+      "value": 2.028637283318989e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00194990494237:flux",
+      "status": "FAIL",
+      "value": 9.360892814822829e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.002:flux",
+      "status": "FAIL",
+      "value": 8.062892761222277e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.0022360679775:flux",
+      "status": "FAIL",
+      "value": 1.5577564375662172e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.0025642275638:flux",
+      "status": "FAIL",
+      "value": 6.899679960704635e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00294054700711:flux",
+      "status": "FAIL",
+      "value": 1.762264542811595e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00337209412421:flux",
+      "status": "FAIL",
+      "value": 3.6221422226510906e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00386697398649:flux",
+      "status": "FAIL",
+      "value": 1.180554223327057e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00443448114477:flux",
+      "status": "FAIL",
+      "value": 6.048382710328377e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.005:flux",
+      "status": "FAIL",
+      "value": 2.182559544893521e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00508527419424:flux",
+      "status": "FAIL",
+      "value": 1.34579726576934e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00583157595813:flux",
+      "status": "FAIL",
+      "value": 1.8109326332581932e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00668740304976:flux",
+      "status": "FAIL",
+      "value": 2.5956642013934494e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00766882912459:flux",
+      "status": "FAIL",
+      "value": 5.127717446116229e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.00879428676641:flux",
+      "status": "FAIL",
+      "value": 1.6245913993084332e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.01:flux",
+      "status": "FAIL",
+      "value": 7.7301826863708e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.0100849136776:flux",
+      "status": "FAIL",
+      "value": 1.3235691361760606e-06,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.0115649496754:flux",
+      "status": "FAIL",
+      "value": 4.787613127921972e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.0132621919504:flux",
+      "status": "FAIL",
+      "value": 9.877035843858078e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.0152085171371:flux",
+      "status": "FAIL",
+      "value": 9.52091672643053e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.0174404800032:flux",
+      "status": "FAIL",
+      "value": 4.2814506600255764e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "tracing",
+      "name": "inward-050mm-257:dense:0.02:flux",
+      "status": "FAIL",
+      "value": 7.470733395517797e-07,
+      "limit": 1e-07
+    },
+    {
+      "stage": "sampling",
+      "name": "shift-+000mm-257:17_33_sampled_maximum",
+      "status": "FAIL",
+      "value": 0.030183347316627085,
+      "limit": 0.01
+    }
+  ],
+  "failure_families": {
+    "flux": 189,
+    "adaptive_tightening": 29,
+    "mirror_trace": 1,
+    "17_33_sampled_maximum": 1
+  },
+  "representative_refinement": {
+    "scope": "Post hoc representative-point precision diagnosis; original verdict retained",
+    "cases": 8,
+    "passed": 32,
+    "failed": 1,
+    "comparisons": [
+      {
+        "tag": "recovery-homotopy-10",
+        "position_m": 7.812538013819431e-08,
+        "length_m": 2.190970266013892e-05,
+        "heat_relative": 3.684030791539783e-08,
+        "flux_drift": 3.1975520900288136e-09
+      },
+      {
+        "tag": "shift--050mm-129",
+        "position_m": 3.0129577215785113e-09,
+        "length_m": 2.0916942190751797e-05,
+        "heat_relative": 9.485523477792412e-10,
+        "flux_drift": 3.721333445820345e-09
+      },
+      {
+        "tag": "shift--010mm-129",
+        "position_m": 3.334159497621087e-08,
+        "length_m": 1.4324121067943452e-05,
+        "heat_relative": 1.520622161521601e-08,
+        "flux_drift": 2.0177402489875452e-08
+      },
+      {
+        "tag": "inward-010mm-129",
+        "position_m": 1.7193123267529792e-07,
+        "length_m": 7.481366627359876e-05,
+        "heat_relative": 8.911218052354286e-08,
+        "flux_drift": 8.694639110343166e-09
+      },
+      {
+        "tag": "shift-+000mm-257",
+        "position_m": 1.9279131217966926e-07,
+        "length_m": 0.0002382981066944012,
+        "heat_relative": 9.543165058190084e-08,
+        "flux_drift": 4.114048821118309e-09
+      },
+      {
+        "tag": "shift--010mm-257",
+        "position_m": 1.2345302143230916e-07,
+        "length_m": 2.152238226216241e-05,
+        "heat_relative": 5.7371307704556784e-08,
+        "flux_drift": 1.2409493223308142e-08
+      },
+      {
+        "tag": "inward-010mm-257",
+        "position_m": 2.0990822747123722e-08,
+        "length_m": 5.8718449345462886e-05,
+        "heat_relative": 1.1244285058609194e-08,
+        "flux_drift": 6.73869771019005e-09
+      },
+      {
+        "tag": "inward-050mm-257",
+        "position_m": 4.0048940164183636e-08,
+        "length_m": 4.594620442333053e-06,
+        "heat_relative": 6.823366094366179e-09,
+        "flux_drift": 1.066539470468901e-08
+      }
+    ],
+    "checks": [
+      {
+        "name": "recovery-homotopy-10:third:hit",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "recovery-homotopy-10:third:flux",
+        "status": "PASS",
+        "value": 3.1975520900288136e-09,
+        "limit": 1e-07
+      },
+      {
+        "name": "recovery-homotopy-10:third:wall_event",
+        "status": "PASS",
+        "value": 1.5264892006538782e-15,
+        "limit": 1e-09
+      },
+      {
+        "name": "shift--050mm-129:third:hit",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "shift--050mm-129:third:flux",
+        "status": "PASS",
+        "value": 3.721333445820345e-09,
+        "limit": 1e-07
+      },
+      {
+        "name": "shift--050mm-129:third:wall_event",
+        "status": "PASS",
+        "value": 1.1101739641119114e-16,
+        "limit": 1e-09
+      },
+      {
+        "name": "shift--010mm-129:third:hit",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "shift--010mm-129:third:flux",
+        "status": "PASS",
+        "value": 2.0177402489875452e-08,
+        "limit": 1e-07
+      },
+      {
+        "name": "shift--010mm-129:third:wall_event",
+        "status": "PASS",
+        "value": 2.035318934205171e-16,
+        "limit": 1e-09
+      },
+      {
+        "name": "inward-010mm-129:third:hit",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "inward-010mm-129:third:flux",
+        "status": "PASS",
+        "value": 8.694639110343166e-09,
+        "limit": 1e-07
+      },
+      {
+        "name": "inward-010mm-129:third:wall_event",
+        "status": "PASS",
+        "value": 1.1379283132147092e-15,
+        "limit": 1e-09
+      },
+      {
+        "name": "shift-+000mm-257:third:hit",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "shift-+000mm-257:third:flux",
+        "status": "PASS",
+        "value": 4.114048821118309e-09,
+        "limit": 1e-07
+      },
+      {
+        "name": "shift-+000mm-257:third:wall_event",
+        "status": "PASS",
+        "value": 9.6215076889699e-16,
+        "limit": 1e-09
+      },
+      {
+        "name": "shift--010mm-257:third:hit",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "shift--010mm-257:third:flux",
+        "status": "PASS",
+        "value": 1.2409493223308142e-08,
+        "limit": 1e-07
+      },
+      {
+        "name": "shift--010mm-257:third:wall_event",
+        "status": "PASS",
+        "value": 1.2674486090277656e-15,
+        "limit": 1e-09
+      },
+      {
+        "name": "inward-010mm-257:third:hit",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "inward-010mm-257:third:flux",
+        "status": "PASS",
+        "value": 6.73869771019005e-09,
+        "limit": 1e-07
+      },
+      {
+        "name": "inward-010mm-257:third:wall_event",
+        "status": "PASS",
+        "value": 8.881391712895292e-16,
+        "limit": 1e-09
+      },
+      {
+        "name": "inward-050mm-257:third:hit",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "inward-050mm-257:third:flux",
+        "status": "PASS",
+        "value": 1.066539470468901e-08,
+        "limit": 1e-07
+      },
+      {
+        "name": "inward-050mm-257:third:wall_event",
+        "status": "PASS",
+        "value": 8.881784197001254e-16,
+        "limit": 1e-09
+      },
+      {
+        "name": "recovery-homotopy-10:tight_third_agreement",
+        "status": "PASS",
+        "value": {
+          "position_m": 7.812538013819431e-08,
+          "length_m": 2.190970266013892e-05,
+          "heat_relative": 3.684030791539783e-08
+        },
+        "limit": {
+          "position_m": 1e-05,
+          "length_m": 0.0001,
+          "heat_relative": 0.001
+        }
+      },
+      {
+        "name": "shift--050mm-129:tight_third_agreement",
+        "status": "PASS",
+        "value": {
+          "position_m": 3.0129577215785113e-09,
+          "length_m": 2.0916942190751797e-05,
+          "heat_relative": 9.485523477792412e-10
+        },
+        "limit": {
+          "position_m": 1e-05,
+          "length_m": 0.0001,
+          "heat_relative": 0.001
+        }
+      },
+      {
+        "name": "shift--010mm-129:tight_third_agreement",
+        "status": "PASS",
+        "value": {
+          "position_m": 3.334159497621087e-08,
+          "length_m": 1.4324121067943452e-05,
+          "heat_relative": 1.520622161521601e-08
+        },
+        "limit": {
+          "position_m": 1e-05,
+          "length_m": 0.0001,
+          "heat_relative": 0.001
+        }
+      },
+      {
+        "name": "inward-010mm-129:tight_third_agreement",
+        "status": "PASS",
+        "value": {
+          "position_m": 1.7193123267529792e-07,
+          "length_m": 7.481366627359876e-05,
+          "heat_relative": 8.911218052354286e-08
+        },
+        "limit": {
+          "position_m": 1e-05,
+          "length_m": 0.0001,
+          "heat_relative": 0.001
+        }
+      },
+      {
+        "name": "shift-+000mm-257:tight_third_agreement",
+        "status": "FAIL",
+        "value": {
+          "position_m": 1.9279131217966926e-07,
+          "length_m": 0.0002382981066944012,
+          "heat_relative": 9.543165058190084e-08
+        },
+        "limit": {
+          "position_m": 1e-05,
+          "length_m": 0.0001,
+          "heat_relative": 0.001
+        }
+      },
+      {
+        "name": "shift--010mm-257:tight_third_agreement",
+        "status": "PASS",
+        "value": {
+          "position_m": 1.2345302143230916e-07,
+          "length_m": 2.152238226216241e-05,
+          "heat_relative": 5.7371307704556784e-08
+        },
+        "limit": {
+          "position_m": 1e-05,
+          "length_m": 0.0001,
+          "heat_relative": 0.001
+        }
+      },
+      {
+        "name": "inward-010mm-257:tight_third_agreement",
+        "status": "PASS",
+        "value": {
+          "position_m": 2.0990822747123722e-08,
+          "length_m": 5.8718449345462886e-05,
+          "heat_relative": 1.1244285058609194e-08
+        },
+        "limit": {
+          "position_m": 1e-05,
+          "length_m": 0.0001,
+          "heat_relative": 0.001
+        }
+      },
+      {
+        "name": "inward-050mm-257:tight_third_agreement",
+        "status": "PASS",
+        "value": {
+          "position_m": 4.0048940164183636e-08,
+          "length_m": 4.594620442333053e-06,
+          "heat_relative": 6.823366094366179e-09
+        },
+        "limit": {
+          "position_m": 1e-05,
+          "length_m": 0.0001,
+          "heat_relative": 0.001
+        }
+      },
+      {
+        "name": "refinement:code_and_amendment_hashes",
+        "status": "PASS",
+        "value": true,
+        "limit": true
+      }
+    ]
+  },
+  "fine_representative_targets": [
+    {
+      "tag": "shift-+000mm-257",
+      "component": 0,
+      "segment": 12,
+      "R_target_m": 5.80161377808008,
+      "Z_target_m": -8.534335822188,
+      "Bnormal_target_T": 0.21692065203854943,
+      "Bpol_upstream_T": 1.480625287820809,
+      "area_expansion": 6.8256538688519335,
+      "representative_heat_MW_m2": 10.452224093598833
+    },
+    {
+      "tag": "shift--010mm-257",
+      "component": 0,
+      "segment": 12,
+      "R_target_m": 5.787933755986645,
+      "Z_target_m": -8.537199585326611,
+      "Bnormal_target_T": 0.21772408757909162,
+      "Bpol_upstream_T": 1.4786359170904229,
+      "area_expansion": 6.791329032683559,
+      "representative_heat_MW_m2": 10.467542715544996
+    },
+    {
+      "tag": "inward-010mm-257",
+      "component": 0,
+      "segment": 12,
+      "R_target_m": 5.819519493555211,
+      "Z_target_m": -8.530587456315637,
+      "Bnormal_target_T": 0.21641973780243193,
+      "Bpol_upstream_T": 1.4783624698464384,
+      "area_expansion": 6.83099649254739,
+      "representative_heat_MW_m2": 10.465700497283349
+    },
+    {
+      "tag": "inward-050mm-257",
+      "component": 0,
+      "segment": 13,
+      "R_target_m": 5.855000000000001,
+      "Z_target_m": -8.517715195873684,
+      "Bnormal_target_T": 1.1462873108924105,
+      "Bpol_upstream_T": 1.479006062661583,
+      "area_expansion": 1.2902577291116861,
+      "representative_heat_MW_m2": 56.04329031611838
+    }
+  ],
+  "equilibrium_cases": 8,
+  "original_offset_comparisons": 40,
+  "adaptive_trace_records": 88,
+  "dense_sample_records": 148,
+  "additional_dense_integrations": 128,
+  "max_uncached_defect": 4.339039220391924e-08,
+  "max_direct_force_relative_difference": 0.00011418466970414265,
+  "max_tracer_position_difference_m": 3.5866677353663577e-06,
+  "max_tracer_length_difference_m": 0.00019944660916593193,
+  "max_tracer_heat_relative_difference": 1.5149211622933478e-06,
+  "fine_grid": [
+    {
+      "tag": "shift-+000mm-257",
+      "shift_m": 0,
+      "heat_1mm_MW_m2": 10.45222309612593,
+      "maximum_17_MW_m2": 11.820410182463139,
+      "maximum_33_MW_m2": 12.17718972842542,
+      "maximum_offset_m": 0.010084913677610462,
+      "maximum_at_interval_endpoint": false,
+      "maximum_37_MW_m2": 12.350723999936958,
+      "maximum_37_offset_m": 0.01,
+      "maximum_37_at_interval_endpoint": false,
+      "sampled_max_relative_difference": 0.030183347316627085,
+      "wall_components": [
+        0
+      ],
+      "wall_segments": [
+        12,
+        13
+      ],
+      "sample_count": 37
+    },
+    {
+      "tag": "shift--010mm-257",
+      "shift_m": -0.01,
+      "heat_1mm_MW_m2": 10.467542115008415,
+      "maximum_17_MW_m2": 11.836708379101957,
+      "maximum_33_MW_m2": 11.836708379101957,
+      "maximum_offset_m": 0.00025,
+      "maximum_at_interval_endpoint": true,
+      "maximum_37_MW_m2": 11.836708379101957,
+      "maximum_37_offset_m": 0.00025,
+      "maximum_37_at_interval_endpoint": true,
+      "sampled_max_relative_difference": 0.0,
+      "wall_components": [
+        0
+      ],
+      "wall_segments": [
+        12,
+        13
+      ],
+      "sample_count": 37
+    },
+    {
+      "tag": "inward-010mm-257",
+      "shift_m": 0.01,
+      "heat_1mm_MW_m2": 10.46570061496267,
+      "maximum_17_MW_m2": 21.535086056807923,
+      "maximum_33_MW_m2": 21.535086056807923,
+      "maximum_offset_m": 0.00668740304976422,
+      "maximum_at_interval_endpoint": false,
+      "maximum_37_MW_m2": 21.535086056807923,
+      "maximum_37_offset_m": 0.00668740304976422,
+      "maximum_37_at_interval_endpoint": false,
+      "sampled_max_relative_difference": 0.0,
+      "wall_components": [
+        0
+      ],
+      "wall_segments": [
+        12,
+        13
+      ],
+      "sample_count": 37
+    },
+    {
+      "tag": "inward-050mm-257",
+      "shift_m": 0.05,
+      "heat_1mm_MW_m2": 56.04329069852227,
+      "maximum_17_MW_m2": 63.51799361325003,
+      "maximum_33_MW_m2": 63.51799361325003,
+      "maximum_offset_m": 0.00025,
+      "maximum_at_interval_endpoint": true,
+      "maximum_37_MW_m2": 63.51799361325003,
+      "maximum_37_offset_m": 0.00025,
+      "maximum_37_at_interval_endpoint": true,
+      "sampled_max_relative_difference": 0.0,
+      "wall_components": [
+        0
+      ],
+      "wall_segments": [
+        13
+      ],
+      "sample_count": 37
+    }
+  ],
+  "unchanged_design_decision": "No validated improvement or full reactor qualification"
+}
