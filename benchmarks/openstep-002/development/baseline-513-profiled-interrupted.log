@@ -1,0 +1,56 @@
+Timeout (0:00:40)!
+Thread 0x00007f8f1c8e5740 (most recent call first):
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/gradshafranov.py", line 280 in Greens
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/filament_coil.py", line 281 in controlPsi
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/coil.py", line 127 in createPsiGreens
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/machine.py", line 716 in createPsiGreens
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/equilibrium.py", line 133 in __init__
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-001/benchmark.py", line 112 in prepare
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-002/refine.py", line 22 in main
+  File "<stdin>", line 13 in <module>
+Timeout (0:00:40)!
+Thread 0x00007f8f1c8e5740 (most recent call first):
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/sparse/linalg/_dsolve/linsolve.py", line 433 in splu
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/sparse/linalg/_dsolve/linsolve.py", line 606 in factorized
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/multigrid.py", line 37 in __init__
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/multigrid.py", line 149 in createVcycle
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/equilibrium.py", line 151 in __init__
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-001/benchmark.py", line 112 in prepare
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-002/refine.py", line 22 in main
+  File "<stdin>", line 13 in <module>
+Timeout (0:00:40)!
+Thread 0x00007f8f1c8e5740 (most recent call first):
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/interpolate/_fitpack2.py", line 1066 in __call__
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/critical.py", line 149 in find_critical
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/equilibrium.py", line 520 in _updateBoundaryPsi
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/equilibrium.py", line 648 in _updatePlasmaPsi
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-002/refine.py", line 25 in main
+  File "<stdin>", line 13 in <module>
+Prepared baseline-513-symmetric seconds 122.41017627716064
+solve begin 1
+solve end 1 22.463829278945923
+solve begin 2
+Timeout (0:00:40)!
+Thread 0x00007f8f1c8e5740 (most recent call first):
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/interpolate/_fitpack2.py", line 1066 in __call__
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/critical.py", line 147 in find_critical
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/equilibrium.py", line 520 in _updateBoundaryPsi
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/freegs/equilibrium.py", line 474 in solve
+  File "<stdin>", line 9 in timed
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-001/benchmark.py", line 189 in residual
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/optimize/_root.py", line 216 in _wrapped_fun
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/optimize/_nonlin.py", line 177 in func
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/optimize/_nonlin.py", line 1555 in matvec
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/sparse/linalg/_interface.py", line 620 in _matvec
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/sparse/linalg/_interface.py", line 262 in matvec
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/sparse/linalg/_isolve/_gcrotmk.py", line 106 in _fgmres
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/sparse/linalg/_isolve/lgmres.py", line 180 in lgmres
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/optimize/_nonlin.py", line 1564 in solve
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/optimize/_nonlin.py", line 214 in nonlin_solve
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/optimize/_root.py", line 373 in _root_nonlin_solve
+  File "/workspace/scratch/4b552039c657/equilibrium-deps/scipy/optimize/_root.py", line 264 in root
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-001/benchmark.py", line 197 in solve_newton
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-002/refine.py", line 27 in main
+  File "<stdin>", line 13 in <module>
+solve end 2 20.456021308898926
+solve begin 3

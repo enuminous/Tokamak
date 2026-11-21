@@ -1,0 +1,937 @@
+{
+  "id": "OPENSTEP-002",
+  "date": "2026-11-20",
+  "selected_grid": 513,
+  "previous_grid": 257,
+  "reference_baseline_core_flux_nrmse": 0.0008780803170961896,
+  "vertical_stiffness_change": {
+    "delta_N_per_m": -8163.057211052626,
+    "observed_grid_variation_N_per_m": 24284.46504158154,
+    "resolved": false
+  },
+  "overall_status": "SCREENED, NOT A VALIDATED TOKAMAK DESIGN",
+  "numerical": [
+    {
+      "arm": "baseline",
+      "grid": 129,
+      "converged": true,
+      "defect": 8.26281300937477e-08,
+      "seconds": 33.060441970825195
+    },
+    {
+      "arm": "baseline",
+      "grid": 257,
+      "converged": true,
+      "defect": 4.392203693517748e-08,
+      "seconds": 109.55410099029541
+    },
+    {
+      "arm": "baseline",
+      "grid": 513,
+      "converged": true,
+      "defect": 6.945806634840127e-07,
+      "seconds": 240.23368763923645
+    },
+    {
+      "arm": "p9-inward",
+      "grid": 129,
+      "converged": true,
+      "defect": 3.009149406874844e-06,
+      "seconds": 24.691077947616577
+    },
+    {
+      "arm": "p9-inward",
+      "grid": 257,
+      "converged": true,
+      "defect": 6.960255721411353e-09,
+      "seconds": 121.03371524810791
+    },
+    {
+      "arm": "p9-inward",
+      "grid": 513,
+      "converged": true,
+      "defect": 2.5462126975613084e-07,
+      "seconds": 229.59309935569763
+    }
+  ],
+  "effects": {
+    "axis_R_m": {
+      "baseline": 4.389302361157696,
+      "modified": 4.405208826517896,
+      "delta": 0.01590646536020035,
+      "observed_grid_variation": 0.0007963454708219686,
+      "resolved": true
+    },
+    "upper_X_R_m": {
+      "baseline": 2.5234374243359694,
+      "modified": 2.5267021158590834,
+      "delta": 0.0032646915231140383,
+      "observed_grid_variation": 0.00392104086530809,
+      "resolved": false
+    },
+    "upper_X_Z_m": {
+      "baseline": 6.111075441938612,
+      "modified": 6.091727941739838,
+      "delta": -0.019347500198774625,
+      "observed_grid_variation": 0.011181735366920798,
+      "resolved": true
+    },
+    "Ip_A": {
+      "baseline": 22765450.360588092,
+      "modified": 23009276.230130356,
+      "delta": 243825.86954226345,
+      "observed_grid_variation": 16574.85562407598,
+      "resolved": true
+    },
+    "pressure_axis_Pa": {
+      "baseline": 1333912.479820892,
+      "modified": 1382107.2708437846,
+      "delta": 48194.791022892576,
+      "observed_grid_variation": 3097.1522283707745,
+      "resolved": true
+    },
+    "volume_m3": {
+      "baseline": 709.8768206895888,
+      "modified": 712.8852951008524,
+      "delta": 3.0084744112635917,
+      "observed_grid_variation": 0.7196309373458689,
+      "resolved": true
+    }
+  },
+  "controlled": [
+    {
+      "arm": "baseline",
+      "grid": 129,
+      "converged": false,
+      "defect": 0.0012579713263733642,
+      "metrics": null,
+      "current_relative_error": 0.0,
+      "pressure_relative_error": 1.2212453270876722e-15
+    },
+    {
+      "arm": "baseline",
+      "grid": 257,
+      "converged": true,
+      "defect": 9.528767658556018e-12,
+      "metrics": {
+        "axis_R_m": 4.389654491389739,
+        "upper_X_R_m": 2.525432638312076,
+        "upper_X_Z_m": 6.106672416284104,
+        "Ip_A": 22774410.551784597,
+        "pressure_axis_Pa": 1335266.8464644947,
+        "volume_m3": 710.468560168542
+      },
+      "current_relative_error": 0.0,
+      "pressure_relative_error": 6.661338147750939e-16
+    },
+    {
+      "arm": "p9-inward",
+      "grid": 129,
+      "converged": true,
+      "defect": 3.5023163396211974e-06,
+      "metrics": {
+        "axis_R_m": 4.298617070004054,
+        "upper_X_R_m": 2.487456727551634,
+        "upper_X_Z_m": 6.070934536830677,
+        "Ip_A": 22774410.5517846,
+        "pressure_axis_Pa": 1335266.846464495,
+        "volume_m3": 665.7137241154644
+      },
+      "current_relative_error": 2.220446049250313e-16,
+      "pressure_relative_error": 5.551115123125783e-16
+    },
+    {
+      "arm": "p9-inward",
+      "grid": 257,
+      "converged": true,
+      "defect": 1.9370361406411663e-06,
+      "metrics": {
+        "axis_R_m": 4.300308124355279,
+        "upper_X_R_m": 2.4826173163255256,
+        "upper_X_Z_m": 6.08782552024532,
+        "Ip_A": 22774410.55178459,
+        "pressure_axis_Pa": 1335266.846464495,
+        "volume_m3": 667.6132846203556
+      },
+      "current_relative_error": 3.3306690738754696e-16,
+      "pressure_relative_error": 5.551115123125783e-16
+    }
+  ],
+  "magnetic": [
+    {
+      "arm": "baseline",
+      "grid": 513,
+      "q_min_sampled": 2.3782939194262873,
+      "q95": 7.6091693467685815,
+      "q95_quadrature_difference": 1.9909479190616253e-05,
+      "beta_toroidal": 0.138690558132935,
+      "beta_normalized": 3.9373401413450515,
+      "R_geometric_m": 3.6043044203546932,
+      "a_midplane_m": 2.0220936725431864,
+      "B_vacuum_at_Rgeom_T": 3.1961784179335044,
+      "F_squared_min_T2_m2": 114.97336688644172,
+      "physics_status": "UNRESOLVED: q and beta are diagnostics, not MHD eigenmode tests"
+    },
+    {
+      "arm": "p9-inward",
+      "grid": 513,
+      "q_min_sampled": 2.2340954015383336,
+      "q95": 7.538949489203852,
+      "q95_quadrature_difference": 2.4587587494906415e-05,
+      "beta_toroidal": 0.14327748662254544,
+      "beta_normalized": 4.063105221424922,
+      "R_geometric_m": 3.6121858703329552,
+      "a_midplane_m": 2.0459766977885057,
+      "B_vacuum_at_Rgeom_T": 3.1892046571064565,
+      "F_squared_min_T2_m2": 114.33252079106009,
+      "physics_status": "UNRESOLVED: q and beta are diagnostics, not MHD eigenmode tests"
+    }
+  ],
+  "vertical": [
+    {
+      "arm": "baseline",
+      "grid": 513,
+      "translations": [
+        {
+          "arm": "baseline",
+          "grid": 513,
+          "step_m": 0.001,
+          "Fz_minus_N": -20623.55288938628,
+          "Fz_zero_N": -5.508127287612297e-09,
+          "Fz_plus_N": 20623.552889375263,
+          "dFz_dz_N_per_m": 20623552.88938077
+        },
+        {
+          "arm": "baseline",
+          "grid": 513,
+          "step_m": 0.005,
+          "Fz_minus_N": -103118.21791893785,
+          "Fz_zero_N": -5.508127287612297e-09,
+          "Fz_plus_N": 103118.2179189269,
+          "dFz_dz_N_per_m": 20623643.583786476
+        },
+        {
+          "arm": "baseline",
+          "grid": 513,
+          "step_m": 0.01,
+          "Fz_minus_N": -206237.5695179823,
+          "Fz_zero_N": -5.508127287612297e-09,
+          "Fz_plus_N": 206237.56951797122,
+          "dFz_dz_N_per_m": 20623756.95179768
+        }
+      ],
+      "finding": "DESTABILIZING",
+      "scope": "Rigid fixed-current displacement; fixed external coils; no vessel eddy currents, feedback or plasma shape/current response. No physical growth rate inferred."
+    },
+    {
+      "arm": "p9-inward",
+      "grid": 513,
+      "translations": [
+        {
+          "arm": "p9-inward",
+          "grid": 513,
+          "step_m": 0.001,
+          "Fz_minus_N": -20615.389832168607,
+          "Fz_zero_N": 1.0049916454590857e-09,
+          "Fz_plus_N": 20615.38983217083,
+          "dFz_dz_N_per_m": 20615389.83216972
+        },
+        {
+          "arm": "p9-inward",
+          "grid": 513,
+          "step_m": 0.005,
+          "Fz_minus_N": -103077.43229491441,
+          "Fz_zero_N": 1.0049916454590857e-09,
+          "Fz_plus_N": 103077.43229491662,
+          "dFz_dz_N_per_m": 20615486.458983105
+        },
+        {
+          "arm": "p9-inward",
+          "grid": 513,
+          "step_m": 0.01,
+          "Fz_minus_N": -206156.07242503788,
+          "Fz_zero_N": 1.0049916454590857e-09,
+          "Fz_plus_N": 206156.07242504018,
+          "dFz_dz_N_per_m": 20615607.2425039
+        }
+      ],
+      "finding": "DESTABILIZING",
+      "scope": "Rigid fixed-current displacement; fixed external coils; no vessel eddy currents, feedback or plasma shape/current response. No physical growth rate inferred."
+    }
+  ],
+  "confinement": {
+    "cases": 72,
+    "central": [
+      {
+        "arm": "baseline",
+        "W_target_J": 574691361.6878928,
+        "tau98_transport_s": 2.739227858698892,
+        "tau98_total_loss_s": 1.2585430636765065,
+        "H_required_transport": 1.4666322248988921,
+        "H_required_total_loss": 1.0341271518029007
+      },
+      {
+        "arm": "p9-inward",
+        "W_target_J": 593615371.9857912,
+        "tau98_transport_s": 2.7466450573494505,
+        "tau98_total_loss_s": 1.2619509086587801,
+        "H_required_transport": 1.5108359573968972,
+        "H_required_total_loss": 1.0652953473540183
+      }
+    ],
+    "max_analytic_relative_error": 2.8315484023173574e-11,
+    "assumptions": [
+      "Fixed alpha, ohmic and radiative powers; no fusion-temperature feedback",
+      "Same line density and mean D-T mass in both arms",
+      "Thermal-energy target scales with pressure integral; baseline normalized to distinct JETTO thermal energy",
+      "H is an imposed transport-radiation-subtracted multiplier, not measured confinement"
+    ],
+    "physics_status": "UNRESOLVED: sensitivity calculation, no turbulence or self-consistent burn simulation"
+  },
+  "exhaust": {
+    "trace_count": 20,
+    "wall_hits": 20,
+    "load_samples": 240,
+    "sampled_max_MW_m2": 484.9006357639265,
+    "above_criterion": 119,
+    "max_trace_flux_drift": 3.2595261008375742e-06,
+    "criterion_MW_m2": 10,
+    "physics_status": "CONDITIONAL SCREEN: sampled attached footprints; peak between samples, detachment, neutrals and transients unresolved"
+  },
+  "representative_heat_loads": [
+    {
+      "arm": "baseline",
+      "grid": "513",
+      "offset_m": "0.001",
+      "lambda_q_m": "0.006",
+      "SOL_radiation_fraction": "0",
+      "power_fraction_one_target": "0.25",
+      "projected_heat_MW_m2": "20.877974366405144",
+      "above_10_MW_m2": "True"
+    },
+    {
+      "arm": "baseline",
+      "grid": "513",
+      "offset_m": "0.001",
+      "lambda_q_m": "0.006",
+      "SOL_radiation_fraction": "0.5",
+      "power_fraction_one_target": "0.25",
+      "projected_heat_MW_m2": "10.438987183202572",
+      "above_10_MW_m2": "True"
+    },
+    {
+      "arm": "baseline",
+      "grid": "513",
+      "offset_m": "0.001",
+      "lambda_q_m": "0.006",
+      "SOL_radiation_fraction": "0.9",
+      "power_fraction_one_target": "0.25",
+      "projected_heat_MW_m2": "2.087797436640514",
+      "above_10_MW_m2": "False"
+    },
+    {
+      "arm": "p9-inward",
+      "grid": "513",
+      "offset_m": "0.001",
+      "lambda_q_m": "0.006",
+      "SOL_radiation_fraction": "0",
+      "power_fraction_one_target": "0.25",
+      "projected_heat_MW_m2": "107.30904036296185",
+      "above_10_MW_m2": "True"
+    },
+    {
+      "arm": "p9-inward",
+      "grid": "513",
+      "offset_m": "0.001",
+      "lambda_q_m": "0.006",
+      "SOL_radiation_fraction": "0.5",
+      "power_fraction_one_target": "0.25",
+      "projected_heat_MW_m2": "53.654520181480926",
+      "above_10_MW_m2": "True"
+    },
+    {
+      "arm": "p9-inward",
+      "grid": "513",
+      "offset_m": "0.001",
+      "lambda_q_m": "0.006",
+      "SOL_radiation_fraction": "0.9",
+      "power_fraction_one_target": "0.25",
+      "projected_heat_MW_m2": "10.730904036296183",
+      "above_10_MW_m2": "True"
+    }
+  ],
+  "engineering": [
+    {
+      "arm": "baseline",
+      "coils": [
+        {
+          "arm": "baseline",
+          "coil": "p3_coil",
+          "equivalent_current_A": -4790870.392406534,
+          "pack_area_m2": 0.17920000000000008,
+          "ampere_turn_density_A_m2": 26734767.814768594,
+          "F_radial_generalized_N": 62864177.75475635,
+          "F_vertical_N": 2838149.6349213524,
+          "resultant_generalized_N": 62928212.57696588,
+          "external_poloidal_B_max_T": 0.3054802547329415,
+          "external_magnetic_pressure_Pa": 37130.12646828641,
+          "wall_outline_distance_m": 2.1483695010790202,
+          "required_area_at_100MPa_m2": 0.6292821257696588,
+          "required_area_at_300MPa_m2": 0.20976070858988627,
+          "required_area_at_600MPa_m2": 0.10488035429494313
+        },
+        {
+          "arm": "baseline",
+          "coil": "p3_coil_r",
+          "equivalent_current_A": -4790870.392406534,
+          "pack_area_m2": 0.17920000000000008,
+          "ampere_turn_density_A_m2": 26734767.814768594,
+          "F_radial_generalized_N": 62864177.75475637,
+          "F_vertical_N": -2838149.634921394,
+          "resultant_generalized_N": 62928212.576965906,
+          "external_poloidal_B_max_T": 0.3054802547329077,
+          "external_magnetic_pressure_Pa": 37130.12646827819,
+          "wall_outline_distance_m": 2.1483695010790202,
+          "required_area_at_100MPa_m2": 0.629282125769659,
+          "required_area_at_300MPa_m2": 0.20976070858988635,
+          "required_area_at_600MPa_m2": 0.10488035429494318
+        },
+        {
+          "arm": "baseline",
+          "coil": "p4_coil",
+          "equivalent_current_A": 5155466.644912905,
+          "pack_area_m2": 0.13439999999999996,
+          "ampere_turn_density_A_m2": 38359126.82226865,
+          "F_radial_generalized_N": 23381357.704912327,
+          "F_vertical_N": 13461722.483314332,
+          "resultant_generalized_N": 26979730.546149522,
+          "external_poloidal_B_max_T": 0.5481242654855628,
+          "external_magnetic_pressure_Pa": 119541.36147742798,
+          "wall_outline_distance_m": 1.273768220688743,
+          "required_area_at_100MPa_m2": 0.2697973054614952,
+          "required_area_at_300MPa_m2": 0.08993243515383174,
+          "required_area_at_600MPa_m2": 0.04496621757691587
+        },
+        {
+          "arm": "baseline",
+          "coil": "p4_coil_r",
+          "equivalent_current_A": 5155466.644912905,
+          "pack_area_m2": 0.13439999999999996,
+          "ampere_turn_density_A_m2": 38359126.82226865,
+          "F_radial_generalized_N": 23381357.704912294,
+          "F_vertical_N": -13461722.483314335,
+          "resultant_generalized_N": 26979730.546149496,
+          "external_poloidal_B_max_T": 0.5481242654855554,
+          "external_magnetic_pressure_Pa": 119541.36147742474,
+          "wall_outline_distance_m": 1.273768220688743,
+          "required_area_at_100MPa_m2": 0.26979730546149494,
+          "required_area_at_300MPa_m2": 0.08993243515383165,
+          "required_area_at_600MPa_m2": 0.04496621757691582
+        },
+        {
+          "arm": "baseline",
+          "coil": "p5_coil",
+          "equivalent_current_A": 2254704.0433279495,
+          "pack_area_m2": 0.128,
+          "ampere_turn_density_A_m2": 17614875.338499606,
+          "F_radial_generalized_N": -4566501.715643716,
+          "F_vertical_N": -7539806.727096202,
+          "resultant_generalized_N": 8814852.432170497,
+          "external_poloidal_B_max_T": 0.3446897125568295,
+          "external_magnetic_pressure_Pa": 47273.39404057858,
+          "wall_outline_distance_m": 1.2116659936724414,
+          "required_area_at_100MPa_m2": 0.08814852432170497,
+          "required_area_at_300MPa_m2": 0.029382841440568325,
+          "required_area_at_600MPa_m2": 0.014691420720284162
+        },
+        {
+          "arm": "baseline",
+          "coil": "p5_coil_r",
+          "equivalent_current_A": 2254704.0433279495,
+          "pack_area_m2": 0.128,
+          "ampere_turn_density_A_m2": 17614875.338499606,
+          "F_radial_generalized_N": -4566501.715643739,
+          "F_vertical_N": 7539806.727096191,
+          "resultant_generalized_N": 8814852.432170501,
+          "external_poloidal_B_max_T": 0.3446897125568272,
+          "external_magnetic_pressure_Pa": 47273.39404057794,
+          "wall_outline_distance_m": 1.2116659936724414,
+          "required_area_at_100MPa_m2": 0.08814852432170502,
+          "required_area_at_300MPa_m2": 0.029382841440568335,
+          "required_area_at_600MPa_m2": 0.014691420720284168
+        },
+        {
+          "arm": "baseline",
+          "coil": "p6_coil",
+          "equivalent_current_A": 5458947.314031959,
+          "pack_area_m2": 0.15360000000000007,
+          "ampere_turn_density_A_m2": 35540021.57572888,
+          "F_radial_generalized_N": -80834630.34398724,
+          "F_vertical_N": 97330386.9823513,
+          "resultant_generalized_N": 126520518.86150058,
+          "external_poloidal_B_max_T": 0.6204230577937444,
+          "external_magnetic_pressure_Pa": 153156.6999155266,
+          "wall_outline_distance_m": 1.1160109443111288,
+          "required_area_at_100MPa_m2": 1.2652051886150057,
+          "required_area_at_300MPa_m2": 0.42173506287166856,
+          "required_area_at_600MPa_m2": 0.21086753143583428
+        },
+        {
+          "arm": "baseline",
+          "coil": "p6_coil_r",
+          "equivalent_current_A": 5458947.314031959,
+          "pack_area_m2": 0.15360000000000007,
+          "ampere_turn_density_A_m2": 35540021.57572888,
+          "F_radial_generalized_N": -80834630.34398718,
+          "F_vertical_N": -97330386.98235127,
+          "resultant_generalized_N": 126520518.86150052,
+          "external_poloidal_B_max_T": 0.6204230577937446,
+          "external_magnetic_pressure_Pa": 153156.69991552673,
+          "wall_outline_distance_m": 1.1160109443111288,
+          "required_area_at_100MPa_m2": 1.265205188615005,
+          "required_area_at_300MPa_m2": 0.4217350628716684,
+          "required_area_at_600MPa_m2": 0.2108675314358342
+        },
+        {
+          "arm": "baseline",
+          "coil": "p9_coil",
+          "equivalent_current_A": -7854367.889948265,
+          "pack_area_m2": 0.14400000000000002,
+          "ampere_turn_density_A_m2": 54544221.457974054,
+          "F_radial_generalized_N": 40517233.614463925,
+          "F_vertical_N": -132259985.59430851,
+          "resultant_generalized_N": 138326967.75819147,
+          "external_poloidal_B_max_T": 0.43683853374880627,
+          "external_magnetic_pressure_Pa": 75928.01072958737,
+          "wall_outline_distance_m": 0.4011271590554608,
+          "required_area_at_100MPa_m2": 1.3832696775819147,
+          "required_area_at_300MPa_m2": 0.46108989252730487,
+          "required_area_at_600MPa_m2": 0.23054494626365243
+        },
+        {
+          "arm": "baseline",
+          "coil": "p9_coil_r",
+          "equivalent_current_A": -7854367.889948265,
+          "pack_area_m2": 0.14400000000000002,
+          "ampere_turn_density_A_m2": 54544221.457974054,
+          "F_radial_generalized_N": 40517233.61446383,
+          "F_vertical_N": 132259985.5943084,
+          "resultant_generalized_N": 138326967.75819135,
+          "external_poloidal_B_max_T": 0.43683853374880777,
+          "external_magnetic_pressure_Pa": 75928.0107295879,
+          "wall_outline_distance_m": 0.4011271590554608,
+          "required_area_at_100MPa_m2": 1.3832696775819135,
+          "required_area_at_300MPa_m2": 0.4610898925273045,
+          "required_area_at_600MPa_m2": 0.23054494626365224
+        },
+        {
+          "arm": "baseline",
+          "coil": "s1_coil",
+          "equivalent_current_A": 5100000.0,
+          "pack_area_m2": 0.023040000000000005,
+          "ampere_turn_density_A_m2": 221354166.66666663,
+          "F_radial_generalized_N": 14899247.913034344,
+          "F_vertical_N": 14455982.821842566,
+          "resultant_generalized_N": 20759649.02688544,
+          "external_poloidal_B_max_T": 0.9304752108079505,
+          "external_magnetic_pressure_Pa": 344484.5550467838,
+          "wall_outline_distance_m": 0.6815000000000001,
+          "required_area_at_100MPa_m2": 0.20759649026885438,
+          "required_area_at_300MPa_m2": 0.06919883008961814,
+          "required_area_at_600MPa_m2": 0.03459941504480907
+        },
+        {
+          "arm": "baseline",
+          "coil": "s1_coil_r",
+          "equivalent_current_A": 5100000.0,
+          "pack_area_m2": 0.023040000000000005,
+          "ampere_turn_density_A_m2": 221354166.66666663,
+          "F_radial_generalized_N": 14899247.913034309,
+          "F_vertical_N": -14455982.821842562,
+          "resultant_generalized_N": 20759649.026885413,
+          "external_poloidal_B_max_T": 0.930475210807951,
+          "external_magnetic_pressure_Pa": 344484.5550467843,
+          "wall_outline_distance_m": 0.6815000000000001,
+          "required_area_at_100MPa_m2": 0.20759649026885413,
+          "required_area_at_300MPa_m2": 0.06919883008961804,
+          "required_area_at_600MPa_m2": 0.03459941504480902
+        },
+        {
+          "arm": "baseline",
+          "coil": "s2_coil",
+          "equivalent_current_A": -2274646.5300571555,
+          "pack_area_m2": 0.023040000000000005,
+          "ampere_turn_density_A_m2": 98725977.86706401,
+          "F_radial_generalized_N": -16486067.91059948,
+          "F_vertical_N": -9957207.65691063,
+          "resultant_generalized_N": 19259709.74536578,
+          "external_poloidal_B_max_T": 2.4458146095151694,
+          "external_magnetic_pressure_Pa": 2380165.796352687,
+          "wall_outline_distance_m": 0.8071034683634195,
+          "required_area_at_100MPa_m2": 0.1925970974536578,
+          "required_area_at_300MPa_m2": 0.0641990324845526,
+          "required_area_at_600MPa_m2": 0.0320995162422763
+        },
+        {
+          "arm": "baseline",
+          "coil": "s2_coil_r",
+          "equivalent_current_A": -2274646.5300571555,
+          "pack_area_m2": 0.023040000000000005,
+          "ampere_turn_density_A_m2": 98725977.86706401,
+          "F_radial_generalized_N": -16486067.910599489,
+          "F_vertical_N": 9957207.656910617,
+          "resultant_generalized_N": 19259709.74536578,
+          "external_poloidal_B_max_T": 2.445814609515163,
+          "external_magnetic_pressure_Pa": 2380165.7963526747,
+          "wall_outline_distance_m": 0.8071034683634196,
+          "required_area_at_100MPa_m2": 0.1925970974536578,
+          "required_area_at_300MPa_m2": 0.0641990324845526,
+          "required_area_at_600MPa_m2": 0.0320995162422763
+        }
+      ],
+      "coil_pack_intersections": [],
+      "near_LCFS_to_wall_m": 0.08925314627641168,
+      "wall_area_m2": 1394.3882083975311,
+      "mean_neutron_wall_MW_m2": 0.8916197211216834,
+      "assumptions": [
+        "Radial force is generalized outward/hoop loading integrated around ring, not a net Cartesian force",
+        "Other packs plus plasma field only; self-force, TF field/structure, case and support load paths omitted",
+        "Pack-current density is equivalent ampere-turn density; winding current and fill factor not provided",
+        "Support-area sweep is load divided by assumed allowable stress, not stress FEA",
+        "Near-LCFS surface s=0.999, not exact separatrix; grid effects matter",
+        "Neutron power divided by revolved outline area assumes uniform deposition; no transport or damage calculation"
+      ],
+      "physics_status": "UNRESOLVED: loads and geometry calculated, structural/thermal/neutronic feasibility not established"
+    },
+    {
+      "arm": "p9-inward",
+      "coils": [
+        {
+          "arm": "p9-inward",
+          "coil": "p3_coil",
+          "equivalent_current_A": -4790870.392406534,
+          "pack_area_m2": 0.17920000000000008,
+          "ampere_turn_density_A_m2": 26734767.814768594,
+          "F_radial_generalized_N": 63120895.113337055,
+          "F_vertical_N": 4816908.837317115,
+          "resultant_generalized_N": 63304423.3103495,
+          "external_poloidal_B_max_T": 0.3077208244046584,
+          "external_magnetic_pressure_Pa": 37676.79176359844,
+          "wall_outline_distance_m": 2.1483695010790202,
+          "required_area_at_100MPa_m2": 0.633044233103495,
+          "required_area_at_300MPa_m2": 0.21101474436783169,
+          "required_area_at_600MPa_m2": 0.10550737218391584
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "p3_coil_r",
+          "equivalent_current_A": -4790870.392406534,
+          "pack_area_m2": 0.17920000000000008,
+          "ampere_turn_density_A_m2": 26734767.814768594,
+          "F_radial_generalized_N": 63120895.11333689,
+          "F_vertical_N": -4816908.837317063,
+          "resultant_generalized_N": 63304423.31034934,
+          "external_poloidal_B_max_T": 0.3077208244046813,
+          "external_magnetic_pressure_Pa": 37676.79176360404,
+          "wall_outline_distance_m": 2.1483695010790202,
+          "required_area_at_100MPa_m2": 0.6330442331034933,
+          "required_area_at_300MPa_m2": 0.21101474436783113,
+          "required_area_at_600MPa_m2": 0.10550737218391557
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "p4_coil",
+          "equivalent_current_A": 5155466.644912905,
+          "pack_area_m2": 0.13439999999999996,
+          "ampere_turn_density_A_m2": 38359126.82226865,
+          "F_radial_generalized_N": 24182097.338651277,
+          "F_vertical_N": 13596634.68667629,
+          "resultant_generalized_N": 27742427.912836578,
+          "external_poloidal_B_max_T": 0.5594393270844166,
+          "external_magnetic_pressure_Pa": 124527.74563685148,
+          "wall_outline_distance_m": 1.273768220688743,
+          "required_area_at_100MPa_m2": 0.27742427912836576,
+          "required_area_at_300MPa_m2": 0.09247475970945526,
+          "required_area_at_600MPa_m2": 0.04623737985472763
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "p4_coil_r",
+          "equivalent_current_A": 5155466.644912905,
+          "pack_area_m2": 0.13439999999999996,
+          "ampere_turn_density_A_m2": 38359126.82226865,
+          "F_radial_generalized_N": 24182097.338651277,
+          "F_vertical_N": -13596634.686676275,
+          "resultant_generalized_N": 27742427.91283657,
+          "external_poloidal_B_max_T": 0.5594393270844261,
+          "external_magnetic_pressure_Pa": 124527.74563685573,
+          "wall_outline_distance_m": 1.273768220688743,
+          "required_area_at_100MPa_m2": 0.2774242791283657,
+          "required_area_at_300MPa_m2": 0.09247475970945523,
+          "required_area_at_600MPa_m2": 0.04623737985472762
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "p5_coil",
+          "equivalent_current_A": 2254704.0433279495,
+          "pack_area_m2": 0.128,
+          "ampere_turn_density_A_m2": 17614875.338499606,
+          "F_radial_generalized_N": -3922776.015444882,
+          "F_vertical_N": -7614211.427772155,
+          "resultant_generalized_N": 8565301.356879728,
+          "external_poloidal_B_max_T": 0.3359713365964599,
+          "external_magnetic_pressure_Pa": 44912.22743559356,
+          "wall_outline_distance_m": 1.2116659936724414,
+          "required_area_at_100MPa_m2": 0.08565301356879727,
+          "required_area_at_300MPa_m2": 0.028551004522932428,
+          "required_area_at_600MPa_m2": 0.014275502261466214
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "p5_coil_r",
+          "equivalent_current_A": 2254704.0433279495,
+          "pack_area_m2": 0.128,
+          "ampere_turn_density_A_m2": 17614875.338499606,
+          "F_radial_generalized_N": -3922776.0154449046,
+          "F_vertical_N": 7614211.427772161,
+          "resultant_generalized_N": 8565301.356879743,
+          "external_poloidal_B_max_T": 0.3359713365964567,
+          "external_magnetic_pressure_Pa": 44912.227435592715,
+          "wall_outline_distance_m": 1.2116659936724414,
+          "required_area_at_100MPa_m2": 0.08565301356879743,
+          "required_area_at_300MPa_m2": 0.028551004522932476,
+          "required_area_at_600MPa_m2": 0.014275502261466238
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "p6_coil",
+          "equivalent_current_A": 5458947.314031959,
+          "pack_area_m2": 0.15360000000000007,
+          "ampere_turn_density_A_m2": 35540021.57572888,
+          "F_radial_generalized_N": -79778651.4414257,
+          "F_vertical_N": 93459578.09751067,
+          "resultant_generalized_N": 122879314.63015729,
+          "external_poloidal_B_max_T": 0.6009758483716933,
+          "external_magnetic_pressure_Pa": 143705.760959086,
+          "wall_outline_distance_m": 1.1160109443111288,
+          "required_area_at_100MPa_m2": 1.2287931463015729,
+          "required_area_at_300MPa_m2": 0.40959771543385765,
+          "required_area_at_600MPa_m2": 0.20479885771692882
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "p6_coil_r",
+          "equivalent_current_A": 5458947.314031959,
+          "pack_area_m2": 0.15360000000000007,
+          "ampere_turn_density_A_m2": 35540021.57572888,
+          "F_radial_generalized_N": -79778651.44142556,
+          "F_vertical_N": -93459578.09751052,
+          "resultant_generalized_N": 122879314.6301571,
+          "external_poloidal_B_max_T": 0.6009758483716873,
+          "external_magnetic_pressure_Pa": 143705.76095908316,
+          "wall_outline_distance_m": 1.1160109443111288,
+          "required_area_at_100MPa_m2": 1.2287931463015709,
+          "required_area_at_300MPa_m2": 0.409597715433857,
+          "required_area_at_600MPa_m2": 0.2047988577169285
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "p9_coil",
+          "equivalent_current_A": -7854367.889948265,
+          "pack_area_m2": 0.14400000000000002,
+          "ampere_turn_density_A_m2": 54544221.457974054,
+          "F_radial_generalized_N": 43496801.09369576,
+          "F_vertical_N": -129019022.47651142,
+          "resultant_generalized_N": 136153883.03746277,
+          "external_poloidal_B_max_T": 0.42702070924022995,
+          "external_magnetic_pressure_Pa": 72553.4411310723,
+          "wall_outline_distance_m": 0.49969420857133284,
+          "required_area_at_100MPa_m2": 1.3615388303746276,
+          "required_area_at_300MPa_m2": 0.45384627679154255,
+          "required_area_at_600MPa_m2": 0.22692313839577127
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "p9_coil_r",
+          "equivalent_current_A": -7854367.889948265,
+          "pack_area_m2": 0.14400000000000002,
+          "ampere_turn_density_A_m2": 54544221.457974054,
+          "F_radial_generalized_N": 43496801.09369548,
+          "F_vertical_N": 129019022.47651146,
+          "resultant_generalized_N": 136153883.0374627,
+          "external_poloidal_B_max_T": 0.4270207092402134,
+          "external_magnetic_pressure_Pa": 72553.44113106666,
+          "wall_outline_distance_m": 0.49969420857133284,
+          "required_area_at_100MPa_m2": 1.3615388303746272,
+          "required_area_at_300MPa_m2": 0.4538462767915424,
+          "required_area_at_600MPa_m2": 0.2269231383957712
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "s1_coil",
+          "equivalent_current_A": 5100000.0,
+          "pack_area_m2": 0.023040000000000005,
+          "ampere_turn_density_A_m2": 221354166.66666663,
+          "F_radial_generalized_N": 14948053.082306148,
+          "F_vertical_N": 14511469.914358674,
+          "resultant_generalized_N": 20833315.86730205,
+          "external_poloidal_B_max_T": 0.931672236753987,
+          "external_magnetic_pressure_Pa": 345371.46140920254,
+          "wall_outline_distance_m": 0.6815000000000001,
+          "required_area_at_100MPa_m2": 0.2083331586730205,
+          "required_area_at_300MPa_m2": 0.06944438622434017,
+          "required_area_at_600MPa_m2": 0.034722193112170084
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "s1_coil_r",
+          "equivalent_current_A": 5100000.0,
+          "pack_area_m2": 0.023040000000000005,
+          "ampere_turn_density_A_m2": 221354166.66666663,
+          "F_radial_generalized_N": 14948053.082306145,
+          "F_vertical_N": -14511469.91435866,
+          "resultant_generalized_N": 20833315.867302038,
+          "external_poloidal_B_max_T": 0.9316722367539859,
+          "external_magnetic_pressure_Pa": 345371.46140920173,
+          "wall_outline_distance_m": 0.6815000000000001,
+          "required_area_at_100MPa_m2": 0.20833315867302038,
+          "required_area_at_300MPa_m2": 0.06944438622434013,
+          "required_area_at_600MPa_m2": 0.03472219311217006
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "s2_coil",
+          "equivalent_current_A": -2274646.5300571555,
+          "pack_area_m2": 0.023040000000000005,
+          "ampere_turn_density_A_m2": 98725977.86706401,
+          "F_radial_generalized_N": -16473965.649700932,
+          "F_vertical_N": -9955646.132978192,
+          "resultant_generalized_N": 19248543.689136844,
+          "external_poloidal_B_max_T": 2.4462348500761295,
+          "external_magnetic_pressure_Pa": 2380983.7881469103,
+          "wall_outline_distance_m": 0.8071034683634195,
+          "required_area_at_100MPa_m2": 0.19248543689136843,
+          "required_area_at_300MPa_m2": 0.06416181229712281,
+          "required_area_at_600MPa_m2": 0.032080906148561406
+        },
+        {
+          "arm": "p9-inward",
+          "coil": "s2_coil_r",
+          "equivalent_current_A": -2274646.5300571555,
+          "pack_area_m2": 0.023040000000000005,
+          "ampere_turn_density_A_m2": 98725977.86706401,
+          "F_radial_generalized_N": -16473965.649700925,
+          "F_vertical_N": 9955646.132978195,
+          "resultant_generalized_N": 19248543.68913684,
+          "external_poloidal_B_max_T": 2.446234850076129,
+          "external_magnetic_pressure_Pa": 2380983.7881469093,
+          "wall_outline_distance_m": 0.8071034683634196,
+          "required_area_at_100MPa_m2": 0.1924854368913684,
+          "required_area_at_300MPa_m2": 0.0641618122971228,
+          "required_area_at_600MPa_m2": 0.0320809061485614
+        }
+      ],
+      "coil_pack_intersections": [],
+      "near_LCFS_to_wall_m": 0.07330953363851345,
+      "wall_area_m2": 1394.3882083975311,
+      "mean_neutron_wall_MW_m2": 0.8916197211216834,
+      "assumptions": [
+        "Radial force is generalized outward/hoop loading integrated around ring, not a net Cartesian force",
+        "Other packs plus plasma field only; self-force, TF field/structure, case and support load paths omitted",
+        "Pack-current density is equivalent ampere-turn density; winding current and fill factor not provided",
+        "Support-area sweep is load divided by assumed allowable stress, not stress FEA",
+        "Near-LCFS surface s=0.999, not exact separatrix; grid effects matter",
+        "Neutron power divided by revolved outline area assumes uniform deposition; no transport or damage calculation"
+      ],
+      "physics_status": "UNRESOLVED: loads and geometry calculated, structural/thermal/neutronic feasibility not established"
+    }
+  ],
+  "thermal": {
+    "cases": 36,
+    "refinement": [
+      {
+        "conductivity_W_mK": 120,
+        "thickness_m": 0.01,
+        "heat_flux_MW_m2": 10.0,
+        "cells": 40,
+        "dt_s": 0.02,
+        "surface_at_20s_K": 1283.333333287242,
+        "analytic_steady_surface_K": 1283.3333333333335,
+        "energy_balance_relative": 9.80682671070099e-15,
+        "fraction_of_steady_temperature_rise": 0.9999999999446904
+      },
+      {
+        "conductivity_W_mK": 120,
+        "thickness_m": 0.01,
+        "heat_flux_MW_m2": 10.0,
+        "cells": 80,
+        "dt_s": 0.01,
+        "surface_at_20s_K": 1283.333333293194,
+        "analytic_steady_surface_K": 1283.3333333333335,
+        "energy_balance_relative": 5.942769348621368e-14,
+        "fraction_of_steady_temperature_rise": 0.9999999999518328
+      },
+      {
+        "conductivity_W_mK": 120,
+        "thickness_m": 0.01,
+        "heat_flux_MW_m2": 10.0,
+        "cells": 160,
+        "dt_s": 0.005,
+        "surface_at_20s_K": 1283.3333332959824,
+        "analytic_steady_surface_K": 1283.3333333333335,
+        "energy_balance_relative": 3.4069642424583434e-13,
+        "fraction_of_steady_temperature_rise": 0.9999999999551786
+      }
+    ],
+    "max_energy_balance_relative": 5.988404154777527e-13,
+    "max_surface_K": 5371.485229105217,
+    "min_surface_K": 477.7777777777746,
+    "assumptions": [
+      "Homogeneous constant k and heat capacity",
+      "Perfectly temperature-clamped back face",
+      "Prescribed uniform surface flux; no radiation, coolant resistance, phase change or erosion"
+    ],
+    "physical_status": "UNRESOLVED: thermal response under assumed parameters, not component qualification",
+    "code_sha256": "4ccfed9bedf225295cdc1e338e2f0dd677d60889aa193862e2741f9b31e5ea4e",
+    "amendment_sha256": "084947ec06266168297724961d250950d97a9f6b47e50b512d99e4f16cafc234"
+  },
+  "electric": {
+    "cases": 80,
+    "minimum_net_MW": -128.93222096125595,
+    "maximum_net_MW": 522.0091545024428,
+    "positive_cases": 75,
+    "assumptions": [
+      "Prescribed source fusion power, not predicted by our equilibrium model",
+      "Complete recovery of plasma and neutron heat; unity blanket multiplication",
+      "Assumed efficiency and parasitic ranges, not specified plant hardware",
+      "No tritium breeding or availability prediction"
+    ],
+    "physics_status": "UNRESOLVED: accounting sensitivity, not net-electric demonstration"
+  },
+  "not_run": [
+    {
+      "test": "Wall-coupled vertical eigenmodes and feedback",
+      "reason": "Wall outline has no calibrated conducting volumes, resistivity/thickness, circuit and controller model"
+    },
+    {
+      "test": "3-D ideal/resistive/kinetic MHD spectrum",
+      "reason": "No validated 3-D MHD model or eigenmode calculation in this suite"
+    },
+    {
+      "test": "Predictive turbulent transport and self-consistent burn",
+      "reason": "Confinement scaling and prescribed-source ODE are reduced sensitivity models"
+    },
+    {
+      "test": "SOL detachment and neutral recycling",
+      "reason": "Field-line geometry and imposed heat distribution do not solve SOL fluid/kinetic-neutral equations"
+    },
+    {
+      "test": "Full structural, superconducting and cooling qualification",
+      "reason": "Support CAD, material allowables/critical surfaces and cooling circuits missing"
+    },
+    {
+      "test": "Neutron damage and tritium breeding",
+      "reason": "Material composition and 3-D blanket/shield model missing"
+    }
+  ]
+}

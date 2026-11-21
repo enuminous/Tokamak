@@ -1,0 +1,49 @@
+{
+  "cases": 36,
+  "refinement": [
+    {
+      "conductivity_W_mK": 120,
+      "thickness_m": 0.01,
+      "heat_flux_MW_m2": 10.0,
+      "cells": 40,
+      "dt_s": 0.02,
+      "surface_at_20s_K": 1283.333333287242,
+      "analytic_steady_surface_K": 1283.3333333333335,
+      "energy_balance_relative": 9.80682671070099e-15,
+      "fraction_of_steady_temperature_rise": 0.9999999999446904
+    },
+    {
+      "conductivity_W_mK": 120,
+      "thickness_m": 0.01,
+      "heat_flux_MW_m2": 10.0,
+      "cells": 80,
+      "dt_s": 0.01,
+      "surface_at_20s_K": 1283.333333293194,
+      "analytic_steady_surface_K": 1283.3333333333335,
+      "energy_balance_relative": 5.942769348621368e-14,
+      "fraction_of_steady_temperature_rise": 0.9999999999518328
+    },
+    {
+      "conductivity_W_mK": 120,
+      "thickness_m": 0.01,
+      "heat_flux_MW_m2": 10.0,
+      "cells": 160,
+      "dt_s": 0.005,
+      "surface_at_20s_K": 1283.3333332959824,
+      "analytic_steady_surface_K": 1283.3333333333335,
+      "energy_balance_relative": 3.4069642424583434e-13,
+      "fraction_of_steady_temperature_rise": 0.9999999999551786
+    }
+  ],
+  "max_energy_balance_relative": 5.988404154777527e-13,
+  "max_surface_K": 5371.485229105217,
+  "min_surface_K": 477.7777777777746,
+  "assumptions": [
+    "Homogeneous constant k and heat capacity",
+    "Perfectly temperature-clamped back face",
+    "Prescribed uniform surface flux; no radiation, coolant resistance, phase change or erosion"
+  ],
+  "physical_status": "UNRESOLVED: thermal response under assumed parameters, not component qualification",
+  "code_sha256": "4ccfed9bedf225295cdc1e338e2f0dd677d60889aa193862e2741f9b31e5ea4e",
+  "amendment_sha256": "084947ec06266168297724961d250950d97a9f6b47e50b512d99e4f16cafc234"
+}

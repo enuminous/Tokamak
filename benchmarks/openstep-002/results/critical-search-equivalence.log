@@ -1,0 +1,39 @@
+{
+  "bounds_m": [
+    1.25,
+    6.25,
+    -7.25,
+    7.25
+  ],
+  "checks": [
+    {
+      "arm": "baseline",
+      "grid": 129,
+      "Jtor_relative_difference": 0.0,
+      "source_outside_search": false,
+      "passed": true
+    },
+    {
+      "arm": "baseline",
+      "grid": 257,
+      "Jtor_relative_difference": 0.0,
+      "source_outside_search": false,
+      "passed": true
+    },
+    {
+      "arm": "p9-inward",
+      "grid": 129,
+      "Jtor_relative_difference": 0.0,
+      "source_outside_search": false,
+      "passed": true
+    },
+    {
+      "arm": "p9-inward",
+      "grid": 257,
+      "Jtor_relative_difference": 0.0,
+      "source_outside_search": false,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,28 @@
+{
+  "repository": "ukaea/OpenSTEP",
+  "commit": "6f66ae09c60b361d600b178416ef3f22b8d0aa6a",
+  "license": "CC-BY-4.0",
+  "files": [
+    {
+      "path": "eb-cc/ftop/STEP_SPP_001_EBCC_ftop.nc",
+      "url": "https://raw.githubusercontent.com/ukaea/OpenSTEP/6f66ae09c60b361d600b178416ef3f22b8d0aa6a/eb-cc/ftop/STEP_SPP_001_EBCC_ftop.nc",
+      "git_blob_sha": "0b64f06d3f8b8d23b1ac289276f6d207150e3e80",
+      "sha256": "1090d924534e0e5f764ca2de8b7463caf64ae13f3a654360ff64dd40fcd4ab8b",
+      "bytes": 1262321
+    },
+    {
+      "path": "wall/_src/SPR45_2D_Wall.csv",
+      "url": "https://raw.githubusercontent.com/ukaea/OpenSTEP/6f66ae09c60b361d600b178416ef3f22b8d0aa6a/wall/_src/SPR45_2D_Wall.csv",
+      "git_blob_sha": "a44988aa898bff5fc61190c9cdd813810846b8c5",
+      "sha256": "fcdd5375dbecfbedc8ab7fb3b18c5d624dee05344793509f1fc0647c76889c1a",
+      "bytes": 11288
+    },
+    {
+      "path": "eb-cc/ftop/imasdb/summary.h5",
+      "url": "https://raw.githubusercontent.com/ukaea/OpenSTEP/6f66ae09c60b361d600b178416ef3f22b8d0aa6a/eb-cc/ftop/imasdb/summary.h5",
+      "git_blob_sha": "b34e17ee3ec8f058f4a6c07ee7af86bf97236b64",
+      "sha256": "cbe38ed6730cec912e15f1759506574ac01a73b83d219bde0ec596e662b34d4d",
+      "bytes": 224090
+    }
+  ]
+}

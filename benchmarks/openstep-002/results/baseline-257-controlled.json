@@ -1,0 +1,75 @@
+{
+  "arm": "baseline",
+  "grid": [
+    257,
+    513
+  ],
+  "constraint": "fixed p(s) and total Ip",
+  "p9_translation_m": 0.0,
+  "target_ip_A": 22774410.551784597,
+  "target_pressure_axis_Pa": 1335266.8464644956,
+  "iterations": [
+    {
+      "iteration": 0,
+      "evaluations": 21,
+      "defect": 6.248197257168565e-12
+    }
+  ],
+  "protocol_sha256": "518edb7352b1a0fed303f65543607d4bab200daf0c24bece00c8a667720a4e7e",
+  "code_sha256": "e65b17f3231fc028e1ea6545925c15149a211c4a8d9091a8a05d039d9ee7e773",
+  "root_solver": {
+    "success": true,
+    "message": "A solution was found at the specified tolerance.",
+    "evaluations": 21
+  },
+  "final_defect": 9.528767658556018e-12,
+  "final": {
+    "axis": [
+      4.389654491389739,
+      1.3788796918663448e-14,
+      6.118358218186766
+    ],
+    "xpoints": [
+      [
+        2.525432638312076,
+        -6.106672416284103,
+        1.679575379278249
+      ],
+      [
+        2.525432638312076,
+        6.106672416284104,
+        1.6795753792782486
+      ],
+      [
+        8.251797531388,
+        4.765641322379603,
+        -16.800530075027144
+      ],
+      [
+        8.251797531388004,
+        -4.765641322379635,
+        -16.800530075027147
+      ]
+    ],
+    "ip_A": 22774410.551784597,
+    "core_area_m2": 33.750457763671875,
+    "core_volume_m3": 710.468560168542,
+    "pressure_integral_J": 400867464.7867559,
+    "pressure_axis_Pa": 1335266.8464644947,
+    "core_flux_nrmse": 0.0015418181692288889,
+    "gauge_offset_Wb_per_rad": 0.0035654628916200457,
+    "midplane_radii_m": [
+      1.5830112268906145,
+      5.62667220541388
+    ],
+    "psi_axis": 6.118358218186768,
+    "psi_boundary": 1.6795753792782484,
+    "up_down_asymmetry": 2.1316282072803006e-14
+  },
+  "pressure_derivative_scale": 0.9999999981193316,
+  "ff_derivative_scale": 1.0000000232128936,
+  "converged": true,
+  "current_relative_error": 0.0,
+  "pressure_relative_error": 6.661338147750939e-16,
+  "seconds": 95.47107529640198
+}

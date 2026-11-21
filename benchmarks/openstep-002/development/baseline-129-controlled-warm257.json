@@ -1,0 +1,270 @@
+{
+  "arm": "baseline",
+  "grid": [
+    129,
+    257
+  ],
+  "constraint": "fixed p(s) and total Ip",
+  "p9_translation_m": 0.0,
+  "target_ip_A": 22774410.551784597,
+  "target_pressure_axis_Pa": 1335266.8464644956,
+  "iterations": [
+    {
+      "iteration": 0,
+      "evaluations": 16,
+      "defect": 0.011101429606775959
+    },
+    {
+      "iteration": 1,
+      "evaluations": 27,
+      "defect": 0.00974190591080597
+    },
+    {
+      "iteration": 2,
+      "evaluations": 35,
+      "defect": 0.005529259151803672
+    },
+    {
+      "iteration": 3,
+      "evaluations": 46,
+      "defect": 0.0022946104390053628
+    },
+    {
+      "iteration": 4,
+      "evaluations": 58,
+      "defect": 0.0014043797400882455
+    },
+    {
+      "iteration": 5,
+      "evaluations": 70,
+      "defect": 0.0013895287808005506
+    },
+    {
+      "iteration": 6,
+      "evaluations": 78,
+      "defect": 0.0013787015232690379
+    },
+    {
+      "iteration": 7,
+      "evaluations": 88,
+      "defect": 0.0013710887835130577
+    },
+    {
+      "iteration": 8,
+      "evaluations": 99,
+      "defect": 0.0013649529857216285
+    },
+    {
+      "iteration": 9,
+      "evaluations": 110,
+      "defect": 0.0013591454585825454
+    },
+    {
+      "iteration": 10,
+      "evaluations": 121,
+      "defect": 0.0013549378419677827
+    },
+    {
+      "iteration": 11,
+      "evaluations": 134,
+      "defect": 0.0013528105114999803
+    },
+    {
+      "iteration": 12,
+      "evaluations": 146,
+      "defect": 0.0013511217263532877
+    },
+    {
+      "iteration": 13,
+      "evaluations": 160,
+      "defect": 0.0013494504588977085
+    },
+    {
+      "iteration": 14,
+      "evaluations": 177,
+      "defect": 0.0013483530275799995
+    },
+    {
+      "iteration": 15,
+      "evaluations": 194,
+      "defect": 0.0013478028049379682
+    },
+    {
+      "iteration": 16,
+      "evaluations": 206,
+      "defect": 0.0013474549622067733
+    },
+    {
+      "iteration": 17,
+      "evaluations": 217,
+      "defect": 0.0013471972045036524
+    },
+    {
+      "iteration": 18,
+      "evaluations": 228,
+      "defect": 0.0013470533355961242
+    },
+    {
+      "iteration": 19,
+      "evaluations": 243,
+      "defect": 0.0013469566766393067
+    },
+    {
+      "iteration": 20,
+      "evaluations": 255,
+      "defect": 0.0013468869659704957
+    },
+    {
+      "iteration": 21,
+      "evaluations": 266,
+      "defect": 0.0013468367696758481
+    },
+    {
+      "iteration": 22,
+      "evaluations": 281,
+      "defect": 0.0013468026442743201
+    },
+    {
+      "iteration": 23,
+      "evaluations": 298,
+      "defect": 0.0013467804323626731
+    },
+    {
+      "iteration": 24,
+      "evaluations": 315,
+      "defect": 0.0013467648020756247
+    },
+    {
+      "iteration": 25,
+      "evaluations": 332,
+      "defect": 0.0013467647868390575
+    },
+    {
+      "iteration": 26,
+      "evaluations": 348,
+      "defect": 0.0013467647711258338
+    },
+    {
+      "iteration": 27,
+      "evaluations": 364,
+      "defect": 0.0013467647553745258
+    },
+    {
+      "iteration": 28,
+      "evaluations": 376,
+      "defect": 0.001346764739651681
+    },
+    {
+      "iteration": 29,
+      "evaluations": 387,
+      "defect": 0.0013467647238538697
+    },
+    {
+      "iteration": 30,
+      "evaluations": 397,
+      "defect": 0.0013467647081999777
+    },
+    {
+      "iteration": 31,
+      "evaluations": 406,
+      "defect": 0.0013467646924667095
+    },
+    {
+      "iteration": 32,
+      "evaluations": 414,
+      "defect": 0.0013467646767490761
+    },
+    {
+      "iteration": 33,
+      "evaluations": 421,
+      "defect": 0.0013467646610611085
+    },
+    {
+      "iteration": 34,
+      "evaluations": 427,
+      "defect": 0.0013467646453947887
+    },
+    {
+      "iteration": 35,
+      "evaluations": 432,
+      "defect": 0.001346764629695997
+    },
+    {
+      "iteration": 36,
+      "evaluations": 436,
+      "defect": 0.001346764613937473
+    },
+    {
+      "iteration": 37,
+      "evaluations": 439,
+      "defect": 0.0013467645982406858
+    },
+    {
+      "iteration": 38,
+      "evaluations": 442,
+      "defect": 0.0013467645826100451
+    },
+    {
+      "iteration": 39,
+      "evaluations": 445,
+      "defect": 0.0013467645668980243
+    }
+  ],
+  "protocol_sha256": "518edb7352b1a0fed303f65543607d4bab200daf0c24bece00c8a667720a4e7e",
+  "code_sha256": "e65b17f3231fc028e1ea6545925c15149a211c4a8d9091a8a05d039d9ee7e773",
+  "root_solver": {
+    "success": false,
+    "message": "The maximum number of iterations allowed has been reached.",
+    "evaluations": 445
+  },
+  "final_defect": 0.0013467645669188704,
+  "final": {
+    "axis": [
+      4.398876626411397,
+      -1.5560566062513517e-14,
+      6.125289037427056
+    ],
+    "xpoints": [
+      [
+        2.533074163347127,
+        -6.091216200174113,
+        1.6870626184914055
+      ],
+      [
+        2.533074163347129,
+        6.091216200174114,
+        1.6870626184914055
+      ],
+      [
+        8.25367158657588,
+        -4.764026645520895,
+        -16.764931135288087
+      ],
+      [
+        8.253671586575894,
+        4.764026645520899,
+        -16.764931135288087
+      ]
+    ],
+    "ip_A": 22774410.55178459,
+    "core_area_m2": 33.77899169921875,
+    "core_volume_m3": 712.055328658333,
+    "pressure_integral_J": 402536508.7334397,
+    "pressure_axis_Pa": 1335266.8464644968,
+    "core_flux_nrmse": 0.0047895260657871514,
+    "gauge_offset_Wb_per_rad": 0.01593206287775452,
+    "midplane_radii_m": [
+      1.5843665489769436,
+      5.636548124511308
+    ],
+    "psi_axis": 6.125289037427054,
+    "psi_boundary": 1.6870626184914055,
+    "up_down_asymmetry": 1.4210854715202004e-14
+  },
+  "pressure_derivative_scale": 1.0001253680124607,
+  "ff_derivative_scale": 1.0066552757892981,
+  "converged": false,
+  "current_relative_error": 3.3306690738754696e-16,
+  "pressure_relative_error": 8.881784197001252e-16,
+  "seconds": 312.9904935359955
+}

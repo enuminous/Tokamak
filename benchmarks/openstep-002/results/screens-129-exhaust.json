@@ -1,0 +1,17 @@
+{
+  "grid": 129,
+  "part": "exhaust",
+  "protocol_sha256": "518edb7352b1a0fed303f65543607d4bab200daf0c24bece00c8a667720a4e7e",
+  "code_sha256": "a5d08e0a68b7a78cfdeb9cd2c72bcfa43f064c1ea23d062b711554258cb3fe62",
+  "exhaust": {
+    "trace_count": 20,
+    "wall_hits": 20,
+    "load_samples": 240,
+    "sampled_max_MW_m2": 488.2886771073947,
+    "above_criterion": 121,
+    "max_trace_flux_drift": 3.142227372690026e-06,
+    "criterion_MW_m2": 10,
+    "physics_status": "CONDITIONAL SCREEN: sampled attached footprints; peak between samples, detachment, neutrals and transients unresolved"
+  },
+  "seconds": 12.553454160690308
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "arm": "baseline",
+    "grid": 257,
+    "q_min_sampled": 2.3797735948499237,
+    "q95": 7.596227782591546,
+    "q95_quadrature_difference": 5.535566884340426e-05,
+    "beta_toroidal": 0.13885555132307303,
+    "beta_normalized": 3.9393731645799765,
+    "R_geometric_m": 3.6048417161522472,
+    "a_midplane_m": 2.0218304892616326,
+    "B_vacuum_at_Rgeom_T": 3.1957020327362033,
+    "F_squared_min_T2_m2": 114.95535742879241,
+    "physics_status": "UNRESOLVED: q and beta are diagnostics, not MHD eigenmode tests",
+    "pressure_profile_relative_error": 9.590356740204835e-16
+  },
+  {
+    "arm": "p9-inward",
+    "grid": 129,
+    "q_min_sampled": 2.670427798759056,
+    "q95": 7.796389860151642,
+    "q95_quadrature_difference": 0.0005741531215592843,
+    "beta_toroidal": 0.13468227997946572,
+    "beta_normalized": 3.7784423172537185,
+    "R_geometric_m": 3.520158218387194,
+    "a_midplane_m": 1.9523567888789237,
+    "B_vacuum_at_Rgeom_T": 3.272580175466669,
+    "F_squared_min_T2_m2": 115.20638065621421,
+    "physics_status": "UNRESOLVED: q and beta are diagnostics, not MHD eigenmode tests",
+    "pressure_profile_relative_error": 7.1927675551536255e-16
+  },
+  {
+    "arm": "p9-inward",
+    "grid": 257,
+    "q_min_sampled": 2.6434237285760713,
+    "q95": 7.829119758753913,
+    "q95_quadrature_difference": 5.418995257855386e-05,
+    "beta_toroidal": 0.1345599230083598,
+    "beta_normalized": 3.7801720804293,
+    "R_geometric_m": 3.522157173547356,
+    "a_midplane_m": 1.956136868690015,
+    "B_vacuum_at_Rgeom_T": 3.2707228645329254,
+    "F_squared_min_T2_m2": 115.22742188029522,
+    "physics_status": "UNRESOLVED: q and beta are diagnostics, not MHD eigenmode tests",
+    "pressure_profile_relative_error": 8.71850612745894e-16
+  }
+]
