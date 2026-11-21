@@ -1,0 +1,174 @@
+{
+  "tag": "shift--025mm-129",
+  "grid": [
+    129,
+    257
+  ],
+  "p9_translation_m": -0.025,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22774410.551784597,
+  "target_pressure_axis_Pa": 1335266.8464644956,
+  "homotopy_alpha": 1.0,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-003/results/shift--010mm-129.npz",
+  "warm_sha256": "52ceb95e685e237fe1dd3ed83596faa9304c33bd159db9d5b3072d85f72b16a5",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "iterations": [
+    {
+      "iteration": 0,
+      "evaluations": 13,
+      "defect": 0.0013500286681456667
+    },
+    {
+      "iteration": 1,
+      "evaluations": 26,
+      "defect": 0.0009073248367920615
+    },
+    {
+      "iteration": 2,
+      "evaluations": 37,
+      "defect": 0.0008526569172501107
+    },
+    {
+      "iteration": 3,
+      "evaluations": 47,
+      "defect": 0.0008358148151529543
+    },
+    {
+      "iteration": 4,
+      "evaluations": 58,
+      "defect": 0.0008245971468874225
+    },
+    {
+      "iteration": 5,
+      "evaluations": 68,
+      "defect": 0.0008221926656624052
+    },
+    {
+      "iteration": 6,
+      "evaluations": 79,
+      "defect": 0.0008202779455918471
+    },
+    {
+      "iteration": 7,
+      "evaluations": 92,
+      "defect": 0.0008190947551310922
+    },
+    {
+      "iteration": 8,
+      "evaluations": 105,
+      "defect": 0.0008185513515149888
+    },
+    {
+      "iteration": 9,
+      "evaluations": 116,
+      "defect": 0.0008181133974810902
+    },
+    {
+      "iteration": 10,
+      "evaluations": 128,
+      "defect": 0.0008178308737679282
+    },
+    {
+      "iteration": 11,
+      "evaluations": 142,
+      "defect": 0.0008176487547589102
+    },
+    {
+      "iteration": 12,
+      "evaluations": 157,
+      "defect": 0.0008175101587511845
+    },
+    {
+      "iteration": 13,
+      "evaluations": 172,
+      "defect": 0.0008174139836767475
+    },
+    {
+      "iteration": 14,
+      "evaluations": 187,
+      "defect": 0.0008173424890864088
+    },
+    {
+      "iteration": 15,
+      "evaluations": 202,
+      "defect": 0.0008172930930308515
+    },
+    {
+      "iteration": 16,
+      "evaluations": 217,
+      "defect": 0.0008172537075599557
+    },
+    {
+      "iteration": 17,
+      "evaluations": 233,
+      "defect": 0.0008172234505812279
+    },
+    {
+      "iteration": 18,
+      "evaluations": 249,
+      "defect": 0.0008171986856283297
+    },
+    {
+      "iteration": 19,
+      "evaluations": 265,
+      "defect": 0.0008171795076476816
+    },
+    {
+      "iteration": 20,
+      "evaluations": 281,
+      "defect": 0.000817164776915828
+    },
+    {
+      "iteration": 21,
+      "evaluations": 297,
+      "defect": 0.0008171526367684286
+    },
+    {
+      "iteration": 22,
+      "evaluations": 314,
+      "defect": 0.0008171429600677208
+    },
+    {
+      "iteration": 23,
+      "evaluations": 331,
+      "defect": 0.0008171350080468491
+    },
+    {
+      "iteration": 24,
+      "evaluations": 350,
+      "defect": 0.0008171297625914688
+    },
+    {
+      "iteration": 25,
+      "evaluations": 369,
+      "defect": 0.0008171244727392964
+    },
+    {
+      "iteration": 26,
+      "evaluations": 386,
+      "defect": 0.000817119708063019
+    },
+    {
+      "iteration": 27,
+      "evaluations": 405,
+      "defect": 0.0008171161050596415
+    },
+    {
+      "iteration": 28,
+      "evaluations": 424,
+      "defect": 0.0008171160921301873
+    }
+  ],
+  "converged": false,
+  "final_critical_search": "original full domain",
+  "initial_defect": 0.00463091240975063,
+  "error": "RuntimeError: Critical-point refinement failed",
+  "seconds": 170.9975242614746
+}

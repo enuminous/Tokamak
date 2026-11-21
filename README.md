@@ -4,6 +4,8 @@ A collection of browser labs and reproducible equilibrium calculations exploring
 
 ## Start here
 
+**Controlled coil scan, November 21:** [open the fixed-operating-point scan](coil-scan.html) and [read the recovery and comparison report](benchmarks/openstep-003/README.md). This follow-on holds pressure and plasma current fixed, records coarse-grid recovery, and tests smaller p9 movements with explicit convergence and heat-load criteria.
+
 **Extended simulations, November 20:** [open the simulation screens](screening.html) and [read the results and replay](benchmarks/openstep-002/README.md). Numerical refinement, fixed-pressure/current controls, vertical-force screens, confinement sensitivity, wall field-line tracing, heat loads, coil forces, thermal diffusion and electric accounting are now recorded. The reduced models expose constraints; full MHD, predictive transport, detachment and component qualification remain unresolved.
 
 **Equilibrium milestone, November 20 (historical OPENSTEP-001):** [open the STEP benchmark](equilibrium.html) or read the [complete report and replay instructions](benchmarks/openstep-001/README.md). The published UKAEA equilibrium is reproduced within **0.154% core-flux RMSE** using explicit coils, currents, plasma profiles and SI units. A mirrored 10 cm coil movement is re-solved and compared across grids. The axis and current changes are resolved against observed refinement differences; the X-point shift remains unresolved. This snapshot is a static equilibrium benchmark; the subsequent OPENSTEP-002 screens are linked above. Python dependencies apply to this benchmark; the earlier browser labs below remain dependency-free.

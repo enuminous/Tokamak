@@ -1,0 +1,40 @@
+{"tag": "recovery-homotopy-06", "iteration": 0, "evaluations": 15, "defect": 0.00017946284549853506}
+{"tag": "recovery-homotopy-06", "iteration": 1, "evaluations": 29, "defect": 7.780014130312987e-07}
+{"tag": "recovery-homotopy-06", "iteration": 2, "evaluations": 47, "defect": 2.438998910324729e-09}
+{
+  "tag": "recovery-homotopy-06",
+  "grid": [
+    129,
+    257
+  ],
+  "p9_translation_m": 0,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22773496.394681413,
+  "target_pressure_axis_Pa": 1336696.3374203467,
+  "homotopy_alpha": 0.6,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-003/results/recovery-homotopy-05.npz",
+  "warm_sha256": "2878a8f931cecf7a93672c28713772a450a930b51969e7c00198e0084a7393bf",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "converged": true,
+  "final_critical_search": "original full domain",
+  "initial_defect": 0.0008656456367785338,
+  "root_solver": {
+    "success": true,
+    "message": "A solution was found at the specified tolerance.",
+    "evaluations": 47
+  },
+  "final_defect": 2.439008531647508e-09,
+  "pressure_derivative_scale": 0.9988013191596693,
+  "ff_derivative_scale": 1.0046034472282124,
+  "pressure_profile_relative_error": 1.916020122517305e-15,
+  "current_relative_error": 1.1102230246251565e-16,
+  "F_squared_min_T2_m2": 114.8330988544323,
+  "seconds": 20.075644731521606
+}

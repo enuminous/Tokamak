@@ -1,0 +1,113 @@
+{
+  "candidate_for_refinement_m": null,
+  "comparisons": [
+    {
+      "shift_m": -0.01,
+      "promising": false,
+      "criteria": {
+        "two_grids": true,
+        "trace_quality": true,
+        "representative_heat_resolved_reduction": false,
+        "maximum_sampled_heat_reduced": false,
+        "no_resolved_clearance_deterioration": true,
+        "no_resolved_H_deterioration": true
+      }
+    },
+    {
+      "shift_m": 0.01,
+      "promising": false,
+      "criteria": {
+        "two_grids": true,
+        "trace_quality": true,
+        "representative_heat_resolved_reduction": false,
+        "maximum_sampled_heat_reduced": false,
+        "no_resolved_clearance_deterioration": true,
+        "no_resolved_H_deterioration": true
+      }
+    },
+    {
+      "shift_m": 0.05,
+      "promising": false,
+      "criteria": {
+        "two_grids": false,
+        "trace_quality": false,
+        "representative_heat_resolved_reduction": false,
+        "maximum_sampled_heat_reduced": false,
+        "no_resolved_clearance_deterioration": false,
+        "no_resolved_H_deterioration": false
+      }
+    }
+  ],
+  "failed_attempts": [
+    {
+      "tag": "shift--025mm-129",
+      "grid": 129,
+      "shift_m": -0.025,
+      "error": "RuntimeError: Critical-point refinement failed",
+      "defect": null
+    },
+    {
+      "tag": "inward-025mm-129",
+      "grid": 129,
+      "shift_m": 0.025,
+      "error": null,
+      "defect": 0.014524464339774414
+    },
+    {
+      "tag": "recovery-129-fd7",
+      "grid": 129,
+      "shift_m": 0,
+      "error": "IndexError: list index out of range",
+      "defect": null
+    },
+    {
+      "tag": "shift--025mm-257",
+      "grid": 257,
+      "shift_m": -0.025,
+      "error": null,
+      "defect": 0.00040970101968326657
+    },
+    {
+      "tag": "recovery-129-no-linesearch",
+      "grid": 129,
+      "shift_m": 0,
+      "error": null,
+      "defect": 0.009343500904232508
+    },
+    {
+      "tag": "shift--050mm-257",
+      "grid": 257,
+      "shift_m": -0.05,
+      "error": null,
+      "defect": 0.00013811146455615923
+    },
+    {
+      "tag": "inward-025mm-257",
+      "grid": 257,
+      "shift_m": 0.025,
+      "error": null,
+      "defect": 0.004458412637616367
+    },
+    {
+      "tag": "shift-+025mm-129",
+      "grid": 129,
+      "shift_m": 0.025,
+      "error": "RuntimeError: Critical-point refinement failed",
+      "defect": null
+    },
+    {
+      "tag": "recovery-geometry-075mm",
+      "grid": 129,
+      "shift_m": 0.075,
+      "error": "RuntimeError: Critical-point refinement failed",
+      "defect": null
+    },
+    {
+      "tag": "inward-050mm-129",
+      "grid": 129,
+      "shift_m": 0.05,
+      "error": null,
+      "defect": 0.004105211728956118
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "grid": 257,
+  "accepted": 4,
+  "planned_geometries": 7,
+  "input_fingerprint": {
+    "code_sha256": "a3e3243d421b538585695cb41a4e15a153b9532c9955a5c31c058c063e13a66a",
+    "inherited_screens_sha256": "9ae3c7efa9dde8863faea294e888a7e09e6e487cef59c114e33f70d5300d56cf",
+    "fields": [
+      {
+        "path": "openstep-003/results/shift-+000mm-257.npz",
+        "sha256": "49ca25493b5d97fdb34c885b7b2139fc4d0a8fe102e30e4ff8e7650f5f691ce7",
+        "report_sha256": "7ff0588c3f08e4fe3620c28309bb9b38fbee9658cfa846ab54bc54ea01143f52"
+      },
+      {
+        "path": "openstep-003/results/shift--010mm-257.npz",
+        "sha256": "56dfcb608702bfbe2c0c1d3839a24db79ada462bc0b9e6cb8beb2873f1e85da2",
+        "report_sha256": "6e74b00848c997e50aeca304209fd83025e9f163db2c67ee26323ddc68a88a9d"
+      },
+      {
+        "path": "openstep-003/results/inward-010mm-257.npz",
+        "sha256": "0db3b2d3d9a1c571d4125720b6cda350a40291e6dee30629fc47ae9b00f6090a",
+        "report_sha256": "866923ce31a74629418861d9cfd0a2f896c0cae843be65be2712c317eddae386"
+      },
+      {
+        "path": "openstep-003/results/inward-050mm-257.npz",
+        "sha256": "c044ff5e3f3eb1ebacc66242841f620c9b18ea00a23d2586e3fee2040f7dcf30",
+        "report_sha256": "edf8335b2bf8732ed202e93d1cf9ba656db7c6a9f8d762372f08fab0ba1aef9f"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "tag": "shift-+000mm-257",
+      "grid": 257,
+      "shift_m": 0,
+      "axis_R_m": 4.389654491391341,
+      "upper_x_R_m": 2.525432638333049,
+      "upper_x_Z_m": 6.106672416274416,
+      "current_A": 22774410.5517846,
+      "pressure_axis_Pa": 1335266.846464493,
+      "pressure_integral_J": 400867464.78739756,
+      "near_LCFS_to_wall_m": 0.08999906734805663,
+      "vertical_stiffness_N_per_m": 20642065.774816606,
+      "H_required_transport": 1.4648557250606928,
+      "q95": 7.59622778258991,
+      "magnetic": {
+        "arm": "shift-+000mm-257",
+        "grid": 257,
+        "q_min_sampled": 2.3797735948553767,
+        "q95": 7.59622778258991,
+        "q95_quadrature_difference": 5.53556687883372e-05,
+        "beta_toroidal": 0.1388555513232808,
+        "beta_normalized": 3.9393731645889845,
+        "R_geometric_m": 3.6048417161520585,
+        "a_midplane_m": 2.021830489263125,
+        "B_vacuum_at_Rgeom_T": 3.1957020327363703,
+        "F_squared_min_T2_m2": 114.9553574287531,
+        "physics_status": "UNRESOLVED: q and beta are diagnostics, not MHD eigenmode tests"
+      },
+      "vertical": {
+        "arm": "shift-+000mm-257",
+        "grid": 257,
+        "translations": [
+          {
+            "arm": "shift-+000mm-257",
+            "grid": 257,
+            "step_m": 0.001,
+            "Fz_minus_N": -20642.06577482132,
+            "Fz_zero_N": -4.754383553517982e-09,
+            "Fz_plus_N": 20642.06577481189,
+            "dFz_dz_N_per_m": 20642065.774816606
+          },
+          {
+            "arm": "shift-+000mm-257",
+            "grid": 257,
+            "step_m": 0.005,
+            "Fz_minus_N": -103211.23726794224,
+            "Fz_zero_N": -4.754383553517982e-09,
+            "Fz_plus_N": 103211.2372679331,
+            "dFz_dz_N_per_m": 20642247.453587532
+          },
+          {
+            "arm": "shift-+000mm-257",
+            "grid": 257,
+            "step_m": 0.01,
+            "Fz_minus_N": -206424.74552055466,
+            "Fz_zero_N": -4.754383553517982e-09,
+            "Fz_plus_N": 206424.74552054485,
+            "dFz_dz_N_per_m": 20642474.552054975
+          }
+        ],
+        "finding": "DESTABILIZING",
+        "scope": "Rigid fixed-current displacement; fixed external coils; no vessel eddy currents, feedback or plasma shape/current response. No physical growth rate inferred."
+      },
+      "full_domain_defect": 6.423034732047751e-12,
+      "seconds_solve": 71.21384954452515,
+      "representative_heat_MW_m2": 10.45223893044388,
+      "max_sampled_heat_MW_m2": 94.4617021154174,
+      "load_samples": 120,
+      "samples_above_10": 45,
+      "wall_hits": 10,
+      "trace_count": 10,
+      "max_flux_drift": 3.005754627793472e-06,
+      "max_step_halving_position_m": 8.027506226684262e-06,
+      "max_step_halving_length_m": 0.00024617471228793875,
+      "trace_checks_pass": true
+    },
+    {
+      "tag": "shift--010mm-257",
+      "grid": 257,
+      "shift_m": -0.01,
+      "axis_R_m": 4.40222151172887,
+      "upper_x_R_m": 2.5297453728204413,
+      "upper_x_Z_m": 6.11061055077035,
+      "current_A": 22774410.5517846,
+      "pressure_axis_Pa": 1335266.8464644968,
+      "pressure_integral_J": 403141272.5612322,
+      "near_LCFS_to_wall_m": 0.09186677605947158,
+      "vertical_stiffness_N_per_m": 20574061.889649056,
+      "H_required_transport": 1.4694698599505294,
+      "q95": 7.571865977946101,
+      "magnetic": {
+        "arm": "shift--010mm-257",
+        "grid": 257,
+        "q_min_sampled": 2.346472910811385,
+        "q95": 7.571865977946101,
+        "q95_quadrature_difference": 3.738553541587919e-05,
+        "beta_toroidal": 0.1395027752834437,
+        "beta_normalized": 3.9635685253390704,
+        "R_geometric_m": 3.6158464736377836,
+        "a_midplane_m": 2.030991809725406,
+        "B_vacuum_at_Rgeom_T": 3.185975976576823,
+        "F_squared_min_T2_m2": 114.90488005000941,
+        "physics_status": "UNRESOLVED: q and beta are diagnostics, not MHD eigenmode tests"
+      },
+      "vertical": {
+        "arm": "shift--010mm-257",
+        "grid": 257,
+        "translations": [
+          {
+            "arm": "shift--010mm-257",
+            "grid": 257,
+            "step_m": 0.001,
+            "Fz_minus_N": -20574.06188964552,
+            "Fz_zero_N": 3.4788172342814505e-09,
+            "Fz_plus_N": 20574.061889652592,
+            "dFz_dz_N_per_m": 20574061.889649056
+          },
+          {
+            "arm": "shift--010mm-257",
+            "grid": 257,
+            "step_m": 0.005,
+            "Fz_minus_N": -102871.22170095508,
+            "Fz_zero_N": 3.4788172342814505e-09,
+            "Fz_plus_N": 102871.22170096192,
+            "dFz_dz_N_per_m": 20574244.3401917
+          },
+          {
+            "arm": "shift--010mm-257",
+            "grid": 257,
+            "step_m": 0.01,
+            "Fz_minus_N": -205744.72403373785,
+            "Fz_zero_N": 3.4788172342814505e-09,
+            "Fz_plus_N": 205744.7240337446,
+            "dFz_dz_N_per_m": 20574472.40337412
+          }
+        ],
+        "finding": "DESTABILIZING",
+        "scope": "Rigid fixed-current displacement; fixed external coils; no vessel eddy currents, feedback or plasma shape/current response. No physical growth rate inferred."
+      },
+      "full_domain_defect": 9.205970274869928e-10,
+      "seconds_solve": 156.28564620018005,
+      "representative_heat_MW_m2": 10.467550948659857,
+      "max_sampled_heat_MW_m2": 94.60008388348916,
+      "load_samples": 120,
+      "samples_above_10": 39,
+      "wall_hits": 10,
+      "trace_count": 10,
+      "max_flux_drift": 3.1550044523843136e-06,
+      "max_step_halving_position_m": 7.856217091262e-06,
+      "max_step_halving_length_m": 0.00038652797394433946,
+      "trace_checks_pass": true
+    },
+    {
+      "tag": "inward-010mm-257",
+      "grid": 257,
+      "shift_m": 0.01,
+      "axis_R_m": 4.383049588476588,
+      "upper_x_R_m": 2.5222975305819517,
+      "upper_x_Z_m": 6.104533915009903,
+      "current_A": 22774410.551784597,
+      "pressure_axis_Pa": 1335266.8464644947,
+      "pressure_integral_J": 399283555.29314953,
+      "near_LCFS_to_wall_m": 0.08837062484836666,
+      "vertical_stiffness_N_per_m": 20678155.460441086,
+      "H_required_transport": 1.4626436860103142,
+      "q95": 7.616785318625229,
+      "magnetic": {
+        "arm": "inward-010mm-257",
+        "grid": 257,
+        "q_min_sampled": 2.400079046970326,
+        "q95": 7.616785318625229,
+        "q95_quadrature_difference": 8.817282278172911e-05,
+        "beta_toroidal": 0.13851356217944352,
+        "beta_normalized": 3.9271432744209265,
+        "R_geometric_m": 3.5982143823548913,
+        "a_midplane_m": 2.01681540126096,
+        "B_vacuum_at_Rgeom_T": 3.201588003341982,
+        "F_squared_min_T2_m2": 114.96017794067976,
+        "physics_status": "UNRESOLVED: q and beta are diagnostics, not MHD eigenmode tests"
+      },
+      "vertical": {
+        "arm": "inward-010mm-257",
+        "grid": 257,
+        "translations": [
+          {
+            "arm": "inward-010mm-257",
+            "grid": 257,
+            "step_m": 0.001,
+            "Fz_minus_N": -20678.155460441012,
+            "Fz_zero_N": -7.73070496506989e-11,
+            "Fz_plus_N": 20678.155460441165,
+            "dFz_dz_N_per_m": 20678155.460441086
+          },
+          {
+            "arm": "inward-010mm-257",
+            "grid": 257,
+            "step_m": 0.005,
+            "Fz_minus_N": -103391.68630203774,
+            "Fz_zero_N": -7.73070496506989e-11,
+            "Fz_plus_N": 103391.6863020375,
+            "dFz_dz_N_per_m": 20678337.260407522
+          },
+          {
+            "arm": "inward-010mm-257",
+            "grid": 257,
+            "step_m": 0.01,
+            "Fz_minus_N": -206785.64510369662,
+            "Fz_zero_N": -7.73070496506989e-11,
+            "Fz_plus_N": 206785.64510369673,
+            "dFz_dz_N_per_m": 20678564.510369666
+          }
+        ],
+        "finding": "DESTABILIZING",
+        "scope": "Rigid fixed-current displacement; fixed external coils; no vessel eddy currents, feedback or plasma shape/current response. No physical growth rate inferred."
+      },
+      "full_domain_defect": 1.3940806420560186e-08,
+      "seconds_solve": 183.30815291404724,
+      "representative_heat_MW_m2": 10.465710327005661,
+      "max_sampled_heat_MW_m2": 94.58344933699989,
+      "load_samples": 120,
+      "samples_above_10": 47,
+      "wall_hits": 10,
+      "trace_count": 10,
+      "max_flux_drift": 3.0585685174511804e-06,
+      "max_step_halving_position_m": 8.352284608745357e-06,
+      "max_step_halving_length_m": 0.0004513521487297112,
+      "trace_checks_pass": true
+    },
+    {
+      "tag": "inward-050mm-257",
+      "grid": 257,
+      "shift_m": 0.05,
+      "axis_R_m": 4.344621990139894,
+      "upper_x_R_m": 2.5028084865822025,
+      "upper_x_Z_m": 6.096359615909549,
+      "current_A": 22774410.55178459,
+      "pressure_axis_Pa": 1335266.8464644952,
+      "pressure_integral_J": 391518170.68133116,
+      "near_LCFS_to_wall_m": 0.08085159855007218,
+      "vertical_stiffness_N_per_m": 20890047.98704143,
+      "H_required_transport": 1.450392041779939,
+      "q95": 7.714260140001847,
+      "magnetic": {
+        "arm": "inward-050mm-257",
+        "grid": 257,
+        "q_min_sampled": 2.5100838836364017,
+        "q95": 7.714260140001847,
+        "q95_quadrature_difference": 8.424475794743813e-05,
+        "beta_toroidal": 0.13667870839216908,
+        "beta_normalized": 3.859288143632276,
+        "R_geometric_m": 3.5626753224945733,
+        "a_midplane_m": 1.9887365294435893,
+        "B_vacuum_at_Rgeom_T": 3.2335250779837366,
+        "F_squared_min_T2_m2": 115.08059641627992,
+        "physics_status": "UNRESOLVED: q and beta are diagnostics, not MHD eigenmode tests"
+      },
+      "vertical": {
+        "arm": "inward-050mm-257",
+        "grid": 257,
+        "translations": [
+          {
+            "arm": "inward-050mm-257",
+            "grid": 257,
+            "step_m": 0.001,
+            "Fz_minus_N": -20890.0479870412,
+            "Fz_zero_N": 2.319211489520967e-10,
+            "Fz_plus_N": 20890.04798704166,
+            "dFz_dz_N_per_m": 20890047.98704143
+          },
+          {
+            "arm": "inward-050mm-257",
+            "grid": 257,
+            "step_m": 0.005,
+            "Fz_minus_N": -104451.13795732403,
+            "Fz_zero_N": 2.319211489520967e-10,
+            "Fz_plus_N": 104451.13795732449,
+            "dFz_dz_N_per_m": 20890227.59146485
+          },
+          {
+            "arm": "inward-050mm-257",
+            "grid": 257,
+            "step_m": 0.01,
+            "Fz_minus_N": -208904.52096998246,
+            "Fz_zero_N": 2.319211489520967e-10,
+            "Fz_plus_N": 208904.5209699824,
+            "dFz_dz_N_per_m": 20890452.096998245
+          }
+        ],
+        "finding": "DESTABILIZING",
+        "scope": "Rigid fixed-current displacement; fixed external coils; no vessel eddy currents, feedback or plasma shape/current response. No physical growth rate inferred."
+      },
+      "full_domain_defect": 1.9249466700517882e-08,
+      "seconds_solve": 109.94308543205261,
+      "representative_heat_MW_m2": 56.04329199676229,
+      "max_sampled_heat_MW_m2": 506.4890679781557,
+      "load_samples": 120,
+      "samples_above_10": 74,
+      "wall_hits": 10,
+      "trace_count": 10,
+      "max_flux_drift": 2.892043258073417e-06,
+      "max_step_halving_position_m": 1.636487869660641e-06,
+      "max_step_halving_length_m": 0.00016339092324102467,
+      "trace_checks_pass": true
+    }
+  ],
+  "confinement": {
+    "cases": 144,
+    "central": [
+      {
+        "arm": "shift-+000mm-257",
+        "W_target_J": 574691361.6878928,
+        "tau98_transport_s": 2.7425498499124417,
+        "tau98_total_loss_s": 1.2600693583898614,
+        "H_required_transport": 1.4648557250606928,
+        "H_required_total_loss": 1.0328745359891565
+      },
+      {
+        "arm": "shift--010mm-257",
+        "W_target_J": 577951136.552522,
+        "tau98_transport_s": 2.7494457388304316,
+        "tau98_total_loss_s": 1.2632376866974393,
+        "H_required_transport": 1.4694698599505294,
+        "H_required_total_loss": 1.0361279775068413
+      },
+      {
+        "arm": "inward-010mm-257",
+        "W_target_J": 572420638.3591174,
+        "tau98_transport_s": 2.7358447987943793,
+        "tau98_total_loss_s": 1.2569887108455413,
+        "H_required_transport": 1.4626436860103142,
+        "H_required_total_loss": 1.0313148200603712
+      },
+      {
+        "arm": "inward-050mm-257",
+        "W_target_J": 561288032.5763984,
+        "tau98_transport_s": 2.7052978553725784,
+        "tau98_total_loss_s": 1.2429538638948077,
+        "H_required_transport": 1.450392041779939,
+        "H_required_total_loss": 1.0226761458666862
+      }
+    ],
+    "max_analytic_relative_error": 2.899588295029991e-11,
+    "assumptions": [
+      "Fixed alpha, ohmic and radiative powers; no fusion-temperature feedback",
+      "Same line density and mean D-T mass in both arms",
+      "Thermal-energy target scales with pressure integral; baseline normalized to distinct JETTO thermal energy",
+      "H is an imposed transport-radiation-subtracted multiplier, not measured confinement"
+    ],
+    "physics_status": "UNRESOLVED: sensitivity calculation, no turbulence or self-consistent burn simulation"
+  },
+  "exhaust": {
+    "trace_count": 40,
+    "wall_hits": 40,
+    "load_samples": 480,
+    "sampled_max_MW_m2": 506.4890679781557,
+    "above_criterion": 205,
+    "max_trace_flux_drift": 3.1550044523843136e-06,
+    "criterion_MW_m2": 10,
+    "physics_status": "CONDITIONAL SCREEN: sampled attached footprints; peak between samples, detachment, neutrals and transients unresolved"
+  },
+  "seconds": 146.05381846427917
+}

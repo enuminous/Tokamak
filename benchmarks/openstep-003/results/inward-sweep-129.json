@@ -1,0 +1,14 @@
+[
+  {
+    "tag": "inward-010mm-129",
+    "converged": true
+  },
+  {
+    "tag": "inward-025mm-129",
+    "converged": false
+  },
+  {
+    "tag": "inward-050mm-129",
+    "converged": false
+  }
+]

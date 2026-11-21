@@ -1,0 +1,7 @@
+{
+  "field_sha256": "78daf7821dbf58e492bf07cb335132bd417ec9fa160b535f561eeeb669f68d64",
+  "original_FreeGS_defect": 4.339039220391924e-08,
+  "accepted": true,
+  "threshold": 1e-05,
+  "operator": "FreeGS 0.8.2 original uncached von Hagenow boundary and full-domain critical search"
+}

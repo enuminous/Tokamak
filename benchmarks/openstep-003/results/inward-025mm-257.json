@@ -1,0 +1,382 @@
+{
+  "tag": "inward-025mm-257",
+  "grid": [
+    257,
+    513
+  ],
+  "p9_translation_m": 0.025,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22774410.551784597,
+  "target_pressure_axis_Pa": 1335266.8464644956,
+  "homotopy_alpha": 1.0,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-003/results/inward-010mm-257.npz",
+  "warm_sha256": "0db3b2d3d9a1c571d4125720b6cda350a40291e6dee30629fc47ae9b00f6090a",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "iterations": [
+    {
+      "iteration": 0,
+      "evaluations": 13,
+      "defect": 0.004766535923688069
+    },
+    {
+      "iteration": 1,
+      "evaluations": 24,
+      "defect": 0.0045378391787682685
+    },
+    {
+      "iteration": 2,
+      "evaluations": 31,
+      "defect": 0.004459860505369439
+    },
+    {
+      "iteration": 3,
+      "evaluations": 41,
+      "defect": 0.004458463580047002
+    },
+    {
+      "iteration": 4,
+      "evaluations": 51,
+      "defect": 0.004458463407225595
+    },
+    {
+      "iteration": 5,
+      "evaluations": 62,
+      "defect": 0.0044584632508887214
+    },
+    {
+      "iteration": 6,
+      "evaluations": 74,
+      "defect": 0.00445846310902392
+    },
+    {
+      "iteration": 7,
+      "evaluations": 83,
+      "defect": 0.00445846294464362
+    },
+    {
+      "iteration": 8,
+      "evaluations": 96,
+      "defect": 0.004458462794277579
+    },
+    {
+      "iteration": 9,
+      "evaluations": 105,
+      "defect": 0.004458462637721018
+    },
+    {
+      "iteration": 10,
+      "evaluations": 116,
+      "defect": 0.004458462477839489
+    },
+    {
+      "iteration": 11,
+      "evaluations": 127,
+      "defect": 0.004458462319470912
+    },
+    {
+      "iteration": 12,
+      "evaluations": 137,
+      "defect": 0.004458462166128676
+    },
+    {
+      "iteration": 13,
+      "evaluations": 146,
+      "defect": 0.004458462007202063
+    },
+    {
+      "iteration": 14,
+      "evaluations": 153,
+      "defect": 0.004458461855425695
+    },
+    {
+      "iteration": 15,
+      "evaluations": 159,
+      "defect": 0.004458461700400529
+    },
+    {
+      "iteration": 16,
+      "evaluations": 167,
+      "defect": 0.004458461537734428
+    },
+    {
+      "iteration": 17,
+      "evaluations": 171,
+      "defect": 0.004458461380045758
+    },
+    {
+      "iteration": 18,
+      "evaluations": 176,
+      "defect": 0.004458461223691246
+    },
+    {
+      "iteration": 19,
+      "evaluations": 181,
+      "defect": 0.004458461067008805
+    },
+    {
+      "iteration": 20,
+      "evaluations": 192,
+      "defect": 0.004458460913381938
+    },
+    {
+      "iteration": 21,
+      "evaluations": 200,
+      "defect": 0.004458460747704363
+    },
+    {
+      "iteration": 22,
+      "evaluations": 204,
+      "defect": 0.004458460587154953
+    },
+    {
+      "iteration": 23,
+      "evaluations": 211,
+      "defect": 0.004458460427965357
+    },
+    {
+      "iteration": 24,
+      "evaluations": 224,
+      "defect": 0.004458460266064152
+    },
+    {
+      "iteration": 25,
+      "evaluations": 232,
+      "defect": 0.004458460117942284
+    },
+    {
+      "iteration": 26,
+      "evaluations": 243,
+      "defect": 0.004458459957966947
+    },
+    {
+      "iteration": 27,
+      "evaluations": 250,
+      "defect": 0.004458459795994383
+    },
+    {
+      "iteration": 28,
+      "evaluations": 263,
+      "defect": 0.004458459636649242
+    },
+    {
+      "iteration": 29,
+      "evaluations": 271,
+      "defect": 0.004458459478484317
+    },
+    {
+      "iteration": 30,
+      "evaluations": 279,
+      "defect": 0.004458459321821922
+    },
+    {
+      "iteration": 31,
+      "evaluations": 284,
+      "defect": 0.004458459159242413
+    },
+    {
+      "iteration": 32,
+      "evaluations": 289,
+      "defect": 0.004458458996658895
+    },
+    {
+      "iteration": 33,
+      "evaluations": 296,
+      "defect": 0.004458458836027705
+    },
+    {
+      "iteration": 34,
+      "evaluations": 299,
+      "defect": 0.0044584586785851804
+    },
+    {
+      "iteration": 35,
+      "evaluations": 302,
+      "defect": 0.004458458533102762
+    },
+    {
+      "iteration": 36,
+      "evaluations": 309,
+      "defect": 0.0044584583740222075
+    },
+    {
+      "iteration": 37,
+      "evaluations": 313,
+      "defect": 0.004458458216668681
+    },
+    {
+      "iteration": 38,
+      "evaluations": 328,
+      "defect": 0.004458458073760768
+    },
+    {
+      "iteration": 39,
+      "evaluations": 342,
+      "defect": 0.004458457967049875
+    },
+    {
+      "iteration": 40,
+      "evaluations": 347,
+      "defect": 0.004458457811910856
+    },
+    {
+      "iteration": 41,
+      "evaluations": 358,
+      "defect": 0.004458457663356029
+    },
+    {
+      "iteration": 42,
+      "evaluations": 368,
+      "defect": 0.004458457522478215
+    },
+    {
+      "iteration": 43,
+      "evaluations": 372,
+      "defect": 0.0044584573602234265
+    },
+    {
+      "iteration": 44,
+      "evaluations": 375,
+      "defect": 0.004458457200527107
+    },
+    {
+      "iteration": 45,
+      "evaluations": 385,
+      "defect": 0.004458457053598284
+    },
+    {
+      "iteration": 46,
+      "evaluations": 393,
+      "defect": 0.004458456908146333
+    },
+    {
+      "iteration": 47,
+      "evaluations": 401,
+      "defect": 0.0044584567570883585
+    },
+    {
+      "iteration": 48,
+      "evaluations": 410,
+      "defect": 0.004458456614321558
+    },
+    {
+      "iteration": 49,
+      "evaluations": 414,
+      "defect": 0.004458456458841784
+    },
+    {
+      "iteration": 50,
+      "evaluations": 421,
+      "defect": 0.004458456309045806
+    },
+    {
+      "iteration": 51,
+      "evaluations": 425,
+      "defect": 0.004458456169440413
+    },
+    {
+      "iteration": 52,
+      "evaluations": 435,
+      "defect": 0.004458456019840068
+    },
+    {
+      "iteration": 53,
+      "evaluations": 447,
+      "defect": 0.004458455880305231
+    },
+    {
+      "iteration": 54,
+      "evaluations": 451,
+      "defect": 0.004458455721520533
+    },
+    {
+      "iteration": 55,
+      "evaluations": 461,
+      "defect": 0.004458455569084303
+    },
+    {
+      "iteration": 56,
+      "evaluations": 470,
+      "defect": 0.004458455416898229
+    },
+    {
+      "iteration": 57,
+      "evaluations": 482,
+      "defect": 0.0044584129202226794
+    },
+    {
+      "iteration": 58,
+      "evaluations": 498,
+      "defect": 0.004458412778497388
+    },
+    {
+      "iteration": 59,
+      "evaluations": 514,
+      "defect": 0.004458412637605944
+    }
+  ],
+  "converged": false,
+  "final_critical_search": "original full domain",
+  "initial_defect": 0.0045767950031019656,
+  "root_solver": {
+    "success": false,
+    "message": "The maximum number of iterations allowed has been reached.",
+    "evaluations": 514
+  },
+  "final_defect": 0.004458412637616367,
+  "final": {
+    "axis": [
+      4.376522134604441,
+      7.622561231693174e-15,
+      6.025972169006597
+    ],
+    "xpoints": [
+      [
+        2.517566677865009,
+        -6.101327755009489,
+        1.6696615923932236
+      ],
+      [
+        2.517566677865014,
+        6.1013277550094935,
+        1.669661592393224
+      ],
+      [
+        8.241287552024026,
+        -4.749861906489776,
+        -16.992020534178284
+      ],
+      [
+        8.241287552023927,
+        4.749861906489796,
+        -16.992020534178295
+      ]
+    ],
+    "ip_A": 22774410.551784597,
+    "core_area_m2": 33.49494934082031,
+    "core_volume_m3": 701.671260869029,
+    "pressure_integral_J": 397203069.5704185,
+    "pressure_axis_Pa": 1335266.8464644954,
+    "core_flux_nrmse": 0.01088737236203499,
+    "gauge_offset_Wb_per_rad": -0.05279178719053307,
+    "midplane_radii_m": [
+      1.5794298591138851,
+      5.602065556863091
+    ],
+    "psi_axis": 6.025972169006598,
+    "psi_boundary": 1.6696615923932236,
+    "up_down_asymmetry": 1.4210854715202004e-14
+  },
+  "pressure_derivative_scale": 1.01893167452064,
+  "ff_derivative_scale": 1.0203458511032153,
+  "pressure_profile_relative_error": 5.449066329661838e-16,
+  "current_relative_error": 0.0,
+  "F_squared_min_T2_m2": 114.93071562851021,
+  "seconds": 793.4277985095978
+}

@@ -1,0 +1,47 @@
+Screened magnetic recovery-homotopy-10
+Screened magnetic shift--050mm-129
+Screened magnetic shift--010mm-129
+Screened magnetic inward-010mm-129
+{
+  "grid": 129,
+  "accepted": 4,
+  "planned_geometries": 7,
+  "input_fingerprint": {
+    "code_sha256": "a3e3243d421b538585695cb41a4e15a153b9532c9955a5c31c058c063e13a66a",
+    "inherited_screens_sha256": "9ae3c7efa9dde8863faea294e888a7e09e6e487cef59c114e33f70d5300d56cf",
+    "fields": [
+      {
+        "path": "openstep-003/results/recovery-homotopy-10.npz",
+        "sha256": "78daf7821dbf58e492bf07cb335132bd417ec9fa160b535f561eeeb669f68d64",
+        "report_sha256": "7b33c4fa497803db0a5ae7dae1d810897e6e270ab848a523611e0a418b4ede64"
+      },
+      {
+        "path": "openstep-003/results/shift--050mm-129.npz",
+        "sha256": "0227b07fba356e215ee7f32c76bd06804559edb902bc970232f0071fcdb4f21e",
+        "report_sha256": "6ffe3d2e09c5a4ab5ce64bd3a1eb560661f40fa7a4b3b13da877bf1c5b4b983c"
+      },
+      {
+        "path": "openstep-003/results/shift--010mm-129.npz",
+        "sha256": "52ceb95e685e237fe1dd3ed83596faa9304c33bd159db9d5b3072d85f72b16a5",
+        "report_sha256": "b329eb9179a5aae1e44dd6b85e26c2af50fba695b6a4ab4c053b1e629ca23d34"
+      },
+      {
+        "path": "openstep-003/results/inward-010mm-129.npz",
+        "sha256": "5704490383ba9f80dd7589bc95d72330421d98f00399c684431699df82eaad39",
+        "report_sha256": "e5010ddbaca65d4b7f3ab6e129cdbb5bda797cd796b53845e54f98d33435ead6"
+      }
+    ]
+  },
+  "exhaust": {
+    "trace_count": 40,
+    "wall_hits": 40,
+    "load_samples": 480,
+    "sampled_max_MW_m2": 96.41113654947887,
+    "above_criterion": 159,
+    "max_trace_flux_drift": 3.4438217813693916e-06,
+    "criterion_MW_m2": 10,
+    "physics_status": "CONDITIONAL SCREEN: sampled attached footprints; peak between samples, detachment, neutrals and transients unresolved"
+  },
+  "seconds": 38.481130599975586
+}
+Reusing unchanged accepted-field screens 129

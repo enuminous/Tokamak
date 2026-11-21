@@ -1,0 +1,97 @@
+{
+  "tag": "recovery-homotopy-01",
+  "grid": [
+    129,
+    257
+  ],
+  "p9_translation_m": 0,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22772353.69830243,
+  "target_pressure_axis_Pa": 1338483.2011151605,
+  "homotopy_alpha": 0.1,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-003/results/recovery-homotopy-00.npz",
+  "warm_sha256": "5353471cb9d48e71c95fe1d4bc2d810143b1842db6709c1e90051411f90b0791",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "iterations": [
+    {
+      "iteration": 0,
+      "evaluations": 15,
+      "defect": 5.8787532933937125e-05
+    },
+    {
+      "iteration": 1,
+      "evaluations": 30,
+      "defect": 1.2214200335489248e-06
+    },
+    {
+      "iteration": 2,
+      "evaluations": 48,
+      "defect": 1.0158360963480953e-09
+    }
+  ],
+  "converged": true,
+  "final_critical_search": "original full domain",
+  "initial_defect": 0.0008635292986507596,
+  "root_solver": {
+    "success": true,
+    "message": "A solution was found at the specified tolerance.",
+    "evaluations": 48
+  },
+  "final_defect": 1.0158425105632816e-09,
+  "final": {
+    "axis": [
+      4.391738254520519,
+      -1.937260613084188e-14,
+      6.133017299024589
+    ],
+    "xpoints": [
+      [
+        2.53085451477772,
+        -6.088944299422102,
+        1.682525278685951
+      ],
+      [
+        2.53085451477772,
+        6.088944299422098,
+        1.6825252786859504
+      ],
+      [
+        8.252717621044004,
+        -4.764439443641102,
+        -16.783904136801127
+      ],
+      [
+        8.252717621044003,
+        4.764439443641105,
+        -16.78390413680113
+      ]
+    ],
+    "ip_A": 22772353.69830243,
+    "core_area_m2": 33.75823974609375,
+    "core_volume_m3": 711.2065309491301,
+    "pressure_integral_J": 402181200.12613773,
+    "pressure_axis_Pa": 1338483.2011151602,
+    "core_flux_nrmse": 0.0027745686942123246,
+    "gauge_offset_Wb_per_rad": 0.012705111885420887,
+    "midplane_radii_m": [
+      1.5810763153198801,
+      5.630626781878037
+    ],
+    "psi_axis": 6.133017299024589,
+    "psi_boundary": 1.6825252786859506,
+    "up_down_asymmetry": 1.4210854715202004e-14
+  },
+  "pressure_derivative_scale": 0.9997714477873799,
+  "ff_derivative_scale": 1.0005387500392497,
+  "pressure_profile_relative_error": 9.13243347517849e-16,
+  "current_relative_error": 0.0,
+  "F_squared_min_T2_m2": 114.89893058769069,
+  "seconds": 20.86784291267395
+}

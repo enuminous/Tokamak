@@ -1,0 +1,120 @@
+{
+  "attempts": [
+    {
+      "id": "recovery-129-fd3",
+      "status": "INTERRUPTED",
+      "exit_code": 130,
+      "accepted_field": false,
+      "grid": 129,
+      "shift_m": 0,
+      "rdiff": 0.001,
+      "line_search": "armijo",
+      "max_iterations": 60,
+      "solver_fatol": 1e-07,
+      "homotopy_alpha": 1,
+      "warm_start": "openstep-001/results/baseline-129-symmetric.npz",
+      "warm_sha256": "b53b5ea96d9740d6d3437e906cadd20a9925dc84c06f7de9dd0bddbd71d24b46",
+      "log": "results/recovery-129-fd3.log",
+      "last_recorded_iteration": {
+        "tag": "recovery-129-fd3",
+        "iteration": 50,
+        "evaluations": 512,
+        "defect": 0.0011059760158291774
+      },
+      "reason": "Baseline recovered by the original homotopy route"
+    },
+    {
+      "id": "baseline-from-negative-restart",
+      "status": "INTERRUPTED",
+      "exit_code": 130,
+      "accepted_field": false,
+      "grid": 129,
+      "shift_m": 0,
+      "rdiff": 1e-07,
+      "line_search": "armijo",
+      "max_iterations": 60,
+      "solver_fatol": 1e-07,
+      "homotopy_alpha": 1,
+      "warm_start": "openstep-003/results/shift--010mm-129.npz",
+      "warm_sha256": "52ceb95e685e237fe1dd3ed83596faa9304c33bd159db9d5b3072d85f72b16a5",
+      "log": "development/baseline-from-negative-interrupted.log",
+      "last_recorded_iteration": {
+        "tag": "shift-+000mm-129",
+        "iteration": 48,
+        "evaluations": 702,
+        "defect": 0.001477000534526458
+      },
+      "reason": "Baseline recovered by the original homotopy route"
+    },
+    {
+      "id": "alternate--025mm-257-fd3",
+      "status": "INTERRUPTED",
+      "exit_code": 130,
+      "accepted_field": false,
+      "grid": 257,
+      "shift_m": -0.025,
+      "rdiff": 0.001,
+      "line_search": "armijo",
+      "max_iterations": 60,
+      "solver_fatol": 1e-07,
+      "homotopy_alpha": 1,
+      "warm_start": "openstep-003/results/shift--010mm-257.npz",
+      "warm_sha256": "56dfcb608702bfbe2c0c1d3839a24db79ada462bc0b9e6cb8beb2873f1e85da2",
+      "log": "results/alternate--025mm-257-fd3.log",
+      "last_recorded_iteration": {
+        "tag": "alternate--025mm-257-fd3",
+        "iteration": 9,
+        "evaluations": 98,
+        "defect": 0.0006245071867799441
+      },
+      "reason": "Retained the original bounded geometry trial"
+    },
+    {
+      "id": "duplicate-coarse-inward-050mm",
+      "status": "INTERRUPTED",
+      "exit_code": 130,
+      "accepted_field": false,
+      "grid": 129,
+      "shift_m": 0.05,
+      "rdiff": 1e-07,
+      "line_search": "armijo",
+      "max_iterations": 60,
+      "solver_fatol": 1e-07,
+      "homotopy_alpha": 1,
+      "warm_start": "openstep-003/results/shift-+010mm-129.npz",
+      "warm_sha256": "a7473b4aae9ca836333f68eacb36d0f36f36cee80ac167fe7cb985f59bb49556",
+      "log": "results/shift-+050mm-129.log",
+      "last_recorded_iteration": {
+        "tag": "shift-+050mm-129",
+        "iteration": 2,
+        "evaluations": 27,
+        "defect": 0.01288235607089387
+      },
+      "reason": "Dedicated inward continuation already running"
+    },
+    {
+      "id": "duplicate-fine-inward-010mm",
+      "status": "INTERRUPTED",
+      "exit_code": 130,
+      "accepted_field": false,
+      "grid": 257,
+      "shift_m": 0.01,
+      "rdiff": 1e-07,
+      "line_search": "armijo",
+      "max_iterations": 60,
+      "solver_fatol": 1e-07,
+      "homotopy_alpha": 1,
+      "warm_start": "openstep-003/results/shift-+000mm-257.npz",
+      "warm_sha256": "49ca25493b5d97fdb34c885b7b2139fc4d0a8fe102e30e4ff8e7650f5f691ce7",
+      "log": "results/shift-+010mm-257.log",
+      "last_recorded_iteration": {
+        "tag": "shift-+010mm-257",
+        "iteration": 3,
+        "evaluations": 56,
+        "defect": 7.470005900755205e-06
+      },
+      "reason": "Dedicated inward field already accepted"
+    }
+  ],
+  "source_code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e"
+}

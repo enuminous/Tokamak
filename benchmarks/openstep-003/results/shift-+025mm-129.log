@@ -1,0 +1,29 @@
+{"tag": "shift-+025mm-129", "iteration": 0, "evaluations": 14, "defect": 0.014596877273971078}
+{"tag": "shift-+025mm-129", "iteration": 1, "evaluations": 25, "defect": 0.014526384130794812}
+{
+  "tag": "shift-+025mm-129",
+  "grid": [
+    129,
+    257
+  ],
+  "p9_translation_m": 0.025,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22774410.551784597,
+  "target_pressure_axis_Pa": 1335266.8464644956,
+  "homotopy_alpha": 1.0,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-003/results/shift-+010mm-129.npz",
+  "warm_sha256": "a7473b4aae9ca836333f68eacb36d0f36f36cee80ac167fe7cb985f59bb49556",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "converged": false,
+  "final_critical_search": "original full domain",
+  "initial_defect": 0.00512031096762474,
+  "error": "RuntimeError: Critical-point refinement failed",
+  "seconds": 20.89594054222107
+}

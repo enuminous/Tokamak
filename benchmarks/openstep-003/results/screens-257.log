@@ -1,0 +1,86 @@
+Screened magnetic shift-+000mm-257
+Screened magnetic shift--010mm-257
+Screened magnetic inward-010mm-257
+{
+  "grid": 257,
+  "accepted": 3,
+  "planned_geometries": 7,
+  "input_fingerprint": {
+    "code_sha256": "a3e3243d421b538585695cb41a4e15a153b9532c9955a5c31c058c063e13a66a",
+    "inherited_screens_sha256": "9ae3c7efa9dde8863faea294e888a7e09e6e487cef59c114e33f70d5300d56cf",
+    "fields": [
+      {
+        "path": "openstep-003/results/shift-+000mm-257.npz",
+        "sha256": "49ca25493b5d97fdb34c885b7b2139fc4d0a8fe102e30e4ff8e7650f5f691ce7",
+        "report_sha256": "7ff0588c3f08e4fe3620c28309bb9b38fbee9658cfa846ab54bc54ea01143f52"
+      },
+      {
+        "path": "openstep-003/results/shift--010mm-257.npz",
+        "sha256": "56dfcb608702bfbe2c0c1d3839a24db79ada462bc0b9e6cb8beb2873f1e85da2",
+        "report_sha256": "6e74b00848c997e50aeca304209fd83025e9f163db2c67ee26323ddc68a88a9d"
+      },
+      {
+        "path": "openstep-003/results/inward-010mm-257.npz",
+        "sha256": "0db3b2d3d9a1c571d4125720b6cda350a40291e6dee30629fc47ae9b00f6090a",
+        "report_sha256": "866923ce31a74629418861d9cfd0a2f896c0cae843be65be2712c317eddae386"
+      }
+    ]
+  },
+  "exhaust": {
+    "trace_count": 30,
+    "wall_hits": 30,
+    "load_samples": 360,
+    "sampled_max_MW_m2": 94.60008388348916,
+    "above_criterion": 131,
+    "max_trace_flux_drift": 3.1550044523843136e-06,
+    "criterion_MW_m2": 10,
+    "physics_status": "CONDITIONAL SCREEN: sampled attached footprints; peak between samples, detachment, neutrals and transients unresolved"
+  },
+  "seconds": 108.91459155082703
+}
+Screened magnetic shift-+000mm-257
+Screened magnetic shift--010mm-257
+Screened magnetic inward-010mm-257
+Screened magnetic inward-050mm-257
+{
+  "grid": 257,
+  "accepted": 4,
+  "planned_geometries": 7,
+  "input_fingerprint": {
+    "code_sha256": "a3e3243d421b538585695cb41a4e15a153b9532c9955a5c31c058c063e13a66a",
+    "inherited_screens_sha256": "9ae3c7efa9dde8863faea294e888a7e09e6e487cef59c114e33f70d5300d56cf",
+    "fields": [
+      {
+        "path": "openstep-003/results/shift-+000mm-257.npz",
+        "sha256": "49ca25493b5d97fdb34c885b7b2139fc4d0a8fe102e30e4ff8e7650f5f691ce7",
+        "report_sha256": "7ff0588c3f08e4fe3620c28309bb9b38fbee9658cfa846ab54bc54ea01143f52"
+      },
+      {
+        "path": "openstep-003/results/shift--010mm-257.npz",
+        "sha256": "56dfcb608702bfbe2c0c1d3839a24db79ada462bc0b9e6cb8beb2873f1e85da2",
+        "report_sha256": "6e74b00848c997e50aeca304209fd83025e9f163db2c67ee26323ddc68a88a9d"
+      },
+      {
+        "path": "openstep-003/results/inward-010mm-257.npz",
+        "sha256": "0db3b2d3d9a1c571d4125720b6cda350a40291e6dee30629fc47ae9b00f6090a",
+        "report_sha256": "866923ce31a74629418861d9cfd0a2f896c0cae843be65be2712c317eddae386"
+      },
+      {
+        "path": "openstep-003/results/inward-050mm-257.npz",
+        "sha256": "c044ff5e3f3eb1ebacc66242841f620c9b18ea00a23d2586e3fee2040f7dcf30",
+        "report_sha256": "edf8335b2bf8732ed202e93d1cf9ba656db7c6a9f8d762372f08fab0ba1aef9f"
+      }
+    ]
+  },
+  "exhaust": {
+    "trace_count": 40,
+    "wall_hits": 40,
+    "load_samples": 480,
+    "sampled_max_MW_m2": 506.4890679781557,
+    "above_criterion": 205,
+    "max_trace_flux_drift": 3.1550044523843136e-06,
+    "criterion_MW_m2": 10,
+    "physics_status": "CONDITIONAL SCREEN: sampled attached footprints; peak between samples, detachment, neutrals and transients unresolved"
+  },
+  "seconds": 146.05381846427917
+}

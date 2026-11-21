@@ -1,0 +1,13 @@
+/workspace/scratch/4b552039c657/equilibrium-deps/scipy/optimize/_nonlin.py:376: RuntimeWarning: invalid value encountered in scalar divide
+  and dx_norm/self.x_rtol <= x_norm))
+{"tag": "recovery-homotopy-00", "converged": true, "alpha": 0.0, "shift": 0, "defect": 1.8991689389341542e-11}
+{"tag": "recovery-homotopy-01", "converged": true, "alpha": 0.1, "shift": 0, "defect": 1.0158425105632816e-09}
+{"tag": "recovery-homotopy-02", "converged": true, "alpha": 0.2, "shift": 0, "defect": 1.0183287894054093e-09}
+{"tag": "recovery-homotopy-03", "converged": true, "alpha": 0.3, "shift": 0, "defect": 5.731193347905672e-11}
+{"tag": "recovery-homotopy-04", "converged": true, "alpha": 0.4, "shift": 0, "defect": 1.6533545650239902e-09}
+{"tag": "recovery-homotopy-05", "converged": true, "alpha": 0.5, "shift": 0, "defect": 1.0630346979070544e-09}
+{"tag": "recovery-homotopy-06", "converged": true, "alpha": 0.6, "shift": 0, "defect": 2.439008531647508e-09}
+{"tag": "recovery-homotopy-07", "converged": true, "alpha": 0.7, "shift": 0, "defect": 9.042769789892245e-09}
+{"tag": "recovery-homotopy-08", "converged": true, "alpha": 0.8, "shift": 0, "defect": 4.751952078026095e-09}
+{"tag": "recovery-homotopy-09", "converged": true, "alpha": 0.9, "shift": 0, "defect": 5.285649057477571e-11}
+{"tag": "recovery-homotopy-10", "converged": true, "alpha": 1.0, "shift": 0, "defect": 4.339039220391924e-08}

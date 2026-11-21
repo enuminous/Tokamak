@@ -1,0 +1,42 @@
+{"tag": "shift--010mm-257", "iteration": 0, "evaluations": 13, "defect": 0.003494124876924814}
+{"tag": "shift--010mm-257", "iteration": 1, "evaluations": 22, "defect": 0.0006453436005553809}
+{"tag": "shift--010mm-257", "iteration": 2, "evaluations": 32, "defect": 1.0835583716006012e-05}
+{"tag": "shift--010mm-257", "iteration": 3, "evaluations": 49, "defect": 3.0971098199762476e-07}
+{"tag": "shift--010mm-257", "iteration": 4, "evaluations": 70, "defect": 9.19472535387168e-10}
+{
+  "tag": "shift--010mm-257",
+  "grid": [
+    257,
+    513
+  ],
+  "p9_translation_m": -0.01,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22774410.551784597,
+  "target_pressure_axis_Pa": 1335266.8464644956,
+  "homotopy_alpha": 1.0,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-003/results/shift-+000mm-257.npz",
+  "warm_sha256": "49ca25493b5d97fdb34c885b7b2139fc4d0a8fe102e30e4ff8e7650f5f691ce7",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "converged": true,
+  "final_critical_search": "original full domain",
+  "initial_defect": 0.00327951254973381,
+  "root_solver": {
+    "success": true,
+    "message": "A solution was found at the specified tolerance.",
+    "evaluations": 70
+  },
+  "final_defect": 9.205970274869928e-10,
+  "pressure_derivative_scale": 0.9900787217770274,
+  "ff_derivative_scale": 0.9928935289415143,
+  "pressure_profile_relative_error": 1.2859796538001937e-15,
+  "current_relative_error": 2.220446049250313e-16,
+  "F_squared_min_T2_m2": 114.90488005000941,
+  "seconds": 156.28564620018005
+}

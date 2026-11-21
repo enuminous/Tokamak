@@ -1,0 +1,164 @@
+{
+  "tag": "recovery-129-fd7",
+  "grid": [
+    129,
+    257
+  ],
+  "p9_translation_m": 0,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22774410.551784597,
+  "target_pressure_axis_Pa": 1335266.8464644956,
+  "homotopy_alpha": 1,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-001/results/baseline-129-symmetric.npz",
+  "warm_sha256": "b53b5ea96d9740d6d3437e906cadd20a9925dc84c06f7de9dd0bddbd71d24b46",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "iterations": [
+    {
+      "iteration": 0,
+      "evaluations": 14,
+      "defect": 0.0045414550776303195
+    },
+    {
+      "iteration": 1,
+      "evaluations": 22,
+      "defect": 0.0013361848554923309
+    },
+    {
+      "iteration": 2,
+      "evaluations": 32,
+      "defect": 0.0013136409945069295
+    },
+    {
+      "iteration": 3,
+      "evaluations": 40,
+      "defect": 0.0012972938564147917
+    },
+    {
+      "iteration": 4,
+      "evaluations": 49,
+      "defect": 0.0012857567359632022
+    },
+    {
+      "iteration": 5,
+      "evaluations": 56,
+      "defect": 0.0012780396743138015
+    },
+    {
+      "iteration": 6,
+      "evaluations": 63,
+      "defect": 0.0012731163279356614
+    },
+    {
+      "iteration": 7,
+      "evaluations": 70,
+      "defect": 0.001269257255274944
+    },
+    {
+      "iteration": 8,
+      "evaluations": 77,
+      "defect": 0.0012653719151330246
+    },
+    {
+      "iteration": 9,
+      "evaluations": 91,
+      "defect": 0.0012629540272473608
+    },
+    {
+      "iteration": 10,
+      "evaluations": 107,
+      "defect": 0.001261462979351239
+    },
+    {
+      "iteration": 11,
+      "evaluations": 124,
+      "defect": 0.001259983134545811
+    },
+    {
+      "iteration": 12,
+      "evaluations": 140,
+      "defect": 0.0012592603012776438
+    },
+    {
+      "iteration": 13,
+      "evaluations": 156,
+      "defect": 0.0012588362584024604
+    },
+    {
+      "iteration": 14,
+      "evaluations": 173,
+      "defect": 0.0012586154360150002
+    },
+    {
+      "iteration": 15,
+      "evaluations": 192,
+      "defect": 0.0012585192301451144
+    },
+    {
+      "iteration": 16,
+      "evaluations": 211,
+      "defect": 0.0012584203626349
+    },
+    {
+      "iteration": 17,
+      "evaluations": 229,
+      "defect": 0.001258295916098839
+    },
+    {
+      "iteration": 18,
+      "evaluations": 246,
+      "defect": 0.0012582292593661623
+    },
+    {
+      "iteration": 19,
+      "evaluations": 259,
+      "defect": 0.0012581856041807235
+    },
+    {
+      "iteration": 20,
+      "evaluations": 276,
+      "defect": 0.001258155657429522
+    },
+    {
+      "iteration": 21,
+      "evaluations": 288,
+      "defect": 0.0012581358676698488
+    },
+    {
+      "iteration": 22,
+      "evaluations": 304,
+      "defect": 0.001258123356367095
+    },
+    {
+      "iteration": 23,
+      "evaluations": 320,
+      "defect": 0.001258116071598588
+    },
+    {
+      "iteration": 24,
+      "evaluations": 337,
+      "defect": 0.00125811606409556
+    },
+    {
+      "iteration": 25,
+      "evaluations": 353,
+      "defect": 0.0012581160558949858
+    },
+    {
+      "iteration": 26,
+      "evaluations": 369,
+      "defect": 0.0012581160476318732
+    }
+  ],
+  "converged": false,
+  "final_critical_search": "original full domain",
+  "initial_defect": 0.008635280898659302,
+  "error": "IndexError: list index out of range",
+  "seconds": 129.55240488052368
+}

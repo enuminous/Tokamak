@@ -1,0 +1,727 @@
+{
+  "scope": "Numerical implementation and accepted-field checks; not physical qualification",
+  "passed": 120,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "shift-+000mm-257:screen_input_hash",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:screen_input_hash",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:screen_input_hash",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:screen_input_hash",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:screen_input_hash",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:screen_input_hash",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:screen_input_hash",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:screen_input_hash",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:full_domain_defect",
+      "status": "PASS",
+      "value": 5.1444487292557665e-09,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-129:independent_entire_pressure_profile",
+      "status": "PASS",
+      "value": 1.3949609803934305e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:independent_current_integral",
+      "status": "PASS",
+      "value": 2.220446049250313e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-129:F_squared_positive",
+      "status": "PASS",
+      "value": 114.91770280692444,
+      "limit": 0
+    },
+    {
+      "name": "inward-010mm-129:mirror_symmetry",
+      "status": "PASS",
+      "value": 1.4210854715202004e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "inward-010mm-129:finite_field",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-129:fixed_currents_shifted_coil_field",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:full_domain_defect",
+      "status": "PASS",
+      "value": 1.3940806420560186e-08,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:independent_entire_pressure_profile",
+      "status": "PASS",
+      "value": 1.0462207352950728e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:independent_current_integral",
+      "status": "PASS",
+      "value": 2.220446049250313e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:F_squared_positive",
+      "status": "PASS",
+      "value": 114.96017794067976,
+      "limit": 0
+    },
+    {
+      "name": "inward-010mm-257:mirror_symmetry",
+      "status": "PASS",
+      "value": 1.4210854715202004e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "inward-010mm-257:finite_field",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:fixed_currents_shifted_coil_field",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:full_domain_defect",
+      "status": "PASS",
+      "value": 1.9249466700517882e-08,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:independent_entire_pressure_profile",
+      "status": "PASS",
+      "value": 8.282580821085994e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:independent_current_integral",
+      "status": "PASS",
+      "value": 3.3306690738754696e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:F_squared_positive",
+      "status": "PASS",
+      "value": 115.08059641627992,
+      "limit": 0
+    },
+    {
+      "name": "inward-050mm-257:mirror_symmetry",
+      "status": "PASS",
+      "value": 2.1316282072803006e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "inward-050mm-257:finite_field",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:fixed_currents_shifted_coil_field",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "recovery-homotopy-10:full_domain_defect",
+      "status": "PASS",
+      "value": 4.339039220391924e-08,
+      "limit": 1e-05
+    },
+    {
+      "name": "recovery-homotopy-10:independent_entire_pressure_profile",
+      "status": "PASS",
+      "value": 9.590356740204835e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:independent_current_integral",
+      "status": "PASS",
+      "value": 2.220446049250313e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "recovery-homotopy-10:F_squared_positive",
+      "status": "PASS",
+      "value": 114.93315213191643,
+      "limit": 0
+    },
+    {
+      "name": "recovery-homotopy-10:mirror_symmetry",
+      "status": "PASS",
+      "value": 1.4210854715202004e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "recovery-homotopy-10:finite_field",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovery-homotopy-10:fixed_currents_shifted_coil_field",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:full_domain_defect",
+      "status": "PASS",
+      "value": 6.423034732047751e-12,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:independent_entire_pressure_profile",
+      "status": "PASS",
+      "value": 2.2668115931393244e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:independent_current_integral",
+      "status": "PASS",
+      "value": 2.220446049250313e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:F_squared_positive",
+      "status": "PASS",
+      "value": 114.9553574287531,
+      "limit": 0
+    },
+    {
+      "name": "shift-+000mm-257:mirror_symmetry",
+      "status": "PASS",
+      "value": 2.1316282072803006e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "shift-+000mm-257:finite_field",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:fixed_currents_shifted_coil_field",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-129:full_domain_defect",
+      "status": "PASS",
+      "value": 7.009981774308942e-11,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-129:independent_entire_pressure_profile",
+      "status": "PASS",
+      "value": 2.0052564093155563e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:independent_current_integral",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-129:F_squared_positive",
+      "status": "PASS",
+      "value": 114.80443271954718,
+      "limit": 0
+    },
+    {
+      "name": "shift--010mm-129:mirror_symmetry",
+      "status": "PASS",
+      "value": 1.4210854715202004e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "shift--010mm-129:finite_field",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-129:fixed_currents_shifted_coil_field",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:full_domain_defect",
+      "status": "PASS",
+      "value": 9.205970274869928e-10,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:independent_entire_pressure_profile",
+      "status": "PASS",
+      "value": 1.2968777864595174e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:independent_current_integral",
+      "status": "PASS",
+      "value": 2.220446049250313e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:F_squared_positive",
+      "status": "PASS",
+      "value": 114.90488005000941,
+      "limit": 0
+    },
+    {
+      "name": "shift--010mm-257:mirror_symmetry",
+      "status": "PASS",
+      "value": 1.4210854715202004e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "shift--010mm-257:finite_field",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:fixed_currents_shifted_coil_field",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--050mm-129:full_domain_defect",
+      "status": "PASS",
+      "value": 4.4151009985339463e-10,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--050mm-129:independent_entire_pressure_profile",
+      "status": "PASS",
+      "value": 1.1552020618883097e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:independent_current_integral",
+      "status": "PASS",
+      "value": 2.220446049250313e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--050mm-129:F_squared_positive",
+      "status": "PASS",
+      "value": 114.86328231909867,
+      "limit": 0
+    },
+    {
+      "name": "shift--050mm-129:mirror_symmetry",
+      "status": "PASS",
+      "value": 1.4210854715202004e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "shift--050mm-129:finite_field",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--050mm-129:fixed_currents_shifted_coil_field",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "recovery-homotopy-10:trace_flux",
+      "status": "PASS",
+      "value": 3.4438217813693916e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "recovery-homotopy-10:trace_step_position",
+      "status": "PASS",
+      "value": 9.862256023095939e-06,
+      "limit": 0.001
+    },
+    {
+      "name": "recovery-homotopy-10:trace_step_length",
+      "status": "PASS",
+      "value": 0.0004610794956505515,
+      "limit": 0.01
+    },
+    {
+      "name": "recovery-homotopy-10:all_wall_intersections",
+      "status": "PASS",
+      "value": 10,
+      "limit": 10
+    },
+    {
+      "name": "recovery-homotopy-10:vertical_step_consistency",
+      "status": "PASS",
+      "value": 4.0138709969522436e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "recovery-homotopy-10:q_quadrature",
+      "status": "PASS",
+      "value": 0.0003863493290454656,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--050mm-129:trace_flux",
+      "status": "PASS",
+      "value": 3.4234072034125166e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--050mm-129:trace_step_position",
+      "status": "PASS",
+      "value": 1.1402651358324777e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--050mm-129:trace_step_length",
+      "status": "PASS",
+      "value": 8.928566111165992e-05,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--050mm-129:all_wall_intersections",
+      "status": "PASS",
+      "value": 10,
+      "limit": 10
+    },
+    {
+      "name": "shift--050mm-129:vertical_step_consistency",
+      "status": "PASS",
+      "value": 4.1020568603473886e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--050mm-129:q_quadrature",
+      "status": "PASS",
+      "value": 0.00017830093058002205,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-129:trace_flux",
+      "status": "PASS",
+      "value": 3.307323164605578e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-129:trace_step_position",
+      "status": "PASS",
+      "value": 9.810454513224869e-06,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-129:trace_step_length",
+      "status": "PASS",
+      "value": 0.00030800621335913547,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-129:all_wall_intersections",
+      "status": "PASS",
+      "value": 10,
+      "limit": 10
+    },
+    {
+      "name": "shift--010mm-129:vertical_step_consistency",
+      "status": "PASS",
+      "value": 4.091509179012448e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-129:q_quadrature",
+      "status": "PASS",
+      "value": 0.00014196301065005912,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-129:trace_flux",
+      "status": "PASS",
+      "value": 3.3560953737594247e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-129:trace_step_position",
+      "status": "PASS",
+      "value": 1.1149416581313585e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-129:trace_step_length",
+      "status": "PASS",
+      "value": 0.000335060494265349,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-129:all_wall_intersections",
+      "status": "PASS",
+      "value": 10,
+      "limit": 10
+    },
+    {
+      "name": "inward-010mm-129:vertical_step_consistency",
+      "status": "PASS",
+      "value": 4.020507638273737e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-129:q_quadrature",
+      "status": "PASS",
+      "value": 0.0003443772991724714,
+      "limit": 0.001
+    },
+    {
+      "name": "screens-129:energy_ODE_analytic_control",
+      "status": "PASS",
+      "value": 2.909169398775154e-11,
+      "limit": 1e-08
+    },
+    {
+      "name": "shift-+000mm-257:trace_flux",
+      "status": "PASS",
+      "value": 3.005754627793472e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:trace_step_position",
+      "status": "PASS",
+      "value": 8.027506226684262e-06,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:trace_step_length",
+      "status": "PASS",
+      "value": 0.00024617471228793875,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:all_wall_intersections",
+      "status": "PASS",
+      "value": 10,
+      "limit": 10
+    },
+    {
+      "name": "shift-+000mm-257:vertical_step_consistency",
+      "status": "PASS",
+      "value": 1.9803116743659336e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:q_quadrature",
+      "status": "PASS",
+      "value": 5.53556687883372e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:trace_flux",
+      "status": "PASS",
+      "value": 3.1550044523843136e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:trace_step_position",
+      "status": "PASS",
+      "value": 7.856217091262e-06,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:trace_step_length",
+      "status": "PASS",
+      "value": 0.00038652797394433946,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:all_wall_intersections",
+      "status": "PASS",
+      "value": 10,
+      "limit": 10
+    },
+    {
+      "name": "shift--010mm-257:vertical_step_consistency",
+      "status": "PASS",
+      "value": 1.9952974150973417e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:q_quadrature",
+      "status": "PASS",
+      "value": 3.738553541587919e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:trace_flux",
+      "status": "PASS",
+      "value": 3.0585685174511804e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:trace_step_position",
+      "status": "PASS",
+      "value": 8.352284608745357e-06,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:trace_step_length",
+      "status": "PASS",
+      "value": 0.0004513521487297112,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:all_wall_intersections",
+      "status": "PASS",
+      "value": 10,
+      "limit": 10
+    },
+    {
+      "name": "inward-010mm-257:vertical_step_consistency",
+      "status": "PASS",
+      "value": 1.9781741624006244e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:q_quadrature",
+      "status": "PASS",
+      "value": 8.817282278172911e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:trace_flux",
+      "status": "PASS",
+      "value": 2.892043258073417e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:trace_step_position",
+      "status": "PASS",
+      "value": 1.636487869660641e-06,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:trace_step_length",
+      "status": "PASS",
+      "value": 0.00016339092324102467,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:all_wall_intersections",
+      "status": "PASS",
+      "value": 10,
+      "limit": 10
+    },
+    {
+      "name": "inward-050mm-257:vertical_step_consistency",
+      "status": "PASS",
+      "value": 1.9344616013640437e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:q_quadrature",
+      "status": "PASS",
+      "value": 8.424475794743813e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "screens-257:energy_ODE_analytic_control",
+      "status": "PASS",
+      "value": 2.899588295029991e-11,
+      "limit": 1e-08
+    },
+    {
+      "name": "recovered_baseline:replay_field_hash",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "recovered_baseline:original_FreeGS_boundary",
+      "status": "PASS",
+      "value": 4.339039220391924e-08,
+      "limit": 1e-05
+    },
+    {
+      "name": "provenance:all_warm_start_hashes",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "provenance:only_accepted_warm_starts",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "provenance:solver_source_hashes",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "provenance:unchanged_protocol_hashes",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{"tag": "recovery-geometry-075mm", "iteration": 0, "evaluations": 13, "defect": 0.003156199236734833}
+{"tag": "recovery-geometry-075mm", "iteration": 1, "evaluations": 25, "defect": 0.0030370987177459645}
+{"tag": "recovery-geometry-075mm", "iteration": 2, "evaluations": 35, "defect": 0.0029667588981113907}
+{"tag": "recovery-geometry-075mm", "iteration": 3, "evaluations": 42, "defect": 0.0029144887656881763}
+{"tag": "recovery-geometry-075mm", "iteration": 4, "evaluations": 50, "defect": 0.002866984314501154}
+{"tag": "recovery-geometry-075mm", "iteration": 5, "evaluations": 59, "defect": 0.0028173591992660505}
+{"tag": "recovery-geometry-075mm", "iteration": 6, "evaluations": 67, "defect": 0.002787874949376887}
+{"tag": "recovery-geometry-075mm", "iteration": 7, "evaluations": 80, "defect": 0.0027859041159651204}
+{"tag": "recovery-geometry-075mm", "iteration": 8, "evaluations": 94, "defect": 0.002785903610739038}
+{"tag": "recovery-geometry-075mm", "iteration": 9, "evaluations": 110, "defect": 0.0027857544067302563}
+{"tag": "recovery-geometry-075mm", "iteration": 10, "evaluations": 129, "defect": 3.205549218391954}
+Warning: No O points found
+{"tag": "recovery-geometry-075mm", "iteration": 11, "evaluations": 139, "defect": 4.928241318700981}
+{
+  "tag": "recovery-geometry-075mm",
+  "grid": [
+    129,
+    257
+  ],
+  "p9_translation_m": 0.075,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22774410.551784597,
+  "target_pressure_axis_Pa": 1335266.8464644956,
+  "homotopy_alpha": 1,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-002/results/p9-inward-129-controlled.npz",
+  "warm_sha256": "dc1038628da67f93d1666cb741d446deda30c4c9fa2e0845f406c9ad67b0c283",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "converged": false,
+  "final_critical_search": "original full domain",
+  "initial_defect": 0.007525582072463958,
+  "error": "RuntimeError: Critical-point refinement failed",
+  "seconds": 64.53359317779541
+}

@@ -1,0 +1,97 @@
+{"tag": "shift--050mm-257", "iteration": 0, "evaluations": 13, "defect": 0.0072094509395506}
+{"tag": "shift--050mm-257", "iteration": 1, "evaluations": 22, "defect": 0.0008408804747272546}
+{"tag": "shift--050mm-257", "iteration": 2, "evaluations": 33, "defect": 0.0005757777715058398}
+{"tag": "shift--050mm-257", "iteration": 3, "evaluations": 41, "defect": 0.00034465830976047684}
+{"tag": "shift--050mm-257", "iteration": 4, "evaluations": 51, "defect": 0.00030675518665805444}
+{"tag": "shift--050mm-257", "iteration": 5, "evaluations": 61, "defect": 0.00028024861989858996}
+{"tag": "shift--050mm-257", "iteration": 6, "evaluations": 73, "defect": 0.0002600840495973195}
+{"tag": "shift--050mm-257", "iteration": 7, "evaluations": 82, "defect": 0.00024405510152201963}
+{"tag": "shift--050mm-257", "iteration": 8, "evaluations": 91, "defect": 0.000230867847822891}
+{"tag": "shift--050mm-257", "iteration": 9, "evaluations": 100, "defect": 0.0002197485831426227}
+{"tag": "shift--050mm-257", "iteration": 10, "evaluations": 109, "defect": 0.00021019675706679343}
+{"tag": "shift--050mm-257", "iteration": 11, "evaluations": 117, "defect": 0.00020185008528637798}
+{"tag": "shift--050mm-257", "iteration": 12, "evaluations": 124, "defect": 0.00019450979901712006}
+{"tag": "shift--050mm-257", "iteration": 13, "evaluations": 131, "defect": 0.00018794864993038624}
+{"tag": "shift--050mm-257", "iteration": 14, "evaluations": 139, "defect": 0.00018201380859753788}
+{"tag": "shift--050mm-257", "iteration": 15, "evaluations": 146, "defect": 0.00017664578883006107}
+{"tag": "shift--050mm-257", "iteration": 16, "evaluations": 160, "defect": 0.00017167380518439}
+{"tag": "shift--050mm-257", "iteration": 17, "evaluations": 175, "defect": 0.00016706285098832424}
+{"tag": "shift--050mm-257", "iteration": 18, "evaluations": 189, "defect": 0.00016288622523993152}
+{"tag": "shift--050mm-257", "iteration": 19, "evaluations": 204, "defect": 0.00015895139745948853}
+{"tag": "shift--050mm-257", "iteration": 20, "evaluations": 221, "defect": 0.00015534810732811117}
+{"tag": "shift--050mm-257", "iteration": 21, "evaluations": 238, "defect": 0.00015199970941616868}
+{"tag": "shift--050mm-257", "iteration": 22, "evaluations": 255, "defect": 0.00014891440070421256}
+{"tag": "shift--050mm-257", "iteration": 23, "evaluations": 271, "defect": 0.00014598010008845744}
+{"tag": "shift--050mm-257", "iteration": 24, "evaluations": 283, "defect": 0.0001432184615288176}
+{"tag": "shift--050mm-257", "iteration": 25, "evaluations": 294, "defect": 0.0001406144970785998}
+{"tag": "shift--050mm-257", "iteration": 26, "evaluations": 309, "defect": 0.000138147296741863}
+{"tag": "shift--050mm-257", "iteration": 27, "evaluations": 322, "defect": 0.00013814620987875656}
+{"tag": "shift--050mm-257", "iteration": 28, "evaluations": 334, "defect": 0.00013814512233333799}
+{"tag": "shift--050mm-257", "iteration": 29, "evaluations": 345, "defect": 0.00013814403645641713}
+{"tag": "shift--050mm-257", "iteration": 30, "evaluations": 355, "defect": 0.0001381429499789654}
+{"tag": "shift--050mm-257", "iteration": 31, "evaluations": 364, "defect": 0.00013814186336120267}
+{"tag": "shift--050mm-257", "iteration": 32, "evaluations": 372, "defect": 0.00013814077797737464}
+{"tag": "shift--050mm-257", "iteration": 33, "evaluations": 379, "defect": 0.0001381396907983681}
+{"tag": "shift--050mm-257", "iteration": 34, "evaluations": 385, "defect": 0.00013813860417499294}
+{"tag": "shift--050mm-257", "iteration": 35, "evaluations": 390, "defect": 0.00013813751802466617}
+{"tag": "shift--050mm-257", "iteration": 36, "evaluations": 394, "defect": 0.00013813643159532105}
+{"tag": "shift--050mm-257", "iteration": 37, "evaluations": 398, "defect": 0.00013813534455261659}
+{"tag": "shift--050mm-257", "iteration": 38, "evaluations": 402, "defect": 0.00013813425868852415}
+{"tag": "shift--050mm-257", "iteration": 39, "evaluations": 406, "defect": 0.0001381331728260353}
+{"tag": "shift--050mm-257", "iteration": 40, "evaluations": 410, "defect": 0.00013813208676791285}
+{"tag": "shift--050mm-257", "iteration": 41, "evaluations": 414, "defect": 0.00013813100106257228}
+{"tag": "shift--050mm-257", "iteration": 42, "evaluations": 418, "defect": 0.00013812991576774144}
+{"tag": "shift--050mm-257", "iteration": 43, "evaluations": 422, "defect": 0.00013812883009928258}
+{"tag": "shift--050mm-257", "iteration": 44, "evaluations": 426, "defect": 0.00013812774374129562}
+{"tag": "shift--050mm-257", "iteration": 45, "evaluations": 430, "defect": 0.0001381266577825935}
+{"tag": "shift--050mm-257", "iteration": 46, "evaluations": 434, "defect": 0.00013812557228812025}
+{"tag": "shift--050mm-257", "iteration": 47, "evaluations": 438, "defect": 0.00013812448584273957}
+{"tag": "shift--050mm-257", "iteration": 48, "evaluations": 442, "defect": 0.00013812340029855614}
+{"tag": "shift--050mm-257", "iteration": 49, "evaluations": 446, "defect": 0.00013812231551365542}
+{"tag": "shift--050mm-257", "iteration": 50, "evaluations": 450, "defect": 0.00013812123014105224}
+{"tag": "shift--050mm-257", "iteration": 51, "evaluations": 454, "defect": 0.0001381201452984236}
+{"tag": "shift--050mm-257", "iteration": 52, "evaluations": 458, "defect": 0.0001381190611549444}
+{"tag": "shift--050mm-257", "iteration": 53, "evaluations": 462, "defect": 0.00013811797483624446}
+{"tag": "shift--050mm-257", "iteration": 54, "evaluations": 466, "defect": 0.00013811689010265746}
+{"tag": "shift--050mm-257", "iteration": 55, "evaluations": 470, "defect": 0.00013811580471401874}
+{"tag": "shift--050mm-257", "iteration": 56, "evaluations": 474, "defect": 0.0001381147191113056}
+{"tag": "shift--050mm-257", "iteration": 57, "evaluations": 478, "defect": 0.0001381136341973188}
+{"tag": "shift--050mm-257", "iteration": 58, "evaluations": 482, "defect": 0.00013811254893536084}
+{"tag": "shift--050mm-257", "iteration": 59, "evaluations": 486, "defect": 0.00013811146455215033}
+{
+  "tag": "shift--050mm-257",
+  "grid": [
+    257,
+    513
+  ],
+  "p9_translation_m": -0.05,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22774410.551784597,
+  "target_pressure_axis_Pa": 1335266.8464644956,
+  "homotopy_alpha": 1.0,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-003/results/shift--010mm-257.npz",
+  "warm_sha256": "56dfcb608702bfbe2c0c1d3839a24db79ada462bc0b9e6cb8beb2873f1e85da2",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "converged": false,
+  "final_critical_search": "original full domain",
+  "initial_defect": 0.01144128660135067,
+  "root_solver": {
+    "success": false,
+    "message": "The maximum number of iterations allowed has been reached.",
+    "evaluations": 486
+  },
+  "final_defect": 0.00013811146455615923,
+  "pressure_derivative_scale": 0.9576911712796665,
+  "ff_derivative_scale": 0.9654187718369572,
+  "pressure_profile_relative_error": 6.102954289221258e-16,
+  "current_relative_error": 2.220446049250313e-16,
+  "F_squared_min_T2_m2": 114.81209261561197,
+  "seconds": 726.2073886394501
+}

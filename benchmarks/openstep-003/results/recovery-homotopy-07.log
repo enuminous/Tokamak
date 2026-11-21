@@ -1,0 +1,83 @@
+{"tag": "recovery-homotopy-07", "iteration": 0, "evaluations": 15, "defect": 0.0005380895456632073}
+{"tag": "recovery-homotopy-07", "iteration": 1, "evaluations": 25, "defect": 0.00023307557956122005}
+{"tag": "recovery-homotopy-07", "iteration": 2, "evaluations": 41, "defect": 0.0002330721272726568}
+{"tag": "recovery-homotopy-07", "iteration": 3, "evaluations": 52, "defect": 0.0002330697278903448}
+{"tag": "recovery-homotopy-07", "iteration": 4, "evaluations": 62, "defect": 0.00023306778345789285}
+{"tag": "recovery-homotopy-07", "iteration": 5, "evaluations": 73, "defect": 0.00023306603732170517}
+{"tag": "recovery-homotopy-07", "iteration": 6, "evaluations": 85, "defect": 0.00023306440919424845}
+{"tag": "recovery-homotopy-07", "iteration": 7, "evaluations": 98, "defect": 0.0002330629127698722}
+{"tag": "recovery-homotopy-07", "iteration": 8, "evaluations": 111, "defect": 0.00023306152378360027}
+{"tag": "recovery-homotopy-07", "iteration": 9, "evaluations": 125, "defect": 0.00023306037428648431}
+{"tag": "recovery-homotopy-07", "iteration": 10, "evaluations": 140, "defect": 0.00023305938030121378}
+{"tag": "recovery-homotopy-07", "iteration": 11, "evaluations": 159, "defect": 0.00023305860019474153}
+{"tag": "recovery-homotopy-07", "iteration": 12, "evaluations": 177, "defect": 0.0002330578564272036}
+{"tag": "recovery-homotopy-07", "iteration": 13, "evaluations": 195, "defect": 0.00023305715412917045}
+{"tag": "recovery-homotopy-07", "iteration": 14, "evaluations": 213, "defect": 0.00023305658478739498}
+{"tag": "recovery-homotopy-07", "iteration": 15, "evaluations": 231, "defect": 0.0002330560938618055}
+{"tag": "recovery-homotopy-07", "iteration": 16, "evaluations": 250, "defect": 0.00023305563509468563}
+{"tag": "recovery-homotopy-07", "iteration": 17, "evaluations": 269, "defect": 0.00023305520256892187}
+{"tag": "recovery-homotopy-07", "iteration": 18, "evaluations": 288, "defect": 0.00023305479087973614}
+{"tag": "recovery-homotopy-07", "iteration": 19, "evaluations": 307, "defect": 0.00023305439451250693}
+{"tag": "recovery-homotopy-07", "iteration": 20, "evaluations": 325, "defect": 0.00023305404856581975}
+{"tag": "recovery-homotopy-07", "iteration": 21, "evaluations": 343, "defect": 0.00023305373655433978}
+{"tag": "recovery-homotopy-07", "iteration": 22, "evaluations": 361, "defect": 0.0002330534692763983}
+{"tag": "recovery-homotopy-07", "iteration": 23, "evaluations": 380, "defect": 0.0002330532133243573}
+{"tag": "recovery-homotopy-07", "iteration": 24, "evaluations": 399, "defect": 0.00023305297727642778}
+{"tag": "recovery-homotopy-07", "iteration": 25, "evaluations": 417, "defect": 0.000233052762846007}
+{"tag": "recovery-homotopy-07", "iteration": 26, "evaluations": 436, "defect": 0.00023305257188199248}
+{"tag": "recovery-homotopy-07", "iteration": 27, "evaluations": 455, "defect": 0.00023305238359751636}
+{"tag": "recovery-homotopy-07", "iteration": 28, "evaluations": 474, "defect": 0.00023305220912124197}
+{"tag": "recovery-homotopy-07", "iteration": 29, "evaluations": 493, "defect": 0.00023305204305159834}
+{"tag": "recovery-homotopy-07", "iteration": 30, "evaluations": 512, "defect": 0.00023305188295198552}
+{"tag": "recovery-homotopy-07", "iteration": 31, "evaluations": 532, "defect": 0.00023305172324363982}
+{"tag": "recovery-homotopy-07", "iteration": 32, "evaluations": 551, "defect": 0.00023305159593429683}
+{"tag": "recovery-homotopy-07", "iteration": 33, "evaluations": 570, "defect": 0.00023305146610977967}
+{"tag": "recovery-homotopy-07", "iteration": 34, "evaluations": 591, "defect": 0.0002330513158752298}
+{"tag": "recovery-homotopy-07", "iteration": 35, "evaluations": 610, "defect": 0.00023305121385393016}
+{"tag": "recovery-homotopy-07", "iteration": 36, "evaluations": 629, "defect": 0.00023305111587759497}
+{"tag": "recovery-homotopy-07", "iteration": 37, "evaluations": 651, "defect": 0.1614870590269649}
+{"tag": "recovery-homotopy-07", "iteration": 38, "evaluations": 653, "defect": 0.030977296704333895}
+{"tag": "recovery-homotopy-07", "iteration": 39, "evaluations": 655, "defect": 0.009269799728049456}
+{"tag": "recovery-homotopy-07", "iteration": 40, "evaluations": 670, "defect": 0.004996011937556815}
+{"tag": "recovery-homotopy-07", "iteration": 41, "evaluations": 684, "defect": 0.0007045268855912788}
+{"tag": "recovery-homotopy-07", "iteration": 42, "evaluations": 702, "defect": 0.00011416053037459853}
+{"tag": "recovery-homotopy-07", "iteration": 43, "evaluations": 723, "defect": 1.5157836666660477e-05}
+{"tag": "recovery-homotopy-07", "iteration": 44, "evaluations": 746, "defect": 3.5432067000537417e-07}
+{"tag": "recovery-homotopy-07", "iteration": 45, "evaluations": 773, "defect": 9.042806671629566e-09}
+{
+  "tag": "recovery-homotopy-07",
+  "grid": [
+    129,
+    257
+  ],
+  "p9_translation_m": 0,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22773724.933957208,
+  "target_pressure_axis_Pa": 1336338.964681384,
+  "homotopy_alpha": 0.7,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-003/results/recovery-homotopy-06.npz",
+  "warm_sha256": "3268a0c795ef76ed1218f15afa884854e311c0c243834da8ca4261ec82af7132",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "converged": true,
+  "final_critical_search": "original full domain",
+  "initial_defect": 0.0008663065446492114,
+  "root_solver": {
+    "success": true,
+    "message": "A solution was found at the specified tolerance.",
+    "evaluations": 773
+  },
+  "final_defect": 9.042769789892245e-09,
+  "pressure_derivative_scale": 1.0072130558446728,
+  "ff_derivative_scale": 1.0075414459320462,
+  "pressure_profile_relative_error": 1.3938418308973408e-15,
+  "current_relative_error": 2.220446049250313e-16,
+  "F_squared_min_T2_m2": 114.93530844660133,
+  "seconds": 276.9504749774933
+}

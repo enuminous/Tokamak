@@ -1,0 +1,87 @@
+{
+  "tag": "shift-+000mm-129",
+  "grid": [
+    129,
+    257
+  ],
+  "p9_translation_m": 0,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22774410.551784597,
+  "target_pressure_axis_Pa": 1335266.8464644956,
+  "homotopy_alpha": 1.0,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-003/results/recovery-homotopy-10.npz",
+  "warm_sha256": "78daf7821dbf58e492bf07cb335132bd417ec9fa160b535f561eeeb669f68d64",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "iterations": [
+    {
+      "iteration": 0,
+      "evaluations": 20,
+      "defect": 7.637607719169747e-12
+    }
+  ],
+  "converged": true,
+  "final_critical_search": "original full domain",
+  "initial_defect": 4.3390384987927154e-08,
+  "root_solver": {
+    "success": true,
+    "message": "A solution was found at the specified tolerance.",
+    "evaluations": 20
+  },
+  "final_defect": 7.907574770252366e-12,
+  "final": {
+    "axis": [
+      4.383820929637972,
+      4.600842882226229e-15,
+      6.087429602039459
+    ],
+    "xpoints": [
+      [
+        2.5293268747260247,
+        -6.0936355369061355,
+        1.6872294230157976
+      ],
+      [
+        2.529326874726022,
+        6.093635536906136,
+        1.6872294230157978
+      ],
+      [
+        8.25038073135698,
+        -4.7657535084826295,
+        -16.822820946372996
+      ],
+      [
+        8.250380731356953,
+        4.7657535084826215,
+        -16.822820946372996
+      ]
+    ],
+    "ip_A": 22774410.551784597,
+    "core_area_m2": 33.58184814453125,
+    "core_volume_m3": 705.6650253528932,
+    "pressure_integral_J": 400108231.968723,
+    "pressure_axis_Pa": 1335266.8464644959,
+    "core_flux_nrmse": 0.0034824092551273534,
+    "gauge_offset_Wb_per_rad": -0.007222513553633265,
+    "midplane_radii_m": [
+      1.584206386525301,
+      5.613799406319875
+    ],
+    "psi_axis": 6.087429602039459,
+    "psi_boundary": 1.6872294230157976,
+    "up_down_asymmetry": 1.4210854715202004e-14
+  },
+  "pressure_derivative_scale": 1.0087683855204832,
+  "ff_derivative_scale": 1.0100300378706784,
+  "pressure_profile_relative_error": 6.974804901967152e-16,
+  "current_relative_error": 0.0,
+  "F_squared_min_T2_m2": 114.93315189429777,
+  "seconds": 12.537945747375488
+}

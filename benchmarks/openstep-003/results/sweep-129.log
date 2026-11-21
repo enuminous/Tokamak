@@ -1,0 +1,8 @@
+/workspace/scratch/4b552039c657/equilibrium-deps/scipy/optimize/_nonlin.py:376: RuntimeWarning: invalid value encountered in scalar divide
+  and dx_norm/self.x_rtol <= x_norm))
+{"tag": "shift-+000mm-129", "converged": true}
+{"tag": "shift--010mm-129", "converged": true}
+{"tag": "shift--025mm-129", "converged": false}
+{"tag": "shift--050mm-129", "converged": true}
+{"tag": "shift-+010mm-129", "converged": true}
+{"tag": "shift-+025mm-129", "converged": false}
