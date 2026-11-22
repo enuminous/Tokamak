@@ -1,0 +1,30 @@
+{
+  "evidence_class": "incomplete_device_inputs",
+  "equilibrium": {
+    "source_ref": "benchmarks/openstep-003/results/shift-+000mm-257.npz",
+    "sha256": "49ca25493b5d97fdb34c885b7b2139fc4d0a8fe102e30e4ff8e7650f5f691ce7",
+    "units": "m, Wb/rad, T",
+    "model": "frozen_axisymmetric_FreeGS_equilibrium",
+    "calibration_status": "numerically_verified_only"
+  },
+  "wall_outline": {
+    "source_ref": "benchmarks/openstep-002/source/SPR45_2D_Wall.csv",
+    "sha256": "fcdd5375dbecfbedc8ab7fb3b18c5d624dee05344793509f1fc0647c76889c1a",
+    "units": "mm",
+    "model": "first_wall_outline_only"
+  },
+  "conductor_geometry": null,
+  "material_resistivity": null,
+  "electrical_connections": null,
+  "active_coils": {
+    "source_ref": "benchmarks/openstep-001/source/coilset.mat",
+    "sha256": "7587fc76b5f7e14d7ac966d9cfd2504cbc212bea80aa5931cebad984c4e4066f",
+    "units": "m, A turns",
+    "model": "fixed_filaments_without_dynamic_circuit",
+    "calibration_status": "unresolved"
+  },
+  "plasma_response": null,
+  "sensors": null,
+  "actuators": null,
+  "controller": null
+}

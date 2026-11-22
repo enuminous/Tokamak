@@ -1,0 +1,112 @@
+{
+  "source_repository": "ukaea/OpenSTEP",
+  "source_commit": "6f66ae09c60b361d600b178416ef3f22b8d0aa6a",
+  "tree_truncated": false,
+  "tree_entries": 77,
+  "relevant_files": [
+    {
+      "path": "eb-cc/freeboundary/_src/coilset.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0bc03024886092a932cd4b3c29f7611c1496178",
+      "size": 9164,
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/blobs/e0bc03024886092a932cd4b3c29f7611c1496178"
+    },
+    {
+      "path": "eb-cc/freeboundary/imasdb/pf_active.h5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3af6f97acdf74087cd1dd5074bf7cf5b6fd369ef",
+      "size": 111701,
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/blobs/3af6f97acdf74087cd1dd5074bf7cf5b6fd369ef"
+    },
+    {
+      "path": "eb-cc/freeboundary/imasdb/wall.h5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3f1e695887d57af25e8e2e4d5f7158bf834e5e8",
+      "size": 94128,
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/blobs/e3f1e695887d57af25e8e2e4d5f7158bf834e5e8"
+    },
+    {
+      "path": "scripts/fiesta_to_imas.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73430c307006ae801cd705f42709e05a13198863",
+      "size": 840,
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/blobs/73430c307006ae801cd705f42709e05a13198863"
+    },
+    {
+      "path": "scripts/wall.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7c9c0f981e6190fffb93839d6a09ea0e990561e",
+      "size": 30345,
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/blobs/e7c9c0f981e6190fffb93839d6a09ea0e990561e"
+    },
+    {
+      "path": "scripts/wall.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2944f5ec40947737049fa9a76b14eb970fe88897",
+      "size": 379437,
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/blobs/2944f5ec40947737049fa9a76b14eb970fe88897"
+    },
+    {
+      "path": "wall",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad487b91972626cca34cbd00bc5d91ff71df1c43",
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/trees/ad487b91972626cca34cbd00bc5d91ff71df1c43"
+    },
+    {
+      "path": "wall/STEP_SPP_001_wall.nc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dede1b147987719c13d921925a9067d467be7ea0",
+      "size": 37967,
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/blobs/dede1b147987719c13d921925a9067d467be7ea0"
+    },
+    {
+      "path": "wall/_src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dfda67631b8098508425c356be861502d6194356",
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/trees/dfda67631b8098508425c356be861502d6194356"
+    },
+    {
+      "path": "wall/_src/SPR45_2D_Wall.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a44988aa898bff5fc61190c9cdd813810846b8c5",
+      "size": 11288,
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/blobs/a44988aa898bff5fc61190c9cdd813810846b8c5"
+    },
+    {
+      "path": "wall/imasdb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "afe7de0f532a13dc341594d389608de7f58643d9",
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/trees/afe7de0f532a13dc341594d389608de7f58643d9"
+    },
+    {
+      "path": "wall/imasdb/master.h5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "409ec5e204c24439b0aa528e4eeabc4a879e12c3",
+      "size": 1992,
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/blobs/409ec5e204c24439b0aa528e4eeabc4a879e12c3"
+    },
+    {
+      "path": "wall/imasdb/wall.h5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d96e4eb100500ff814282022d1578bd7114a50c",
+      "size": 45679,
+      "url": "https://api.github.com/repos/ukaea/OpenSTEP/git/blobs/2d96e4eb100500ff814282022d1578bd7114a50c"
+    }
+  ],
+  "wall_creation_code": "import pandas as pd\n\ndf = pd.read_csv(\"../wall/_src/SPR45_2D_Wall.csv\", skiprows=1)\nwall_R_m = df[\"R [mm]\"] * 1e-3\nwall_Z_m = df[\"Z [mm]\"] * 1e-3\nupper_dome_R_m = df[\"R [mm].1\"] * 1e-3\nupper_dome_Z_m = df[\"Z [mm].1\"] * 1e-3\nlower_dome_R_m = df[\"R [mm].2\"] * 1e-3\nlower_dome_Z_m = df[\"Z [mm].2\"] * 1e-3\nimport numpy as np\n\nlower_dome_mask = ~np.isnan(lower_dome_Z_m)\nlower_dome_Z_m_open = lower_dome_Z_m.values[lower_dome_mask][:-1]\nlower_dome_R_m_open = lower_dome_R_m.values[lower_dome_mask][:-1]\n\nupper_dome_mask = ~np.isnan(upper_dome_Z_m)\nupper_dome_Z_m_open = upper_dome_Z_m.values[upper_dome_mask][:-1]\nupper_dome_R_m_open = upper_dome_R_m.values[upper_dome_mask][:-1]\n\nwall_R_m_with_baffles = np.hstack(\n    [\n        wall_R_m[:7],\n        lower_dome_R_m_open,\n        wall_R_m[7:364],\n        upper_dome_R_m_open[::-1],\n        wall_R_m[364:],\n    ]\n)\nwall_Z_m_with_baffles = np.hstack(\n    [\n        wall_Z_m[:7],\n        lower_dome_Z_m_open,\n        wall_Z_m[7:364],\n        upper_dome_Z_m_open,\n        wall_Z_m[364:],\n    ]\n)\nimport matplotlib.pyplot as plt\n\nplt.figure(figsize=(2, 5))\nplt.plot(wall_R_m_with_baffles, wall_Z_m_with_baffles)\nplt.gca().set_aspect(\"equal\")\nplt.ylabel(\"Z [m]\")\nplt.xlabel(\"R [m]\")\nplt.savefig(\"wall.png\", dpi=1000)\nimport imas\n\nids_factory = imas.IDSFactory()\nwall_ids = ids_factory.wall()\nwall_ids.ids_properties.comment = \"Generated from https://simdb.step.ukaea.uk/alias/shenders/SPR452DWall. Does not contain X-point\"\nwall_ids.ids_properties.homogeneous_time = imas.ids_defs.IDS_TIME_MODE_INDEPENDENT\n\nwall_ids.description_2d.resize(1)\n\n# Save the first wall only\nwall_ids.description_2d[0].limiter.type.index = 0\nwall_ids.description_2d[0].limiter.unit.resize(1)\nwall_ids.description_2d[0].limiter.unit[0].name = \"first_wall\"\nwall_ids.description_2d[0].limiter.unit[0].component_type.index = 5\nwall_ids.description_2d[0].limiter.unit[0].outline.r = wall_R_m.values\nwall_ids.description_2d[0].limiter.unit[0].outline.z = wall_Z_m.values\n\nwith imas.DBEntry(\"../wall/STEP_SPP_001_wall.nc\", \"w\") as dbentry:\n    dbentry.put(wall_ids)",
+  "finding": "The pinned wall-construction notebook imports the CSV and writes first-wall outline coordinates. The inspected tree has no pf_passive IDS or controller model. This is a bounded source inspection, not proof that no calibrated conductor data exist elsewhere.",
+  "url": "https://github.com/ukaea/OpenSTEP/blob/6f66ae09c60b361d600b178416ef3f22b8d0aa6a/scripts/wall.ipynb"
+}

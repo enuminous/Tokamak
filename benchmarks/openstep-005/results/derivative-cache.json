@@ -1,0 +1,333 @@
+{
+  "stage": "derivative_cache_validation",
+  "parent_commit": "4939a9314d2db8482a4a0f7421ca4bb1d125917d",
+  "started_utc": "2026-11-22T01:37:46.201364+00:00",
+  "protocol_sha256": "f641ab6c8dfe2d8a810d11d5753dcf2baf772b7477f8752630a12c34f9af2f33",
+  "code_sha256": {
+    "wall_feedback.py": "94de2d087b3d9008c982c0a56e8168f7109ece25458963e395470ce3e55eb83e",
+    "preflight.py": "ba7f5d531f4294f71da0dccd6bc14c880a11d6662ac8f8a123d75c9a0c46e118",
+    "derivative_cache.py": "ccbc077da5a926c59ce787279f0b0760ee0b13cae12a85a1f83baf7f0eb38d9e",
+    "common.py": "6fb630c00c807fe98b89eb6d9a264de54a1e8e7a1b1911572b6cebb2dfb23004",
+    "footprints.py": "5acabe36e070702bb2fe1e88ff828b05dada32d3c9d3b17b1eb8d31f97cbab74",
+    "report.py": "82d181c3c2f6ee1b38f8a0221f3c27f237a209fab072c01b4fc8f36774993ac7",
+    "run.py": "12f451b8fde8ba2925b0073523b3dd5cfccf40b244fcff38debf3ad8294ca118",
+    "contour.py": "1b766bb1c5f3fd1793760557f6c247099faaf79b913f278f1e7e91629dde7ff7"
+  },
+  "checks": [
+    {
+      "name": "recovery-homotopy-10:gradient_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "recovery-homotopy-10:field_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "recovery-homotopy-10:cached_uncached_trace:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "recovery-homotopy-10:cached_uncached_trace:length_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.0001
+    },
+    {
+      "name": "recovery-homotopy-10:cached_uncached_trace:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--050mm-129:gradient_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "shift--050mm-129:field_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "shift--050mm-129:cached_uncached_trace:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--050mm-129:cached_uncached_trace:length_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift--050mm-129:cached_uncached_trace:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-129:gradient_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "shift--010mm-129:field_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "shift--010mm-129:cached_uncached_trace:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-129:cached_uncached_trace:length_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift--010mm-129:cached_uncached_trace:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-129:gradient_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "inward-010mm-129:field_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "inward-010mm-129:cached_uncached_trace:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-129:cached_uncached_trace:length_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.0001
+    },
+    {
+      "name": "inward-010mm-129:cached_uncached_trace:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:gradient_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "shift-+000mm-257:field_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "shift-+000mm-257:cached_uncached_trace:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:cached_uncached_trace:length_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift-+000mm-257:cached_uncached_trace:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:gradient_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "shift--010mm-257:field_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "shift--010mm-257:cached_uncached_trace:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:cached_uncached_trace:length_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift--010mm-257:cached_uncached_trace:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:gradient_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "inward-010mm-257:field_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "inward-010mm-257:cached_uncached_trace:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:cached_uncached_trace:length_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.0001
+    },
+    {
+      "name": "inward-010mm-257:cached_uncached_trace:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:gradient_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "inward-050mm-257:field_cache",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "inward-050mm-257:cached_uncached_trace:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:cached_uncached_trace:length_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.0001
+    },
+    {
+      "name": "inward-050mm-257:cached_uncached_trace:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    }
+  ],
+  "rows": [
+    {
+      "tag": "recovery-homotopy-10",
+      "points_compared": 37249,
+      "cached_seconds": 2.1248397827148438,
+      "original_seconds": 2.524909257888794,
+      "position_m": 0.0,
+      "length_m": 0.0,
+      "heat_relative": 0.0
+    },
+    {
+      "tag": "shift--050mm-129",
+      "points_compared": 37249,
+      "cached_seconds": 1.2578349113464355,
+      "original_seconds": 2.9271392822265625,
+      "position_m": 0.0,
+      "length_m": 0.0,
+      "heat_relative": 0.0
+    },
+    {
+      "tag": "shift--010mm-129",
+      "points_compared": 37249,
+      "cached_seconds": 1.438506841659546,
+      "original_seconds": 2.8121871948242188,
+      "position_m": 0.0,
+      "length_m": 0.0,
+      "heat_relative": 0.0
+    },
+    {
+      "tag": "inward-010mm-129",
+      "points_compared": 37249,
+      "cached_seconds": 1.699749231338501,
+      "original_seconds": 2.920850992202759,
+      "position_m": 0.0,
+      "length_m": 0.0,
+      "heat_relative": 0.0
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "points_compared": 135937,
+      "cached_seconds": 1.4340407848358154,
+      "original_seconds": 10.083106756210327,
+      "position_m": 0.0,
+      "length_m": 0.0,
+      "heat_relative": 0.0
+    },
+    {
+      "tag": "shift--010mm-257",
+      "points_compared": 135937,
+      "cached_seconds": 1.4544124603271484,
+      "original_seconds": 12.375246286392212,
+      "position_m": 0.0,
+      "length_m": 0.0,
+      "heat_relative": 0.0
+    },
+    {
+      "tag": "inward-010mm-257",
+      "points_compared": 135937,
+      "cached_seconds": 1.5479722023010254,
+      "original_seconds": 18.414055824279785,
+      "position_m": 0.0,
+      "length_m": 0.0,
+      "heat_relative": 0.0
+    },
+    {
+      "tag": "inward-050mm-257",
+      "points_compared": 135937,
+      "cached_seconds": 1.6419312953948975,
+      "original_seconds": 20.12804102897644,
+      "position_m": 0.0,
+      "length_m": 0.0,
+      "heat_relative": 0.0
+    }
+  ],
+  "seed": 5006
+}

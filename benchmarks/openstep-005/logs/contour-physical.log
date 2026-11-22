@@ -1,0 +1,17 @@
+Starting recovery-homotopy-10
+Finished recovery-homotopy-10 failures so far 0
+Starting shift--050mm-129
+Finished shift--050mm-129 failures so far 0
+Starting shift--010mm-129
+Finished shift--010mm-129 failures so far 0
+Starting inward-010mm-129
+Finished inward-010mm-129 failures so far 0
+Starting shift-+000mm-257
+Finished shift-+000mm-257 failures so far 0
+Starting shift--010mm-257
+Finished shift--010mm-257 failures so far 0
+Starting inward-010mm-257
+Finished inward-010mm-257 failures so far 0
+Starting inward-050mm-257
+Finished inward-050mm-257 failures so far 0
+{"PASS": 520, "FAIL": 0}

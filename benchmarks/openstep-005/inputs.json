@@ -1,0 +1,85 @@
+{
+  "parent_commit": "4939a9314d2db8482a4a0f7421ca4bb1d125917d",
+  "protocol_sha256": "f641ab6c8dfe2d8a810d11d5753dcf2baf772b7477f8752630a12c34f9af2f33",
+  "fields": [
+    {
+      "path": "benchmarks/openstep-003/results/recovery-homotopy-10.npz",
+      "sha256": "78daf7821dbf58e492bf07cb335132bd417ec9fa160b535f561eeeb669f68d64",
+      "report_sha256": "7b33c4fa497803db0a5ae7dae1d810897e6e270ab848a523611e0a418b4ede64",
+      "grid": 129,
+      "shift_m": 0
+    },
+    {
+      "path": "benchmarks/openstep-003/results/shift--050mm-129.npz",
+      "sha256": "0227b07fba356e215ee7f32c76bd06804559edb902bc970232f0071fcdb4f21e",
+      "report_sha256": "6ffe3d2e09c5a4ab5ce64bd3a1eb560661f40fa7a4b3b13da877bf1c5b4b983c",
+      "grid": 129,
+      "shift_m": -0.05
+    },
+    {
+      "path": "benchmarks/openstep-003/results/shift--010mm-129.npz",
+      "sha256": "52ceb95e685e237fe1dd3ed83596faa9304c33bd159db9d5b3072d85f72b16a5",
+      "report_sha256": "b329eb9179a5aae1e44dd6b85e26c2af50fba695b6a4ab4c053b1e629ca23d34",
+      "grid": 129,
+      "shift_m": -0.01
+    },
+    {
+      "path": "benchmarks/openstep-003/results/inward-010mm-129.npz",
+      "sha256": "5704490383ba9f80dd7589bc95d72330421d98f00399c684431699df82eaad39",
+      "report_sha256": "e5010ddbaca65d4b7f3ab6e129cdbb5bda797cd796b53845e54f98d33435ead6",
+      "grid": 129,
+      "shift_m": 0.01
+    },
+    {
+      "path": "benchmarks/openstep-003/results/shift-+000mm-257.npz",
+      "sha256": "49ca25493b5d97fdb34c885b7b2139fc4d0a8fe102e30e4ff8e7650f5f691ce7",
+      "report_sha256": "7ff0588c3f08e4fe3620c28309bb9b38fbee9658cfa846ab54bc54ea01143f52",
+      "grid": 257,
+      "shift_m": 0
+    },
+    {
+      "path": "benchmarks/openstep-003/results/shift--010mm-257.npz",
+      "sha256": "56dfcb608702bfbe2c0c1d3839a24db79ada462bc0b9e6cb8beb2873f1e85da2",
+      "report_sha256": "6e74b00848c997e50aeca304209fd83025e9f163db2c67ee26323ddc68a88a9d",
+      "grid": 257,
+      "shift_m": -0.01
+    },
+    {
+      "path": "benchmarks/openstep-003/results/inward-010mm-257.npz",
+      "sha256": "0db3b2d3d9a1c571d4125720b6cda350a40291e6dee30629fc47ae9b00f6090a",
+      "report_sha256": "866923ce31a74629418861d9cfd0a2f896c0cae843be65be2712c317eddae386",
+      "grid": 257,
+      "shift_m": 0.01
+    },
+    {
+      "path": "benchmarks/openstep-003/results/inward-050mm-257.npz",
+      "sha256": "c044ff5e3f3eb1ebacc66242841f620c9b18ea00a23d2586e3fee2040f7dcf30",
+      "report_sha256": "edf8335b2bf8732ed202e93d1cf9ba656db7c6a9f8d762372f08fab0ba1aef9f",
+      "grid": 257,
+      "shift_m": 0.05
+    }
+  ],
+  "inherited_data": [
+    {
+      "path": "benchmarks/openstep-002/source/SPR45_2D_Wall.csv",
+      "sha256": "fcdd5375dbecfbedc8ab7fb3b18c5d624dee05344793509f1fc0647c76889c1a"
+    },
+    {
+      "path": "benchmarks/openstep-002/results/kinetic-inputs.json",
+      "sha256": "a0a38e91e8cdf0a4295feb7474a45114f57d8e9eb12a5235f4df7fbc859c5345"
+    },
+    {
+      "path": "benchmarks/openstep-004/results/representative-refinement.json",
+      "sha256": "0a7201aeec9365ea0171e349c1161aa13d45d6bbbcf326b0de0eb5b279d4656a"
+    }
+  ],
+  "interpreter": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "shapely": "2.2.0",
+    "FreeGS": "0.8.2"
+  }
+}

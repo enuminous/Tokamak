@@ -1,0 +1,294 @@
+{
+  "experiment": "OPENSTEP-005",
+  "parent_commit": "4939a9314d2db8482a4a0f7421ca4bb1d125917d",
+  "files": [
+    {
+      "path": "benchmarks/openstep-005/DEVELOPMENT.md",
+      "bytes": 2100,
+      "sha256": "762fa27b8e9c912c558b952b5214180918010cced454312fd9e86f8aaf2c9126",
+      "git_blob_sha": "18e277a392f1cf19a094470185c0ece6d1072ce4"
+    },
+    {
+      "path": "benchmarks/openstep-005/INPUT-CONTRACT.md",
+      "bytes": 3048,
+      "sha256": "cb8dbdeb50a5b339cc4bc77bc07323c5450bc276e906f7eb6d993f39eac2d879",
+      "git_blob_sha": "ef15be57f1f9b974172b944235ce7a97645db0bd"
+    },
+    {
+      "path": "benchmarks/openstep-005/PROTOCOL.md",
+      "bytes": 3892,
+      "sha256": "f641ab6c8dfe2d8a810d11d5753dcf2baf772b7477f8752630a12c34f9af2f33",
+      "git_blob_sha": "5773cb1712eac67b90b27a99913ecf469a8f3954"
+    },
+    {
+      "path": "benchmarks/openstep-005/README.md",
+      "bytes": 8510,
+      "sha256": "d8b5516a6bf5ba31a2b13f3b8af3b33e669ea867b0215af66be51d761bdce65b",
+      "git_blob_sha": "c4b704fdd88ea0f615ab6f66665149c516f0c71b"
+    },
+    {
+      "path": "benchmarks/openstep-005/common.py",
+      "bytes": 8127,
+      "sha256": "6fb630c00c807fe98b89eb6d9a264de54a1e8e7a1b1911572b6cebb2dfb23004",
+      "git_blob_sha": "ee859b65725fc2a7fa79d61c01a77428c573087a"
+    },
+    {
+      "path": "benchmarks/openstep-005/contour.py",
+      "bytes": 12987,
+      "sha256": "1b766bb1c5f3fd1793760557f6c247099faaf79b913f278f1e7e91629dde7ff7",
+      "git_blob_sha": "0513148a8d873f0e5280cd7793edc92efc574e2f"
+    },
+    {
+      "path": "benchmarks/openstep-005/derivative_cache.py",
+      "bytes": 2661,
+      "sha256": "ccbc077da5a926c59ce787279f0b0760ee0b13cae12a85a1f83baf7f0eb38d9e",
+      "git_blob_sha": "0659a62c9e601bbf71319d4e7ae262e915e121f4"
+    },
+    {
+      "path": "benchmarks/openstep-005/development/footprints-interrupted.json",
+      "bytes": 68250,
+      "sha256": "1ab1ac8a6eddeafeccf00b1cacd0783c4f8d846eaca4d796e3c197dd44e3e2d7",
+      "git_blob_sha": "83dbb505adbc99368543ead33a5303def287c996"
+    },
+    {
+      "path": "benchmarks/openstep-005/development/footprints-interrupted.log",
+      "bytes": 693,
+      "sha256": "6ceb2128d6d4a02b140dfb28f4a62782cc8a57d6dedf225d872409f44d219c80",
+      "git_blob_sha": "880418a0b0c6602c9044edb9609c6974a90b378c"
+    },
+    {
+      "path": "benchmarks/openstep-005/development/footprints-uncached.py",
+      "bytes": 11293,
+      "sha256": "104c30a17cf332274fb135926deb38f149c5a38c48750b9aa57cbd3e1c371872",
+      "git_blob_sha": "253af1c867c4a49138c4cf88acc5cca2f2bd6e59"
+    },
+    {
+      "path": "benchmarks/openstep-005/device-inputs.json",
+      "bytes": 1082,
+      "sha256": "f1b838d2dc659c1d0272f0a6b6b098d0fb3a20b3b168706e71c7c7b0c57d6039",
+      "git_blob_sha": "3b8e69fcda86762721c68b7d4cbe300f9664ca2f"
+    },
+    {
+      "path": "benchmarks/openstep-005/footprints.py",
+      "bytes": 11334,
+      "sha256": "5acabe36e070702bb2fe1e88ff828b05dada32d3c9d3b17b1eb8d31f97cbab74",
+      "git_blob_sha": "572ee9adf334c6f2936232d26b0fdf4f14b4b1a7"
+    },
+    {
+      "path": "benchmarks/openstep-005/inputs.json",
+      "bytes": 3362,
+      "sha256": "65dcd0521cc328c0860aa635c8fb8e1591389beec587af0edc716dee6211b1d1",
+      "git_blob_sha": "df8a1e6df7075260598dc613c8c375d1ce336d81"
+    },
+    {
+      "path": "benchmarks/openstep-005/logs/contour-controls.log",
+      "bytes": 24,
+      "sha256": "6a82505ab073c365dd98532d453599c070c22156ac147d465499f85d77a90ae7",
+      "git_blob_sha": "0c121164ba643ecd1a925b16591d0708a31f2ce0"
+    },
+    {
+      "path": "benchmarks/openstep-005/logs/contour-physical.log",
+      "bytes": 593,
+      "sha256": "289f6e0e7a5b3d6486af4eea94dc2089a9b1c1e39ffc2ba1da5329a0766c5f2e",
+      "git_blob_sha": "e04643a21b78cfc52178d66b28d985f509491254"
+    },
+    {
+      "path": "benchmarks/openstep-005/logs/derivative_cache.log",
+      "bytes": 24,
+      "sha256": "dbbc0e9977fd914e7a394ac67353cc94640f2ab11fa17c2bf88f7dbd1e1a3cbf",
+      "git_blob_sha": "f81e5abdf545fe00d57913353f50e2669fd0f4a2"
+    },
+    {
+      "path": "benchmarks/openstep-005/logs/footprints.log",
+      "bytes": 2075,
+      "sha256": "1f00521c0703100bc38f512af399a4db52fe47d300c0f8818ad2cc8b54e5c046",
+      "git_blob_sha": "3878fde2981cb1af994c8f4654c01d6e054eecd2"
+    },
+    {
+      "path": "benchmarks/openstep-005/logs/preflight.log",
+      "bytes": 25,
+      "sha256": "18b18374d036691b943deaac63e84b2441175d137b2fd6ee623be759374a053e",
+      "git_blob_sha": "e27a40e15cb6468a906d2806b344588887c285d3"
+    },
+    {
+      "path": "benchmarks/openstep-005/logs/wall_feedback.log",
+      "bytes": 24,
+      "sha256": "544d06f90e7995b0f9ff1f286018413e9919f1fad9915af04ff7a95b6391ebb8",
+      "git_blob_sha": "313b4c19ca02de2aba553a3483c833a3be1c5d05"
+    },
+    {
+      "path": "benchmarks/openstep-005/preflight.py",
+      "bytes": 1957,
+      "sha256": "ba7f5d531f4294f71da0dccd6bc14c880a11d6662ac8f8a123d75c9a0c46e118",
+      "git_blob_sha": "4a9e0f2ced65668710a3e8750e6eb6f338c51597"
+    },
+    {
+      "path": "benchmarks/openstep-005/report.py",
+      "bytes": 18596,
+      "sha256": "82d181c3c2f6ee1b38f8a0221f3c27f237a209fab072c01b4fc8f36774993ac7",
+      "git_blob_sha": "9c67e97d13d47800368230b3fdc4e1078333247f"
+    },
+    {
+      "path": "benchmarks/openstep-005/requirements.txt",
+      "bytes": 36,
+      "sha256": "a3c836937a0c23456cd5bdc7d902813662b4c11275a84ea5cdfb4cddddf6e8eb",
+      "git_blob_sha": "63c3f52040d62220cc2846057335e9906365558b"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/contour-comparison.csv",
+      "bytes": 5438,
+      "sha256": "56ab5c0ca2dc09a77979dd811e03965606e4c93c84216d3ac2c24ebbb510ba9b",
+      "git_blob_sha": "6c4d04fb152d895869dfbdfd65c20124848a0c83"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/contour-paths.npz",
+      "bytes": 1514201,
+      "sha256": "a46d0eeb684c2e260a9f65f5a07c13a0cbe5849e67b6466555fba7c69b96be99",
+      "git_blob_sha": "32b6278efd276168e9e189ce67d6a3d95556390f"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/contour-traces.csv",
+      "bytes": 21948,
+      "sha256": "b5a076a736cf7c808d1a68d8e66cf7fcee6f4a81a0016f19b68014857d76d4be",
+      "git_blob_sha": "eab78714fb0d0816346b7f51ad290918b98e585d"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/contours.json",
+      "bytes": 157738,
+      "sha256": "1fae837b33b3bb32b68de2448bbc3d1ccde35d0de7cf70534da44b32492b2054",
+      "git_blob_sha": "36b064c6220d67714e6df1f5c79dcb8febed71e7"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/controls.json",
+      "bytes": 13386,
+      "sha256": "3970d119251520b7459e8833de4c7252828ad80055385d9323e47b42b14afa7e",
+      "git_blob_sha": "8fe135dabad6c241102a87ff218d4bc3b6582a95"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/corner-geometry.png",
+      "bytes": 65717,
+      "sha256": "af918115b8623c2181150b5db20c3290674be5a818f18ed3195f87e57de8613a",
+      "git_blob_sha": "126c7f8fc44f8b082cec285becd7ca71812e2928"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/corner-geometry.svg",
+      "bytes": 56651,
+      "sha256": "1591dbc0e9ae8773d2519dfd595186cbb9c1270e79cdcccddfb550fc31cad4ca",
+      "git_blob_sha": "4228a3af5cbbd69a87582251b160213fea6d5a5b"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/derivative-cache.json",
+      "bytes": 8496,
+      "sha256": "48b986f954b03da537f5e3668fc32cef970ddf663fd565a5e9a17ebfd679f121",
+      "git_blob_sha": "58dc2fcd693771caf1a4d0d13d87e55f01505f2e"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/first-hit-checks.csv",
+      "bytes": 38629,
+      "sha256": "2c0f003110d916312495600ea08f459c3bf2013f8a65d8e651ddcb2e3692aec5",
+      "git_blob_sha": "27ac63da3dc0620428479c2eea6ace9ab92c0c75"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/footprint-rounding.png",
+      "bytes": 212021,
+      "sha256": "7b74c0f7d6a886e1dc3367ba83326017571df9d1948ab9d0bd5f548a5607cd9e",
+      "git_blob_sha": "ab7914a00c926fb7aa42da8438254f5fa0c6c958"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/footprint-rounding.svg",
+      "bytes": 128206,
+      "sha256": "7c27e36ca12fd56f1be48c9f9508acd7dee18d64d18848dc4191ba671533ea6f",
+      "git_blob_sha": "2faa6f22d4485cfee5175e89b69df46282f53067"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/footprints.csv",
+      "bytes": 1892461,
+      "sha256": "03d95d3bdec0f7746e63be3d2ba4528983f1413c49abf0487cd88a926c65ca6e",
+      "git_blob_sha": "86e1614297fc1790cb525e8056d066e45c807456"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/footprints.json",
+      "bytes": 192026,
+      "sha256": "0a9346284393a88137a6889a72dc3372280d7dbc5b4001bd9a61c0c5b94cd240",
+      "git_blob_sha": "14f832b854ad7a07046f9b7dfd34914e67ee9186"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/geometry-controls.json",
+      "bytes": 10329,
+      "sha256": "601e7817730c4939f1f731ca18941c2cf47bd98a6c362144498b2f49e13f946e",
+      "git_blob_sha": "8d25a3e7a6369b56341efaaa499839ec42aa3ea3"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/peak-searches.csv",
+      "bytes": 4551,
+      "sha256": "3b3ba60aac93fb63f19f9de1d36ddd538a257f7bbb882d2d2a4c9ad7fc6177b7",
+      "git_blob_sha": "f8370bf67cac7c8d2407aa5c5fd55b9cd010bc5f"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/preflight.json",
+      "bytes": 59691,
+      "sha256": "6c878dc474ed0b34bbfefecd317449e1ad527c8ca6c65a224dd1391828c9796e",
+      "git_blob_sha": "ae3103691df86abeaa7195ab74e8b649bc3c310a"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/summary.json",
+      "bytes": 19082,
+      "sha256": "bd1d135497e8faab6f1115a92e1d9b88185c5992aff92e82db64c44cddba85de",
+      "git_blob_sha": "214f3217d6ea4b9fb5c3695f28cab1e2823e8e9e"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/synthetic-feedback.png",
+      "bytes": 208266,
+      "sha256": "e591159a7770dd3b33eef913799155329aa45e8eeb6f5a1fd078e9b189f1f1db",
+      "git_blob_sha": "af3f2951eb8e2b311add8598d20f940acbbd8704"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/synthetic-feedback.svg",
+      "bytes": 155157,
+      "sha256": "36a276cdf9cb62ac2b00e2bb4f3bbcffefd6f3c8951c88fe80f47da3b23f9d85",
+      "git_blob_sha": "3fba1ebeb2f4a12b3adf9b42aad247ac171e971d"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/synthetic-gain-map.csv",
+      "bytes": 19699,
+      "sha256": "fc241e357b333791aafd205d8fc94a432f76df0de639467506d2d6fb313c7652",
+      "git_blob_sha": "cc0b2a101b72cb36052957cba0515c61e79787a3"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/synthetic-time-traces.csv",
+      "bytes": 216814,
+      "sha256": "386058cab3d6a6c1e0f67d906de604a9ad5720601c14ef28d488f844d8343629",
+      "git_blob_sha": "53cfdbec8036b479e956b93d32442e9c84e22cf4"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/verification.json",
+      "bytes": 381411,
+      "sha256": "fccfef296c94b44968462780d0b1e40cf990e7cfb0ee4a86637c9f28f23e704c",
+      "git_blob_sha": "416c2d267f6ea2c0a9c8ce507aa65fa9725e2a0c"
+    },
+    {
+      "path": "benchmarks/openstep-005/results/wall-feedback.json",
+      "bytes": 10941,
+      "sha256": "823b271e86abb3301135459eabb53bdc4b6cda074e6f52a9d42b7b7167b8f054",
+      "git_blob_sha": "2f6b21157f7f59531e7a5f2e14565e149918356b"
+    },
+    {
+      "path": "benchmarks/openstep-005/run.py",
+      "bytes": 981,
+      "sha256": "12f451b8fde8ba2925b0073523b3dd5cfccf40b244fcff38debf3ad8294ca118",
+      "git_blob_sha": "131caf5beb955258d9aa30ec05ae74b9c1cec535"
+    },
+    {
+      "path": "benchmarks/openstep-005/source-inspection.json",
+      "bytes": 6423,
+      "sha256": "7ba1673a75b27fa58baf972f51e8e50e7334c17833e34b3e3542107523de3e8c",
+      "git_blob_sha": "d7107fdaaecd895a77bd42160eb037002dfb5e7a"
+    },
+    {
+      "path": "benchmarks/openstep-005/wall_feedback.py",
+      "bytes": 13550,
+      "sha256": "94de2d087b3d9008c982c0a56e8168f7109ece25458963e395470ce3e55eb83e",
+      "git_blob_sha": "181abd636dc2a1cea642de66c0878166a9c7fbc9"
+    }
+  ]
+}

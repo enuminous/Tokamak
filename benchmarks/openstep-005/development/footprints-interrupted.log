@@ -1,0 +1,11 @@
+Starting footprint shift-+000mm-257 0.0 branches 2
+Finished footprint shift-+000mm-257 0.0 peak 13.692957590976766 failures 0
+Starting footprint shift-+000mm-257 0.001 branches 3
+Finished footprint shift-+000mm-257 0.001 peak 12.368962888954396 failures 0
+Starting footprint shift-+000mm-257 0.005 branches 3
+Finished footprint shift-+000mm-257 0.005 peak 11.820421775584164 failures 0
+Starting footprint shift-+000mm-257 0.01 branches 3
+Finished footprint shift-+000mm-257 0.01 peak 11.820421775583968 failures 0
+Starting footprint shift--010mm-257 0.0 branches 2
+Finished footprint shift--010mm-257 0.0 peak 11.836714896387678 failures 0
+Starting footprint shift--010mm-257 0.001 branches 3

@@ -1,0 +1,7847 @@
+{
+  "stage": "footprint_corner_and_rounding",
+  "parent_commit": "4939a9314d2db8482a4a0f7421ca4bb1d125917d",
+  "started_utc": "2026-11-22T01:38:22.484998+00:00",
+  "protocol_sha256": "f641ab6c8dfe2d8a810d11d5753dcf2baf772b7477f8752630a12c34f9af2f33",
+  "code_sha256": {
+    "wall_feedback.py": "94de2d087b3d9008c982c0a56e8168f7109ece25458963e395470ce3e55eb83e",
+    "preflight.py": "ba7f5d531f4294f71da0dccd6bc14c880a11d6662ac8f8a123d75c9a0c46e118",
+    "derivative_cache.py": "ccbc077da5a926c59ce787279f0b0760ee0b13cae12a85a1f83baf7f0eb38d9e",
+    "common.py": "6fb630c00c807fe98b89eb6d9a264de54a1e8e7a1b1911572b6cebb2dfb23004",
+    "footprints.py": "5acabe36e070702bb2fe1e88ff828b05dada32d3c9d3b17b1eb8d31f97cbab74",
+    "report.py": "82d181c3c2f6ee1b38f8a0221f3c27f237a209fab072c01b4fc8f36774993ac7",
+    "run.py": "12f451b8fde8ba2925b0073523b3dd5cfccf40b244fcff38debf3ad8294ca118",
+    "contour.py": "1b766bb1c5f3fd1793760557f6c247099faaf79b913f278f1e7e91629dde7ff7"
+  },
+  "completed": true,
+  "checks": [
+    {
+      "name": "0.001:arc-13:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:mirror",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:cut_region_excluded",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:unmodified_midplane",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:mirror",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:cut_region_excluded",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:unmodified_midplane",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:mirror",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:cut_region_excluded",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:unmodified_midplane",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.8984016706210158e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 7.105427357601002e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 2.4424906541753444e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9429228165196376e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 4.782987168225453e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 5.773159728050814e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9064054721308803e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 1.2560739669470201e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.0:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 4.884981308350689e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9539280435957016e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 1.3322676295501878e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.876391216468888e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9779394481252954e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.0:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.0:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:window_contiguous",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.0:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.0:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.0:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.0:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.9299166390661078e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.0:near_peak:False:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.0:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.0:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.0:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9874439624182596e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.0:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.0:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.0:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.0:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 1.2008172234345693e-12,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift-+000mm-257:0.0:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.0:peak_branch",
+      "status": "PASS",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9769389729365625e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 1.1102230246251565e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9859432496351602e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 1.1682163181672949e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 3.552713678800501e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9444235293027373e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 2.0734733982992197e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.001:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 9.325873406851315e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9454240044914705e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 6.661338147750939e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.6607888132969098e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9954477639281244e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.001:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.8989019082153824e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 1.37882369488729e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 5.133271585577859e-11,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.999949902277423e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 5.0242958677880805e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 4.674038933671909e-12,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.8178634179280028e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.001:arc-13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 5.773159728050814e-14,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.001:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:window_contiguous",
+      "status": "PASS",
+      "value": 7.979727989493313e-17,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:peak_65_129",
+      "status": "PASS",
+      "value": 9.477051573725248e-06,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.001:peak_129_257",
+      "status": "PASS",
+      "value": 1.0004024634691078e-05,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.001:peak_257_optimized",
+      "status": "PASS",
+      "value": 3.791595237778722e-07,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.001:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.6627897636743758e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:near_peak:False:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.001:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9874439624182596e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.001:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.001:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.001:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.001:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 1.0302869668521453e-12,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift-+000mm-257:0.001:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.001:peak_branch",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.991445863173192e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 7.993605777301127e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 3.1086244689504383e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9739375473703633e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 4.782987168225453e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 5.995204332975845e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9399213909534384e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 1.4962841090874932e-13,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.005:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 8.615330671091215e-14,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.965433508266132e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.953427806001335e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.970936121804164e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.005:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.843875772835063e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 9.057678187205881e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 6.842526545369765e-12,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9249142631224423e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 3.2023728339893768e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 1.112884370092863e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 1.8745005547771143e-12,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9099071352914461e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.005:arc-13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.005:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:window_contiguous",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.005:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.005:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.005:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.7663389457082494e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:near_peak:False:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.005:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9814411112858612e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.005:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.005:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.005:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.005:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 4.930456043439335e-10,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift-+000mm-257:0.005:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 1.3322676295501878e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.005:peak_branch",
+      "status": "PASS",
+      "value": 7.105427357601002e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9544282811900682e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 6.661338147750939e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.830869595381533e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 2.5433559371059917e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 1.3988810110276972e-14,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9464244796802034e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.01:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 1.3322676295501878e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9639327954830324e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9429228165196376e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.932918064632307e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.01:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9749380225590962e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 3.932133484805905e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 1.4407142145955731e-11,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.995948001522491e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 1.156852391659413e-13,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.7253194629701932e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.01:arc-13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.01:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:window_contiguous",
+      "status": "PASS",
+      "value": 7.979727989493313e-17,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.01:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.01:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift-+000mm-257:0.01:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.7673394208969826e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:near_peak:False:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift-+000mm-257:0.01:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9984491894943236e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift-+000mm-257:0.01:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift-+000mm-257:0.01:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift-+000mm-257:0.01:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift-+000mm-257:0.01:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 4.926761221213383e-10,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift-+000mm-257:0.01:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 1.5543122344752192e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift-+000mm-257:0.01:peak_branch",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.98852751477026e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 7.105427357601002e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 3.1086244689504383e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.952867743646111e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 5.617333549722722e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 5.662137425588298e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.845393155674717e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.0:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 2.220446049250313e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9766409243955436e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9315709358914108e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9810983957860624e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.0:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.0:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:window_contiguous",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.0:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.0:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.0:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.0:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.96723070701556e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.0:near_peak:False:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.0:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.0:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.0:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9924897115618322e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.0:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.0:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.0:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 7.105427357601002e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.0:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 1.809041805245215e-10,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift--010mm-257:0.0:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.0:peak_branch",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.8047806385611028e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 1.0658141036401503e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 3.9968028886505635e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9053213821472453e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 1.2560739669470201e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 3.1086244689504383e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9741645514008112e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.001:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 1.5543122344752192e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.95583939123979e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.8993780869598871e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.89046314417885e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.001:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.909778853537764e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 3.389066804970753e-12,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9409811532713945e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 1.1532996779806126e-12,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.5784401468425452e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.001:arc-13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 1.687538997430238e-14,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.001:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:window_contiguous",
+      "status": "PASS",
+      "value": 8.153200337090993e-17,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.001:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.001:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.001:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.969211805411346e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:near_peak:False:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.001:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.971192903807132e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.001:near_peak:True:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.001:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.001:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 1.1546319456101628e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.001:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 1.8140156043955358e-10,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift--010mm-257:0.001:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 4.218847493575595e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.001:peak_branch",
+      "status": "PASS",
+      "value": 1.2560739669470201e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9315709358914108e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9142363249282828e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 5.617333549722722e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 5.218048215738236e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.7879413021969212e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 5.696125791425276e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.005:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 2.930988785010413e-14,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9236465423082664e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9167126979230152e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9766409243955436e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.005:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9053213821472453e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 3.3884006711559778e-12,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9335520342871968e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 5.0242958677880805e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 6.217248937900877e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 7.02105040772949e-13,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.958811038833469e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.005:arc-13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.005:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:window_contiguous",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.005:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.005:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.005:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.970202354609239e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:near_peak:False:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.005:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9954613591555112e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.005:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.005:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.005:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.005:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 1.8032153548119823e-10,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift--010mm-257:0.005:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 6.661338147750939e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.005:peak_branch",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9806031211871159e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 2.220446049250313e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9741645514008112e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 1.6897813268402436e-13,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 9.170442183403793e-14,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.754262629468558e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 1.0805156823142815e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.01:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.8622324920388985e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9122552265324965e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9617826864271483e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.01:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9919944369628858e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 4.185761663659157e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 1.5327072944160136e-11,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9573252150366296e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 1.9860273225978185e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 2.34035013590983e-13,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.8498506270652356e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.01:arc-13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.01:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:window_contiguous",
+      "status": "PASS",
+      "value": 6.591949208711867e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.01:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.01:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "shift--010mm-257:0.01:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.968221256213453e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:near_peak:False:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "shift--010mm-257:0.01:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.968221256213453e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "shift--010mm-257:0.01:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "shift--010mm-257:0.01:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "shift--010mm-257:0.01:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-05
+    },
+    {
+      "name": "shift--010mm-257:0.01:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 1.807620719773695e-10,
+      "limit": 0.0001
+    },
+    {
+      "name": "shift--010mm-257:0.01:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "shift--010mm-257:0.01:peak_branch",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9801312976459985e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 2.220446049250313e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.7543489557408298e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 9.267749206817357e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 5.573319583618286e-14,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9604761384176467e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 1.637720085286689e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.0:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 1.0547118733938987e-14,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.992226780248061e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 5.551115123125783e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9932347371315664e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.8727838895526928e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.0:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.0:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:window_contiguous",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.0:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.0:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.0:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.0:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.961484095301152e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.0:near_peak:False:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.0:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.0:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.0:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.989706888039298e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.0:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.0:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.0:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.0:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 3.254285729781259e-12,
+      "limit": 0.0001
+    },
+    {
+      "name": "inward-010mm-257:0.0:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.0:peak_branch",
+      "status": "PASS",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.8788316308537242e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 4.440892098500626e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.987186995830535e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 4.790403295431318e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 2.3092638912203256e-14,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9403170007475423e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 2.0734733982992197e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.001:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 9.43689570931383e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.966523879718678e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 9.992007221626409e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9902108664810506e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.8949589409898076e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.001:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.989706888039298e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 1.37882369488729e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 5.1743498374889896e-11,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.922677755286201e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 3.66205343881779e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 2.37698749572246e-12,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9791233407624933e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 3.66205343881779e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.001:arc-13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 9.373612996910197e-13,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.001:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:window_contiguous",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:peak_65_129",
+      "status": "PASS",
+      "value": 2.551094118108388e-05,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.001:peak_129_257",
+      "status": "PASS",
+      "value": 2.0000606328895998e-06,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.001:peak_257_optimized",
+      "status": "PASS",
+      "value": 2.7529579111895686e-06,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.001:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.9760994701119775e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:near_peak:False:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.001:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9811392545295037e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.001:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.001:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.001:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.001:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 3.26139115713886e-12,
+      "limit": 0.0001
+    },
+    {
+      "name": "inward-010mm-257:0.001:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.001:peak_branch",
+      "status": "PASS",
+      "value": 3.66205343881779e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9680358150439358e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 8.188600426433445e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 4.884981308350689e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.8939509841063024e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 5.617333549722722e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 6.106226635438361e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.917637970868675e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 4.3287104541218935e-13,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.005:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 2.589040093425865e-13,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.958964203092389e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 2.220446049250313e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9836591467382667e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9534204402331102e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.005:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.8994947469655812e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 7.944109290391274e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 5.5456750303051194e-12,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9715636641362042e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 3.972054645195637e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 2.389199948993337e-13,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.880343566178982e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.005:arc-13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 8.215650382226158e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.005:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:window_contiguous",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.005:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.005:peak_257_optimized",
+      "status": "PASS",
+      "value": 5.432693835016877e-06,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.005:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.993738715573319e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:near_peak:False:wall",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.005:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9947466724568242e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.005:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.005:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.005:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.005:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 2.2453150450019166e-12,
+      "limit": 0.0001
+    },
+    {
+      "name": "inward-010mm-257:0.005:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 4.440892098500626e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.005:peak_branch",
+      "status": "PASS",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.871271954227435e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.05:wall",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 9.769962616701378e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 3.3306690738754696e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.998778499990845e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 6.466036496704424e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 5.88418203051333e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9902108664810506e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 8.188600426433445e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.01:12:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 4.884981308350689e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9942426940150716e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9927307586898136e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9246936690532115e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.01:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.939309043864037e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 2.3313626137889344e-14,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 8.647971228015194e-12,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.7740041149691817e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 3.972054645195637e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 2.396971510165713e-13,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.6812720816867016e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.01:arc-13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 1.5543122344752192e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.01:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:window_contiguous",
+      "status": "PASS",
+      "value": 7.979727989493313e-17,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:peak_65_129",
+      "status": "PASS",
+      "value": 9.578758488815176e-05,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.01:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.01:peak_257_optimized",
+      "status": "PASS",
+      "value": 6.998164984617361e-06,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-010mm-257:0.01:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.983155168296514e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:near_peak:False:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-010mm-257:0.01:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9876909742722876e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-010mm-257:0.01:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-010mm-257:0.01:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-010mm-257:0.01:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-010mm-257:0.01:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 2.4726887204451486e-12,
+      "limit": 0.0001
+    },
+    {
+      "name": "inward-010mm-257:0.01:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 1.2367884494324244e-13,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-010mm-257:0.01:peak_branch",
+      "status": "PASS",
+      "value": 5.687116766346677e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.7744462512238375e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9811778533081682e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.994751140313705e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.0:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.0:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.0:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.0:window_contiguous",
+      "status": "PASS",
+      "value": 0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.0:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.0:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.0:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.0:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.0:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.9895306453115755e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.0:near_peak:False:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.0:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.0:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.0:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9832660513090199e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.0:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.0:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.0:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.0:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 4.092726157978177e-12,
+      "limit": 0.0001
+    },
+    {
+      "name": "inward-050mm-257:0.0:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.0:peak_branch",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.7744462512238375e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9811778533081682e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.99214089281264e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.001:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.001:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:window_contiguous",
+      "status": "PASS",
+      "value": 0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.001:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.001:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.001:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.001:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.9905747443120013e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.001:near_peak:False:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.001:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.001:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.001:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9869203978105106e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.001:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.001:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.001:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.001:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 5.314859663485549e-12,
+      "limit": 0.0001
+    },
+    {
+      "name": "inward-050mm-257:0.001:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.001:peak_branch",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.7744462512238375e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.9811778533081682e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.994751140313705e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.005:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.005:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:window_contiguous",
+      "status": "PASS",
+      "value": 0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.005:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.005:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.005:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.005:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.9905747443120013e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.005:near_peak:False:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.005:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.005:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.005:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9869203978105106e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.005:near_peak:True:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.005:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.005:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.005:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 5.314859663485549e-12,
+      "limit": 0.0001
+    },
+    {
+      "name": "inward-050mm-257:0.005:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.005:peak_branch",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.8819884482677063e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 4.440892098500626e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.8350039932485404e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9978834373149827e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.01:13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:optimizer",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.05:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.05:flux",
+      "status": "PASS",
+      "value": 1.9989275363154086e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.05:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.05:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:first_hit_segment:0.05",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:first_hit_position:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:first_hit_heat:0.05",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.5:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.5:flux",
+      "status": "PASS",
+      "value": 1.970736863303909e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.5:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.5:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:first_hit_segment:0.5",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:first_hit_position:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:first_hit_heat:0.5",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.95:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.95:flux",
+      "status": "PASS",
+      "value": 1.9952731898139179e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.95:wall",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:branch:0.95:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:first_hit_segment:0.95",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:first_hit_position:0.95",
+      "status": "PASS",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.01:arc-13:first_hit_heat:0.95",
+      "status": "PASS",
+      "value": 3.219646771412954e-15,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.01:window_start",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:window_end",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:window_contiguous",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.01:peak_65_129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.01:peak_129_257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.01:peak_257_optimized",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.01
+    },
+    {
+      "name": "inward-050mm-257:0.01:near_peak:False:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:near_peak:False:flux",
+      "status": "PASS",
+      "value": 1.9806558038079552e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.01:near_peak:False:wall",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.01:near_peak:False:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.01:near_peak:True:hit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "inward-050mm-257:0.01:near_peak:True:flux",
+      "status": "PASS",
+      "value": 1.9858762988100847e-13,
+      "limit": 1e-07
+    },
+    {
+      "name": "inward-050mm-257:0.01:near_peak:True:wall",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-09
+    },
+    {
+      "name": "inward-050mm-257:0.01:near_peak:True:field_consistency",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "inward-050mm-257:0.01:near_peak_refinement:position_m",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-05
+    },
+    {
+      "name": "inward-050mm-257:0.01:near_peak_refinement:length_m",
+      "status": "PASS",
+      "value": 4.774847184307873e-12,
+      "limit": 0.0001
+    },
+    {
+      "name": "inward-050mm-257:0.01:near_peak_refinement:heat_relative",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.001
+    },
+    {
+      "name": "inward-050mm-257:0.01:peak_branch",
+      "status": "PASS",
+      "value": 8.881784197001252e-16,
+      "limit": 1e-05
+    }
+  ],
+  "summaries": [
+    {
+      "tag": "shift-+000mm-257",
+      "shift_m": 0,
+      "radius_m": 0.0,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.8412970073970131,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.05711735109921485
+        }
+      ],
+      "sampled_maxima": {
+        "65": 13.692957590976766,
+        "129": 13.692957590976766,
+        "257": 13.692957590976766
+      },
+      "optimized_maximum": {
+        "tag": "shift-+000mm-257",
+        "shift_m": 0,
+        "radius_m": 0.0,
+        "segment": "13",
+        "t": 0.0,
+        "offset_m": 0.009380950519343505,
+        "R_target_m": 5.855,
+        "Z_target_m": -8.52316,
+        "Bnormal_target_T": 1.1525998852633035,
+        "Bpol_upstream_T": 1.483387339306358,
+        "area_expansion": 1.2869924405445246,
+        "representative_heat_MW_m2": 13.692957590976766,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.009381056624377715
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "shift_m": 0,
+      "radius_m": 0.001,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.8431233283577698,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.05377741885586843
+        },
+        {
+          "segment": "arc-13",
+          "t_min": 0.0,
+          "t_max": 1.0
+        }
+      ],
+      "sampled_maxima": {
+        "65": 12.368717242050241,
+        "129": 12.368834461021446,
+        "257": 12.368958199146096
+      },
+      "optimized_maximum": {
+        "tag": "shift-+000mm-257",
+        "shift_m": 0,
+        "radius_m": 0.001,
+        "segment": "arc-13",
+        "t": 0.91078297008289,
+        "offset_m": 0.009938708511978195,
+        "R_target_m": 5.854992599922228,
+        "Z_target_m": -8.52246909319961,
+        "Bnormal_target_T": 1.1427095637869185,
+        "Bpol_upstream_T": 1.4834092687106855,
+        "area_expansion": 1.2981507425164924,
+        "representative_heat_MW_m2": 12.368962888954396
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.009938708511978195
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "shift_m": 0,
+      "radius_m": 0.005,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.8505085997631548,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.04017767111258292
+        },
+        {
+          "segment": "arc-13",
+          "t_min": 0.0,
+          "t_max": 1.0
+        }
+      ],
+      "sampled_maxima": {
+        "65": 11.820421775584164,
+        "129": 11.820421775584164,
+        "257": 11.820421775584164
+      },
+      "optimized_maximum": {
+        "tag": "shift-+000mm-257",
+        "shift_m": 0,
+        "radius_m": 0.005,
+        "segment": "12",
+        "t": 0.8505085997631548,
+        "offset_m": 0.00025,
+        "R_target_m": 5.796746479535147,
+        "Z_target_m": -8.535354737951614,
+        "Bnormal_target_T": 0.2163927027188238,
+        "Bpol_upstream_T": 1.4801553665109126,
+        "area_expansion": 6.840135309156871,
+        "representative_heat_MW_m2": 11.820421775584164,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.000250083519152815
+    },
+    {
+      "tag": "shift-+000mm-257",
+      "shift_m": 0,
+      "radius_m": 0.01,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.8599241457917272,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.022618184577000666
+        },
+        {
+          "segment": "arc-13",
+          "t_min": 0.0,
+          "t_max": 1.0
+        }
+      ],
+      "sampled_maxima": {
+        "65": 11.820421775583968,
+        "129": 11.820421775583968,
+        "257": 11.820421775583968
+      },
+      "optimized_maximum": {
+        "tag": "shift-+000mm-257",
+        "shift_m": 0,
+        "radius_m": 0.01,
+        "segment": "12",
+        "t": 0.8599241457917272,
+        "offset_m": 0.00025,
+        "R_target_m": 5.796746479535151,
+        "Z_target_m": -8.535354737951614,
+        "Bnormal_target_T": 0.21639270271882022,
+        "Bpol_upstream_T": 1.4801553665109126,
+        "area_expansion": 6.840135309156984,
+        "representative_heat_MW_m2": 11.820421775583968,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.0002500774019148072
+    },
+    {
+      "tag": "shift--010mm-257",
+      "shift_m": -0.01,
+      "radius_m": 0.0,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.8040154803521024,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.045368222135500194
+        }
+      ],
+      "sampled_maxima": {
+        "65": 11.836714896387678,
+        "129": 11.836714896387678,
+        "257": 11.836714896387678
+      },
+      "optimized_maximum": {
+        "tag": "shift--010mm-257",
+        "shift_m": -0.01,
+        "radius_m": 0.0,
+        "segment": "12",
+        "t": 0.8040154803521024,
+        "offset_m": 0.00025,
+        "R_target_m": 5.783061922218043,
+        "Z_target_m": -8.538219450489745,
+        "Bnormal_target_T": 0.2172265770072162,
+        "Bpol_upstream_T": 1.4785151239862266,
+        "area_expansion": 6.80632703583554,
+        "representative_heat_MW_m2": 11.836714896387678,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.00025011058412145336
+    },
+    {
+      "tag": "shift--010mm-257",
+      "shift_m": -0.01,
+      "radius_m": 0.001,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.8057608690930836,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.04198667146305807
+        },
+        {
+          "segment": "arc-13",
+          "t_min": 0.0,
+          "t_max": 1.0
+        }
+      ],
+      "sampled_maxima": {
+        "65": 11.836714896387647,
+        "129": 11.836714896387647,
+        "257": 11.836714896387647
+      },
+      "optimized_maximum": {
+        "tag": "shift--010mm-257",
+        "shift_m": -0.01,
+        "radius_m": 0.001,
+        "segment": "12",
+        "t": 0.8057608690930836,
+        "offset_m": 0.00025,
+        "R_target_m": 5.783061922218042,
+        "Z_target_m": -8.538219450489745,
+        "Bnormal_target_T": 0.21722657700721565,
+        "Bpol_upstream_T": 1.4785151239862266,
+        "area_expansion": 6.806327035835558,
+        "representative_heat_MW_m2": 11.836714896387647,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.00025010936188023724
+    },
+    {
+      "tag": "shift--010mm-257",
+      "shift_m": -0.01,
+      "radius_m": 0.005,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.8128188670228602,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.028217459163084976
+        },
+        {
+          "segment": "arc-13",
+          "t_min": 0.0,
+          "t_max": 1.0
+        }
+      ],
+      "sampled_maxima": {
+        "65": 11.8367148963878,
+        "129": 11.8367148963878,
+        "257": 11.8367148963878
+      },
+      "optimized_maximum": {
+        "tag": "shift--010mm-257",
+        "shift_m": -0.01,
+        "radius_m": 0.005,
+        "segment": "12",
+        "t": 0.8128188670228602,
+        "offset_m": 0.00025,
+        "R_target_m": 5.783061922218041,
+        "Z_target_m": -8.538219450489745,
+        "Bnormal_target_T": 0.21722657700721845,
+        "Bpol_upstream_T": 1.4785151239862266,
+        "area_expansion": 6.80632703583547,
+        "representative_heat_MW_m2": 11.8367148963878,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.0002501044729132297
+    },
+    {
+      "tag": "shift--010mm-257",
+      "shift_m": -0.01,
+      "radius_m": 0.01,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.8218171692827932,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.010439166318911607
+        },
+        {
+          "segment": "arc-13",
+          "t_min": 0.0,
+          "t_max": 1.0
+        }
+      ],
+      "sampled_maxima": {
+        "65": 11.83671489638762,
+        "129": 11.83671489638762,
+        "257": 11.83671489638762
+      },
+      "optimized_maximum": {
+        "tag": "shift--010mm-257",
+        "shift_m": -0.01,
+        "radius_m": 0.01,
+        "segment": "12",
+        "t": 0.8218171692827932,
+        "offset_m": 0.00025,
+        "R_target_m": 5.7830619222180415,
+        "Z_target_m": -8.538219450489745,
+        "Bnormal_target_T": 0.21722657700721512,
+        "Bpol_upstream_T": 1.4785151239862266,
+        "area_expansion": 6.806327035835574,
+        "representative_heat_MW_m2": 11.83671489638762,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.0002500983617053249
+    },
+    {
+      "tag": "inward-010mm-257",
+      "shift_m": 0.01,
+      "radius_m": 0.0,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.8901338748522779,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.07202755296827641
+        }
+      ],
+      "sampled_maxima": {
+        "65": 21.97090100258098,
+        "129": 21.97090100258098,
+        "257": 21.97090100258098
+      },
+      "optimized_maximum": {
+        "tag": "inward-010mm-257",
+        "shift_m": 0.01,
+        "radius_m": 0.0,
+        "segment": "13",
+        "t": 0.0,
+        "offset_m": 0.0065672282493186495,
+        "R_target_m": 5.855,
+        "Z_target_m": -8.52316,
+        "Bnormal_target_T": 1.1510184316596461,
+        "Bpol_upstream_T": 1.4794048906430732,
+        "area_expansion": 1.2853007822906266,
+        "representative_heat_MW_m2": 21.97090100258098,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.006567362573185998
+    },
+    {
+      "tag": "inward-010mm-257",
+      "shift_m": 0.01,
+      "radius_m": 0.001,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.8920662128247566,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.06874043648522743
+        },
+        {
+          "segment": "arc-13",
+          "t_min": 0.0,
+          "t_max": 1.0
+        }
+      ],
+      "sampled_maxima": {
+        "65": 19.833188129698488,
+        "129": 19.833694092994296,
+        "257": 19.833733761585055
+      },
+      "optimized_maximum": {
+        "tag": "inward-010mm-257",
+        "shift_m": 0.01,
+        "radius_m": 0.001,
+        "segment": "arc-13",
+        "t": 0.9118439691831087,
+        "offset_m": 0.007128322162082601,
+        "R_target_m": 5.854992774673106,
+        "Z_target_m": -8.522467656119044,
+        "Bnormal_target_T": 1.141083971595967,
+        "Bpol_upstream_T": 1.4794758919212878,
+        "area_expansion": 1.2965530396961338,
+        "representative_heat_MW_m2": 19.833788363019323
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.007128322162082601
+    },
+    {
+      "tag": "inward-010mm-257",
+      "shift_m": 0.01,
+      "radius_m": 0.005,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.8998801955147171,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.05535574730141987
+        },
+        {
+          "segment": "arc-13",
+          "t_min": 0.0,
+          "t_max": 1.0
+        }
+      ],
+      "sampled_maxima": {
+        "65": 15.28101234590484,
+        "129": 15.28101234590484,
+        "257": 15.28101234590484
+      },
+      "optimized_maximum": {
+        "tag": "inward-010mm-257",
+        "shift_m": 0.01,
+        "radius_m": 0.005,
+        "segment": "arc-13",
+        "t": 0.6231391633329361,
+        "offset_m": 0.007871968883071064,
+        "R_target_m": 5.854353425090287,
+        "Z_target_m": -8.521557518072965,
+        "Bnormal_target_T": 0.995349508238313,
+        "Bpol_upstream_T": 1.4795603947618792,
+        "area_expansion": 1.4864732262545441,
+        "representative_heat_MW_m2": 15.281095362966404
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.007871968883071064
+    },
+    {
+      "tag": "inward-010mm-257",
+      "shift_m": 0.01,
+      "radius_m": 0.01,
+      "branches": [
+        {
+          "segment": "12",
+          "t_min": 0.9098423092469348,
+          "t_max": 1.0
+        },
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.038073936348545216
+        },
+        {
+          "segment": "arc-13",
+          "t_min": 0.0,
+          "t_max": 1.0
+        }
+      ],
+      "sampled_maxima": {
+        "65": 13.246387584514322,
+        "129": 13.247656423989534,
+        "257": 13.247656423989534
+      },
+      "optimized_maximum": {
+        "tag": "inward-010mm-257",
+        "shift_m": 0.01,
+        "radius_m": 0.01,
+        "segment": "arc-13",
+        "t": 0.4469255260650168,
+        "offset_m": 0.007625231578926742,
+        "R_target_m": 5.85228521349507,
+        "Z_target_m": -8.52188685680964,
+        "Bnormal_target_T": 0.8280886698990597,
+        "Bpol_upstream_T": 1.4795335699616325,
+        "area_expansion": 1.7866849574719832,
+        "representative_heat_MW_m2": 13.247749133274848
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.007625231578926742
+    },
+    {
+      "tag": "inward-050mm-257",
+      "shift_m": 0.05,
+      "radius_m": 0.0,
+      "branches": [
+        {
+          "segment": "13",
+          "t_min": 0.019671584158593824,
+          "t_max": 0.12480063527207587
+        }
+      ],
+      "sampled_maxima": {
+        "65": 63.51799352016853,
+        "129": 63.51799352016853,
+        "257": 63.51799352016853
+      },
+      "optimized_maximum": {
+        "tag": "inward-050mm-257",
+        "shift_m": 0.05,
+        "radius_m": 0.0,
+        "segment": "13",
+        "t": 0.019671584158593824,
+        "offset_m": 0.00025,
+        "R_target_m": 5.855,
+        "Z_target_m": -8.518632781621742,
+        "Bnormal_target_T": 1.1461079168492536,
+        "Bpol_upstream_T": 1.4786803894607095,
+        "area_expansion": 1.2901755303512128,
+        "representative_heat_MW_m2": 63.51799352016853,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.0002501977743351621
+    },
+    {
+      "tag": "inward-050mm-257",
+      "shift_m": 0.05,
+      "radius_m": 0.001,
+      "branches": [
+        {
+          "segment": "13",
+          "t_min": 0.01619900940185864,
+          "t_max": 0.12170045458573385
+        }
+      ],
+      "sampled_maxima": {
+        "65": 63.51799352016853,
+        "129": 63.51799352016853,
+        "257": 63.51799352016853
+      },
+      "optimized_maximum": {
+        "tag": "inward-050mm-257",
+        "shift_m": 0.05,
+        "radius_m": 0.001,
+        "segment": "13",
+        "t": 0.01619900940185864,
+        "offset_m": 0.00025,
+        "R_target_m": 5.855,
+        "Z_target_m": -8.518632781621742,
+        "Bnormal_target_T": 1.1461079168492536,
+        "Bpol_upstream_T": 1.4786803894607095,
+        "area_expansion": 1.2901755303512128,
+        "representative_heat_MW_m2": 63.51799352016853,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.0002501977743362651
+    },
+    {
+      "tag": "inward-050mm-257",
+      "shift_m": 0.05,
+      "radius_m": 0.005,
+      "branches": [
+        {
+          "segment": "13",
+          "t_min": 0.002059159467662188,
+          "t_max": 0.10907694242410843
+        }
+      ],
+      "sampled_maxima": {
+        "65": 63.51799352016853,
+        "129": 63.51799352016853,
+        "257": 63.51799352016853
+      },
+      "optimized_maximum": {
+        "tag": "inward-050mm-257",
+        "shift_m": 0.05,
+        "radius_m": 0.005,
+        "segment": "13",
+        "t": 0.002059159467662188,
+        "offset_m": 0.00025,
+        "R_target_m": 5.855,
+        "Z_target_m": -8.518632781621742,
+        "Bnormal_target_T": 1.1461079168492536,
+        "Bpol_upstream_T": 1.4786803894607095,
+        "area_expansion": 1.2901755303512128,
+        "representative_heat_MW_m2": 63.51799352016853,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.0002501977743362651
+    },
+    {
+      "tag": "inward-050mm-257",
+      "shift_m": 0.05,
+      "radius_m": 0.01,
+      "branches": [
+        {
+          "segment": "13",
+          "t_min": 0.0,
+          "t_max": 0.09277793482352775
+        },
+        {
+          "segment": "arc-13",
+          "t_min": 0.7294947151403277,
+          "t_max": 1.0
+        }
+      ],
+      "sampled_maxima": {
+        "65": 58.826933683741906,
+        "129": 58.826933683741906,
+        "257": 58.826933683741906
+      },
+      "optimized_maximum": {
+        "tag": "inward-050mm-257",
+        "shift_m": 0.05,
+        "radius_m": 0.01,
+        "segment": "arc-13",
+        "t": 0.7294947151403277,
+        "offset_m": 0.00025,
+        "R_target_m": 5.8543265693831,
+        "Z_target_m": -8.518644270992377,
+        "Bnormal_target_T": 1.0614632276993208,
+        "Bpol_upstream_T": 1.4786803894607095,
+        "area_expansion": 1.3930585166531773,
+        "representative_heat_MW_m2": 58.826933683741906,
+        "in_65": true,
+        "in_129": true,
+        "endpoint": true
+      },
+      "window_m": [
+        0.00025,
+        0.02
+      ],
+      "near_peak_offset_m": 0.0002500279392172578
+    }
+  ]
+}

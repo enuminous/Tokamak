@@ -1,0 +1,500 @@
+{
+  "stage": "geometry_controls",
+  "parent_commit": "4939a9314d2db8482a4a0f7421ca4bb1d125917d",
+  "started_utc": "2026-11-22T01:38:22.515095+00:00",
+  "protocol_sha256": "f641ab6c8dfe2d8a810d11d5753dcf2baf772b7477f8752630a12c34f9af2f33",
+  "code_sha256": {
+    "wall_feedback.py": "94de2d087b3d9008c982c0a56e8168f7109ece25458963e395470ce3e55eb83e",
+    "preflight.py": "ba7f5d531f4294f71da0dccd6bc14c880a11d6662ac8f8a123d75c9a0c46e118",
+    "derivative_cache.py": "ccbc077da5a926c59ce787279f0b0760ee0b13cae12a85a1f83baf7f0eb38d9e",
+    "common.py": "6fb630c00c807fe98b89eb6d9a264de54a1e8e7a1b1911572b6cebb2dfb23004",
+    "footprints.py": "5acabe36e070702bb2fe1e88ff828b05dada32d3c9d3b17b1eb8d31f97cbab74",
+    "report.py": "82d181c3c2f6ee1b38f8a0221f3c27f237a209fab072c01b4fc8f36774993ac7",
+    "run.py": "12f451b8fde8ba2925b0073523b3dd5cfccf40b244fcff38debf3ad8294ca118",
+    "contour.py": "1b766bb1c5f3fd1793760557f6c247099faaf79b913f278f1e7e91629dde7ff7"
+  },
+  "checks": [
+    {
+      "name": "0.001:arc-13:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-13:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:arc-357:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:mirror",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:cut_region_excluded",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.001:unmodified_midplane",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-13:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:arc-357:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:mirror",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:cut_region_excluded",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.005:unmodified_midplane",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-13:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:radius:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:tangent:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:boundary:0.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:radius:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:tangent:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:boundary:1.0",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:arc-357:cuts_inside_original",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:mirror",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:cut_region_excluded",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "0.01:unmodified_midplane",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    }
+  ],
+  "arcs": [
+    {
+      "kind": "arc",
+      "component": 0,
+      "segment": "arc-13",
+      "center": [
+        5.854000000000001,
+        -8.522347662584046
+      ],
+      "radius": 0.001,
+      "angle0": -1.3644372282088375,
+      "angle": 1.364437228208513,
+      "a": [
+        5.854204897611886,
+        -8.523326445996576
+      ],
+      "b": [
+        5.855,
+        -8.522347662584046
+      ],
+      "d0": [
+        0.9787834125298147,
+        0.2048976118857675
+      ],
+      "d1": [
+        0.0,
+        1.0
+      ],
+      "vertex": 13
+    },
+    {
+      "kind": "arc",
+      "component": 0,
+      "segment": "arc-357",
+      "center": [
+        5.854,
+        8.522347662584046
+      ],
+      "radius": 0.001,
+      "angle0": 0.0,
+      "angle": 1.364437228208513,
+      "a": [
+        5.855,
+        8.522347662584046
+      ],
+      "b": [
+        5.854204897611886,
+        8.523326445996576
+      ],
+      "d0": [
+        0.0,
+        1.0
+      ],
+      "d1": [
+        -0.9787834125298147,
+        0.2048976118857675
+      ],
+      "vertex": 357
+    },
+    {
+      "kind": "arc",
+      "component": 0,
+      "segment": "arc-13",
+      "center": [
+        5.8500000000000005,
+        -8.519098312920224
+      ],
+      "radius": 0.005,
+      "angle0": -1.3644372282085624,
+      "angle": 1.364437228208513,
+      "a": [
+        5.851024488059429,
+        -8.523992229982873
+      ],
+      "b": [
+        5.855,
+        -8.519098312920224
+      ],
+      "d0": [
+        0.9787834125298147,
+        0.2048976118857675
+      ],
+      "d1": [
+        0.0,
+        1.0
+      ],
+      "vertex": 13
+    },
+    {
+      "kind": "arc",
+      "component": 0,
+      "segment": "arc-357",
+      "center": [
+        5.8500000000000005,
+        8.519098312920224
+      ],
+      "radius": 0.005,
+      "angle0": 0.0,
+      "angle": 1.364437228208513,
+      "a": [
+        5.855,
+        8.519098312920224
+      ],
+      "b": [
+        5.851024488059429,
+        8.523992229982873
+      ],
+      "d0": [
+        0.0,
+        1.0
+      ],
+      "d1": [
+        -0.9787834125298147,
+        0.2048976118857675
+      ],
+      "vertex": 357
+    },
+    {
+      "kind": "arc",
+      "component": 0,
+      "segment": "arc-13",
+      "center": [
+        5.845,
+        -8.51503662584045
+      ],
+      "radius": 0.01,
+      "angle0": -1.3644372282084756,
+      "angle": 1.364437228208513,
+      "a": [
+        5.847048976118858,
+        -8.524824459965748
+      ],
+      "b": [
+        5.855,
+        -8.51503662584045
+      ],
+      "d0": [
+        0.9787834125298147,
+        0.2048976118857675
+      ],
+      "d1": [
+        0.0,
+        1.0
+      ],
+      "vertex": 13
+    },
+    {
+      "kind": "arc",
+      "component": 0,
+      "segment": "arc-357",
+      "center": [
+        5.845000000000001,
+        8.51503662584045
+      ],
+      "radius": 0.01,
+      "angle0": 0.0,
+      "angle": 1.364437228208513,
+      "a": [
+        5.855,
+        8.51503662584045
+      ],
+      "b": [
+        5.847048976118858,
+        8.524824459965748
+      ],
+      "d0": [
+        0.0,
+        1.0
+      ],
+      "d1": [
+        -0.9787834125298147,
+        0.2048976118857675
+      ],
+      "vertex": 357
+    }
+  ]
+}

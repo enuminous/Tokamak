@@ -1,0 +1,423 @@
+{
+  "stage": "synthetic_wall_feedback",
+  "parent_commit": "4939a9314d2db8482a4a0f7421ca4bb1d125917d",
+  "started_utc": "2026-11-22T01:37:46.298401+00:00",
+  "protocol_sha256": "f641ab6c8dfe2d8a810d11d5753dcf2baf772b7477f8752630a12c34f9af2f33",
+  "code_sha256": {
+    "wall_feedback.py": "94de2d087b3d9008c982c0a56e8168f7109ece25458963e395470ce3e55eb83e",
+    "preflight.py": "ba7f5d531f4294f71da0dccd6bc14c880a11d6662ac8f8a123d75c9a0c46e118",
+    "derivative_cache.py": "ccbc077da5a926c59ce787279f0b0760ee0b13cae12a85a1f83baf7f0eb38d9e",
+    "common.py": "6fb630c00c807fe98b89eb6d9a264de54a1e8e7a1b1911572b6cebb2dfb23004",
+    "footprints.py": "5acabe36e070702bb2fe1e88ff828b05dada32d3c9d3b17b1eb8d31f97cbab74",
+    "report.py": "82d181c3c2f6ee1b38f8a0221f3c27f237a209fab072c01b4fc8f36774993ac7",
+    "run.py": "12f451b8fde8ba2925b0073523b3dd5cfccf40b244fcff38debf3ad8294ca118",
+    "contour.py": "1b766bb1c5f3fd1793760557f6c247099faaf79b913f278f1e7e91629dde7ff7"
+  },
+  "evidence_class": "SYNTHETIC_IMPLEMENTATION_CONTROLS_ONLY",
+  "checks": [
+    {
+      "name": "no_wall_growth",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "ideal_wall_oscillation",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "ideal_wall_no_positive_growth",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "resistive_wall_characteristic_polynomial",
+      "status": "PASS",
+      "value": 8.95090418262362e-16,
+      "limit": 1e-11
+    },
+    {
+      "name": "finite_resistance_retains_growth",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "passive_energy_balance_100_states",
+      "status": "PASS",
+      "value": 2.1649348980190553e-15,
+      "limit": 1e-12
+    },
+    {
+      "name": "passive_energy_nonincreasing",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "stable_feedback:expected_stability",
+      "status": "PASS",
+      "value": -0.1827264973396859,
+      "limit": 0.0
+    },
+    {
+      "name": "stable_feedback:time_vs_matrix_exponential",
+      "status": "PASS",
+      "value": 1.2783618713835092e-11,
+      "limit": 1e-09
+    },
+    {
+      "name": "reversed_feedback:expected_stability",
+      "status": "PASS",
+      "value": 3.233435765259191,
+      "limit": 0.0
+    },
+    {
+      "name": "reversed_feedback:time_vs_matrix_exponential",
+      "status": "PASS",
+      "value": 5.864286833912047e-10,
+      "limit": 1e-09
+    },
+    {
+      "name": "position_only:expected_stability",
+      "status": "PASS",
+      "value": 0.1702725877038052,
+      "limit": 0.0
+    },
+    {
+      "name": "position_only:time_vs_matrix_exponential",
+      "status": "PASS",
+      "value": 8.175491533757295e-13,
+      "limit": 1e-09
+    },
+    {
+      "name": "saturation_active",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "saturation_respects_voltage_limit",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "missing_device_inputs_rejected",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "complete_synthetic_schema_fixture_accepted",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "invalid_input_rejected:conductor_geometry.thickness_m",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "invalid_input_rejected:material_resistivity.resistivity_ohm_m",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "invalid_input_rejected:material_resistivity.temperature_K",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "invalid_input_rejected:controller.latency_s",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "invalid_input_rejected:actuators.voltage_limit_V",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "invalid_input_rejected:sensors.sample_rate_Hz",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "invalid_input_rejected:conductor_geometry.model",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "invalid_input_rejected:equilibrium.sha256",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "invalid_input_rejected:plasma_response.calibration_status",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "synthetic_inputs_rejected_as_device_evidence",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "negative_inductance_rejected",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    }
+  ],
+  "cases": [
+    {
+      "name": "synthetic_no_wall",
+      "parameters": {
+        "mass_kg": 2.0,
+        "stiffness_N_m": 8.0,
+        "damping_N_s_m": 0.0,
+        "g_wall_N_A": 0.0,
+        "g_coil_N_A": 0.0,
+        "L_wall_H": 1.0,
+        "L_coil_H": 0.5,
+        "R_wall_ohm": 0.5,
+        "R_coil_ohm": 1.0,
+        "Kp_V_m": 0.0,
+        "Kd_V_s_m": 0.0
+      },
+      "eigenvalues": [
+        {
+          "real": -1.9999999999999996,
+          "imaginary": 0.0
+        },
+        {
+          "real": -2.0,
+          "imaginary": 0.0
+        },
+        {
+          "real": -0.5,
+          "imaginary": 0.0
+        },
+        {
+          "real": 2.0000000000000004,
+          "imaginary": 0.0
+        }
+      ]
+    },
+    {
+      "name": "synthetic_ideal_wall",
+      "parameters": {
+        "mass_kg": 2.0,
+        "stiffness_N_m": 8.0,
+        "damping_N_s_m": 0.0,
+        "g_wall_N_A": 4.0,
+        "g_coil_N_A": 0.0,
+        "L_wall_H": 1.0,
+        "L_coil_H": 0.5,
+        "R_wall_ohm": 0.0,
+        "R_coil_ohm": 1.0,
+        "Kp_V_m": 0.0,
+        "Kd_V_s_m": 0.0
+      },
+      "eigenvalues": [
+        {
+          "real": -2.0,
+          "imaginary": 0.0
+        },
+        {
+          "real": 0.0,
+          "imaginary": -2.0000000000000004
+        },
+        {
+          "real": 0.0,
+          "imaginary": 0.0
+        },
+        {
+          "real": 0.0,
+          "imaginary": 2.0000000000000004
+        }
+      ]
+    },
+    {
+      "name": "synthetic_resistive_wall",
+      "parameters": {
+        "mass_kg": 2.0,
+        "stiffness_N_m": 8.0,
+        "damping_N_s_m": 0.0,
+        "g_wall_N_A": 4.0,
+        "g_coil_N_A": 0.0,
+        "L_wall_H": 1.0,
+        "L_coil_H": 0.5,
+        "R_wall_ohm": 0.5,
+        "R_coil_ohm": 1.0,
+        "Kp_V_m": 0.0,
+        "Kd_V_s_m": 0.0
+      },
+      "eigenvalues": [
+        {
+          "real": -2.0,
+          "imaginary": 0.0
+        },
+        {
+          "real": -0.47575341533190146,
+          "imaginary": -2.050187923403121
+        },
+        {
+          "real": -0.47575341533190146,
+          "imaginary": 2.050187923403121
+        },
+        {
+          "real": 0.4515068306638031,
+          "imaginary": 0.0
+        }
+      ]
+    },
+    {
+      "name": "synthetic_stable_feedback",
+      "parameters": {
+        "mass_kg": 2.0,
+        "stiffness_N_m": 8.0,
+        "damping_N_s_m": 0.2,
+        "g_wall_N_A": 4.0,
+        "g_coil_N_A": 2.0,
+        "L_wall_H": 1.0,
+        "L_coil_H": 0.5,
+        "R_wall_ohm": 0.5,
+        "R_coil_ohm": 1.0,
+        "Kp_V_m": 10.0,
+        "Kd_V_s_m": 10.0
+      },
+      "eigenvalues": [
+        {
+          "real": -1.2006906548001923,
+          "imaginary": 0.0
+        },
+        {
+          "real": -0.6082914239300607,
+          "imaginary": -5.193990947922813
+        },
+        {
+          "real": -0.6082914239300607,
+          "imaginary": 5.193990947922813
+        },
+        {
+          "real": -0.1827264973396859,
+          "imaginary": 0.0
+        }
+      ]
+    },
+    {
+      "name": "synthetic_reversed_feedback",
+      "parameters": {
+        "mass_kg": 2.0,
+        "stiffness_N_m": 8.0,
+        "damping_N_s_m": 0.2,
+        "g_wall_N_A": 4.0,
+        "g_coil_N_A": 2.0,
+        "L_wall_H": 1.0,
+        "L_coil_H": 0.5,
+        "R_wall_ohm": 0.5,
+        "R_coil_ohm": 1.0,
+        "Kp_V_m": -10.0,
+        "Kd_V_s_m": -10.0
+      },
+      "eigenvalues": [
+        {
+          "real": -4.119334116423628,
+          "imaginary": 0.0
+        },
+        {
+          "real": -0.857050824417777,
+          "imaginary": -0.5626244938052917
+        },
+        {
+          "real": -0.857050824417777,
+          "imaginary": 0.5626244938052917
+        },
+        {
+          "real": 3.233435765259191,
+          "imaginary": 0.0
+        }
+      ]
+    },
+    {
+      "name": "synthetic_position_only",
+      "parameters": {
+        "mass_kg": 2.0,
+        "stiffness_N_m": 8.0,
+        "damping_N_s_m": 0.2,
+        "g_wall_N_A": 4.0,
+        "g_coil_N_A": 2.0,
+        "L_wall_H": 1.0,
+        "L_coil_H": 0.5,
+        "R_wall_ohm": 0.5,
+        "R_coil_ohm": 1.0,
+        "Kp_V_m": 10.0,
+        "Kd_V_s_m": 0.0
+      },
+      "eigenvalues": [
+        {
+          "real": -2.710648885241456,
+          "imaginary": 0.0
+        },
+        {
+          "real": -0.2298962901661531,
+          "imaginary": 0.0
+        },
+        {
+          "real": 0.1702725877038052,
+          "imaginary": -3.0982620282619417
+        },
+        {
+          "real": 0.1702725877038052,
+          "imaginary": 3.0982620282619417
+        }
+      ]
+    }
+  ],
+  "device_readiness": {
+    "schema_complete": false,
+    "blockers": [
+      "evidence_class: calibrated device inputs required",
+      "equilibrium.calibration_status: review unresolved",
+      "conductor_geometry: missing input record",
+      "material_resistivity: missing input record",
+      "electrical_connections: missing input record",
+      "active_coils.calibration_status: review unresolved",
+      "plasma_response: missing input record",
+      "sensors: missing input record",
+      "actuators: missing input record",
+      "controller: missing input record",
+      "conductor_geometry.model: an outline is not a conductor",
+      "material_resistivity.resistivity_ohm_m: positive finite value required",
+      "material_resistivity.temperature_K: positive finite value required",
+      "actuators.voltage_limit_V: positive finite value required",
+      "actuators.current_limit_A: positive finite value required",
+      "actuators.bandwidth_Hz: positive finite value required",
+      "sensors.sample_rate_Hz: positive finite value required",
+      "sensors.latency_s: finite nonnegative value required",
+      "controller.latency_s: finite nonnegative value required"
+    ],
+    "physical_validation": "NOT ESTABLISHED BY THIS SCHEMA CHECK"
+  },
+  "device_eigenmode_status": "NOT RUN / UNRESOLVED",
+  "gain_grid_cases": 546,
+  "stable_gain_cases": 287,
+  "saturated_final_z_m": 0.02154764584303512,
+  "seed": 5005
+}
