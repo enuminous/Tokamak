@@ -1,0 +1,352 @@
+{
+  "checked_date": "2026-11-22",
+  "openstep_commit": "6f66ae09c60b361d600b178416ef3f22b8d0aa6a",
+  "tree_truncated": false,
+  "public_dataset": "SPR45/SPP001/CML5; historical design scenario",
+  "public_wall_scope": "limiter geometry; no passive conductor model or controller calibration identified",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "git_blob_sha": "c6221ba6968170e73989f4de287580f09bbe96e5",
+      "size": 2727
+    },
+    {
+      "path": "LICENSE.txt",
+      "git_blob_sha": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+      "size": 18657
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "5f33e772daaa29c2f9f290549af254f3433aba28",
+      "size": 8842
+    },
+    {
+      "path": "datacite_entry.xml",
+      "git_blob_sha": "6adf383ed138b9467a86f4a1213b7876af1ceb0d",
+      "size": 11382
+    },
+    {
+      "path": "eb-cc/freeboundary/STEP_SPP_001_EBCC_freeboundary.nc",
+      "git_blob_sha": "870894ca0440d5d7516954f6ec6ebaacb78f6f7e",
+      "size": 1273723
+    },
+    {
+      "path": "eb-cc/freeboundary/_src/coilset.mat",
+      "git_blob_sha": "e0bc03024886092a932cd4b3c29f7611c1496178",
+      "size": 9164
+    },
+    {
+      "path": "eb-cc/freeboundary/_src/equilibrium.mat",
+      "git_blob_sha": "4ded1e40f1ed30a8700d281f2246c1a0686d0d18",
+      "size": 1740703
+    },
+    {
+      "path": "eb-cc/freeboundary/_src/jetto.eqdsk_out",
+      "git_blob_sha": "40286720404bb612d93c39aa2f7bac8a448e3806",
+      "size": 384341
+    },
+    {
+      "path": "eb-cc/freeboundary/imasdb/equilibrium.h5",
+      "git_blob_sha": "c7ff1475759c3d4b8dcbf94d23bd172f99a134f7",
+      "size": 1230708
+    },
+    {
+      "path": "eb-cc/freeboundary/imasdb/master.h5",
+      "git_blob_sha": "aff49538c4cb3755a62d824e43c37dbd1cddd90c",
+      "size": 2216
+    },
+    {
+      "path": "eb-cc/freeboundary/imasdb/pf_active.h5",
+      "git_blob_sha": "3af6f97acdf74087cd1dd5074bf7cf5b6fd369ef",
+      "size": 111701
+    },
+    {
+      "path": "eb-cc/freeboundary/imasdb/wall.h5",
+      "git_blob_sha": "e3f1e695887d57af25e8e2e4d5f7158bf834e5e8",
+      "size": 94128
+    },
+    {
+      "path": "eb-cc/ftop/STEP_SPP_001_EBCC_ftop.nc",
+      "git_blob_sha": "0b64f06d3f8b8d23b1ac289276f6d207150e3e80",
+      "size": 1262321
+    },
+    {
+      "path": "eb-cc/ftop/_src/jetto.eqdsk_out",
+      "git_blob_sha": "40286720404bb612d93c39aa2f7bac8a448e3806",
+      "size": 384341
+    },
+    {
+      "path": "eb-cc/ftop/_src/jetto.jsp",
+      "git_blob_sha": "1c1ebd8a885e0e43291e30b661cd1cf527bcb483",
+      "size": 176330
+    },
+    {
+      "path": "eb-cc/ftop/_src/jetto.jst",
+      "git_blob_sha": "c9f8925ab9e46048f479eda23dcb19734ad54ed2",
+      "size": 17781
+    },
+    {
+      "path": "eb-cc/ftop/_src/jetto.ssp",
+      "git_blob_sha": "2624b9f90bd1369aaa3dad2c5e8a5f39cbb500e8",
+      "size": 5190
+    },
+    {
+      "path": "eb-cc/ftop/_src/jetto.ssp1",
+      "git_blob_sha": "3d5b82f7d9ee7f62ec09872086d25ebfef1049b4",
+      "size": 21724
+    },
+    {
+      "path": "eb-cc/ftop/_src/jetto.ssp2",
+      "git_blob_sha": "71286cee05e214a9af0389978003cd236a7a079d",
+      "size": 10296
+    },
+    {
+      "path": "eb-cc/ftop/_src/jetto.ssp3",
+      "git_blob_sha": "cb4d6b94f41b35a87818f0f4a08567aca0a8eeba",
+      "size": 30295
+    },
+    {
+      "path": "eb-cc/ftop/_src/jetto.sst",
+      "git_blob_sha": "d2c12f41ae09480c35b836e3d679c6fe4c5bbb94",
+      "size": 380
+    },
+    {
+      "path": "eb-cc/ftop/_src/jetto.sst1",
+      "git_blob_sha": "99512730a0fe5d6e66f01ce249ccffe315438485",
+      "size": 1776
+    },
+    {
+      "path": "eb-cc/ftop/_src/jetto.sst2",
+      "git_blob_sha": "4aacf914d3b8f8c1989734c2e1eb873f2e7263cc",
+      "size": 1484
+    },
+    {
+      "path": "eb-cc/ftop/_src/jetto.sst3",
+      "git_blob_sha": "3ab5148423ce498a8f8c24e817e4585ff80c2e36",
+      "size": 1995
+    },
+    {
+      "path": "eb-cc/ftop/imasdb/core_profiles.h5",
+      "git_blob_sha": "54c4ae75bccaf50f45ac0d2f9467e5142393d2f0",
+      "size": 453056
+    },
+    {
+      "path": "eb-cc/ftop/imasdb/core_sources.h5",
+      "git_blob_sha": "a4c6243e6aa9e54ca8a08b7da5a3adbce743e38b",
+      "size": 177016
+    },
+    {
+      "path": "eb-cc/ftop/imasdb/core_transport.h5",
+      "git_blob_sha": "80bca82df07fc2111fafe27f82ab668be88d8044",
+      "size": 336864
+    },
+    {
+      "path": "eb-cc/ftop/imasdb/equilibrium.h5",
+      "git_blob_sha": "8b58f36e442affd94bbd1e2f11aaa8c8f1ab481f",
+      "size": 778660
+    },
+    {
+      "path": "eb-cc/ftop/imasdb/master.h5",
+      "git_blob_sha": "ba4a34d0118515d3a2766dd3c81711e4dd73f2f8",
+      "size": 2400
+    },
+    {
+      "path": "eb-cc/ftop/imasdb/ntms.h5",
+      "git_blob_sha": "bf62619e79c58e5dfc97f6b659eee318b56a1df4",
+      "size": 13096
+    },
+    {
+      "path": "eb-cc/ftop/imasdb/summary.h5",
+      "git_blob_sha": "b34e17ee3ec8f058f4a6c07ee7af86bf97236b64",
+      "size": 224090
+    },
+    {
+      "path": "ec-hd/ftop/STEP_SPP_001_ECHD_ftop.nc",
+      "git_blob_sha": "eccfc2ac604336454a2f61206c757429805c0364",
+      "size": 1260824
+    },
+    {
+      "path": "ec-hd/ftop/_src/jetto.eqdsk_out",
+      "git_blob_sha": "8e60d1dce2e1ee96fa97bbc2f0383094fe1e3559",
+      "size": 384341
+    },
+    {
+      "path": "ec-hd/ftop/_src/jetto.jsp",
+      "git_blob_sha": "c60405c233c0ad741735e36584009cd955cb2115",
+      "size": 176330
+    },
+    {
+      "path": "ec-hd/ftop/_src/jetto.jst",
+      "git_blob_sha": "dbaeefd244589bf3d091c6fbc877d9ad161f4aeb",
+      "size": 17781
+    },
+    {
+      "path": "ec-hd/ftop/_src/jetto.ssp",
+      "git_blob_sha": "0ae80de7898ec7532cc7107e9c39405ca9ae4508",
+      "size": 5190
+    },
+    {
+      "path": "ec-hd/ftop/_src/jetto.ssp1",
+      "git_blob_sha": "b28cb4ee24548345742d7f28eb470414ec23ce86",
+      "size": 21724
+    },
+    {
+      "path": "ec-hd/ftop/_src/jetto.ssp2",
+      "git_blob_sha": "af739092434d5bda297a3f4fccdc17af81038b48",
+      "size": 10296
+    },
+    {
+      "path": "ec-hd/ftop/_src/jetto.ssp3",
+      "git_blob_sha": "3fb3625f809c788abd68a2ffcb5dcede8344c025",
+      "size": 30295
+    },
+    {
+      "path": "ec-hd/ftop/_src/jetto.sst",
+      "git_blob_sha": "c92e1a2f36e86a0f8d3e2e302eac5e49bb743d8b",
+      "size": 380
+    },
+    {
+      "path": "ec-hd/ftop/_src/jetto.sst1",
+      "git_blob_sha": "cc20858079871041285f1b7c5005fba2dd265a47",
+      "size": 1776
+    },
+    {
+      "path": "ec-hd/ftop/_src/jetto.sst2",
+      "git_blob_sha": "0d59e1ec4b95f0e2cec0d7bd8f08f3fb02420320",
+      "size": 1484
+    },
+    {
+      "path": "ec-hd/ftop/_src/jetto.sst3",
+      "git_blob_sha": "6a5614ebb8c95ac2d6841abcc76981bc8207ce89",
+      "size": 1995
+    },
+    {
+      "path": "ec-hd/ftop/imasdb/core_profiles.h5",
+      "git_blob_sha": "b334600a61ae9714d9443a77a4061643ee65d569",
+      "size": 452820
+    },
+    {
+      "path": "ec-hd/ftop/imasdb/core_sources.h5",
+      "git_blob_sha": "1f012106f222c4af17503ba7f68cbab7540d5b93",
+      "size": 176192
+    },
+    {
+      "path": "ec-hd/ftop/imasdb/core_transport.h5",
+      "git_blob_sha": "d5258614909e4bf360e4afcfee229c9ecab9e133",
+      "size": 336896
+    },
+    {
+      "path": "ec-hd/ftop/imasdb/equilibrium.h5",
+      "git_blob_sha": "9d4edac2a72dcb047ac6a9718b1bbcdcd50fc861",
+      "size": 780947
+    },
+    {
+      "path": "ec-hd/ftop/imasdb/master.h5",
+      "git_blob_sha": "9911f09d054153473078fff4c915fbd0d5df5224",
+      "size": 2400
+    },
+    {
+      "path": "ec-hd/ftop/imasdb/ntms.h5",
+      "git_blob_sha": "622b0962d070ea9d011a588874c1c828d2240fa9",
+      "size": 13096
+    },
+    {
+      "path": "ec-hd/ftop/imasdb/summary.h5",
+      "git_blob_sha": "904362e1a2bf00a824c5a0a79dae237b4685527f",
+      "size": 224079
+    },
+    {
+      "path": "scripts/fiesta_to_imas.m",
+      "git_blob_sha": "73430c307006ae801cd705f42709e05a13198863",
+      "size": 840
+    },
+    {
+      "path": "scripts/free_boundary.png",
+      "git_blob_sha": "3fffdded93c211764813787faaba5b749aafe02d",
+      "size": 2068807
+    },
+    {
+      "path": "scripts/ftop.png",
+      "git_blob_sha": "8292be00fbf2f1a6f14c4f05b3fbf24841f0130c",
+      "size": 995896
+    },
+    {
+      "path": "scripts/imas_to_nc.py",
+      "git_blob_sha": "d13f493b26afcf747a79d9d533ed1e1391e17bee",
+      "size": 706
+    },
+    {
+      "path": "scripts/plot_equilibrium.ipynb",
+      "git_blob_sha": "b55223def9f3b810ca4615c0219a7cda9de4f5d6",
+      "size": 182209
+    },
+    {
+      "path": "scripts/plot_ftop.ipynb",
+      "git_blob_sha": "5d3ad531e38b2935284ef016c3555bee4ee82321",
+      "size": 95962
+    },
+    {
+      "path": "scripts/wall.ipynb",
+      "git_blob_sha": "e7c9c0f981e6190fffb93839d6a09ea0e990561e",
+      "size": 30345
+    },
+    {
+      "path": "scripts/wall.png",
+      "git_blob_sha": "2944f5ec40947737049fa9a76b14eb970fe88897",
+      "size": 379437
+    },
+    {
+      "path": "wall/STEP_SPP_001_wall.nc",
+      "git_blob_sha": "dede1b147987719c13d921925a9067d467be7ea0",
+      "size": 37967
+    },
+    {
+      "path": "wall/_src/SPR45_2D_Wall.csv",
+      "git_blob_sha": "a44988aa898bff5fc61190c9cdd813810846b8c5",
+      "size": 11288
+    },
+    {
+      "path": "wall/imasdb/master.h5",
+      "git_blob_sha": "409ec5e204c24439b0aa528e4eeabc4a879e12c3",
+      "size": 1992
+    },
+    {
+      "path": "wall/imasdb/wall.h5",
+      "git_blob_sha": "2d96e4eb100500ff814282022d1578bd7114a50c",
+      "size": 45679
+    }
+  ],
+  "oft_commit": "73d8eb09bce0a4f4c56b88f13fcf36f951c53e91",
+  "oft_native_version": "26.9",
+  "source_byte_note": "DIIID_geom.json, g192185.02440 and OFT-LICENSE each have one additional trailing LF from transfer; removing exactly one byte reproduces the recorded upstream Git blob SHA. Parsed numerical content is unchanged.",
+  "oft_files": [
+    {
+      "local": "DIIID_geom.json",
+      "upstream": "src/examples/TokaMaker/DIIID/DIIID_geom.json",
+      "git_blob_sha": "d6bcef9028db0fb1a142b3db593b2240242583a8"
+    },
+    {
+      "local": "g192185.02440",
+      "upstream": "src/examples/TokaMaker/DIIID/g192185.02440",
+      "git_blob_sha": "49690d87a72af11d5de4cff60b90bcb5c07ee73d"
+    },
+    {
+      "local": "OFT-LICENSE",
+      "upstream": "LICENSE",
+      "git_blob_sha": "153d416dc8d2d60076698ec3cbfce34d91436a03"
+    }
+  ],
+  "extracted_notebooks": [
+    {
+      "local": "DIIID_baseline_cells.json",
+      "git_blob_sha": "e3d0335505a5a1e8d80c9c8bdbcbe3ac1818840e"
+    },
+    {
+      "local": "DIIID_mesh_cells.json",
+      "git_blob_sha": "3137bc8d85ecfba6c16ef100a055a3bdffb829c6"
+    }
+  ],
+  "process_commit": "2f2d82125fab1b0a22ec1bc5891a9f032bc86319",
+  "process_file": "process/models/physics/fusion_reactions.py",
+  "bosch_hale_doi": "10.1088/0029-5515/32/4/I07"
+}

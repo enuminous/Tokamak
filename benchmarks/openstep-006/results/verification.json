@@ -1,0 +1,2253 @@
+{
+  "groups": {
+    "historical_integrity": [
+      {
+        "name": "benchmarks/openstep-003/AMENDMENTS.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/COMMANDS.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/DEVELOPMENT.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/PROTOCOL.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/README.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/assess.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/development/baseline-from-negative-interrupted.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/environment.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/plot.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/provenance.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/recover.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/recovery_check.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/requirements.txt",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/alternate--025mm-257-fd3.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/assessment.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/candidate-grid.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/coil-scan.png",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/coil-scan.svg",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/confinement-sweep-129.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/confinement-sweep-257.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/confinement-traces-129.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/confinement-traces-257.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/fieldline-paths-129.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/fieldline-paths-257.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/fieldline-traces-129.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/fieldline-traces-257.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/heat-load-sweep-129.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/heat-load-sweep-257.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/interrupted-attempts.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-010mm-129-129-controlled-q.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-010mm-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-010mm-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-010mm-129.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-010mm-257-257-controlled-q.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-010mm-257.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-010mm-257.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-010mm-257.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-025mm-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-025mm-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-025mm-129.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-025mm-257.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-025mm-257.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-025mm-257.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-050mm-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-050mm-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-050mm-129.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-050mm-257-257-controlled-q.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-050mm-257.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-050mm-257.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-050mm-257.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-sweep-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-sweep-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-sweep-257.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/inward-sweep-257.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-129-fd3.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-129-fd7.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-129-fd7.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-129-fd7.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-129-no-linesearch.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-129-no-linesearch.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-129-no-linesearch.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-check.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-geometry-075mm.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-geometry-075mm.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-geometry-075mm.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-00.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-00.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-00.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-01.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-01.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-01.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-02.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-02.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-02.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-03.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-03.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-03.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-04.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-04.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-04.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-05.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-05.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-05.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-06.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-06.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-06.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-07.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-07.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-07.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-08.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-08.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-08.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-09.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-09.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-09.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-10-129-controlled-q.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-10.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-10.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-homotopy-10.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-path-geometry.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-path-geometry.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-path-operating-point.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/recovery-path-operating-point.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/screens-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/screens-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/screens-257.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/screens-257.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/selection-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/selection-257.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+000mm-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+000mm-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+000mm-129.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+000mm-257-257-controlled-q.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+000mm-257.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+000mm-257.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+000mm-257.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+010mm-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+010mm-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+010mm-129.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+010mm-257.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+025mm-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+025mm-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+025mm-129.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift-+050mm-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--010mm-129-129-controlled-q.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--010mm-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--010mm-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--010mm-129.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--010mm-257-257-controlled-q.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--010mm-257.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--010mm-257.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--010mm-257.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--025mm-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--025mm-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--025mm-129.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--025mm-257.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--025mm-257.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--025mm-257.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--050mm-129-129-controlled-q.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--050mm-129.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--050mm-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--050mm-129.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--050mm-257.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--050mm-257.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/shift--050mm-257.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/small-move-heat.png",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/small-move-heat.svg",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/summary.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/sweep-129.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/sweep-257.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/verification.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/results/verification.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/run_inward.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/run_sweep.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/screen_sweep.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/solve.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/verify.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-003/write_report.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "coil-scan.html",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "coil-scan.js",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "README.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "index.html",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "screening.html",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/AMENDMENTS.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/PROTOCOL.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/README.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/inputs.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/refine_traces.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/report.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/requirements.txt",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/adaptive-paths.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/adaptive-traces.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/controls.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/dense-footprints.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/dense-footprints.png",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/dense-footprints.svg",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/equilibria.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/preflight.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/refinement-assessment.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/representative-refinement-paths.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/representative-refinement.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/summary.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/tracer-comparison.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/tracing.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/verification.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/wall-corner.png",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results/wall-corner.svg",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results-controls.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results-equilibria.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results-preflight.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results-refinement.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/results-tracing.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-004/validate.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/DEVELOPMENT.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/INPUT-CONTRACT.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/PROTOCOL.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/README.md",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/common.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/contour.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/derivative_cache.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/development/footprints-interrupted.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/development/footprints-interrupted.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/development/footprints-uncached.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/device-inputs.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/footprints.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/inputs.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/logs/contour-controls.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/logs/contour-physical.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/logs/derivative_cache.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/logs/footprints.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/logs/preflight.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/logs/wall_feedback.log",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/preflight.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/report.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/requirements.txt",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/contour-comparison.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/contour-paths.npz",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/contour-traces.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/contours.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/controls.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/corner-geometry.png",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/corner-geometry.svg",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/derivative-cache.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/first-hit-checks.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/footprint-rounding.png",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/footprint-rounding.svg",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/footprints.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/footprints.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/geometry-controls.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/peak-searches.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/preflight.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/summary.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/synthetic-feedback.png",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/synthetic-feedback.svg",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/synthetic-gain-map.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/synthetic-time-traces.csv",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/verification.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/results/wall-feedback.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/run.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/source-inspection.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "benchmarks/openstep-005/wall_feedback.py",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      }
+    ],
+    "input_and_execution_integrity": [
+      {
+        "name": "upstream numeric bytes:DIIID_geom.json",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "upstream numeric bytes:g192185.02440",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "upstream numeric bytes:OFT-LICENSE",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:coarse",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:coarse",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:coarse",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:coarse",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:fine",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:fine",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:fine",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:fine",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:eta2-isolated",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:eta2-isolated",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:eta2-isolated",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:eta2-isolated",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:open-dt10-isolated",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:open-dt10-isolated",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:open-dt10-isolated",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:open-dt10-isolated",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:open-dt10-isolated",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:open-dt10-isolated",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:open-corrected-dt10",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:open-corrected-dt10",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:open-corrected-dt10",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:open-corrected-dt10",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:open-corrected-dt10",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:open-corrected-dt10",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:open-corrected-dt05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:open-corrected-dt05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:open-corrected-dt05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:open-corrected-dt05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:open-corrected-dt05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:open-corrected-dt05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:feedback-neg100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:feedback-neg100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:feedback-neg100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:feedback-neg100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:feedback-neg100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:feedback-neg100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:feedback-neg20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:feedback-neg20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:feedback-neg20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:feedback-neg20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:feedback-neg20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:feedback-neg20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:feedback-pos20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:feedback-pos20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:feedback-pos20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:feedback-pos20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:feedback-pos20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:feedback-pos20k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:feedback-pos100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:feedback-pos100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:feedback-pos100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:feedback-pos100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:feedback-pos100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:feedback-pos100k",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:feedback-delay05ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:feedback-delay05ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:feedback-delay05ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:feedback-delay05ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:feedback-delay05ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:feedback-delay05ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:feedback-delay10ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:feedback-delay10ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:feedback-delay10ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:feedback-delay10ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:feedback-delay10ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:feedback-delay10ms",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:zero-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:zero-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:zero-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:zero-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:zero-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:zero-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:negative-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:negative-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:negative-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:negative-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:negative-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:negative-seed",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:bounds-included",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:bounds-included",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:bounds-included",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:bounds-included",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:bounds-time05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:bounds-time05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:bounds-time05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:bounds-time05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:bounds-time05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:bounds-time05",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "completed:bounds-time025",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "archived code:bounds-time025",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "frozen protocol:bounds-time025",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "input hashes:bounds-time025",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "time progresses:bounds-time025",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "current limit:bounds-time025",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "reactor code hash",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "inherited reactor data",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      }
+    ],
+    "native_primary": [
+      {
+        "name": "published eigenvalue",
+        "status": "PASS",
+        "value": 2.537067307906149e-06,
+        "limit": 0.1
+      },
+      {
+        "name": "two-grid growth agreement",
+        "status": "PASS",
+        "value": 0.017579013087747453,
+        "limit": 0.1
+      },
+      {
+        "name": "two-grid slowest wall time",
+        "status": "PASS",
+        "value": 9.082074174182608e-05,
+        "limit": 0.1
+      },
+      {
+        "name": "resistivity doubles growth",
+        "status": "PASS",
+        "value": 4.39648317751562e-14,
+        "limit": 0.02
+      },
+      {
+        "name": "resistivity halves all wall times",
+        "status": "PASS",
+        "value": 8.881784197001252e-16,
+        "limit": 0.001
+      },
+      {
+        "name": "open-corrected-dt10 time/eigen growth agreement",
+        "status": "FAIL",
+        "value": 0.1520452434000763,
+        "limit": 0.1
+      },
+      {
+        "name": "open-corrected-dt05 time/eigen growth agreement",
+        "status": "FAIL",
+        "value": 0.17039315625723306,
+        "limit": 0.1
+      },
+      {
+        "name": "time-step fit agreement",
+        "status": "PASS",
+        "value": 0.022116395248605203,
+        "limit": 0.05
+      }
+    ],
+    "native_diagnostics": [
+      {
+        "name": "bounds-time05 time/eigen growth agreement",
+        "status": "FAIL",
+        "value": 0.2345002149792621,
+        "limit": 0.1
+      },
+      {
+        "name": "bounds-time025 time/eigen growth agreement",
+        "status": "FAIL",
+        "value": 0.24664751962911557,
+        "limit": 0.1
+      },
+      {
+        "name": "bounds model time-step agreement",
+        "status": "PASS",
+        "value": 0.016124330862863134,
+        "limit": 0.05
+      }
+    ],
+    "reactor": [
+      {
+        "name": "positive monotonic volume and fuel profiles",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "D-T temperatures within Bosch-Hale fit over full sweep",
+        "status": "PASS",
+        "value": 0.2,
+        "limit": 0.2
+      },
+      {
+        "name": "reactivity agrees with pinned upstream formula",
+        "status": "PASS",
+        "value": 0.0,
+        "limit": 1e-12
+      },
+      {
+        "name": "profile reaction integral trapezoid/Simpson agreement",
+        "status": "PASS",
+        "value": 3.6192352230735025e-05,
+        "limit": 0.01
+      },
+      {
+        "name": "unfitted thermal alpha versus source deposited alpha comparison",
+        "status": "PASS",
+        "value": -0.007226611114677817,
+        "limit": 0.1
+      },
+      {
+        "name": "source energy accounting",
+        "status": "PASS",
+        "value": 0.0,
+        "limit": 1
+      },
+      {
+        "name": "profile thermal energy versus source",
+        "status": "PASS",
+        "value": 0.0017114248744767302,
+        "limit": 0.01
+      },
+      {
+        "name": "burn root residuals",
+        "status": "PASS",
+        "value": 8.949637413024902e-05,
+        "limit": 1
+      },
+      {
+        "name": "burn ODE trajectory tolerance 1.00703162/0.95",
+        "status": "PASS",
+        "value": 1.1572187652575394e-10,
+        "limit": 1e-06
+      },
+      {
+        "name": "burn ODE event time tolerance 1.00703162/0.95",
+        "status": "PASS",
+        "value": 2.8533531093444253e-10,
+        "limit": 1e-05
+      },
+      {
+        "name": "burn ODE trajectory tolerance 1.00703162/1.05",
+        "status": "PASS",
+        "value": 5.817661907769889e-10,
+        "limit": 1e-06
+      },
+      {
+        "name": "burn ODE event time tolerance 1.00703162/1.05",
+        "status": "PASS",
+        "value": 8.056009193069258e-10,
+        "limit": 1e-05
+      },
+      {
+        "name": "fuel ideal unit-TBR closes mass balance",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "fuel loss increases breeding requirement",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "zero-fusion plant cannot produce net power from inefficient heaters",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      },
+      {
+        "name": "cooling positive resistances increase surface temperature",
+        "status": "PASS",
+        "value": null,
+        "limit": null
+      }
+    ]
+  },
+  "counts": {
+    "historical_integrity": {
+      "PASS": 241,
+      "FAIL": 0
+    },
+    "input_and_execution_integrity": {
+      "PASS": 99,
+      "FAIL": 0
+    },
+    "native_primary": {
+      "PASS": 6,
+      "FAIL": 2
+    },
+    "native_diagnostics": {
+      "PASS": 1,
+      "FAIL": 2
+    },
+    "reactor": {
+      "PASS": 16,
+      "FAIL": 0
+    }
+  },
+  "diagnostics": {
+    "negative_seed_fit_per_s": 781.0131667522414,
+    "zero_seed_final_drift_m": 1.960375272122561e-05,
+    "bounds_included_gamma_per_s": 807.7026822829866
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "h5py": "3.16.0",
+    "matplotlib": "3.10.8",
+    "OpenFUSIONToolkit": "26.9"
+  },
+  "verdict": "PARTIAL: native eigenvalue/refinement/scaling pass; two primary and two diagnostic time/eigenvalue comparisons fail; reactor models conditional"
+}

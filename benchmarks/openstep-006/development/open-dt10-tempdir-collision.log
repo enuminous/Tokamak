@@ -1,0 +1,63 @@
+Warning: Could not detect number of physical cores
+Release version:  v26.9
+Traceback (most recent call last):
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-006/native.py", line 114, in <module>
+    try:execute(args)
+        ^^^^^^^^^^^^^
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-006/native.py", line 52, in execute
+    gs.setup(order=2,F0=eqdsk['rcentr']*eqdsk['bcentr'])
+  File "/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/TokaMaker/_core.py", line 438, in setup
+    self._tMaker_equil = TokaMaker_equilibrium(self)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/TokaMaker/_core.py", line 2391, in __init__
+    self.set_profiles(ffp_prof=default_prof, pp_prof=default_prof)
+  File "/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/TokaMaker/_core.py", line 2574, in set_profiles
+    create_prof_file(self, ffp_file, ffp_prof, "F*F'")
+  File "/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/TokaMaker/_core.py", line 109, in create_prof_file
+    with open(filename, 'w+') as fid:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/oft_5/tokamaker_f.prof'
+Warning: Unable to delete temporary directory "/tmp/oft_5"
+#----------------------------------------------
+             ____  ____________
+            / __ \/ ____/_  __/
+           / / / / /_    / /
+          / /_/ / __/   / /
+          \____/_/     /_/
+
+
+Parallelization Info:
+  Not compiled with MPI
+  # of OpenMP threads =    2
+
+Linear Algebra backend: native
+
+#----------------------------------------------
+
+
+**** Loading OFT surface mesh
+
+**** Generating surface grid level  1
+  Generating boundary domain linkage
+  Mesh statistics:
+    Area         =  1.574E+01
+    # of points  =    8911
+    # of edges   =   26570
+    # of cells   =   17660
+    # of boundary points =     160
+    # of boundary edges  =     160
+    # of boundary cells  =     160
+  Resolution statistics:
+    hmin =  8.702E-04
+    hrms =  4.833E-02
+    hmax =  1.540E-01
+  Surface grounded at vertex    1733
+
+
+**** Creating Lagrange FE space
+  Order  =    2
+  Minlev =   -1
+
+ Computing flux BC matrix 
+ Inverting real matrix
+   Time =    3.7824809999999999E-003

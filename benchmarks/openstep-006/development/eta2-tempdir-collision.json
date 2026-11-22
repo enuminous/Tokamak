@@ -1,0 +1,13 @@
+{
+  "error": "Could not create temporary directory.This usually means you have tried to instantiate more than one instance of `OFT_env` within a single python kernel.",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/_core.py\", line 90, in __init__\n    os.mkdir(self.tempdir)\nFileExistsError: [Errno 17] File exists: '/tmp/oft_5'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-006/native.py\", line 114, in <module>\n    try:execute(args)\n        ^^^^^^^^^^^^^\n  File \"/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-006/native.py\", line 49, in execute\n    env=OFT_env(nthreads=2);gs=TokaMaker(env);gs.settings.maxits=200\n        ^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/_core.py\", line 92, in __init__\n    raise IOError(\"Could not create temporary directory.\"\nOSError: Could not create temporary directory.This usually means you have tried to instantiate more than one instance of `OFT_env` within a single python kernel.\n",
+  "args": {
+    "name": "eta2",
+    "scale": 1.0,
+    "eta": 2.0,
+    "modes_only": true,
+    "dt": 0.1,
+    "gain": 0.0,
+    "delay": 0.0
+  }
+}

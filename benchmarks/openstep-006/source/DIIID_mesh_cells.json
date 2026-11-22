@@ -1,0 +1,102 @@
+[
+  {
+    "source": [
+      "import os\n",
+      "import sys\n",
+      "import json\n",
+      "import numpy as np\n",
+      "import matplotlib.pyplot as plt\n",
+      "plt.rcParams['figure.figsize']=(6,6)\n",
+      "plt.rcParams['font.weight']='bold'\n",
+      "plt.rcParams['axes.labelweight']='bold'\n",
+      "plt.rcParams['lines.linewidth']=2\n",
+      "plt.rcParams['lines.markeredgewidth']=2\n",
+      "%matplotlib inline\n",
+      "%config InlineBackend.figure_format = \"retina\""
+    ]
+  },
+  {
+    "source": [
+      "tokamaker_python_path = os.getenv('OFT_ROOTPATH')\n",
+      "if tokamaker_python_path is not None:\n",
+      "    sys.path.append(os.path.join(tokamaker_python_path,'python'))\n",
+      "from OpenFUSIONToolkit.TokaMaker.meshing import gs_Domain, save_gs_mesh"
+    ]
+  },
+  {
+    "source": [
+      "plasma_dx = 0.04\n",
+      "coil_dx = 0.03\n",
+      "vv_dx = 0.04\n",
+      "vac_dx = 0.10"
+    ]
+  },
+  {
+    "source": [
+      "with open('DIIID_geom.json','r') as fid:\n",
+      "    DIIID_geom = json.load(fid)"
+    ]
+  },
+  {
+    "source": [
+      "# Create a G-S domain\n",
+      "gs_mesh = gs_Domain()\n",
+      "# Define region information for mesh\n",
+      "gs_mesh.define_region('air',vac_dx,'boundary')                     # Define the bounding region\n",
+      "gs_mesh.define_region('plasma',plasma_dx,'plasma')                 # Define the plasma region and resolution\n",
+      "gs_mesh.define_region('vacuum',vv_dx,'vacuum',allow_xpoints=True)  # Define the vacuum inside the VV\n",
+      "# Define regions for VV\n",
+      "for i, vv_segment in enumerate(DIIID_geom[\"vv\"]):\n",
+      "    gs_mesh.define_region('vv{0}'.format(i),vv_dx,'conductor',eta=vv_segment[1])\n",
+      "# Define each of the PF coils\n",
+      "for key, coil in DIIID_geom[\"coils\"].items():\n",
+      "    if key.startswith('ECOIL'):\n",
+      "        for i, subcoil in enumerate(coil):\n",
+      "            gs_mesh.define_region('{0}_{1}'.format(key,i),coil_dx,'coil',coil_set=key,nTurns=subcoil[\"nturns\"])\n",
+      "    else:\n",
+      "        gs_mesh.define_region(key,coil_dx,'coil',nTurns=coil[\"nturns\"])"
+    ]
+  },
+  {
+    "source": [
+      "# Define geometry\n",
+      "gs_mesh.add_polygon(DIIID_geom['limiter'],'plasma',parent_name='vacuum')  # Define the shape of the limiter\n",
+      "gs_mesh.add_enclosed([1.75,1.25],'vacuum')\n",
+      "# Define regions for VV\n",
+      "for i, vv_segment in enumerate(DIIID_geom[\"vv\"]):\n",
+      "    gs_mesh.add_polygon(vv_segment[0],'vv{0}'.format(i),parent_name='air')\n",
+      "# Define each of the PF coils\n",
+      "for key, coil in DIIID_geom[\"coils\"].items():\n",
+      "    if key.startswith('ECOIL'):\n",
+      "        for i, subcoil in enumerate(coil):\n",
+      "            gs_mesh.add_polygon(subcoil[\"pts\"],'{0}_{1}'.format(key,i),parent_name='air')\n",
+      "    else:\n",
+      "        gs_mesh.add_polygon(coil[\"pts\"],key,parent_name='air')"
+    ]
+  },
+  {
+    "source": [
+      "fig, ax = plt.subplots(1,1,figsize=(4,6),constrained_layout=True)\n",
+      "gs_mesh.plot_topology(fig,ax)"
+    ]
+  },
+  {
+    "source": [
+      "mesh_pts, mesh_lc, mesh_reg = gs_mesh.build_mesh()\n",
+      "coil_dict = gs_mesh.get_coils()\n",
+      "cond_dict = gs_mesh.get_conductors()"
+    ]
+  },
+  {
+    "source": [
+      "fig, ax = plt.subplots(2,2,figsize=(8,8),constrained_layout=True)\n",
+      "gs_mesh.plot_mesh(fig,ax)"
+    ]
+  },
+  {
+    "source": [
+      "save_gs_mesh(mesh_pts,mesh_lc,mesh_reg,coil_dict,cond_dict,'DIIID_mesh.h5')"
+    ]
+  }
+]
+

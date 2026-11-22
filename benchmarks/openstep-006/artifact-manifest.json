@@ -1,0 +1,540 @@
+{
+  "experiment": "OPENSTEP-006",
+  "parent_commit": "dcdfb6956dac7143066f0c308474fda2bb83f48e",
+  "files": [
+    {
+      "path": "benchmarks/openstep-006/AMENDMENTS.md",
+      "bytes": 2496,
+      "sha256": "07064171739abb1008b95e24419b04045bf4db90bda4351829919bf20e6b1256",
+      "git_blob_sha": "9c44b32b60228d2c644b074b5b5430ce99cf60b4"
+    },
+    {
+      "path": "benchmarks/openstep-006/PROTOCOL.md",
+      "bytes": 5775,
+      "sha256": "979d9a1b0132dc529b352e5114482e4347948c798caeccf6bf9eed232d4e7bdc",
+      "git_blob_sha": "ef53c47feadb49bcf29b6d41dad8b08ea9da5cde"
+    },
+    {
+      "path": "benchmarks/openstep-006/READINESS.md",
+      "bytes": 3400,
+      "sha256": "ebfaeb25e09ff4d9b3f5da83c05b82f77f77fcdfd9ce5403ae8f21cfdc5c39e3",
+      "git_blob_sha": "7746a9e013fef402c158c04115e1fc192ff0c9e1"
+    },
+    {
+      "path": "benchmarks/openstep-006/README.md",
+      "bytes": 16195,
+      "sha256": "5594125c29612eb757a0bbdf6aa5268e3e622d4fd43896c84ca371ff2fd858b1",
+      "git_blob_sha": "a10afe8ad3c9e796d4b9a3bbf9d0863857275169"
+    },
+    {
+      "path": "benchmarks/openstep-006/development/eta2-tempdir-collision.json",
+      "bytes": 1350,
+      "sha256": "bf2f2904a6c041eca4a2db8b739e231676d7a6066b014380156e2aeeb1c746ba",
+      "git_blob_sha": "a81efdab569bbc5ceda16a00bff35d2ee575a6a3"
+    },
+    {
+      "path": "benchmarks/openstep-006/development/eta2-tempdir-collision.log",
+      "bytes": 1041,
+      "sha256": "dc1486aed1ad6c71c7ba033eb7397d3f5a17fa5f089d0ff027c7d587da87c018",
+      "git_blob_sha": "3067dfc034ed3d265ef5c2751bda5f75ae296b5e"
+    },
+    {
+      "path": "benchmarks/openstep-006/development/native-corrected-axis.py",
+      "bytes": 7897,
+      "sha256": "008ede61c2197e014a0f79eb9b4d653eeca1040fe319e015b81b6dc3b713556a",
+      "git_blob_sha": "6a4ba9382f930597c681c6cfb512a0a193512a05"
+    },
+    {
+      "path": "benchmarks/openstep-006/development/native-initial.py",
+      "bytes": 7494,
+      "sha256": "e092ff13b1d6f1a1787b1f31258694d82d274194eb3f43cb8b34042eb7f58b2c",
+      "git_blob_sha": "6a4cbdd49f0625fa6121a4aab5c36a4c076a025f"
+    },
+    {
+      "path": "benchmarks/openstep-006/development/native-isolated-before-axis-update.py",
+      "bytes": 7775,
+      "sha256": "6eef309a2113c932f586ad8401c813a12fd7ce1109d71145bd9366ef6bf4994f",
+      "git_blob_sha": "a64cbca62fc2a4e804ecd4c4702396671128c21b"
+    },
+    {
+      "path": "benchmarks/openstep-006/development/open-dt10-tempdir-collision.log",
+      "bytes": 2292,
+      "sha256": "e9cfb8c73f18a1b9f637d9c2a1df91cc8bbcaad21da0035261f1f6c869c39372",
+      "git_blob_sha": "d2557883885ec7ce434e99b1cd0bcacdd238acba"
+    },
+    {
+      "path": "benchmarks/openstep-006/development/reactor-initial.json",
+      "bytes": 8081,
+      "sha256": "54d00ae3adb35e2d58dca21555a7f16a57dbb32b0f8f4de2c63d3c346810d380",
+      "git_blob_sha": "1b67a937bb97f71e0d922837212a24fcdf043140"
+    },
+    {
+      "path": "benchmarks/openstep-006/development/reactor-initial.py",
+      "bytes": 12931,
+      "sha256": "0dde5df01b57084f818c46b160607d44fd9be800239b80d69da36d133cb90513",
+      "git_blob_sha": "fed40acbd07e4b86ed17670ac232a41091a82d8a"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/bounds-included.log",
+      "bytes": 12456,
+      "sha256": "b6868870f66a33db1b085177358ca3aa5a7ba7a7174f56e881787c6333a1d35e",
+      "git_blob_sha": "c68027489c521b8359508e0cdd20723a18cfbfa8"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/bounds-time025.log",
+      "bytes": 13025,
+      "sha256": "8700179b8c81e47111e49e649c95a6426e6a1d17165513a2a12f5a718e1862d4",
+      "git_blob_sha": "f6236ce36f02da666a227be30c5bacb820d27e11"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/bounds-time05.log",
+      "bytes": 12734,
+      "sha256": "f9ed50b51e32824bfb8bdd0af7a116a425896a5b827f565e5104fbbaf3d5812f",
+      "git_blob_sha": "7be6a31cbda06784aa94349bfb88f5d4f519fb5c"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/coarse.log",
+      "bytes": 13582,
+      "sha256": "2c3528b17817ec2c22d20ed5c4b9c97c1ce8ce4b69ec6682c84dce302dede0fd",
+      "git_blob_sha": "47020be8cd6e1ceaf94905886d991c6dc28b14d4"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/eta2-isolated.log",
+      "bytes": 12455,
+      "sha256": "08fe9a3b7696936df334037b709a88773ac95592ab4918e48d947d1147e60c3c",
+      "git_blob_sha": "cdf5817a97e0b37694cf0aba4f01abc6fa7b3acf"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/eta2.log",
+      "bytes": 1041,
+      "sha256": "dc1486aed1ad6c71c7ba033eb7397d3f5a17fa5f089d0ff027c7d587da87c018",
+      "git_blob_sha": "3067dfc034ed3d265ef5c2751bda5f75ae296b5e"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/feedback-delay05ms.log",
+      "bytes": 12820,
+      "sha256": "1ec21bdd7e4c9483b09b623ffaf923c07a5cd37ce95ee888ae832ee54e8efae0",
+      "git_blob_sha": "9100fbb0e8d67fbb10b09be84af1b5f7e6207528"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/feedback-delay10ms.log",
+      "bytes": 12823,
+      "sha256": "3fe17e5c47329552f3677d8dbd41a435d4bd18e74c44e581decaa5706a9c9f2a",
+      "git_blob_sha": "0eb9482bff87e2bd9fca5dc939e6190b9cb8f669"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/feedback-neg100k.log",
+      "bytes": 12778,
+      "sha256": "5ab97b1473c6a781508f9918d6bc6c80426b5f18e83dec7c05531343a02e4ce5",
+      "git_blob_sha": "201b4fa0fcb1824146c6eba4cb3b06f28aeca500"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/feedback-neg20k.log",
+      "bytes": 12800,
+      "sha256": "1e64b562c63e2c39357265e57aea737bdb2b77f273c76a3ea6c1cd609a807613",
+      "git_blob_sha": "6a577fa8e78cc500faec133dfb830a5cf79e287c"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/feedback-pos100k.log",
+      "bytes": 12813,
+      "sha256": "425349da1534bdab07be9be1eebfd0f996d5c3ce51fa4e46b028103f9b9c65b1",
+      "git_blob_sha": "c90201b6b1bf55464e21d9185dcbbf3dab1f281f"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/feedback-pos20k.log",
+      "bytes": 12809,
+      "sha256": "2d02eb72b6b04ae5388aef892acb4bdaaf3348b49e0af3a2965233a2e77bff34",
+      "git_blob_sha": "139baf47160a42e28763def149ac82d8b55302a0"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/fine.log",
+      "bytes": 11604,
+      "sha256": "51ab4dfdc574f80c411accebcc16621e6403fccc7fc57630d3610a6ead5ef159",
+      "git_blob_sha": "5644fdf4eb08bd25e826ef9b7fcf26d89fc0fab3"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/negative-seed.log",
+      "bytes": 12738,
+      "sha256": "a8f36240946923188b0e4fdeed6b003af0677a40a6625a975d563f81069298ca",
+      "git_blob_sha": "5b11aee0c5ba45d4e9247c293d360d96ec6f234d"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/open-corrected-dt05.log",
+      "bytes": 12766,
+      "sha256": "c4a5733bb6e3203d3961195a8dc50b330dec4114fd9773c8eb4e7ea075796666",
+      "git_blob_sha": "3a1d614826ca1c206d7a3eb220bfffb0d9253647"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/open-corrected-dt10.log",
+      "bytes": 12612,
+      "sha256": "4789857839ab874a931e0ee22f99bd5c09665fb9b2a0292fba53c5254cfa3b85",
+      "git_blob_sha": "462e1ec22858682324d35b27486e6b561ac26281"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/open-dt10-isolated.log",
+      "bytes": 12611,
+      "sha256": "9fa06bbd6934452e8c4f8c1b6b5bbdcb75ec44e4acace906e521365bc069334f",
+      "git_blob_sha": "f9d3c509e36bcd0a76c2aef4c2f320fe77eb1b07"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/open-dt10.log",
+      "bytes": 2292,
+      "sha256": "e9cfb8c73f18a1b9f637d9c2a1df91cc8bbcaad21da0035261f1f6c869c39372",
+      "git_blob_sha": "d2557883885ec7ce434e99b1cd0bcacdd238acba"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/reactor-verified.log",
+      "bytes": 4360,
+      "sha256": "dbea1370463a7e692375cb1659aed01f2fabe14dad1944f5c02b8a9099ed18f1",
+      "git_blob_sha": "b5675bf87557441f4c2adb4af97b292ab2abfa86"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/reactor.log",
+      "bytes": 4242,
+      "sha256": "09f9827fbe3f741fdf742aa63b47ef505ffc57612fabaff6b55c69af3da33247",
+      "git_blob_sha": "4ae98a145dd77ebb7cfd5989e463557f9bd70df9"
+    },
+    {
+      "path": "benchmarks/openstep-006/logs/zero-seed.log",
+      "bytes": 12714,
+      "sha256": "9423e2c19c897e903140a374c6347b813b370d759fd6f1df1c24194324e2f5b6",
+      "git_blob_sha": "0a3d5f9b85d58bf82363de221cc867d9092f4244"
+    },
+    {
+      "path": "benchmarks/openstep-006/native.py",
+      "bytes": 8006,
+      "sha256": "f2e06d3175d2888c130d4917c25d7832d469559feadd2d19d737abf9499a376c",
+      "git_blob_sha": "73cdf45647a7fa86c8a5c8237020b9ac12e7731b"
+    },
+    {
+      "path": "benchmarks/openstep-006/plots.py",
+      "bytes": 3864,
+      "sha256": "9e4d860ffcf434a7cb672e655a8a52105101d6b0f70ab565678f4c40a30fca8d",
+      "git_blob_sha": "e3f5f5d5547d0d6c4f5c86f8ee27439367922188"
+    },
+    {
+      "path": "benchmarks/openstep-006/reactor.py",
+      "bytes": 13259,
+      "sha256": "e9a120648b2789347cf8b55ece3ed41ad2e6b734ae1dc6743275439a0531d9ce",
+      "git_blob_sha": "e3aa39805edc94d0e27dbe97852140cbcbe785db"
+    },
+    {
+      "path": "benchmarks/openstep-006/requirements.txt",
+      "bytes": 83,
+      "sha256": "46fbc394ec99f0680b457ab4bac9f43a72d557810b0d896c6f64db8e17d85629",
+      "git_blob_sha": "39068aa7515c34ab38d69cfb525bcd989083b8cb"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/bounds-included-fields.npz",
+      "bytes": 2348391,
+      "sha256": "24d0fe064ac7ff1479438f53c0fcb34e65b3e7f63a58db99c17621fe5d406a00",
+      "git_blob_sha": "a964849441652ab19dd37ea1a7a67cede55f870b"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/bounds-included.json",
+      "bytes": 5118,
+      "sha256": "ff7d9288ef2a16550817c48586fa60f2c915b4eb35102b7ef48e22fd7ac520ac",
+      "git_blob_sha": "85fd7a7f5a62a1320d201b0cdc31bdfa854152dd"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/bounds-time025.json",
+      "bytes": 29307,
+      "sha256": "827dfb985e144ecc347d246f5f3023f9c0951b26b872bbbec79cf5ae1c41aa02",
+      "git_blob_sha": "52ec92268401466203616f4f27afb556a1d2fa9e"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/bounds-time05.json",
+      "bytes": 17552,
+      "sha256": "639caa31f4acc546a59f4d81144750f4f92788bfeb06192776ac298903d5c9f8",
+      "git_blob_sha": "a2d2639e65ad1f41dc66b2ec0bc117386c21d2d5"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/burn-cases.csv",
+      "bytes": 2721,
+      "sha256": "2a1f590e236aaf5b77c7a4c293b0488a4477ab8abde15a85c7216949bc1117bd",
+      "git_blob_sha": "f2d35163831259e4529b49c3df25f18a75e25fef"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/burn-roots.csv",
+      "bytes": 6934,
+      "sha256": "fd3d1a8cc05060239e002686237123d9331a82d8bafed155952d844fa4313955",
+      "git_blob_sha": "c2f2f9aa07704b65c389f95904324bbfcb57b24e"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/burn-traces.csv",
+      "bytes": 7116,
+      "sha256": "77d4e4b8d5614e1b1393c99cce83f76ecb1c6739a8f2b994f8b1e1b92576f3eb",
+      "git_blob_sha": "12fa501c504ff973680925e5b5a9ffea5f8ef35f"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/coarse-fields.npz",
+      "bytes": 2351480,
+      "sha256": "30c5f898ab799738646021d0edc65966c855e6744f646e11bf854033d78ca34e",
+      "git_blob_sha": "2afd303eec51080a0a4ebf237b4ae1f3b41d9743"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/coarse.json",
+      "bytes": 4899,
+      "sha256": "8ce1c3de350d491812cddf90ffebe7fcb6675700d0ff8184026f844f1ef5c516",
+      "git_blob_sha": "3ede03425358f8c9081696552fc580e9737fed07"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/cooling-requirements.csv",
+      "bytes": 12587,
+      "sha256": "17e120c008bb13e3c91850ddca498018a61f6ad0f1fc92b54320741fa5a6b29a",
+      "git_blob_sha": "968b2adf08cfffa1280b7c7aa01a9ebb651e8dba"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/diiid-mesh-0.5.h5",
+      "bytes": 1470992,
+      "sha256": "7c7773b131dace19217bba9e6b928878664f6c767b5a31bff4e2026dd2db1fcc",
+      "git_blob_sha": "f3be3b9360d685c04e194eec9f44a99a39c4e6b3"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/diiid-mesh-1.h5",
+      "bytes": 439664,
+      "sha256": "80420dc5d1aefa9280d2a293a19b20c8c497f539a083254bfb82652f7dadc4a5",
+      "git_blob_sha": "8d4ca41651cc59f188ad06f2bc61d39b1479124d"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/electric-balance.csv",
+      "bytes": 20263,
+      "sha256": "c659c832b8b7f6c056077d74ebc0b5fed63db5fd24b9591cc11270fef07668ac",
+      "git_blob_sha": "543592d1b9a1f1a1d01adcc0d0afc4dd9b850ffd"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/eta2-failure.json",
+      "bytes": 1350,
+      "sha256": "bf2f2904a6c041eca4a2db8b739e231676d7a6066b014380156e2aeeb1c746ba",
+      "git_blob_sha": "a81efdab569bbc5ceda16a00bff35d2ee575a6a3"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/eta2-isolated-fields.npz",
+      "bytes": 2351457,
+      "sha256": "9b600d89fc6a3b03dbc6643fc2f1d3fc5359637fbad789f588a9d66b1cc7d8d2",
+      "git_blob_sha": "569f647dd0536d8d554b92594b8b0d924d9a331e"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/eta2-isolated.json",
+      "bytes": 5097,
+      "sha256": "1016a22cbdec220840f91c6f2d434c2f1a5d9211a5f1db3094b902c26e0779d3",
+      "git_blob_sha": "04a7f08dc37244c984fa2fcd8dffb2671af8d2a4"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/feedback-delay05ms.json",
+      "bytes": 18198,
+      "sha256": "da1dadcbd21b226a55c992076405065dbf6377d1d7361f15d80e991f40b8dafb",
+      "git_blob_sha": "9c96020865c8e10b2f119ced4e0d5ca8ae3b8dec"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/feedback-delay10ms.json",
+      "bytes": 18228,
+      "sha256": "7d1a4ecf138fbc632f5a0956f2cbbf199c3b402e0ddb028ff7349cab7ce9302c",
+      "git_blob_sha": "eca9252e4ae399595ce39fcd9b2a67548f038fb4"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/feedback-neg100k.json",
+      "bytes": 17705,
+      "sha256": "b8c9b43159c1a027e0927a8a445fec0f1909ce3ece341a514325d608d02c7b22",
+      "git_blob_sha": "c30c18c35128f2c62ca86459c755913e93d3b053"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/feedback-neg20k.json",
+      "bytes": 18070,
+      "sha256": "0ada8145cd39207926cfd56877425511bee598da2522505c60861ea088dfafd5",
+      "git_blob_sha": "c264ab569ea11e4ab1309f407647cbed01811c54"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/feedback-pos100k.json",
+      "bytes": 18310,
+      "sha256": "5c878c53e9c29c3550099ccfdbc2be8336739012e24b0e91da6af449edda7742",
+      "git_blob_sha": "0f039e5c84f00837153e765da639b325db47332f"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/feedback-pos20k.json",
+      "bytes": 18262,
+      "sha256": "1cc6b1efdd368ccc7d359482ecc88a94690dde494215f1b8d874d01b403b4a52",
+      "git_blob_sha": "effc6394324765d00cfe9683653400929656ffbc"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/fine-fields.npz",
+      "bytes": 8189210,
+      "sha256": "4beb3f13342c3e97e2b0037c0791f3536603b5a2be95783ec40136fb98ff4d48",
+      "git_blob_sha": "8c6198736b070eedde3f2cea0d39509980034926"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/fine.json",
+      "bytes": 5091,
+      "sha256": "d85d7e336a2037a830c7e3bf8e83515d36b86c67e6bb97c161b173fe7e244dcd",
+      "git_blob_sha": "8bfb59f937e7bf9df1cb3d9127ae2e1a2840d2cd"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/fuel-balance.csv",
+      "bytes": 8566,
+      "sha256": "4b84b81f20438d440332752d8eb7890276aaaec0330771307c8acb869ab747ea",
+      "git_blob_sha": "0ac6f58716a5e6e2c7779cf1cc1cd32bb75d94c7"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/fuel-inventory.csv",
+      "bytes": 676,
+      "sha256": "63e08dfb3292fd699736b5b263327663cab5fef3f050fede054096a6c30e6f48",
+      "git_blob_sha": "365fe6729473ff3b95d5d8ce1dfd4958722f9d01"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/fuel-profiles.csv",
+      "bytes": 15647,
+      "sha256": "b24265d3cb52a1a8da2db11fcf2616aa74476e7cdfea863de78b2562b1246881",
+      "git_blob_sha": "28531567d3917e2650102f4f3b8c7e63fe868d8d"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/native-reference.png",
+      "bytes": 316928,
+      "sha256": "fb56641bf57c7e41e9741c4bec96c5c7eb87cbef662bb83c23c7bb700835575c",
+      "git_blob_sha": "e2c8367d1612307c731897561b628cfa68d9de57"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/native-reference.svg",
+      "bytes": 343705,
+      "sha256": "1ff064b98606c0bfa13f6b5141f9e6970618752d0351fcce940f0823a5fbd9ef",
+      "git_blob_sha": "7d996b0d7fb73f2f7a6af9d624f882253b786f31"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/negative-seed.json",
+      "bytes": 17653,
+      "sha256": "476e75461875f0e7849c3dc24c782c0bddd424d1fe4244fb115958b9d730e1b6",
+      "git_blob_sha": "8f4494723ab074f4fa4cad6da78bc6452135d790"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/open-corrected-dt05.json",
+      "bytes": 17553,
+      "sha256": "43c43b12e0a16fdc068c3594219a5e0ce7804f8ffdcf01a9485d4f8721fcc960",
+      "git_blob_sha": "9c00f4330a84ccc3c29ae9e7f770b539d84cfb1c"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/open-corrected-dt10.json",
+      "bytes": 11693,
+      "sha256": "267b5455fc3bd3614edbdf69563122302677169b9adae3646f325d9d1f156fd8",
+      "git_blob_sha": "d69c5ae86f893a541e15b93a26896515f4f20066"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/open-dt10-failure.json",
+      "bytes": 1463,
+      "sha256": "40d6c08e621c387b23379a2ac60010f03eb4f848b518cb0d05dad80a8a47a19e",
+      "git_blob_sha": "d77c21436691db0e8d947786380cd744fa350167"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/open-dt10-isolated.json",
+      "bytes": 11677,
+      "sha256": "648d32af5b4289c24aa13eba6720d4dcb2ed4735fb4f48e0193e78c42fd6a063",
+      "git_blob_sha": "7978cbf30377089b42a9cd911b5d722a31c52aea"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/radiation-requirements.csv",
+      "bytes": 308,
+      "sha256": "9d391cbd1aa54a780e9be4b774c4dde54be69dc066303a3613478caef9a48693",
+      "git_blob_sha": "0ba03258a6623b2d64505edee0ecfa2a6e10a0c4"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/reactor-requirements.png",
+      "bytes": 113443,
+      "sha256": "310c11ebd78ce9e757f8b1ff7a83b5e89a42223f553e016fa52645e56c323c98",
+      "git_blob_sha": "eea1e707e29c91f31112b1e6fea8134abaf91e9c"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/reactor-requirements.svg",
+      "bytes": 68259,
+      "sha256": "30327fe275bef2bbc696d064b7e0b1cb688bae3f378aaab7151b6b3d0a93db0a",
+      "git_blob_sha": "23565b72c92fbf4caf035d71b35d92056eb4e9a6"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/reactor.json",
+      "bytes": 8541,
+      "sha256": "0afedf387da00d944f49b95b8cd60d27c5f9ef50366aeb4d60f0b21fa09c39dd",
+      "git_blob_sha": "158198c04c56c6e91991fd45d96fa7912dc9ac3f"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/verification.json",
+      "bytes": 56969,
+      "sha256": "117855b685c024ca58d9ae16523cbb157d423badc8e8cf3f1915aafe9b2319e1",
+      "git_blob_sha": "e460dc17860ea087af7e379b11daad8e62cb524b"
+    },
+    {
+      "path": "benchmarks/openstep-006/results/zero-seed.json",
+      "bytes": 17566,
+      "sha256": "35f89cae90b4fbdcb787a122e66bdb33c6fe9869251d4babbf34f26643485230",
+      "git_blob_sha": "3a02a3ddde3d2e0a8f2a6d6ec992ff4664cac3fb"
+    },
+    {
+      "path": "benchmarks/openstep-006/run.py",
+      "bytes": 1819,
+      "sha256": "e30ac639e792062794537914ae1ed9b010bceeed7d28b61dc8ac58cbe43f35a1",
+      "git_blob_sha": "e61d0738e190edb004e55d74638e6e096d296b27"
+    },
+    {
+      "path": "benchmarks/openstep-006/source/DIIID_baseline_cells.json",
+      "bytes": 15830,
+      "sha256": "1c58a776362e6b6e6aa09e70e9e45c615afb7b9722c507d002ef58d96f268d1e",
+      "git_blob_sha": "7542da9a4fb3dd18f9f57178155344b1a2e1bf7c"
+    },
+    {
+      "path": "benchmarks/openstep-006/source/DIIID_geom.json",
+      "bytes": 49435,
+      "sha256": "4c07c090204859ab8c860c1e1c945cfdc2092065f18bca2b608e1323b39b04bf",
+      "git_blob_sha": "aa90c3bc5ca5d8741b84a47567b17d9d389188bb"
+    },
+    {
+      "path": "benchmarks/openstep-006/source/DIIID_mesh_cells.json",
+      "bytes": 3548,
+      "sha256": "66da480f4f3429158372058423b598e1335addf06320a6a76588fe580d8adb2e",
+      "git_blob_sha": "f892b24aad93e60d09128da5d4b9e453cab18d2c"
+    },
+    {
+      "path": "benchmarks/openstep-006/source/OFT-LICENSE",
+      "bytes": 7652,
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "git_blob_sha": "0a041280bd00a9d068f503b8ee7ce35214bd24a1"
+    },
+    {
+      "path": "benchmarks/openstep-006/source/PROCESS-LICENSE",
+      "bytes": 1108,
+      "sha256": "7ae29a41f938b56d7f7380f85eff42d6c4fef40bf76db10d2eb6852b9e1aabc8",
+      "git_blob_sha": "361a442d34e88c0e2c4fa6a828b1a32fb9ef3d84"
+    },
+    {
+      "path": "benchmarks/openstep-006/source/bosch-hale-excerpt.py",
+      "bytes": 2795,
+      "sha256": "542e5d21579fa96bfffa9885e8cffb46c358cdba3a869a398aa46a92b99a6c91",
+      "git_blob_sha": "fb730b7ae11a306d2efb9ed938ff4c23f9aa893d"
+    },
+    {
+      "path": "benchmarks/openstep-006/source/catalog.json",
+      "bytes": 10570,
+      "sha256": "479375f8476a0ab6f3aacd4562d881ecbc3a995a50337c14b369f3809f4f13bc",
+      "git_blob_sha": "eb685c43dafc3f504bde6bee5a76ceb3e7de3391"
+    },
+    {
+      "path": "benchmarks/openstep-006/source/g192185.02440",
+      "bytes": 80637,
+      "sha256": "685426f5eb54573d921466beea78e19db01ec5c88b2e254eff7d924de5f0600b",
+      "git_blob_sha": "66361d1766d27cbf919b73f7d9e44818ab73069a"
+    },
+    {
+      "path": "benchmarks/openstep-006/source/reference-output.json",
+      "bytes": 381,
+      "sha256": "24f80a872aa726b9aad118cb99e5b9f098e4371f0e73dcbfedea0c8eb965fd0d",
+      "git_blob_sha": "3b01e41077a33f568dc67e8c490e8354efc51d04"
+    },
+    {
+      "path": "benchmarks/openstep-006/source/reference-text-outputs.txt",
+      "bytes": 3431,
+      "sha256": "54377a69b13c18d2b9918764644a5c62654f8328418f01c2fc86a058c1688853",
+      "git_blob_sha": "3b9b363df90f47b35ba420c5f0c83c2e7d657cf3"
+    },
+    {
+      "path": "benchmarks/openstep-006/verify.py",
+      "bytes": 5235,
+      "sha256": "61e31fca6124c4fe2e499ed69563f92c2acd0c6903334cfb788b2f666ff3d0f4",
+      "git_blob_sha": "ca40454407016c98f440099350b1142192208601"
+    }
+  ]
+}

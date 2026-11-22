@@ -1,0 +1,406 @@
+[
+  {
+    "source": [
+      "import os\n",
+      "import sys\n",
+      "import numpy as np\n",
+      "import matplotlib.pyplot as plt\n",
+      "plt.rcParams['figure.figsize']=(6,6)\n",
+      "plt.rcParams['font.weight']='bold'\n",
+      "plt.rcParams['axes.labelweight']='bold'\n",
+      "plt.rcParams['lines.linewidth']=2\n",
+      "plt.rcParams['lines.markeredgewidth']=2\n",
+      "%matplotlib inline\n",
+      "%config InlineBackend.figure_format = \"retina\""
+    ]
+  },
+  {
+    "source": [
+      "tokamaker_python_path = os.getenv('OFT_ROOTPATH')\n",
+      "if tokamaker_python_path is not None:\n",
+      "    sys.path.append(os.path.join(tokamaker_python_path,'python'))\n",
+      "from OpenFUSIONToolkit import OFT_env\n",
+      "from OpenFUSIONToolkit.TokaMaker import TokaMaker\n",
+      "from OpenFUSIONToolkit.TokaMaker.meshing import load_gs_mesh\n",
+      "from OpenFUSIONToolkit.TokaMaker.util import create_isoflux, read_eqdsk"
+    ]
+  },
+  {
+    "source": [
+      "eqdsk = read_eqdsk('g192185.02440')"
+    ]
+  },
+  {
+    "source": [
+      "myOFT = OFT_env(nthreads=2)\n",
+      "mygs = TokaMaker(myOFT)"
+    ]
+  },
+  {
+    "source": [
+      "mygs.settings.maxits = 200"
+    ]
+  },
+  {
+    "source": [
+      "mesh_pts,mesh_lc,mesh_reg,coil_dict,cond_dict = load_gs_mesh('DIIID_mesh.h5')\n",
+      "mygs.setup_mesh(mesh_pts, mesh_lc, mesh_reg)\n",
+      "mygs.setup_regions(cond_dict=cond_dict,coil_dict=coil_dict)\n",
+      "mygs.setup(order=2,F0=eqdsk['rcentr']*eqdsk['bcentr'])"
+    ]
+  },
+  {
+    "source": [
+      "mygs.set_coil_vsc({'F9A': 1.0, 'F9B': -1.0})"
+    ]
+  },
+  {
+    "source": [
+      "mygs.set_targets(Ip = eqdsk['ip'], pax=eqdsk['pres'][0])"
+    ]
+  },
+  {
+    "source": [
+      "isoflux_pts = eqdsk['rzout'].copy()\n",
+      "mygs.set_isoflux_constraints(isoflux_pts)"
+    ]
+  },
+  {
+    "source": [
+      "target_currents = {\n",
+      "    'ECOILA': -16030.961914062493,\n",
+      "    'ECOILB': -15782.150390625,\n",
+      "    'F1A': 1999.5169719827586,\n",
+      "    'F2A': 1031.1705953663793,\n",
+      "    'F3A': -530.3450296336207,\n",
+      "    'F4A': -691.5127963362069,\n",
+      "    'F5A': 12.465672986260776,\n",
+      "    'F6A': -2142.877414772727,\n",
+      "    'F7A': 620.4805397727273,\n",
+      "    'F8A': -975.8820716594828,\n",
+      "    'F9A': 4302.279545454546,\n",
+      "    'F1B': 2213.2513469827586,\n",
+      "    'F2B': 1316.7264278017242,\n",
+      "    'F3B': -385.2729660560345,\n",
+      "    'F4B': -2295.533943965517,\n",
+      "    'F5B': 6.891535265692344,\n",
+      "    'F6B': -2792.180113636364,\n",
+      "    'F7B': 754.6947443181818,\n",
+      "    'F8B': -886.030239762931,\n",
+      "    'F9B': 4588.732102272727,\n",
+      "}\n",
+      "\n",
+      "# Set regularization weights\n",
+      "regularization_terms = []\n",
+      "for name, target_current in target_currents.items():\n",
+      "    # Set specific target currents from input equilibrium and different weights depending on the coil set\n",
+      "    if name.startswith('ECOIL'):\n",
+      "        regularization_terms.append(mygs.coil_reg_term({name: 1.0},target=target_current,weight=61.0))\n",
+      "    elif name.startswith('F'):\n",
+      "        if name.startswith('F5'):\n",
+      "            regularization_terms.append(mygs.coil_reg_term({name: 1.0},target=target_current,weight=1.E2))\n",
+      "        else:\n",
+      "            regularization_terms.append(mygs.coil_reg_term({name: 1.0},target=target_current,weight=1.E0))\n",
+      "# Set zero target current and small weight on virtual VSC to allow up-down adjustment\n",
+      "regularization_terms.append(mygs.coil_reg_term({'#VSC': 1.0},target=0.0,weight=1.E-2))\n",
+      "\n",
+      "# Pass regularization terms to TokaMaker\n",
+      "mygs.set_coil_reg(reg_terms=regularization_terms)"
+    ]
+  },
+  {
+    "source": [
+      "ffprim = eqdsk['ffprim']\n",
+      "pprime = eqdsk['pprime']\n",
+      "\n",
+      "\n",
+      "psi_eqdsk = np.linspace(0.0,1.0,np.size(ffprim))\n",
+      "psi_sample = np.linspace(0.0,1.0,50)\n",
+      "\n",
+      "psi_prof = np.copy(psi_sample)\n",
+      "ffp_prof = np.transpose(np.vstack((psi_prof,np.interp(psi_sample,psi_eqdsk,ffprim)))).copy()\n",
+      "pp_prof = np.transpose(np.vstack((psi_prof,np.interp(psi_sample,psi_eqdsk,pprime)))).copy()\n",
+      "\n",
+      "mygs.set_profiles(ffp_prof={'type': 'linterp', 'y': ffp_prof[:,1], 'x': psi_sample},pp_prof={'type': 'linterp', 'y': pp_prof[:,1], 'x': psi_sample})"
+    ]
+  },
+  {
+    "source": [
+      "R0 = 1.7\n",
+      "Z0 = 0.0\n",
+      "a = 0.5\n",
+      "kappa = 1.3\n",
+      "delta = -0.4\n",
+      "\n",
+      "mygs.init_psi(R0, Z0, a, kappa, delta)\n",
+      "_ = mygs.solve()"
+    ]
+  },
+  {
+    "source": [
+      "fig, ax = plt.subplots(1,1)\n",
+      "mygs.plot_machine(fig,ax,coil_colormap='seismic',coil_symmap=True,coil_scale=1.E-6,coil_clabel=r'$I_C$ [MA]')\n",
+      "mygs.plot_psi(fig,ax,vacuum_nlevels=4)\n",
+      "_ = ax.plot(eqdsk['rzout'][:,0], eqdsk['rzout'][:,1],'r--')"
+    ]
+  },
+  {
+    "source": [
+      "mygs.print_info()\n",
+      "\n",
+      "currents, _ = mygs.get_coil_currents()\n",
+      "err = []\n",
+      "keys = []\n",
+      "for key in currents:\n",
+      "    if key.startswith('A') or key.startswith('B'):\n",
+      "        continue\n",
+      "    err.append(100*(target_currents[key]-currents[key])/max(1.E3,abs(target_currents[key])))\n",
+      "    keys.append(key)\n",
+      "    print('  {0:10} {1:10.2F} {2:10.2F} {3:10.2F}'.format(key+\":\",currents[key]/1.E3,target_currents[key]/1.E3,100*abs((target_currents[key]-currents[key]))/max(1.E3,abs(target_currents[key]))))\n",
+      "\n",
+      "\n",
+      "## Compare target and realized coil currents\n",
+      "coil_names = list(mygs.coil_sets)\n",
+      "curr_plot   = np.array([currents[name] for name in coil_names])\n",
+      "target_plot = np.array([target_currents.get(name, 0.0) for name in coil_names])\n",
+      "\n",
+      "fig, axs = plt.subplots(2, 1, figsize=(10, 7))\n",
+      "axs[0].plot(coil_names, curr_plot / 1e3,                 c='r', label='TokaMaker')\n",
+      "axs[0].plot(coil_names, target_plot / 1e3,               c='k', label='Target', ls='--')\n",
+      "axs[1].plot(coil_names, (curr_plot - target_plot) / 1e3, c='k')\n",
+      "\n",
+      "axs[0].set_ylabel('Coil Current (kA/turn)')\n",
+      "axs[1].set_ylabel('Difference with Target (kA/turn)')\n",
+      "for ax in axs:\n",
+      "    ax.set_xticks(range(len(coil_names)))\n",
+      "    ax.set_xticklabels(coil_names, rotation=90)\n",
+      "axs[0].legend()\n",
+      "plt.tight_layout()\n",
+      "plt.show()\n"
+    ]
+  },
+  {
+    "source": [
+      "psi,f,fp,p,pp = mygs.get_profiles()\n",
+      "psi_q,qvals, _,_,_,_ = mygs.get_q(psi_pad=0.01)\n",
+      "fig, ax = plt.subplots(3,1,sharex=True)\n",
+      "psi_eqdsk = np.linspace(0.0,1.0,eqdsk['nr'])\n",
+      "psi_sample = np.linspace(0.0,1.0,10)\n",
+      "# Plot F*F'\n",
+      "ax[0].plot(psi,f*fp)\n",
+      "ax[0].plot(psi_eqdsk,-eqdsk['ffprim'],'+')\n",
+      "ax[0].set_ylabel(\"FF'\")\n",
+      "# Plot P'\n",
+      "ax[1].plot(psi,pp)\n",
+      "ax[1].plot(psi_eqdsk,-eqdsk['pprime'],'+')\n",
+      "ax[1].set_ylabel(\"P'\")\n",
+      "# Plot q\n",
+      "ax[2].plot(psi_q,qvals)\n",
+      "ax[2].plot(psi_eqdsk,eqdsk['qpsi'],'+')\n",
+      "ax[2].set_ylabel(\"q\")\n",
+      "_ = ax[-1].set_xlabel(r\"$\\hat{\\psi}$\")"
+    ]
+  },
+  {
+    "source": [
+      "from OpenFUSIONToolkit.TokaMaker.util import eval_NT_H_proxy\n",
+      "\n",
+      "fig_1d, ax_1d = plt.subplots(1,1)\n",
+      "fig_2d, ax_2d = plt.subplots(1,1)\n",
+      "mygs.plot_machine(fig_2d,ax_2d)\n",
+      "mygs.plot_psi(fig_2d,ax_2d,xpoint_color=None,plasma_levels=[1.0],vacuum_nlevels=0,plasma_color='k')\n",
+      "access_lower, access_upper = eval_NT_H_proxy(mygs._tMaker_equil, psi_surf=0.9, ax_1d=ax_1d, ax_2d=ax_2d)\n",
+      "print(access_lower, access_upper)"
+    ]
+  },
+  {
+    "source": [
+      "mygs.set_isoflux_constraints(None)\n",
+      "mygs.set_coil_currents(target_currents)\n",
+      "mygs.set_targets(Ip=eqdsk['ip'],pax=eqdsk['pres'][0],Z0=eqdsk['zaxis'])"
+    ]
+  },
+  {
+    "source": [
+      "_ = mygs.solve()"
+    ]
+  },
+  {
+    "source": [
+      "fig, ax = plt.subplots(1,1)\n",
+      "mygs.plot_machine(fig,ax,coil_colormap='seismic',coil_symmap=True,coil_scale=1.E-6,coil_clabel=r'$I_C$ [MA]')\n",
+      "mygs.plot_psi(fig,ax,vacuum_nlevels=4)\n",
+      "ax.plot(eqdsk['rzout'][:,0], eqdsk['rzout'][:,1],'r--')"
+    ]
+  },
+  {
+    "source": [
+      "mygs.print_info()\n",
+      "\n",
+      "currents, _ = mygs.get_coil_currents()\n",
+      "err = []\n",
+      "keys = []\n",
+      "for key in currents:\n",
+      "    if key.startswith('A') or key.startswith('B'):\n",
+      "        continue\n",
+      "    err.append(100*(target_currents[key]-currents[key])/max(1.E3,abs(target_currents[key])))\n",
+      "    keys.append(key)\n",
+      "    print('  {0:10} {1:10.2F} {2:10.2F} {3:10.2F}'.format(key+\":\",currents[key]/1.E3,target_currents[key]/1.E3,100*abs((target_currents[key]-currents[key]))/max(1.E3,abs(target_currents[key]))))\n",
+      "\n",
+      "\n",
+      "## Compare target and realized coil currents\n",
+      "coil_names = list(mygs.coil_sets)\n",
+      "curr_plot   = np.array([currents[name] for name in coil_names])\n",
+      "target_plot = np.array([target_currents.get(name, 0.0) for name in coil_names])\n",
+      "\n",
+      "fig, axs = plt.subplots(2, 1, figsize=(10, 7))\n",
+      "axs[0].plot(coil_names, curr_plot / 1e3,                 c='r', label='TokaMaker')\n",
+      "axs[0].plot(coil_names, target_plot / 1e3,               c='k', label='Target', ls='--')\n",
+      "axs[1].plot(coil_names, (curr_plot - target_plot) / 1e3, c='k')\n",
+      "\n",
+      "axs[0].set_ylabel('Coil Current (kA/turn)')\n",
+      "axs[1].set_ylabel('Difference with Target (kA/turn)')\n",
+      "for ax in axs:\n",
+      "    ax.set_xticks(range(len(coil_names)))\n",
+      "    ax.set_xticklabels(coil_names, rotation=90)\n",
+      "axs[0].legend()\n",
+      "plt.tight_layout()\n",
+      "plt.show()\n"
+    ]
+  },
+  {
+    "source": [
+      "mygs.save_eqdsk('g192185_tokamaker', nr = 200, nz = 200, lcfs_pad = 0.001)"
+    ]
+  },
+  {
+    "source": [
+      "# Modify profiles to remove edge current\n",
+      "edge_ramp = (1.0-ffp_prof[:,0])/(0.05)\n",
+      "edge_ramp[edge_ramp > 1.0] = 1.0\n",
+      "mygs.set_profiles(ffp_prof={'type': 'linterp', 'y': edge_ramp*ffp_prof[:,1], 'x': ffp_prof[:,0]},\n",
+      "                  pp_prof={'type': 'linterp', 'y': edge_ramp*pp_prof[:,1], 'x': pp_prof[:,0]})\n",
+      "# Update global targets\n",
+      "mygs.set_targets(Ip=eqdsk['ip'],Ip_ratio=5.6,Z0=eqdsk['zaxis'])\n",
+      "# Recompute equilibrim\n",
+      "vde_eq = mygs.solve()"
+    ]
+  },
+  {
+    "source": [
+      "psi,f,fp,p,pp = mygs.get_profiles()\n",
+      "psi_q,qvals, _,_,_,_ = mygs.get_q(psi_pad=0.01)\n",
+      "fig, ax = plt.subplots(3,1,sharex=True)\n",
+      "psi_eqdsk = np.linspace(0.0,1.0,eqdsk['nr'])\n",
+      "psi_sample = np.linspace(0.0,1.0,10)\n",
+      "# Plot F*F'\n",
+      "ax[0].plot(psi,f*fp)\n",
+      "ax[0].plot(psi_eqdsk,-eqdsk['ffprim'],'+')\n",
+      "ax[0].set_ylabel(\"FF'\")\n",
+      "# Plot P'\n",
+      "ax[1].plot(psi,pp)\n",
+      "ax[1].plot(psi_eqdsk,-eqdsk['pprime'],'+')\n",
+      "ax[1].set_ylabel(\"P'\")\n",
+      "# Plot q\n",
+      "ax[2].plot(psi_q,qvals)\n",
+      "ax[2].plot(psi_eqdsk,eqdsk['qpsi'],'+')\n",
+      "ax[2].set_ylabel(\"q\")\n",
+      "_ = ax[-1].set_xlabel(r\"$\\hat{\\psi}$\")"
+    ]
+  },
+  {
+    "source": [
+      "growth_rates, eig_modes = mygs.compute_linear_stability(5.E3,10,False) \n",
+      "fig, ax = plt.subplots()\n",
+      "mygs.plot_machine(fig,ax,limiter_color=None)\n",
+      "mygs.plot_psi(fig,ax,psi=eig_modes[0,:],normalized=False,xpoint_color=None,opoint_color=None)\n",
+      "mygs.plot_eddy(fig,ax,dpsi_dt=eig_modes[0,:]*abs(growth_rates[0]))\n",
+      "print('Growth rate = {0:.4E} [s^-1]'.format(growth_rates[0]))\n",
+      "print('Growth time = {0:.4E} [s]'.format(1.0/growth_rates[0]))"
+    ]
+  },
+  {
+    "source": [
+      "psi0 = vde_eq.get_psi(normalized = False)\n",
+      "max_loc = eig_modes[0,:].argmax()\n",
+      "psi_ic = psi0-np.sign(mygs.r[max_loc,1])*eig_modes[0,:]*(vde_eq.psi_bounds[1]-vde_eq.psi_bounds[0])/eig_modes[0,max_loc]/50.0\n",
+      "\n",
+      "fig, ax = plt.subplots(1,1)\n",
+      "mygs.plot_machine(fig,ax,limiter_color=None)\n",
+      "mygs.plot_psi(fig,ax,psi=vde_eq.abspsi_to_normalized(psi_ic),xpoint_color=None,opoint_color=None)\n",
+      "mygs.set_psi(psi_ic)"
+    ]
+  },
+  {
+    "source": [
+      "mygs.settings.pm=False\n",
+      "mygs.update_settings()\n",
+      "mygs.set_isoflux_constraints(None)\n",
+      "mygs.set_targets(Ip=eqdsk['ip'],Ip_ratio=5.6)\n",
+      "mygs.setup_td(1.E-03,1.E-13,1.E-11,pre_plasma=False)"
+    ]
+  },
+  {
+    "source": [
+      "import time\n",
+      "sim_time = 0.0\n",
+      "dt = 1.E-1/growth_rates[0]\n",
+      "nplot = 1\n",
+      "nstatus = 2\n",
+      "times = [sim_time]\n",
+      "results = [mygs.copy_eq()]\n",
+      "t00 = time.perf_counter()\n",
+      "\n",
+      "for i in range(40):\n",
+      "    t0 = time.perf_counter()\n",
+      "    sim_time, _, nl_its, lin_its, nretry = mygs.step_td(sim_time,dt)\n",
+      "    t1 = time.perf_counter()\n",
+      "    if i % nstatus == 0:\n",
+      "        print('{0:.5E} {1:.5E} {2:4d} {3:4d} {5:8.3f} {4:4d}'.format(sim_time,dt,nl_its,lin_its,nretry,t1-t0))\n",
+      "    results.append(mygs.copy_eq())\n",
+      "    times.append(sim_time)\n",
+      "t1 = time.perf_counter()\n",
+      "print('Total time = {0:8.3f}'.format(t1-t00))"
+    ]
+  },
+  {
+    "source": [
+      "import matplotlib as mpl\n",
+      "fig, ax = plt.subplots(1,2,constrained_layout=True,figsize=(8,5))\n",
+      "mygs.plot_machine(fig,ax[0])\n",
+      "plot_results = results[::nplot]\n",
+      "colors = plt.cm.jet(np.linspace(0,1,len(plot_results)))\n",
+      "for i, result in enumerate(plot_results):\n",
+      "    mygs.plot_psi(fig,ax[0],equilibrium=result,plasma_nlevels=1,plasma_color=[colors[i]], vacuum_nlevels = 0,xpoint_color=None,opoint_color=None)\n",
+      "norm = mpl.colors.Normalize(vmin=0.0, vmax=sim_time*1.E3)\n",
+      "mygs.plot_machine(fig,ax[1])\n",
+      "for i, result in enumerate(plot_results):\n",
+      "    mygs.plot_psi(fig,ax[1],equilibrium=result,plasma_nlevels=1,plasma_color=[colors[i]], vacuum_nlevels = 0,xpoint_color=None,opoint_color=None)\n",
+      "last_eq = plot_results[-1]\n",
+      "ax[1].plot(last_eq.lim_point[0],last_eq.lim_point[1],'ro')\n",
+      "ax[1].triplot(mesh_pts[:,0],mesh_pts[:,1],mesh_lc[mesh_reg==3,:],lw=0.5,label=key)\n",
+      "_ = fig.colorbar(mpl.cm.ScalarMappable(norm=norm, cmap=plt.cm.jet),ax=ax[1],label='Time [ms]')\n",
+      "ax[1].set_ylim(-1.3,-0.8)\n",
+      "_ =ax[1].set_xlim(1.6,2.1)"
+    ]
+  },
+  {
+    "source": [
+      "fig, ax = plt.subplots(2,1,sharex=True)\n",
+      "z0 = [[times[i], results[i].o_point[1]] for i in range(len(results))]\n",
+      "z_hist = np.asarray(z0); z_hist = z_hist[1:,:] - [z_hist[1,0], z_hist[0,1]]\n",
+      "ax[0].semilogy(z_hist[:,0]*1.E3,abs(z_hist[:,1]))\n",
+      "ax[0].semilogy(z_hist[:20,0]*1.E3,abs(z_hist[0,1])*np.exp(z_hist[:20,0]*growth_rates[0]))\n",
+      "ax[0].set_ylabel(r'$|Z_0|$ [m]')\n",
+      "ax[0].grid(True)\n",
+      "eig_comp = [[times[i], np.dot(eig_modes[0,:],results[i].get_psi(False)-psi0)] for i in range(len(results))]\n",
+      "eig_hist = np.asarray(eig_comp); eig_hist = eig_hist[1:,:]\n",
+      "ax[1].semilogy(eig_hist[:,0]*1.E3,abs(eig_hist[:,1]))\n",
+      "ax[1].semilogy(eig_hist[:20,0]*1.E3,abs(eig_hist[0,1])*np.exp(eig_hist[:20,0]*growth_rates[0]))\n",
+      "ax[1].set_ylabel(r'$|\\Delta \\psi|$ [m]')\n",
+      "ax[1].grid(True)\n",
+      "_ = ax[-1].set_xlabel(r'Time [ms]')"
+    ]
+  }
+]
+

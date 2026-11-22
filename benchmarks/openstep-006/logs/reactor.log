@@ -1,0 +1,128 @@
+{
+  "thermal_fusion": {
+    "reaction_rate_per_s": 5.5103537595880964e+20,
+    "alpha_MW": 308.9996013540136,
+    "total_DT_MW": 1553.8265668087538,
+    "source_alpha_relative_difference": -0.007226611114677817,
+    "quadrature_relative_difference": 3.6192352230735025e-05,
+    "thermal_energy_from_nT_J": 575674902.7794324,
+    "minimum_Ti_keV": 0.4,
+    "maximum_Ti_keV": 18.378794455316545,
+    "source_Q_aux": 12.050487603280661
+  },
+  "burn": {
+    "cases": 72,
+    "roots": 58,
+    "stable_roots": 2,
+    "central_roots": [
+      {
+        "tau_factor": 1,
+        "aux_fraction": 1,
+        "radiation_exponent": 0.5,
+        "alpha_deposition": 1,
+        "temperature_scale": 1.0070316189120596,
+        "energy_MJ": 578.7323723353346,
+        "alpha_MW": 313.30242227831303,
+        "linear_growth_per_s": 0.5578872358514314,
+        "classification": "unstable",
+        "residual_W": 8.940696716308594e-08
+      }
+    ],
+    "central_trajectories": [
+      {
+        "root": 1.0070316189120596,
+        "root_kind": "unstable",
+        "initial_scale": 0.9566800379664566,
+        "final_scale": 0.49999999999999994,
+        "end_time_s": 4.722327320733073,
+        "boundary_terminated": true,
+        "tolerance_difference": 5.551115123125783e-17
+      },
+      {
+        "root": 1.0070316189120596,
+        "root_kind": "unstable",
+        "initial_scale": 1.0573831998576626,
+        "final_scale": 2.5,
+        "end_time_s": 6.116819749401906,
+        "boundary_terminated": true,
+        "tolerance_difference": 4.440892098500626e-16
+      }
+    ],
+    "calibrated_transport_time_s": 4.017439848908584,
+    "limitations": [
+      "Fixed density, species fractions, profile shapes and volume",
+      "One temperature scale; no particle/ash evolution or separate ion/electron energy equations",
+      "Source-calibrated transport time and radiation magnitude; imposed radiation exponent",
+      "Root search detects sign-changing roots; tangencies may be missed",
+      "No turbulence, current-drive sustainment, alpha slowing-down evolution or fusion power calibration"
+    ]
+  },
+  "heat": {
+    "cases": 108,
+    "below_assumed_1800K": 42,
+    "radiation_requirements": [
+      {
+        "tag": "shift-+000mm-257",
+        "shift_m": 0,
+        "peak_MW_m2": 13.692957590976766,
+        "required_SOL_radiation_fraction_for_10MW_m2": 0.6348487923971338
+      },
+      {
+        "tag": "shift--010mm-257",
+        "shift_m": -0.01,
+        "peak_MW_m2": 11.836714896387678,
+        "required_SOL_radiation_fraction_for_10MW_m2": 0.5775855003886342
+      },
+      {
+        "tag": "inward-010mm-257",
+        "shift_m": 0.01,
+        "peak_MW_m2": 21.97090100258098,
+        "required_SOL_radiation_fraction_for_10MW_m2": 0.7724262651125398
+      },
+      {
+        "tag": "inward-050mm-257",
+        "shift_m": 0.05,
+        "peak_MW_m2": 63.51799352016853,
+        "required_SOL_radiation_fraction_for_10MW_m2": 0.9212821482087217
+      }
+    ],
+    "limitations": [
+      "Constant assumed conductivity and heat transfer coefficient",
+      "No coolant hydraulics, critical heat flux, stress, fatigue, irradiation, erosion or detachment calculation"
+    ]
+  },
+  "electricity": {
+    "cases": 162,
+    "online_positive": 123,
+    "annual_positive": 86,
+    "online_range_MWe": [
+      -319.2827816866603,
+      606.6676777153634
+    ],
+    "annual_range_MWe": [
+      -317.35450351799426,
+      541.0009099438271
+    ],
+    "limitations": [
+      "Assumed conversion efficiencies, recoverable heat and loads",
+      "No blanket multiplication",
+      "Availability is an assumption, not a reliability prediction"
+    ]
+  },
+  "fuel": {
+    "T_burn_kg_per_full_power_day": 0.23854620001635493,
+    "T_burn_kg_per_full_power_year": 87.12899955597364,
+    "balance_cases": 135,
+    "nonnegative": 50,
+    "hold_up_range_kg": [
+      0.0894548250061331,
+      23.61607380161914
+    ],
+    "limitations": [
+      "D-T-equivalent reaction power; minor other reaction contributions ignored",
+      "No measured/predicted TBR; it is swept",
+      "No radioactive decay, retention, reserve stock or start-up supply",
+      "Hold-up assumes all unburned fuel follows stated processing path; bypass recycling changes it"
+    ]
+  }
+}

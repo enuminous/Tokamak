@@ -1,0 +1,8 @@
+{
+  "upstream_ref": "73d8eb09bce0a4f4c56b88f13fcf36f951c53e91",
+  "source_path": "src/examples/TokaMaker/DIIID/DIIID_baseline_ex.ipynb",
+  "baseline_notebook_blob_sha": "e3d0335505a5a1e8d80c9c8bdbcbe3ac1818840e",
+  "reference_growth_rate_per_s": 945.98,
+  "reference_growth_time_s": 0.0010571,
+  "source_output": "Growth rate = 9.4598E+02 [s^-1]\nGrowth time = 1.0571E-03 [s]\n"
+}

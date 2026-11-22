@@ -1,0 +1,18 @@
+Warning: Could not detect number of physical cores
+Traceback (most recent call last):
+  File "/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/_core.py", line 90, in __init__
+    os.mkdir(self.tempdir)
+FileExistsError: [Errno 17] File exists: '/tmp/oft_5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-006/native.py", line 114, in <module>
+    try:execute(args)
+        ^^^^^^^^^^^^^
+  File "/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-006/native.py", line 49, in execute
+    env=OFT_env(nthreads=2);gs=TokaMaker(env);gs.settings.maxits=200
+        ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/_core.py", line 92, in __init__
+    raise IOError("Could not create temporary directory."
+OSError: Could not create temporary directory.This usually means you have tried to instantiate more than one instance of `OFT_env` within a single python kernel.

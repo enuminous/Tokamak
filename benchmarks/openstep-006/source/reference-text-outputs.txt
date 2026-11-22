@@ -1,0 +1,82 @@
+UPSTREAM CELL 13
+Equilibrium Statistics:
+  Topology                =   Limited
+  Toroidal Current [A]    =    5.6767E+05
+  Current Centroid [m]    =    1.762 -0.046
+  Magnetic Axis [m]       =    1.780 -0.038
+  Elongation              =    1.594 (U:  1.423, L:  1.765)
+  Triangularity           =   -0.297 (U: -0.228, L: -0.366)
+  Plasma Volume [m^3]     =   14.567
+  q_0, q_95               =    0.858  5.475
+  Plasma Pressure [Pa]    =   Axis:  6.8216E+03, Peak:  6.8216E+03
+  Stored Energy [J]       =    3.9875E+04
+  <Beta_pol> [%]          =   17.6306
+  <Beta_tor> [%]          =    0.1274
+  <Beta_n>   [%]          =    0.2380
+  Diamagnetic flux [Wb]   =    6.1160E-03
+  Toroidal flux [Wb]      =    2.5371E+00
+  l_i                     =    1.2258
+  F1A:             2.03       2.00       1.69
+  F2A:             1.04       1.03       1.03
+  F3A:            -0.60      -0.53       6.61
+  F4A:            -0.75      -0.69       6.25
+  F5A:             0.01       0.01       0.00
+  F6A:            -2.18      -2.14       1.55
+  F7A:             0.62       0.62       0.35
+  F8A:            -1.03      -0.98       5.03
+  F9A:             4.34       4.30       0.97
+  F1B:             2.25       2.21       1.65
+  F2B:             1.32       1.32       0.29
+  F3B:            -0.35      -0.39       3.53
+  F4B:            -2.25      -2.30       2.11
+  F5B:             0.01       0.01       0.00
+  F6B:            -2.76      -2.79       1.17
+  F7B:             0.77       0.75       1.39
+  F8B:            -0.86      -0.89       2.97
+  F9B:             4.51       4.59       1.80
+  ECOILA:        -16.03     -16.03       0.00
+  ECOILB:        -15.78     -15.78       0.00
+
+UPSTREAM CELL 19
+Equilibrium Statistics:
+  Topology                =   Limited
+  Toroidal Current [A]    =    5.6567E+05
+  Current Centroid [m]    =    1.769 -0.051
+  Magnetic Axis [m]       =    1.787 -0.042
+  Elongation              =    1.595 (U:  1.408, L:  1.781)
+  Triangularity           =   -0.283 (U: -0.213, L: -0.352)
+  Plasma Volume [m^3]     =   14.283
+  q_0, q_95               =    0.829  5.251
+  Plasma Pressure [Pa]    =   Axis:  6.8216E+03, Peak:  6.8216E+03
+  Stored Energy [J]       =    3.9108E+04
+  <Beta_pol> [%]          =   17.3013
+  <Beta_tor> [%]          =    0.1291
+  <Beta_n>   [%]          =    0.2371
+  Diamagnetic flux [Wb]   =    6.1909E-03
+  Toroidal flux [Wb]      =    2.4632E+00
+  l_i                     =    1.2390
+  F1A:             2.00       2.00       0.00
+  F2A:             1.03       1.03       0.00
+  F3A:            -0.53      -0.53       0.00
+  F4A:            -0.69      -0.69       0.00
+  F5A:             0.01       0.01       0.00
+  F6A:            -2.14      -2.14       0.00
+  F7A:             0.62       0.62       0.00
+  F8A:            -0.98      -0.98       0.00
+  F9A:             4.26       4.30       1.09
+  F1B:             2.21       2.21       0.00
+  F2B:             1.32       1.32       0.00
+  F3B:            -0.39      -0.39       0.00
+  F4B:            -2.30      -2.30       0.00
+  F5B:             0.01       0.01       0.00
+  F6B:            -2.79      -2.79       0.00
+  F7B:             0.75       0.75       0.00
+  F8B:            -0.89      -0.89       0.00
+  F9B:             4.64       4.59       1.02
+  ECOILA:        -16.03     -16.03       0.00
+  ECOILB:        -15.78     -15.78       0.00
+
+UPSTREAM CELL 23
+Growth rate = 9.4598E+02 [s^-1]
+Growth time = 1.0571E-03 [s]
+

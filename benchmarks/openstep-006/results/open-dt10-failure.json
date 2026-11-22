@@ -1,0 +1,13 @@
+{
+  "error": "[Errno 2] No such file or directory: '/tmp/oft_5/tokamaker_f.prof'",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-006/native.py\", line 114, in <module>\n    try:execute(args)\n        ^^^^^^^^^^^^^\n  File \"/workspace/scratch/4b552039c657/Tokamak/benchmarks/openstep-006/native.py\", line 52, in execute\n    gs.setup(order=2,F0=eqdsk['rcentr']*eqdsk['bcentr'])\n  File \"/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/TokaMaker/_core.py\", line 438, in setup\n    self._tMaker_equil = TokaMaker_equilibrium(self)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/TokaMaker/_core.py\", line 2391, in __init__\n    self.set_profiles(ffp_prof=default_prof, pp_prof=default_prof)\n  File \"/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/TokaMaker/_core.py\", line 2574, in set_profiles\n    create_prof_file(self, ffp_file, ffp_prof, \"F*F'\")\n  File \"/workspace/scratch/4b552039c657/oft-deps/OpenFUSIONToolkit/TokaMaker/_core.py\", line 109, in create_prof_file\n    with open(filename, 'w+') as fid:\n         ^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/oft_5/tokamaker_f.prof'\n",
+  "args": {
+    "name": "open-dt10",
+    "scale": 1.0,
+    "eta": 1.0,
+    "modes_only": false,
+    "dt": 0.1,
+    "gain": 0.0,
+    "delay": 0.0
+  }
+}

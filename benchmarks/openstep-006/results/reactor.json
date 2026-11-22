@@ -1,0 +1,265 @@
+{
+  "status": "CONDITIONAL: reduced models and requirements, not integrated reactor validation",
+  "source_kinetic": {
+    "source": "OpenSTEP EB-CC JETTO flat-top; distinct from Fiesta free-boundary",
+    "W_thermal_J": 574691361.6878928,
+    "W_profile_integral_J": 575683298.3704633,
+    "line_density_m3": 1.7345358205740007e+20,
+    "volume_density_m3": 1.6357904112007745e+20,
+    "P_aux_W": 129000000.05177216,
+    "P_alpha_W": 311248875.9403148,
+    "P_ohmic_W": 1314096.0126393007,
+    "P_radiation_W": 298513820.48002607,
+    "P_net_source_W": 143049151.52470022,
+    "P_neutron_W": 1243264025.5067704,
+    "summary_tau_s": 3.995736988002576,
+    "summary_H98": 1.450692343710127,
+    "R0_m": 3.6,
+    "B0_T": 3.2,
+    "volume_m3": 712.9481633087753,
+    "Ip_A": 22748978.64092923,
+    "minor_radius_m": 2.0058989903579363,
+    "pressure_axis_Pa": 1324227.605521269,
+    "thermal_pressure_axis_Pa": 1194938.715874342,
+    "ion_mass_kg": 0.00046143895891435465,
+    "mean_fuel_mass_amu": 2.5,
+    "P_heating_W": 441562972.0047263,
+    "P_transport_W": 143049151.52470022,
+    "P_fusion_total_W": 1554512901.4470851,
+    "source_power_closure_W": 0.0,
+    "thermal_integral_relative_difference": 0.0017260337438465
+  },
+  "thermal_fusion": {
+    "reaction_rate_per_s": 5.5103537595880964e+20,
+    "alpha_MW": 308.9996013540136,
+    "total_DT_MW": 1553.8265668087538,
+    "source_alpha_relative_difference": -0.007226611114677817,
+    "quadrature_relative_difference": 3.6192352230735025e-05,
+    "thermal_energy_from_nT_J": 575674902.7794324,
+    "minimum_Ti_keV": 0.4,
+    "maximum_Ti_keV": 18.378794455316545,
+    "source_Q_aux": 12.050487603280661
+  },
+  "burn": {
+    "cases": 72,
+    "roots": 58,
+    "stable_roots": 2,
+    "central_roots": [
+      {
+        "tau_factor": 1,
+        "aux_fraction": 1,
+        "radiation_exponent": 0.5,
+        "alpha_deposition": 1,
+        "temperature_scale": 1.0070316189120596,
+        "energy_MJ": 578.7323723353346,
+        "alpha_MW": 313.30242227831303,
+        "linear_growth_per_s": 0.5578872358514314,
+        "classification": "unstable",
+        "residual_W": 8.940696716308594e-08
+      }
+    ],
+    "central_trajectories": [
+      {
+        "root": 1.0070316189120596,
+        "root_kind": "unstable",
+        "initial_scale": 0.9566800379664566,
+        "final_scale": 0.49999999999999994,
+        "end_time_s": 4.722327320733073,
+        "boundary_terminated": true,
+        "tolerance_difference": 1.1572187652575394e-10,
+        "event_time_difference_s": 2.8533531093444253e-10
+      },
+      {
+        "root": 1.0070316189120596,
+        "root_kind": "unstable",
+        "initial_scale": 1.0573831998576626,
+        "final_scale": 2.5,
+        "end_time_s": 6.116819749401906,
+        "boundary_terminated": true,
+        "tolerance_difference": 5.817661907769889e-10,
+        "event_time_difference_s": 8.056009193069258e-10
+      }
+    ],
+    "calibrated_transport_time_s": 4.017439848908584,
+    "limitations": [
+      "Fixed density, species fractions, profile shapes and volume",
+      "One temperature scale; no particle/ash evolution or separate ion/electron energy equations",
+      "Source-calibrated transport time and radiation magnitude; imposed radiation exponent",
+      "Root search detects sign-changing roots; tangencies may be missed",
+      "No turbulence, current-drive sustainment, alpha slowing-down evolution or fusion power calibration"
+    ]
+  },
+  "heat": {
+    "cases": 108,
+    "below_assumed_1800K": 42,
+    "radiation_requirements": [
+      {
+        "tag": "shift-+000mm-257",
+        "shift_m": 0,
+        "peak_MW_m2": 13.692957590976766,
+        "required_SOL_radiation_fraction_for_10MW_m2": 0.6348487923971338
+      },
+      {
+        "tag": "shift--010mm-257",
+        "shift_m": -0.01,
+        "peak_MW_m2": 11.836714896387678,
+        "required_SOL_radiation_fraction_for_10MW_m2": 0.5775855003886342
+      },
+      {
+        "tag": "inward-010mm-257",
+        "shift_m": 0.01,
+        "peak_MW_m2": 21.97090100258098,
+        "required_SOL_radiation_fraction_for_10MW_m2": 0.7724262651125398
+      },
+      {
+        "tag": "inward-050mm-257",
+        "shift_m": 0.05,
+        "peak_MW_m2": 63.51799352016853,
+        "required_SOL_radiation_fraction_for_10MW_m2": 0.9212821482087217
+      }
+    ],
+    "limitations": [
+      "Constant assumed conductivity and heat transfer coefficient",
+      "No coolant hydraulics, critical heat flux, stress, fatigue, irradiation, erosion or detachment calculation"
+    ]
+  },
+  "electricity": {
+    "cases": 162,
+    "online_positive": 123,
+    "annual_positive": 86,
+    "online_range_MWe": [
+      -319.2827816866603,
+      606.6676777153634
+    ],
+    "annual_range_MWe": [
+      -317.35450351799426,
+      541.0009099438271
+    ],
+    "limitations": [
+      "Assumed conversion efficiencies, recoverable heat and loads",
+      "No blanket multiplication",
+      "Availability is an assumption, not a reliability prediction"
+    ]
+  },
+  "fuel": {
+    "T_burn_kg_per_full_power_day": 0.23854620001635493,
+    "T_burn_kg_per_full_power_year": 87.12899955597364,
+    "balance_cases": 135,
+    "nonnegative": 50,
+    "hold_up_range_kg": [
+      0.0894548250061331,
+      23.61607380161914
+    ],
+    "limitations": [
+      "D-T-equivalent reaction power; minor other reaction contributions ignored",
+      "No measured/predicted TBR; it is swept",
+      "No radioactive decay, retention, reserve stock or start-up supply",
+      "Hold-up assumes all unburned fuel follows stated processing path; bypass recycling changes it"
+    ]
+  },
+  "checks": [
+    {
+      "name": "positive monotonic volume and fuel profiles",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "D-T temperatures within Bosch-Hale fit over full sweep",
+      "status": "PASS",
+      "value": 0.2,
+      "limit": 0.2
+    },
+    {
+      "name": "reactivity agrees with pinned upstream formula",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "profile reaction integral trapezoid/Simpson agreement",
+      "status": "PASS",
+      "value": 3.6192352230735025e-05,
+      "limit": 0.01
+    },
+    {
+      "name": "unfitted thermal alpha versus source deposited alpha comparison",
+      "status": "PASS",
+      "value": -0.007226611114677817,
+      "limit": 0.1
+    },
+    {
+      "name": "source energy accounting",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1
+    },
+    {
+      "name": "profile thermal energy versus source",
+      "status": "PASS",
+      "value": 0.0017114248744767302,
+      "limit": 0.01
+    },
+    {
+      "name": "burn root residuals",
+      "status": "PASS",
+      "value": 8.949637413024902e-05,
+      "limit": 1
+    },
+    {
+      "name": "burn ODE trajectory tolerance 1.00703162/0.95",
+      "status": "PASS",
+      "value": 1.1572187652575394e-10,
+      "limit": 1e-06
+    },
+    {
+      "name": "burn ODE event time tolerance 1.00703162/0.95",
+      "status": "PASS",
+      "value": 2.8533531093444253e-10,
+      "limit": 1e-05
+    },
+    {
+      "name": "burn ODE trajectory tolerance 1.00703162/1.05",
+      "status": "PASS",
+      "value": 5.817661907769889e-10,
+      "limit": 1e-06
+    },
+    {
+      "name": "burn ODE event time tolerance 1.00703162/1.05",
+      "status": "PASS",
+      "value": 8.056009193069258e-10,
+      "limit": 1e-05
+    },
+    {
+      "name": "fuel ideal unit-TBR closes mass balance",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "fuel loss increases breeding requirement",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "zero-fusion plant cannot produce net power from inefficient heaters",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "cooling positive resistances increase surface temperature",
+      "status": "PASS",
+      "value": null,
+      "limit": null
+    }
+  ],
+  "input_sha256": {
+    "openstep-002/source/STEP_SPP_001_EBCC_ftop.nc": "1090d924534e0e5f764ca2de8b7463caf64ae13f3a654360ff64dd40fcd4ab8b",
+    "openstep-002/results/kinetic-inputs.json": "a0a38e91e8cdf0a4295feb7474a45114f57d8e9eb12a5235f4df7fbc859c5345",
+    "openstep-005/results/footprints.json": "0a9346284393a88137a6889a72dc3372280d7dbc5b4001bd9a61c0c5b94cd240"
+  },
+  "code_sha256": "e9a120648b2789347cf8b55ece3ed41ad2e6b734ae1dc6743275439a0531d9ce",
+  "protocol_sha256": "979d9a1b0132dc529b352e5114482e4347948c798caeccf6bf9eed232d4e7bdc"
+}
