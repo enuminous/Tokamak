@@ -1,0 +1,12 @@
+{
+  "leading_gamma_per_s": 945.9775999860062,
+  "fitted_growth_per_s": 784.7894913166552,
+  "fitted_relative_difference": -0.17039315589685788,
+  "dt_gamma": 0.05,
+  "seed_flux_fraction": 0.0005,
+  "include_bounds": false,
+  "mesh_sha256": "80420dc5d1aefa9280d2a293a19b20c8c497f539a083254bfb82652f7dadc4a5",
+  "code_sha256": "f2e06d3175d2888c130d4917c25d7832d469559feadd2d19d737abf9499a376c",
+  "protocol_sha256": "979d9a1b0132dc529b352e5114482e4347948c798caeccf6bf9eed232d4e7bdc",
+  "command": "OPENBLAS_NUM_THREADS=1 python benchmarks/openstep-006/native.py --name replay-openstep006 --dt .05"
+}
