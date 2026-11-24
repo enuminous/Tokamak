@@ -1,4 +1,5 @@
 {
+  "offline cooling records match both archived CSVs": "PASS",
   "009 source, protocol and input digests": "PASS",
   "009 primary obligations": "PASS",
   "009 matched cases and two samples": "PASS",
@@ -15,6 +16,6 @@
   "alternating fault remains visible": "PASS",
   "paired trace controls": "PASS",
   "component and plant gates": "PASS",
-  "seven views at two widths and both error paths": "PASS",
+  "seven views at two widths, three error paths and offline cooling": "PASS",
   "historical 004 negatives retained": "PASS"
 }

@@ -1,5 +1,7 @@
 # OPENSTEP-009 · When a cooling fault changes the heat-load decision
 
+[Explore the temperature histories](https://enuminous.github.io/Tokamak/#target-cooling) · [Read the popular science essay](https://enuminous.github.io/papers/Where-Does-the-Heat-Go-2026-11-24.html).
+
 The four archived coil configurations crossed with four target-corner radii give 16 imposed heat footprints. Under a two-second heat pulse, 4 of 16 exceed the assumed 1,800 K surface-temperature screen. Degrading backside heat transfer for the second second raises the count to 7 of 16. These are counts over declared geometries. They have no frequency or probability interpretation.
 
 | 257 × 513 source, sharp corner | Peak heat input, MW/m² | Nominal peak, K | Degraded peak, K |
@@ -25,3 +27,5 @@ OPENBLAS_NUM_THREADS=1 python benchmarks/openstep-009/crosscheck.py /tmp/openste
 ```
 
 **What would test the result physically?** Supply registered target CAD and a measured incident heat-flux history. In an instrumented coupon test, compare calibrated front-face thermography, backside temperature, flow and coolant calorimetry on the same clock, with independent estimates of conductivity, material heat capacity, contact resistance and film heat transfer. Freeze the predicted temperature band and crossing-time tolerance before opening the measured trace. The temperature screen and illustrative film reduction here are computational fixtures.
+
+The browser uses a static copy of the two CSVs for offline viewing. Run `python benchmarks/openstep-009/export_browser.py --check` to compare it byte-for-byte against a fresh export. Peak and first-crossing values use the original 0.01 s sampling; the plotted histories use the 0.1 s export and retain both sides of interval boundaries.

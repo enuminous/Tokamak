@@ -5,7 +5,7 @@
       "page": "index",
       "width": 1280,
       "height": 800,
-      "interaction": "Keyboard sets outward crossing to 100%; inventory 60%, reset 90%",
+      "interaction": "All 32 cooling readouts match the source CSV; keyboard inventory control gives 60% and resets to 90%",
       "verdict": "PASS"
     },
     {
@@ -54,7 +54,7 @@
       "page": "index",
       "width": 390,
       "height": 844,
-      "interaction": "Keyboard sets outward crossing to 100%; inventory 60%, reset 90%",
+      "interaction": "All 32 cooling readouts match the source CSV; keyboard inventory control gives 60% and resets to 90%",
       "verdict": "PASS"
     },
     {
@@ -107,6 +107,16 @@
     {
       "page": "screening",
       "fixture": "missing dataset",
+      "verdict": "PASS"
+    },
+    {
+      "page": "index",
+      "fixture": "missing cooling dataset",
+      "verdict": "PASS"
+    },
+    {
+      "page": "index",
+      "transport": "local file",
       "verdict": "PASS"
     }
   ]

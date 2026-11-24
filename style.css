@@ -29,3 +29,30 @@ a { color: #94cbd0; }
 .toggle { display: inline-flex; align-items: center; margin: 0 0 0 .7rem; }
 .toggle input { width: auto; margin: 0; }
 .legend { font-size: .88rem; }
+
+/* OPENSTEP-009 cooling comparison */
+.lab-links { display:flex; flex-wrap:wrap; gap:.6rem 1.1rem; font-size:.94rem; }
+.cooling { border-top:3px solid #94cbd0; padding:clamp(1rem,3vw,2rem); }
+.cooling h2 { margin:.3rem 0; font-size:clamp(1.65rem,4vw,2.7rem); letter-spacing:-.035em; }
+.cooling > p { max-width:78ch; }
+.cooling .label { margin:0; }
+.cooling-controls { display:flex; gap:1rem; flex-wrap:wrap; margin:1.2rem 0; }
+.cooling-controls label { display:grid; gap:.35rem; margin:0; font-size:.9rem; }
+.cooling-controls select { padding:.45rem .75rem; color:#e7edf3; border:1px solid #638198; border-radius:5px; background:#152638; font:inherit; }
+.cooling-pair { display:grid; grid-template-columns:minmax(0,1.5fr) minmax(15rem,1fr); gap:1.4rem; align-items:start; }
+.cooling h3 { font-size:1rem; margin:.3rem 0; }
+.cooling-plot, .cooling-readout { min-width:0; }
+#cooling-chart { display:block; width:100%; height:clamp(205px,26vw,290px); }
+.chart-key { display:flex; flex-wrap:wrap; gap:.3rem .9rem; margin:0; font-size:.8rem; }
+.chart-key span { display:inline-flex; align-items:center; gap:.4rem; }
+.line { display:inline-block; width:20px; border-top:3px solid #80d8de; }
+.line.weak { border-color:#ffb871; border-top-style:dashed; }
+.line.screen { border-top:2px dotted #c3bfd1; }
+.cooling-readout table { width:100%; border-collapse:collapse; font-size:.9rem; font-variant-numeric:tabular-nums; }
+.cooling-readout td,.cooling-readout th { padding:.65rem .2rem; border-bottom:1px solid #415264; text-align:right; }
+.cooling-readout th:first-child { text-align:left; }
+.cooling-readout thead th { font-weight:500; color:#bac8d8; }
+.schedule,.cooling-limit,.research-links { font-size:.91rem; }
+.cooling-limit { padding-top:1rem; }
+.sr-only { position:absolute; width:1px; height:1px; margin:-1px; clip-path:inset(50%); overflow:hidden; white-space:nowrap; }
+@media(max-width:760px){.cooling-pair{grid-template-columns:1fr}.cooling-readout{margin-top:.4rem}}

@@ -4,6 +4,7 @@ from hashlib import sha256
 import json
 from pathlib import Path
 import sys
+import subprocess
 
 ROOT=Path(__file__).resolve().parents[1]
 B=ROOT/"benchmarks"
@@ -16,6 +17,7 @@ def run():
     checks={}
     def check(name,condition):checks[name]="PASS" if condition else "FAIL"
     thermal=B/"openstep-009"
+    check("offline cooling records match both archived CSVs", subprocess.run([sys.executable,str(thermal/"export_browser.py"),"--check"]).returncode==0)
     report=read(thermal/"results/assessment.json")
     check("009 source, protocol and input digests",
           sha(thermal/"thermal.py")==report["program_sha256"] and sha(thermal/"PROTOCOL.md")==report["protocol_sha256"]
@@ -48,9 +50,10 @@ def run():
     check("component and plant gates",len(data["synthetic_controls"])==86 and all(r["verdict"]=="PASS" for r in data["synthetic_controls"]) and data["device_qualification"]["PLANT"]=="UNRESOLVED" and data["exclusions"]["TOY"]["verdict"]=="NOT_APPLICABLE")
     browser=read(E/"browser/browser.json")["cases"]
     pages={p.stem for p in ROOT.glob("*.html")}
-    check("seven views at two widths and both error paths",len(pages)==7 and {(r["page"],r["width"]) for r in browser if "width" in r}==
-          {(p,w) for p in pages for w in (390,1280)} and {r["page"] for r in browser if "fixture" in r}=={"screening","coil-scan"} and
-          len(browser)==16 and all(r["verdict"]=="PASS" for r in browser))
+    check("seven views at two widths, three error paths and offline cooling",len(pages)==7 and {(r["page"],r["width"]) for r in browser if "width" in r}==
+          {(p,w) for p in pages for w in (390,1280)} and {r["page"] for r in browser if "fixture" in r}=={"screening","coil-scan","index"} and
+          any(r.get("transport")=="local file" and r["page"]=="index" for r in browser) and
+          len(browser)==18 and all(r["verdict"]=="PASS" for r in browser))
     check("historical 004 negatives retained",read(B/"openstep-004/results/summary.json")["failed"]==220)
     print(json.dumps(checks,indent=2))
     return any(state!="PASS" for state in checks.values())

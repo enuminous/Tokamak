@@ -16,13 +16,38 @@ PAGES = ("index","engine","trisphere","trisphere-prototype","equilibrium","scree
 class SilentHandler(http.server.SimpleHTTPRequestHandler):
     def log_message(self,*args): pass
 
+def check_cooling(page):
+    folder = ROOT / "benchmarks/openstep-009/results"
+    with (folder / "cases.csv").open() as source:
+        rows = list(csv.DictReader(source))
+    assert len(rows) == 32
+    picks = set()
+    for row in rows:
+        shift = round(float(row["shift_m"]) * 100)
+        radius = round(float(row["radius_m"]) * 1000)
+        arm = "weak" if row["degraded"] == "True" else "nominal"
+        picks.add((shift, radius, arm))
+        page.select_option("#cooling-shift", str(shift))
+        page.select_option("#cooling-radius", str(radius))
+        assert page.locator("#cooling-panel").is_visible()
+        assert page.text_content("#cooling-" + arm) == f"{float(row['peak64_K']):,.1f} K"
+        crossing = row["first_sample_above_1800_s"]
+        expected = f"{float(crossing):.2f} s" if crossing else "Never"
+        assert page.text_content("#cooling-first-" + arm) == expected
+        assert f"{float(row['heat_MW_m2']):.2f} MW/m²" in page.text_content("#cooling-flux")
+    assert picks == {(s,r,a) for s in (-1,0,1,5) for r in (0,1,5,10) for a in ("nominal","weak")}
+    page.select_option("#cooling-shift","1")
+    page.select_option("#cooling-radius","0")
+
+
 def exercise(page, name):
     element=page.locator
     if name=="index":
+        check_cooling(page)
         slider=element("#leak");slider.focus();slider.press("End")
         assert element("#nextInventory").inner_text()=="60.0%"
         element("#reset").click();assert element("#nextInventory").inner_text()=="90.0%"
-        return "Keyboard sets outward crossing to 100%; inventory 60%, reset 90%"
+        return "All 32 cooling readouts match the source CSV; keyboard inventory control gives 60% and resets to 90%"
     if name=="engine":
         element("#external").check();assert "externally supported" in element("#status").inner_text()
         energy=element("#ledger").inner_text()
@@ -105,6 +130,17 @@ def main(out, executable):
                 page.goto(base+name+".html",wait_until="networkidle")
                 covered="could not be loaded" in page.locator("#load-status").inner_text()
                 rows.append(dict(page=name,fixture="missing dataset",verdict="PASS" if covered else "FAIL"));page.close()
+            page=browser.new_page()
+            page.route("**/openstep-009/browser-data.js", lambda route:route.fulfill(status=404,body="missing"))
+            page.goto(base+"index.html",wait_until="networkidle")
+            fallback=(page.locator("#cooling-panel").is_hidden() and page.locator("#cooling-shift").is_disabled()
+                      and page.locator("#cooling-message").is_visible()
+                      and page.locator('a[href$="/results/cases.csv"]').count()==1)
+            rows.append(dict(page="index",fixture="missing cooling dataset",verdict="PASS" if fallback else "FAIL"));page.close()
+            page=browser.new_page()
+            page.goto((ROOT/"index.html").as_uri(),wait_until="load")
+            check_cooling(page)
+            rows.append(dict(page="index",transport="local file",verdict="PASS"));page.close()
             browser.close()
     finally:
         server.shutdown();server.server_close()

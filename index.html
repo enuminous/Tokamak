@@ -8,16 +8,43 @@
 <script defer src="model.js"></script>
 <script defer src="lab.js"></script>
 <script defer src="reactor.js"></script>
+<script defer src="benchmarks/openstep-009/browser-data.js"></script>
+<script defer src="cooling.js"></script>
 </head>
 <body>
 <main>
 <header><p class="label">PLASMA TOPOLOGY LAB</p><h1>Tri-Sphere / Tokamak</h1>
-<p><strong>System specification and tests.</strong> <a href="https://github.com/enuminous/Tokamak/blob/main/verification/README.md">Read the full series, subsystem failure modes and replay results</a> · <a href="https://github.com/enuminous/Tokamak/tree/main/benchmarks/openstep-009">Transient target cooling</a>.</p>
-<p><strong>Controlled coil scan.</strong> <a href="coil-scan.html">View smaller coil movements with pressure and current held fixed</a>.</p>
-<p><strong>Extended simulations are recorded.</strong> <a href="screening.html">Open the stability, confinement, exhaust and engineering screens</a>.</p>
-<p><strong>Published STEP equilibrium reproduced.</strong> <a href="equilibrium.html">View the coil benchmark, controlled change, and results</a>.</p>
-<p>A physical analogue for the hourglass waist, toroidal confinement, and partial recycling in Beth’s blueprint.</p><p><a href="trisphere-prototype.html">New TriSphere simulator: radial dynamics, thirteen-versus-five comparison, and energy accounting</a></p><p><a href="engine.html">Open the recirculating muon engine simulator</a></p><p><a href="trisphere.html">Earlier TriSphere inventory comparison</a></p></header>
-<section class="reactor">
+<p>Explore magnetic confinement, the heat that reaches the divertor, and the cooling needed behind the target.</p>
+<nav class="lab-links" aria-label="Research and labs"><a href="#target-cooling">Target cooling</a><a href="#reactor-lab">3D schematic</a><a href="coil-scan.html">Coil scan</a><a href="equilibrium.html">Equilibrium</a><a href="screening.html">Engineering screens</a><a href="trisphere-prototype.html">TriSphere dynamics</a><a href="trisphere.html">Inventory comparison</a><a href="engine.html">Muon engine</a></nav>
+</header>
+<section id="target-cooling" class="cooling" aria-labelledby="cooling-heading">
+<p class="label">OPENSTEP-009 · SIMULATED TARGET TEMPERATURE</p>
+<h2 id="cooling-heading">One second of weaker cooling</h2>
+<p>In 16 modeled target geometries, four crossed the 1,800 K screen with nominal cooling. Seven crossed when heat transfer weakened for one second. Select a coil shift and corner radius to compare the two runs under the same incoming heat.</p>
+<div class="cooling-controls">
+<label for="cooling-shift">p9 coil shift<select id="cooling-shift" disabled><option value="-1">−1 cm</option><option value="0">0 cm</option><option value="1" selected>+1 cm</option><option value="5">+5 cm</option></select></label>
+<label for="cooling-radius">Target corner<select id="cooling-radius" disabled><option value="0">Sharp corner</option><option value="1">1 mm radius</option><option value="5">5 mm radius</option><option value="10">10 mm radius</option></select></label>
+</div>
+<div id="cooling-panel" hidden>
+<div class="cooling-pair">
+<div class="cooling-plot">
+<h3>Surface temperature (K)</h3>
+<canvas id="cooling-chart" role="img" aria-labelledby="cooling-plot-label"></canvas>
+<p id="cooling-plot-label" class="chart-key"><span><i class="line nominal"></i>Nominal</span><span><i class="line weak"></i>Weaker cooling</span><span><i class="line screen"></i>1,800 K screen</span></p>
+</div>
+<div class="cooling-readout" aria-live="polite" aria-atomic="true">
+<h3>At the hottest patch</h3>
+<p id="cooling-flux"></p>
+<table><caption class="sr-only">Peak modeled temperature and first sampled time above 1,800 K for the selected geometry</caption><thead><tr><th scope="col">Cooling</th><th scope="col">Peak</th><th scope="col">First above<br>1,800 K</th></tr></thead><tbody><tr><th scope="row">Nominal</th><td id="cooling-nominal"></td><td id="cooling-first-nominal"></td></tr><tr><th scope="row">Weaker</th><td id="cooling-weak"></td><td id="cooling-first-weak"></td></tr></tbody></table>
+<p class="schedule">Heat arrives from 0 to 2 s. The weaker schedule reduces backside heat transfer from 1 to 2 s. Both runs then cool to 5 s.</p>
+</div></div>
+</div>
+<p id="cooling-message" role="status">The 32 recorded cases are available in the data files below.</p>
+<p class="cooling-limit">The screen is an assumed comparison temperature. Physical target limits require measured heat flux, material properties, and coolant data.</p>
+<nav class="lab-links" aria-label="Cooling study resources"><a href="https://enuminous.github.io/papers/Where-Does-the-Heat-Go-2026-11-24.html">Read the essay · Where Does the Heat Go?</a><a href="https://github.com/enuminous/Tokamak/blob/main/benchmarks/openstep-009/README.md">Methods and replay</a><a href="benchmarks/openstep-009/results/cases.csv" download>Case results (CSV)</a><a href="benchmarks/openstep-009/results/histories.csv" download>Time histories (CSV)</a></nav>
+</section>
+<p class="research-links"><a href="https://github.com/enuminous/Tokamak/blob/main/verification/README.md">System specification and verification series</a> · <a href="https://github.com/enuminous/Tokamak/blob/main/benchmarks/openstep-008/README.md">OPENSTEP-008 · DIII-D instability replay</a></p>
+<section id="reactor-lab" class="reactor">
 <h2>Reactor schematic in 3D + time</h2>
 <p>Rotate the view and open the cutaway to inspect the plasma, vessel, field coils, and divertor. Animated tracers show the direction of the illustrative field lines.</p>
 <canvas id="reactor" role="img" aria-label="Rotatable wireframe tokamak with plasma, vacuum vessel, field coils, divertor targets, and moving field-line tracers."></canvas>
