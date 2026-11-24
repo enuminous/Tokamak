@@ -1,0 +1,28 @@
+{
+  "target_per_s": 760.8152852567656,
+  "fixed_per_s": 791.8431594340263,
+  "mesh": "0.5",
+  "nodes": 121479,
+  "flux_span": 0.1835569328395829,
+  "Ip_A": 493324.5,
+  "current_ratio": 5.6,
+  "inputs": {
+    "diiid-mesh-0.5.h5": "7c7773b131dace19217bba9e6b928878664f6c767b5a31bff4e2026dd2db1fcc",
+    "g192185.02440": "685426f5eb54573d921466beea78e19db01ec5c88b2e254eff7d924de5f0600b",
+    "DIIID_baseline_cells.json": "1c58a776362e6b6e6aa09e70e9e45c615afb7b9722c507d002ef58d96f268d1e"
+  },
+  "hashes": {
+    "PROTOCOL.md": "5c71081954de0af54a7b59deddcc2d467b377036deed885445ac69dd4d0d879b",
+    "run.py": "182c29d31a2befb3ec8ea46d1d170ef4ed61a50abfb75ae6b84e338381222168",
+    "modes.npz": "4e5b91fb4d9e3a4aaf6a2dabfc09a4f71de0a42244e5918b68130bba282b912f",
+    "krylov.json": "e08055cd1440b247af45207955b2bddd42539220bbc6757df0bef2ec3d75d951"
+  },
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "versions": {
+    "OpenFUSIONToolkit": "26.9",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "h5py": "3.16.0"
+  }
+}

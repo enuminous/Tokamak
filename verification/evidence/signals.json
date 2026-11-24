@@ -1,0 +1,72 @@
+{
+  "source": "https://raw.githubusercontent.com/enuminous/EFMW-EXP-001/c955ba9bbb7339b04d6e6699f75649cda2c67ea3/EXP-003/monitors.py",
+  "sha256": "62f6640d09d8698d1cd1914ebab96bded2d22e338339062cbf078f94a90c4b58",
+  "cases": [
+    {
+      "case": "clean",
+      "monitor": "absolute",
+      "alarm_sample": null,
+      "delay_samples": null,
+      "detection_verdict": "PASS",
+      "harness": "PASS"
+    },
+    {
+      "case": "clean",
+      "monitor": "signed",
+      "alarm_sample": null,
+      "delay_samples": null,
+      "detection_verdict": "PASS",
+      "harness": "PASS"
+    },
+    {
+      "case": "bias",
+      "monitor": "absolute",
+      "alarm_sample": 32,
+      "delay_samples": 2,
+      "detection_verdict": "PASS",
+      "harness": "PASS"
+    },
+    {
+      "case": "bias",
+      "monitor": "signed",
+      "alarm_sample": 39,
+      "delay_samples": 9,
+      "detection_verdict": "PASS",
+      "harness": "PASS"
+    },
+    {
+      "case": "alternating",
+      "monitor": "absolute",
+      "alarm_sample": 32,
+      "delay_samples": 2,
+      "detection_verdict": "PASS",
+      "harness": "PASS"
+    },
+    {
+      "case": "alternating",
+      "monitor": "signed",
+      "alarm_sample": null,
+      "delay_samples": null,
+      "detection_verdict": "FAIL",
+      "harness": "PASS"
+    },
+    {
+      "case": "gap",
+      "rejected": true,
+      "reason": "Missing or extra observations",
+      "harness": "PASS"
+    },
+    {
+      "case": "duplicate",
+      "rejected": true,
+      "reason": "Invalid clock or sample",
+      "harness": "PASS"
+    },
+    {
+      "case": "nonfinite",
+      "rejected": true,
+      "reason": "Invalid clock or sample",
+      "harness": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "historical_integrity": {
+    "PASS": 241,
+    "FAIL": 0
+  },
+  "input_and_execution_integrity": {
+    "PASS": 99,
+    "FAIL": 0
+  },
+  "native_primary": {
+    "PASS": 6,
+    "FAIL": 2
+  },
+  "native_diagnostics": {
+    "PASS": 1,
+    "FAIL": 2
+  },
+  "reactor": {
+    "PASS": 16,
+    "FAIL": 0
+  }
+}

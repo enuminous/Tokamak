@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "python",
+      "benchmarks/openstep-004/validate.py",
+      "preflight"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 1.28,
+    "log": "004-validate-preflight.log"
+  },
+  {
+    "command": [
+      "python",
+      "benchmarks/openstep-004/validate.py",
+      "controls"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 1.2,
+    "log": "004-validate-controls.log"
+  },
+  {
+    "command": [
+      "python",
+      "benchmarks/openstep-004/validate.py",
+      "equilibria"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 197.26,
+    "log": "004-validate-equilibria.log"
+  }
+]

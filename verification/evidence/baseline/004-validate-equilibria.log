@@ -1,0 +1,8 @@
+Equilibrium recovery-homotopy-10: defect 4.34e-08, direct force difference 0.000112, 11.1s
+Equilibrium shift--050mm-129: defect 4.41e-10, direct force difference 0.000114, 9.4s
+Equilibrium shift--010mm-129: defect 7.02e-11, direct force difference 0.000114, 9.2s
+Equilibrium inward-010mm-129: defect 5.14e-09, direct force difference 0.000112, 9.6s
+Equilibrium shift-+000mm-257: defect 1.12e-11, direct force difference 2.65e-05, 38.2s
+Equilibrium shift--010mm-257: defect 9.22e-10, direct force difference 2.67e-05, 37.7s
+Equilibrium inward-010mm-257: defect 1.39e-08, direct force difference 2.65e-05, 40.7s
+Equilibrium inward-050mm-257: defect 1.92e-08, direct force difference 2.59e-05, 40.1s

@@ -1,0 +1,3 @@
+bounds-1-step-0.05-seed-0.0005 {'eigenvalue_per_s': 807.7026822830512, 'fitted_per_s': 822.8719458927609, 'relative_error': 0.018780751806880547, 'verdict': 'PASS'}
+bounds-1-step-0.025-seed-0.0005 {'eigenvalue_per_s': 807.702682283064, 'fitted_per_s': 813.7321293131985, 'relative_error': 0.007464933771287763, 'verdict': 'PASS'}
+bounds-1-step-0.05-seed-5e-05 {'eigenvalue_per_s': 807.702682283054, 'fitted_per_s': 825.4890463878681, 'relative_error': 0.02202092984826942, 'verdict': 'PASS'}

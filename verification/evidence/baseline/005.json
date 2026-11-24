@@ -1,0 +1,17 @@
+[
+  {
+    "command": [
+      "python",
+      "benchmarks/openstep-005/run.py"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 479.25,
+    "log": "005-run.log"
+  },
+  {
+    "verification_counts": {
+      "passed": 2076,
+      "failed": 0
+    }
+  }
+]

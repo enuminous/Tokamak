@@ -1,0 +1,124 @@
+{
+  "target": {
+    "predicted_per_s": 760.8152852567656,
+    "cases": {
+      "base": {
+        "max_shape_fraction": 0.0009100965629187669,
+        "steps": 21,
+        "z_first_m": -0.0002522068605100951,
+        "z_last_m": -0.0006642763477209476,
+        "projection": {
+          "rate_per_s": 782.3846001899257,
+          "relative_error": 0.028350264973817874,
+          "verdict": "PASS"
+        },
+        "axis": {
+          "rate_per_s": 782.3605317543078,
+          "relative_error": 0.028318629915894622,
+          "verdict": "PASS"
+        }
+      },
+      "half-step": {
+        "max_shape_fraction": 0.0009968146920428169,
+        "steps": 42,
+        "z_first_m": -0.00024611568212787663,
+        "z_last_m": -0.0006550889776559231,
+        "projection": {
+          "rate_per_s": 772.3229292141281,
+          "relative_error": 0.015125411095649577,
+          "verdict": "PASS"
+        },
+        "axis": {
+          "rate_per_s": 772.3131456745758,
+          "relative_error": 0.015112551812007657,
+          "verdict": "PASS"
+        }
+      },
+      "small-seed": {
+        "max_shape_fraction": 0.005725070927166753,
+        "steps": 21,
+        "z_first_m": -2.51452946943842e-05,
+        "z_last_m": -6.471554702002641e-05,
+        "projection": {
+          "rate_per_s": 785.3469051020338,
+          "relative_error": 0.03224385776764338,
+          "verdict": "PASS"
+        },
+        "axis": {
+          "rate_per_s": 787.7000663805264,
+          "relative_error": 0.03533680466828093,
+          "verdict": "PASS"
+        }
+      }
+    },
+    "projection": {
+      "verdict": "PASS",
+      "timestep_relative_change": 0.013027803002090277
+    },
+    "axis": {
+      "verdict": "PASS",
+      "timestep_relative_change": 0.0130094717874627
+    }
+  },
+  "fixed": {
+    "predicted_per_s": 791.8431594340263,
+    "cases": {
+      "base": {
+        "max_shape_fraction": 0.0002999565483191795,
+        "steps": 20,
+        "z_first_m": 0.00013527868526580847,
+        "z_last_m": 0.00035238690514916016,
+        "projection": {
+          "rate_per_s": 813.5806806955595,
+          "relative_error": 0.02745180153740323,
+          "verdict": "PASS"
+        },
+        "axis": {
+          "rate_per_s": 813.7407480657262,
+          "relative_error": 0.027653946833803733,
+          "verdict": "PASS"
+        }
+      },
+      "half-step": {
+        "max_shape_fraction": 0.0040682948094945435,
+        "steps": 40,
+        "z_first_m": 0.00013130883329739648,
+        "z_last_m": 0.0003440361030492209,
+        "projection": {
+          "rate_per_s": 802.7998054431091,
+          "relative_error": 0.013836889134603458,
+          "verdict": "PASS"
+        },
+        "axis": {
+          "rate_per_s": 804.8392056535941,
+          "relative_error": 0.016412399431292357,
+          "verdict": "PASS"
+        }
+      },
+      "small-seed": {
+        "max_shape_fraction": 0.015955649674052406,
+        "steps": 20,
+        "z_first_m": 1.4285560077469811e-05,
+        "z_last_m": 3.246092564493375e-05,
+        "projection": {
+          "rate_per_s": 745.1505974154767,
+          "relative_error": 0.05896693235554806,
+          "verdict": "PASS"
+        },
+        "axis": {
+          "rate_per_s": 742.5102818162892,
+          "relative_error": 0.06230132448577075,
+          "verdict": "PASS"
+        }
+      }
+    },
+    "projection": {
+      "verdict": "PASS",
+      "timestep_relative_change": 0.013429095497223598
+    },
+    "axis": {
+      "verdict": "PASS",
+      "timestep_relative_change": 0.011060025840690102
+    }
+  }
+}

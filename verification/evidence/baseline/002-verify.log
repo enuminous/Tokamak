@@ -1,0 +1,403 @@
+{
+  "scope": "Implementation and numerical checks only; physical feasibility is separate",
+  "passed": 66,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "source_sha256:STEP_SPP_001_EBCC_ftop.nc",
+      "status": "PASS",
+      "value": "1090d924534e0e5f764ca2de8b7463caf64ae13f3a654360ff64dd40fcd4ab8b",
+      "limit": null
+    },
+    {
+      "name": "source_sha256:SPR45_2D_Wall.csv",
+      "status": "PASS",
+      "value": "fcdd5375dbecfbedc8ab7fb3b18c5d624dee05344793509f1fc0647c76889c1a",
+      "limit": null
+    },
+    {
+      "name": "source_sha256:summary.h5",
+      "status": "PASS",
+      "value": "cbe38ed6730cec912e15f1759506574ac01a73b83d219bde0ec596e662b34d4d",
+      "limit": null
+    },
+    {
+      "name": "kinetic_source_power_balance",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1
+    },
+    {
+      "name": "thermal_energy_profile_vs_summary",
+      "status": "PASS",
+      "value": 0.0017260337438465,
+      "limit": 0.005
+    },
+    {
+      "name": "cached_boundary:physical",
+      "status": "PASS",
+      "value": 8.881784197001252e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "cached_boundary:asymmetric",
+      "status": "PASS",
+      "value": 7.105427357601002e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "iterative_critical_search:baseline-129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "iterative_critical_search:baseline-257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "iterative_critical_search:p9-inward-129",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "iterative_critical_search:p9-inward-257",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    },
+    {
+      "name": "vertical_force:analytic_coil_crosscheck",
+      "status": "PASS",
+      "value": 9.588531470205996e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "controlled:baseline-257:F_squared_positive",
+      "status": "PASS",
+      "value": 114.95535742879241,
+      "limit": 0
+    },
+    {
+      "name": "controlled:baseline-257:full_pressure_profile",
+      "status": "PASS",
+      "value": 9.590356740204835e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "controlled:baseline-257:current_constraint",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "controlled:baseline-257:independent_defect",
+      "status": "PASS",
+      "value": 9.528767658556018e-12,
+      "limit": 1e-05
+    },
+    {
+      "name": "controlled:p9-inward-129:F_squared_positive",
+      "status": "PASS",
+      "value": 115.20638065621421,
+      "limit": 0
+    },
+    {
+      "name": "controlled:p9-inward-129:full_pressure_profile",
+      "status": "PASS",
+      "value": 7.1927675551536255e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "controlled:p9-inward-129:current_constraint",
+      "status": "PASS",
+      "value": 2.220446049250313e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "controlled:p9-inward-129:independent_defect",
+      "status": "PASS",
+      "value": 3.5023163396211974e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "controlled:p9-inward-257:F_squared_positive",
+      "status": "PASS",
+      "value": 115.22742188029522,
+      "limit": 0
+    },
+    {
+      "name": "controlled:p9-inward-257:full_pressure_profile",
+      "status": "PASS",
+      "value": 8.71850612745894e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "controlled:p9-inward-257:current_constraint",
+      "status": "PASS",
+      "value": 3.3306690738754696e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "controlled:p9-inward-257:independent_defect",
+      "status": "PASS",
+      "value": 1.9370361406411663e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "q_integral_analytic_R_and_2pi_control",
+      "status": "PASS",
+      "value": 3.829912729180762e-07,
+      "limit": 2e-06
+    },
+    {
+      "name": "baseline-129:F_squared_positive",
+      "status": "PASS",
+      "value": 114.9078380242589,
+      "limit": 0
+    },
+    {
+      "name": "baseline-129:q95_quadrature",
+      "status": "PASS",
+      "value": 0.0002370541563001538,
+      "limit": 0.001
+    },
+    {
+      "name": "p9-inward-129:F_squared_positive",
+      "status": "PASS",
+      "value": 114.2974020763203,
+      "limit": 0
+    },
+    {
+      "name": "p9-inward-129:q95_quadrature",
+      "status": "PASS",
+      "value": 0.00013352496994301077,
+      "limit": 0.001
+    },
+    {
+      "name": "baseline-129:force_step_consistency",
+      "status": "PASS",
+      "value": 4.060181967529533e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "baseline-129:force_antisymmetry",
+      "status": "PASS",
+      "value": 4.612957127392292e-09,
+      "limit": 1
+    },
+    {
+      "name": "p9-inward-129:force_step_consistency",
+      "status": "PASS",
+      "value": 4.3508005839654455e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "p9-inward-129:force_antisymmetry",
+      "status": "PASS",
+      "value": 1.4959368854761124e-08,
+      "limit": 1
+    },
+    {
+      "name": "energy_ODE_129:analytic_control",
+      "status": "PASS",
+      "value": 2.9190034925828685e-11,
+      "limit": 1e-08
+    },
+    {
+      "name": "fieldlines-129:flux_conservation",
+      "status": "PASS",
+      "value": 3.142227372690026e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "fieldlines-129:step_halving_position",
+      "status": "PASS",
+      "value": 7.112050149881614e-06,
+      "limit": 0.001
+    },
+    {
+      "name": "fieldlines-129:step_halving_length",
+      "status": "PASS",
+      "value": 0.00011988364552451003,
+      "limit": 0.01
+    },
+    {
+      "name": "baseline-257:F_squared_positive",
+      "status": "PASS",
+      "value": 114.95535787432969,
+      "limit": 0
+    },
+    {
+      "name": "baseline-257:q95_quadrature",
+      "status": "PASS",
+      "value": 5.535415047486225e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "p9-inward-257:F_squared_positive",
+      "status": "PASS",
+      "value": 114.30934697261661,
+      "limit": 0
+    },
+    {
+      "name": "p9-inward-257:q95_quadrature",
+      "status": "PASS",
+      "value": 7.808681214704905e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "baseline-257:force_step_consistency",
+      "status": "PASS",
+      "value": 1.980311597455031e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "baseline-257:force_antisymmetry",
+      "status": "PASS",
+      "value": 9.353243513032794e-09,
+      "limit": 1
+    },
+    {
+      "name": "p9-inward-257:force_step_consistency",
+      "status": "PASS",
+      "value": 2.1171695901732833e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "p9-inward-257:force_antisymmetry",
+      "status": "PASS",
+      "value": 6.79574441164732e-09,
+      "limit": 1
+    },
+    {
+      "name": "energy_ODE_257:analytic_control",
+      "status": "PASS",
+      "value": 2.8239356536000908e-11,
+      "limit": 1e-08
+    },
+    {
+      "name": "fieldlines-257:flux_conservation",
+      "status": "PASS",
+      "value": 3.0057687269391846e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "fieldlines-257:step_halving_position",
+      "status": "PASS",
+      "value": 8.027592441830863e-06,
+      "limit": 0.001
+    },
+    {
+      "name": "fieldlines-257:step_halving_length",
+      "status": "PASS",
+      "value": 0.0002461755851612679,
+      "limit": 0.01
+    },
+    {
+      "name": "baseline-513:equilibrium_defect",
+      "status": "PASS",
+      "value": 6.945806634840127e-07,
+      "limit": 1e-05
+    },
+    {
+      "name": "p9-inward-513:equilibrium_defect",
+      "status": "PASS",
+      "value": 2.5462126975613084e-07,
+      "limit": 1e-05
+    },
+    {
+      "name": "baseline-513:F_squared_positive",
+      "status": "PASS",
+      "value": 114.97336688644172,
+      "limit": 0
+    },
+    {
+      "name": "baseline-513:q95_quadrature",
+      "status": "PASS",
+      "value": 1.9909479190616253e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "p9-inward-513:F_squared_positive",
+      "status": "PASS",
+      "value": 114.33252079106009,
+      "limit": 0
+    },
+    {
+      "name": "p9-inward-513:q95_quadrature",
+      "status": "PASS",
+      "value": 2.4587587494906415e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "baseline-513:force_step_consistency",
+      "status": "PASS",
+      "value": 9.894629601501555e-06,
+      "limit": 0.001
+    },
+    {
+      "name": "baseline-513:force_antisymmetry",
+      "status": "PASS",
+      "value": 1.1088559404015541e-08,
+      "limit": 1
+    },
+    {
+      "name": "p9-inward-513:force_step_consistency",
+      "status": "PASS",
+      "value": 1.0546021004258576e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "p9-inward-513:force_antisymmetry",
+      "status": "PASS",
+      "value": 2.2992026060819626e-09,
+      "limit": 1
+    },
+    {
+      "name": "energy_ODE_513:analytic_control",
+      "status": "PASS",
+      "value": 2.8315484023173574e-11,
+      "limit": 1e-08
+    },
+    {
+      "name": "fieldlines-513:flux_conservation",
+      "status": "PASS",
+      "value": 3.2595261008375742e-06,
+      "limit": 1e-05
+    },
+    {
+      "name": "fieldlines-513:step_halving_position",
+      "status": "PASS",
+      "value": 1.0877398290509399e-05,
+      "limit": 0.001
+    },
+    {
+      "name": "fieldlines-513:step_halving_length",
+      "status": "PASS",
+      "value": 0.0009003998611945008,
+      "limit": 0.01
+    },
+    {
+      "name": "thermal_finite_volume_energy_conservation",
+      "status": "PASS",
+      "value": 5.988404154777527e-13,
+      "limit": 1e-09
+    },
+    {
+      "name": "thermal_central_steady_solution",
+      "status": "PASS",
+      "value": 4.609137249644846e-08,
+      "limit": 0.0001
+    },
+    {
+      "name": "electric_accounting",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 1e-09
+    }
+  ]
+}

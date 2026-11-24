@@ -1,0 +1,50 @@
+[
+  {
+    "repository": "enuminous/EFMW-EXP-001",
+    "revision": "c955ba9bbb7339b04d6e6699f75649cda2c67ea3",
+    "path": "EXP-003/monitors.py",
+    "blob": "5763ddefab9d6cb4aa29f176d6b3ff4f90b08a9c",
+    "use": "Executed both original monitor functions from pinned upstream bytes on six synthetic fault and clean fixtures; no imported thresholds or safety credit.",
+    "url": "https://github.com/enuminous/EFMW-EXP-001/blob/c955ba9bbb7339b04d6e6699f75649cda2c67ea3/EXP-003/monitors.py"
+  },
+  {
+    "repository": "enuminous/EFMW-ATC-Monitor",
+    "revision": "2e47d5f0a1d93b4a42ab4ccf8ec8e7aa5b9dc438",
+    "path": "VALIDATION_PLAN.md",
+    "blob": "4ac180a974b6cb08e2b2e1e43a87dc22a9cdda7a",
+    "use": "Transferred clean and corrupt telemetry controls, time alignment, and a read-only boundary. No aviation data or performance claims transferred.",
+    "url": "https://github.com/enuminous/EFMW-ATC-Monitor/blob/2e47d5f0a1d93b4a42ab4ccf8ec8e7aa5b9dc438/VALIDATION_PLAN.md"
+  },
+  {
+    "repository": "enuminous/alex-mrtb-verify-bundle",
+    "revision": "79ac75b9cd9cd214f61f64f117368bd6838195af",
+    "path": "TRUST-BOUNDARY.md",
+    "blob": "8f2e89fb3b834ed7329787014609adc0a8da77a8",
+    "use": "Separated file identity and self-recorded timing from independent attestation. A regraded author-supplied trace has no independent device provenance.",
+    "url": "https://github.com/enuminous/alex-mrtb-verify-bundle/blob/79ac75b9cd9cd214f61f64f117368bd6838195af/TRUST-BOUNDARY.md"
+  },
+  {
+    "repository": "enuminous/papers",
+    "revision": "bd2763e74c21c16713b39612aa90f0204c0e3cb3",
+    "path": "How-Do-You-Hold-a-Star-Shaped-Fire-2026-11-22.md",
+    "blob": "74af03de876bdcd66309405c0d48896be8399307",
+    "use": "Resolved historical series and located the precise controlled-profile discrepancy; narrative is a guide, not a second data source.",
+    "url": "https://github.com/enuminous/papers/blob/bd2763e74c21c16713b39612aa90f0204c0e3cb3/How-Do-You-Hold-a-Star-Shaped-Fire-2026-11-22.md"
+  },
+  {
+    "repository": "enuminous/papers",
+    "revision": "bd2763e74c21c16713b39612aa90f0204c0e3cb3",
+    "path": "TriSphere-Tokamak-Model-Comparison-2026-11-19.md",
+    "blob": "d7e928000576ff8a103f2ee7fbc44529bee1e5fa",
+    "use": "Kept the illustrative and physical-equilibrium branches distinct in the component inventory.",
+    "url": "https://github.com/enuminous/papers/blob/bd2763e74c21c16713b39612aa90f0204c0e3cb3/TriSphere-Tokamak-Model-Comparison-2026-11-19.md"
+  },
+  {
+    "repository": "enuminous/papers",
+    "revision": "bd2763e74c21c16713b39612aa90f0204c0e3cb3",
+    "path": "Tokamak-Interim-Report-OPENSTEP-001-005-2026-11-21.md",
+    "blob": "4580c0be8ac38e37da82610b8578399bafe336a1",
+    "use": "Historical units and case mapping; use benchmark artifacts as the source for tests.",
+    "url": "https://github.com/enuminous/papers/blob/bd2763e74c21c16713b39612aa90f0204c0e3cb3/Tokamak-Interim-Report-OPENSTEP-001-005-2026-11-21.md"
+  }
+]

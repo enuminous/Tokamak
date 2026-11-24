@@ -1,0 +1,478 @@
+{
+  "dependencies": {
+    "EXHAUST": [
+      "EDGE",
+      "TARGET",
+      "COOL",
+      "VAC",
+      "FUEL",
+      "DIAG"
+    ],
+    "FACILITY": [
+      "VESSEL",
+      "SERVICE",
+      "FAC",
+      "OPS",
+      "PROTECT",
+      "DIAG",
+      "ELEC"
+    ],
+    "FUELCYCLE": [
+      "FUEL",
+      "BLANKET",
+      "SHIELD",
+      "TPLANT",
+      "VAC"
+    ],
+    "GENERATION": [
+      "BURN",
+      "BLANKET",
+      "COOL",
+      "HEAT",
+      "ELEC",
+      "GRID"
+    ],
+    "MAGNETS": [
+      "TF",
+      "PF",
+      "JOINT",
+      "QUENCH",
+      "CRYO",
+      "ELEC"
+    ],
+    "MODEL": [
+      "INGEST",
+      "SOLVE",
+      "TRACE",
+      "NATIVE",
+      "TRANSPORT",
+      "THERMAL",
+      "BUDGET",
+      "WEB",
+      "SIGNAL",
+      "CONFIG",
+      "DECISION"
+    ],
+    "PLANT": [
+      "PLASMA",
+      "EXHAUST",
+      "MAGNETS",
+      "FUELCYCLE",
+      "GENERATION",
+      "FACILITY",
+      "MODEL"
+    ],
+    "PLASMA": [
+      "EQ",
+      "MHD",
+      "WALL",
+      "PCS",
+      "DIS",
+      "BURN",
+      "RF",
+      "DIAG"
+    ]
+  },
+  "device_qualification": {
+    "BLANKET": "UNRESOLVED",
+    "BUDGET": "UNRESOLVED",
+    "BURN": "UNRESOLVED",
+    "CONFIG": "UNRESOLVED",
+    "COOL": "UNRESOLVED",
+    "CRYO": "UNRESOLVED",
+    "DECISION": "UNRESOLVED",
+    "DIAG": "UNRESOLVED",
+    "DIS": "UNRESOLVED",
+    "EDGE": "UNRESOLVED",
+    "ELEC": "UNRESOLVED",
+    "EQ": "UNRESOLVED",
+    "EXHAUST": "UNRESOLVED",
+    "FAC": "UNRESOLVED",
+    "FACILITY": "UNRESOLVED",
+    "FUEL": "UNRESOLVED",
+    "FUELCYCLE": "UNRESOLVED",
+    "GENERATION": "UNRESOLVED",
+    "GRID": "UNRESOLVED",
+    "HEAT": "UNRESOLVED",
+    "INGEST": "UNRESOLVED",
+    "JOINT": "UNRESOLVED",
+    "MAGNETS": "UNRESOLVED",
+    "MHD": "UNRESOLVED",
+    "MODEL": "UNRESOLVED",
+    "NATIVE": "UNRESOLVED",
+    "OPS": "UNRESOLVED",
+    "PCS": "UNRESOLVED",
+    "PF": "UNRESOLVED",
+    "PLANT": "UNRESOLVED",
+    "PLASMA": "UNRESOLVED",
+    "PROTECT": "UNRESOLVED",
+    "QUENCH": "UNRESOLVED",
+    "RF": "UNRESOLVED",
+    "SERVICE": "UNRESOLVED",
+    "SHIELD": "UNRESOLVED",
+    "SIGNAL": "UNRESOLVED",
+    "SOLVE": "UNRESOLVED",
+    "TARGET": "UNRESOLVED",
+    "TF": "UNRESOLVED",
+    "THERMAL": "UNRESOLVED",
+    "TPLANT": "UNRESOLVED",
+    "TRACE": "UNRESOLVED",
+    "TRANSPORT": "UNRESOLVED",
+    "VAC": "UNRESOLVED",
+    "VESSEL": "UNRESOLVED",
+    "WALL": "UNRESOLVED",
+    "WEB": "UNRESOLVED"
+  },
+  "exclusions": {
+    "TOY": {
+      "reason": "TriSphere and the speculative propulsion ledger are outside the power-plant design.",
+      "verdict": "NOT_APPLICABLE"
+    }
+  },
+  "synthetic_controls": [
+    {
+      "case": "synthetic fully evidenced plant",
+      "verdict": "PASS"
+    },
+    {
+      "case": "BLANKET FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "BLANKET UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "BUDGET FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "BUDGET UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "BURN FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "BURN UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "CONFIG FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "CONFIG UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "COOL FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "COOL UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "CRYO FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "CRYO UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "DECISION FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "DECISION UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "DIAG FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "DIAG UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "DIS FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "DIS UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "EDGE FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "EDGE UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "ELEC FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "ELEC UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "EQ FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "EQ UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "FAC FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "FAC UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "FUEL FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "FUEL UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "GRID FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "GRID UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "HEAT FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "HEAT UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "INGEST FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "INGEST UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "JOINT FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "JOINT UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "MHD FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "MHD UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "NATIVE FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "NATIVE UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "OPS FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "OPS UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "PCS FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "PCS UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "PF FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "PF UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "PROTECT FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "PROTECT UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "QUENCH FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "QUENCH UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "RF FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "RF UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "SERVICE FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "SERVICE UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "SHIELD FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "SHIELD UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "SIGNAL FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "SIGNAL UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "SOLVE FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "SOLVE UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "TARGET FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "TARGET UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "TF FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "TF UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "THERMAL FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "THERMAL UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "TPLANT FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "TPLANT UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "TRACE FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "TRACE UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "TRANSPORT FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "TRANSPORT UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "VAC FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "VAC UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "VESSEL FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "VESSEL UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "WALL FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "WALL UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "WEB FAIL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "WEB UNRESOLVED",
+      "verdict": "PASS"
+    },
+    {
+      "case": "cycle",
+      "verdict": "PASS"
+    },
+    {
+      "case": "missing leaf",
+      "verdict": "PASS"
+    },
+    {
+      "case": "duplicate prerequisite",
+      "verdict": "PASS"
+    },
+    {
+      "case": "empty gate",
+      "verdict": "PASS"
+    },
+    {
+      "case": "waived required sensor",
+      "verdict": "PASS"
+    }
+  ]
+}

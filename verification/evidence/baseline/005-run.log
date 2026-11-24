@@ -1,0 +1,13 @@
+Running preflight.py
+Running contour.py controls
+Running contour.py physical
+Running derivative_cache.py
+Running footprints.py
+Running wall_feedback.py
+Running report.py
+{
+  "passed": 2076,
+  "failed": 0,
+  "numerical_status": "PASS",
+  "device_wall_stability": "NOT RUN / UNRESOLVED"
+}

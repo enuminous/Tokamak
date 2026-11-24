@@ -1,0 +1,549 @@
+{
+  "protocol_sha256": "af57a3613ab5f257b14e7d9d944a5d4d98686f5f59379971542ec86ccc6d9190",
+  "program_sha256": "54ae8b915e48aca117d917509a70bdb824e59087647381e3e42538f7302411c6",
+  "inputs": {
+    "footprints.json": "0a9346284393a88137a6889a72dc3372280d7dbc5b4001bd9a61c0c5b94cd240",
+    "cooling-requirements.csv": "17e120c008bb13e3c91850ddca498018a61f6ad0f1fc92b54320741fa5a6b29a"
+  },
+  "checks": [
+    {
+      "test": "reject missing key",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "reject duplicate key",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "reject wrong sign",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "reject NaN heat",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "reject zero film coefficient",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "zero flux",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift-+000mm-257 sharp 006 steady reference",
+      "verdict": "PASS",
+      "value": 1294.3990514435673
+    },
+    {
+      "test": "shift-+000mm-257 0.0 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift-+000mm-257 0.0 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.844864189536404e-13
+    },
+    {
+      "test": "shift-+000mm-257 0.0 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.0025856309666778543
+    },
+    {
+      "test": "shift-+000mm-257 0.0 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.143401534537072e-13
+    },
+    {
+      "test": "shift-+000mm-257 0.0 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.000815367798168154
+    },
+    {
+      "test": "shift-+000mm-257 0.0 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift-+000mm-257 0.001 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift-+000mm-257 0.001 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.852944631536726e-13
+    },
+    {
+      "test": "shift-+000mm-257 0.001 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.00233562203470683
+    },
+    {
+      "test": "shift-+000mm-257 0.001 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.140155682057412e-13
+    },
+    {
+      "test": "shift-+000mm-257 0.001 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0007365285382547881
+    },
+    {
+      "test": "shift-+000mm-257 0.001 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift-+000mm-257 0.005 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift-+000mm-257 0.005 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.854781521099119e-13
+    },
+    {
+      "test": "shift-+000mm-257 0.005 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.0022320414254863863
+    },
+    {
+      "test": "shift-+000mm-257 0.005 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.143660449671106e-13
+    },
+    {
+      "test": "shift-+000mm-257 0.005 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0007038648307116091
+    },
+    {
+      "test": "shift-+000mm-257 0.005 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift-+000mm-257 0.01 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift-+000mm-257 0.01 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.859467603648521e-13
+    },
+    {
+      "test": "shift-+000mm-257 0.01 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.002232041425031639
+    },
+    {
+      "test": "shift-+000mm-257 0.01 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.142872556825878e-13
+    },
+    {
+      "test": "shift-+000mm-257 0.01 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0007038648311663565
+    },
+    {
+      "test": "shift-+000mm-257 0.01 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift--010mm-257 sharp 006 steady reference",
+      "verdict": "PASS",
+      "value": 1179.9307519439067
+    },
+    {
+      "test": "shift--010mm-257 0.0 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift--010mm-257 0.0 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.85901810423277e-13
+    },
+    {
+      "test": "shift--010mm-257 0.0 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.002235118043017792
+    },
+    {
+      "test": "shift--010mm-257 0.0 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.141892481555068e-13
+    },
+    {
+      "test": "shift--010mm-257 0.0 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0007048350294098782
+    },
+    {
+      "test": "shift--010mm-257 0.0 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift--010mm-257 0.001 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift--010mm-257 0.001 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.854338472029669e-13
+    },
+    {
+      "test": "shift--010mm-257 0.001 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.002235118043017792
+    },
+    {
+      "test": "shift--010mm-257 0.001 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.143466098192422e-13
+    },
+    {
+      "test": "shift--010mm-257 0.001 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0007048350296372519
+    },
+    {
+      "test": "shift--010mm-257 0.001 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift--010mm-257 0.005 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift--010mm-257 0.005 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.855898349430645e-13
+    },
+    {
+      "test": "shift--010mm-257 0.005 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.0022351180432451656
+    },
+    {
+      "test": "shift--010mm-257 0.005 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.140318864917653e-13
+    },
+    {
+      "test": "shift--010mm-257 0.005 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0007048350289551308
+    },
+    {
+      "test": "shift--010mm-257 0.005 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift--010mm-257 0.01 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "shift--010mm-257 0.01 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.852778594628643e-13
+    },
+    {
+      "test": "shift--010mm-257 0.01 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.002235118043017792
+    },
+    {
+      "test": "shift--010mm-257 0.01 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.141892481555109e-13
+    },
+    {
+      "test": "shift--010mm-257 0.01 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0007048350296372519
+    },
+    {
+      "test": "shift--010mm-257 0.01 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-010mm-257 sharp 006 steady reference",
+      "verdict": "PASS",
+      "value": 1804.872228492494
+    },
+    {
+      "test": "inward-010mm-257 0.0 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-010mm-257 0.0 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.852332645083944e-13
+    },
+    {
+      "test": "inward-010mm-257 0.0 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.004148748844954753
+    },
+    {
+      "test": "inward-010mm-257 0.0 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.142062089812639e-13
+    },
+    {
+      "test": "inward-010mm-257 0.0 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0013082904156362929
+    },
+    {
+      "test": "inward-010mm-257 0.0 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-010mm-257 0.001 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-010mm-257 0.001 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.853857313379659e-13
+    },
+    {
+      "test": "inward-010mm-257 0.001 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.0037451994596722216
+    },
+    {
+      "test": "inward-010mm-257 0.001 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.141294291911586e-13
+    },
+    {
+      "test": "inward-010mm-257 0.001 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0011810328228420985
+    },
+    {
+      "test": "inward-010mm-257 0.001 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-010mm-257 0.005 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-010mm-257 0.005 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.858489186776206e-13
+    },
+    {
+      "test": "inward-010mm-257 0.005 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.0028855178368303314
+    },
+    {
+      "test": "inward-010mm-257 0.005 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.140565406905573e-13
+    },
+    {
+      "test": "inward-010mm-257 0.005 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.000909935855816002
+    },
+    {
+      "test": "inward-010mm-257 0.005 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-010mm-257 0.01 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-010mm-257 0.01 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.85715922263709e-13
+    },
+    {
+      "test": "inward-010mm-257 0.01 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.0025015625856212864
+    },
+    {
+      "test": "inward-010mm-257 0.01 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.141493794995831e-13
+    },
+    {
+      "test": "inward-010mm-257 0.01 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0007888571897183283
+    },
+    {
+      "test": "inward-010mm-257 0.01 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-050mm-257 sharp 006 steady reference",
+      "verdict": "PASS",
+      "value": 4366.942933743726
+    },
+    {
+      "test": "inward-050mm-257 0.0 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-050mm-257 0.0 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.856790264535452e-13
+    },
+    {
+      "test": "inward-050mm-257 0.0 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.011994055328614195
+    },
+    {
+      "test": "inward-050mm-257 0.0 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.142878519520965e-13
+    },
+    {
+      "test": "inward-050mm-257 0.0 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0037822746598976664
+    },
+    {
+      "test": "inward-050mm-257 0.0 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-050mm-257 0.001 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-050mm-257 0.001 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.856790264535452e-13
+    },
+    {
+      "test": "inward-050mm-257 0.001 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.011994055328614195
+    },
+    {
+      "test": "inward-050mm-257 0.001 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.142878519520965e-13
+    },
+    {
+      "test": "inward-050mm-257 0.001 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0037822746598976664
+    },
+    {
+      "test": "inward-050mm-257 0.001 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-050mm-257 0.005 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-050mm-257 0.005 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.856790264535452e-13
+    },
+    {
+      "test": "inward-050mm-257 0.005 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.011994055328614195
+    },
+    {
+      "test": "inward-050mm-257 0.005 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.142878519520965e-13
+    },
+    {
+      "test": "inward-050mm-257 0.005 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.0037822746598976664
+    },
+    {
+      "test": "inward-050mm-257 0.005 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-050mm-257 0.01 stationary slab",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "inward-050mm-257 0.01 degraded=False energy balance",
+      "verdict": "PASS",
+      "value": 4.852381421876769e-13
+    },
+    {
+      "test": "inward-050mm-257 0.01 degraded=False refinement",
+      "verdict": "PASS",
+      "value": 0.011108245999366773
+    },
+    {
+      "test": "inward-050mm-257 0.01 degraded=True energy balance",
+      "verdict": "PASS",
+      "value": 8.140592036324844e-13
+    },
+    {
+      "test": "inward-050mm-257 0.01 degraded=True refinement",
+      "verdict": "PASS",
+      "value": 0.00350293843257532
+    },
+    {
+      "test": "inward-050mm-257 0.01 fault ordering",
+      "verdict": "PASS",
+      "value": null
+    },
+    {
+      "test": "case denominator",
+      "verdict": "PASS",
+      "value": 32
+    }
+  ],
+  "exceeding": {
+    "False": 4,
+    "True": 7
+  }
+}

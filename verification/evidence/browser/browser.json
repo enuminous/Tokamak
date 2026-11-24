@@ -1,0 +1,113 @@
+{
+  "chromium": "151.0.7922.34",
+  "cases": [
+    {
+      "page": "index",
+      "width": 1280,
+      "height": 800,
+      "interaction": "Keyboard sets outward crossing to 100%; inventory 60%, reset 90%",
+      "verdict": "PASS"
+    },
+    {
+      "page": "engine",
+      "width": 1280,
+      "height": 800,
+      "interaction": "External bootstrap labeled; conjectural stage changes no ledger entry",
+      "verdict": "PASS"
+    },
+    {
+      "page": "trisphere",
+      "width": 1280,
+      "height": 800,
+      "interaction": "Both model summaries update when the exhaust opens",
+      "verdict": "PASS"
+    },
+    {
+      "page": "trisphere-prototype",
+      "width": 1280,
+      "height": 800,
+      "interaction": "Downloaded a populated run/2 with observer-only view",
+      "verdict": "PASS"
+    },
+    {
+      "page": "equilibrium",
+      "width": 1280,
+      "height": 800,
+      "interaction": "Downloaded exact equilibrium summary bytes; opened provenance details",
+      "verdict": "PASS"
+    },
+    {
+      "page": "screening",
+      "width": 1280,
+      "height": 800,
+      "interaction": "Changed conversion efficiency; displayed net MW matches original CSV",
+      "verdict": "PASS"
+    },
+    {
+      "page": "coil-scan",
+      "width": 1280,
+      "height": 800,
+      "interaction": "Positive 5 cm readout matches source JSON; unresolved neighbors visible",
+      "verdict": "PASS"
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "height": 844,
+      "interaction": "Keyboard sets outward crossing to 100%; inventory 60%, reset 90%",
+      "verdict": "PASS"
+    },
+    {
+      "page": "engine",
+      "width": 390,
+      "height": 844,
+      "interaction": "External bootstrap labeled; conjectural stage changes no ledger entry",
+      "verdict": "PASS"
+    },
+    {
+      "page": "trisphere",
+      "width": 390,
+      "height": 844,
+      "interaction": "Both model summaries update when the exhaust opens",
+      "verdict": "PASS"
+    },
+    {
+      "page": "trisphere-prototype",
+      "width": 390,
+      "height": 844,
+      "interaction": "Downloaded a populated run/2 with observer-only view",
+      "verdict": "PASS"
+    },
+    {
+      "page": "equilibrium",
+      "width": 390,
+      "height": 844,
+      "interaction": "Downloaded exact equilibrium summary bytes; opened provenance details",
+      "verdict": "PASS"
+    },
+    {
+      "page": "screening",
+      "width": 390,
+      "height": 844,
+      "interaction": "Changed conversion efficiency; displayed net MW matches original CSV",
+      "verdict": "PASS"
+    },
+    {
+      "page": "coil-scan",
+      "width": 390,
+      "height": 844,
+      "interaction": "Positive 5 cm readout matches source JSON; unresolved neighbors visible",
+      "verdict": "PASS"
+    },
+    {
+      "page": "coil-scan",
+      "fixture": "missing dataset",
+      "verdict": "PASS"
+    },
+    {
+      "page": "screening",
+      "fixture": "missing dataset",
+      "verdict": "PASS"
+    }
+  ]
+}

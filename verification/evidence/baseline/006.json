@@ -1,0 +1,25 @@
+[
+  {
+    "command": [
+      "python",
+      "benchmarks/openstep-006/verify.py"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 0.22,
+    "log": "006-verify.log"
+  },
+  {
+    "command": [
+      "python",
+      "benchmarks/openstep-006/reactor.py"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 2.24,
+    "log": "006-reactor.log"
+  },
+  {
+    "verification_counts": {
+      "verdict": "PARTIAL: native eigenvalue/refinement/scaling pass; two primary and two diagnostic time/eigenvalue comparisons fail; reactor models conditional"
+    }
+  }
+]

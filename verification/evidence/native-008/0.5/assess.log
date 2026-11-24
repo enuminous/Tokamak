@@ -1,0 +1,2 @@
+target {'verdict': 'PASS', 'timestep_relative_change': np.float64(0.013027803002090277)} {'verdict': 'PASS', 'timestep_relative_change': np.float64(0.0130094717874627)}
+fixed {'verdict': 'PASS', 'timestep_relative_change': np.float64(0.013429095497223598)} {'verdict': 'PASS', 'timestep_relative_change': np.float64(0.011060025840690102)}

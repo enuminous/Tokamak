@@ -1,0 +1,17 @@
+[
+  {
+    "command": [
+      "python",
+      "benchmarks/openstep-003/verify.py"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 6.72,
+    "log": "003-verify.log"
+  },
+  {
+    "verification_counts": {
+      "passed": 120,
+      "failed": 0
+    }
+  }
+]

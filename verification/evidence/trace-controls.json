@@ -1,0 +1,82 @@
+[
+  {
+    "fixture": "known offset inside limit",
+    "expected": "PASS",
+    "actual": {
+      "verdict": "PASS",
+      "evidence_class": "fixture",
+      "samples": 3,
+      "max_absolute_error": 1.0,
+      "unit": "K",
+      "scope": "numerical agreement only"
+    },
+    "test": "PASS"
+  },
+  {
+    "fixture": "known offset above limit",
+    "expected": "FAIL",
+    "actual": {
+      "verdict": "FAIL",
+      "evidence_class": "fixture",
+      "samples": 3,
+      "max_absolute_error": 3.0,
+      "unit": "K",
+      "scope": "numerical agreement only"
+    },
+    "test": "PASS"
+  },
+  {
+    "fixture": "clock shifted",
+    "expected": "UNRESOLVED",
+    "actual": {
+      "verdict": "UNRESOLVED",
+      "reason": "unmatched clocks"
+    },
+    "test": "PASS"
+  },
+  {
+    "fixture": "wrong unit",
+    "expected": "UNRESOLVED",
+    "actual": {
+      "verdict": "UNRESOLVED",
+      "reason": "wrong columns or unit"
+    },
+    "test": "PASS"
+  },
+  {
+    "fixture": "omitted endpoint",
+    "expected": "UNRESOLVED",
+    "actual": {
+      "verdict": "UNRESOLVED",
+      "reason": "incomplete sample coverage"
+    },
+    "test": "PASS"
+  },
+  {
+    "fixture": "nonfinite",
+    "expected": "UNRESOLVED",
+    "actual": {
+      "verdict": "UNRESOLVED",
+      "reason": "missing or invalid samples"
+    },
+    "test": "PASS"
+  },
+  {
+    "fixture": "duplicate tick",
+    "expected": "UNRESOLVED",
+    "actual": {
+      "verdict": "UNRESOLVED",
+      "reason": "non-increasing time"
+    },
+    "test": "PASS"
+  },
+  {
+    "fixture": "tampered bytes",
+    "expected": "UNRESOLVED",
+    "actual": {
+      "verdict": "UNRESOLVED",
+      "reason": "observation digest mismatch"
+    },
+    "test": "PASS"
+  }
+]

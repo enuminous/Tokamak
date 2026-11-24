@@ -1,0 +1,9 @@
+Verified fields inward-010mm-129
+Verified fields inward-010mm-257
+Verified fields inward-050mm-257
+Verified fields recovery-homotopy-10
+Verified fields shift-+000mm-257
+Verified fields shift--010mm-129
+Verified fields shift--010mm-257
+Verified fields shift--050mm-129
+{"scope": "Numerical implementation and accepted-field checks; not physical qualification", "passed": 120, "failed": 0}
