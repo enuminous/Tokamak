@@ -1,0 +1,27 @@
+[
+  {
+    "fixture": "constructed matching pair",
+    "expected": "PASS",
+    "actual": "PASS"
+  },
+  {
+    "fixture": "resolved original face",
+    "expected": "FAIL",
+    "actual": "FAIL"
+  },
+  {
+    "fixture": "corner inside guard",
+    "expected": "UNRESOLVED",
+    "actual": "UNRESOLVED"
+  },
+  {
+    "fixture": "baseline normal mismatch",
+    "expected": "UNRESOLVED",
+    "actual": "UNRESOLVED"
+  },
+  {
+    "fixture": "no independent return",
+    "actual": "UNRESOLVED",
+    "expected": "UNRESOLVED"
+  }
+]

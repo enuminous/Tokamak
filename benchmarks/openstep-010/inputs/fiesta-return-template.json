@@ -1,0 +1,25 @@
+{
+  "solver": "Fiesta",
+  "solver_revision": null,
+  "protocol_sha256": "c8e1348a25d214982e5a9aa1d72cf14489daa8f5d341a79b483e9cf2e8c9808b",
+  "independent_input_and_solver_review": null,
+  "review_evidence": null,
+  "fields": {
+    "baseline-coarse": {
+      "file": null,
+      "sha256": null
+    },
+    "baseline-fine": {
+      "file": null,
+      "sha256": null
+    },
+    "inward-coarse": {
+      "file": null,
+      "sha256": null
+    },
+    "inward-fine": {
+      "file": null,
+      "sha256": null
+    }
+  }
+}

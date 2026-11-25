@@ -4,6 +4,8 @@ A collection of browser labs and reproducible equilibrium calculations exploring
 
 ## Start here
 
+**OPENSTEP-010 · p9 strike-point comparison.** Moving the upper and lower p9 coils 5 cm toward the midplane shifted the modeled strike from wall face 12 to face 13 on both grids. Projected heat flux at the 1 mm launch increased 5.35–5.36 times. The independent displaced Fiesta solve is pending. [Read the results](benchmarks/openstep-010/README.md) · [View the comparison](https://enuminous.github.io/Tokamak/coil-scan.html#openstep-010) · [Download the replay and Fiesta inputs](https://github.com/enuminous/Tokamak/raw/refs/heads/main/benchmarks/openstep-010/OPENSTEP-010-Fiesta-Comparison.zip).
+
 [Explore target cooling](https://enuminous.github.io/Tokamak/#target-cooling) for all 16 geometries and both cooling schedules, or read [Where Does the Heat Go?](https://enuminous.github.io/papers/Where-Does-the-Heat-Go-2026-11-24.html). The explorer works offline when the repository is downloaded and opened at `index.html`.
 
 **System specification and verification, November 24.** [Read the integrated findings and replay guide](verification/README.md), [system and interface specification](verification/SYSTEM.md), and [component failure modes and test requirements](verification/COMPONENTS.md). [OPENSTEP-008](benchmarks/openstep-008/README.md) recovers the current-target mode on two DIII-D meshes. [OPENSTEP-009](benchmarks/openstep-009/README.md) tests the downstream effect of a cooling fault on 16 heat footprints.

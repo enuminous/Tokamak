@@ -1,0 +1,84 @@
+{
+  "tag": "coarse-A",
+  "grid": [
+    129,
+    257
+  ],
+  "p9_translation_m": 0.05,
+  "constraint": "fixed p(s) and total Ip",
+  "target_ip_A": 22774410.551784597,
+  "target_pressure_axis_Pa": 1335266.8464644956,
+  "homotopy_alpha": 1.0,
+  "rdiff": 1e-07,
+  "line_search": "armijo",
+  "max_iterations": 60,
+  "acceptance_defect": 1e-05,
+  "solver_fatol": 1e-07,
+  "warm_start": "openstep-003/results/inward-050mm-257.npz",
+  "warm_sha256": "c044ff5e3f3eb1ebacc66242841f620c9b18ea00a23d2586e3fee2040f7dcf30",
+  "protocol_sha256": "66673375d27711f205a4c6e4befd13aa1ee74923019067d846d1009703fd224a",
+  "code_sha256": "d5637486afb908f57c927baebad87767e3da64b56c45129e4a5dbcd574db1e4e",
+  "controlled_code_sha256": "45aef275ee1f43c2b81ac34a6ac613ae983f2a54a52498a31c32dcf20c1e78d7",
+  "iterations": [
+    {
+      "iteration": 0,
+      "evaluations": 15,
+      "defect": 0.007491745452009069
+    },
+    {
+      "iteration": 1,
+      "evaluations": 26,
+      "defect": 0.006579180474528796
+    },
+    {
+      "iteration": 2,
+      "evaluations": 33,
+      "defect": 0.005314232094284354
+    },
+    {
+      "iteration": 3,
+      "evaluations": 43,
+      "defect": 0.004733816995798675
+    },
+    {
+      "iteration": 4,
+      "evaluations": 50,
+      "defect": 0.004549832368684381
+    },
+    {
+      "iteration": 5,
+      "evaluations": 61,
+      "defect": 0.004499444704819511
+    },
+    {
+      "iteration": 6,
+      "evaluations": 76,
+      "defect": 0.13715378068257925
+    },
+    {
+      "iteration": 7,
+      "evaluations": 78,
+      "defect": 0.12861709492285603
+    },
+    {
+      "iteration": 8,
+      "evaluations": 81,
+      "defect": 0.11397210362569142
+    },
+    {
+      "iteration": 9,
+      "evaluations": 84,
+      "defect": 0.08725921259746304
+    },
+    {
+      "iteration": 10,
+      "evaluations": 92,
+      "defect": 0.012311147698225494
+    }
+  ],
+  "converged": false,
+  "final_critical_search": "original full domain",
+  "initial_defect": 0.01488089390009612,
+  "error": "IndexError: list index out of range",
+  "seconds": 28.814653635025024
+}

@@ -1,0 +1,31 @@
+{
+  "local_mesh": "PASS",
+  "local": {
+    "baseline": {
+      "observed_strike_uncertainty_m": 0.011153822681617584,
+      "corner_guard_m": 0.011153822681617584,
+      "resolved_side": -1
+    },
+    "inward": {
+      "observed_strike_uncertainty_m": 0.0017115946945835958,
+      "corner_guard_m": 0.002,
+      "resolved_side": 1
+    }
+  },
+  "external": "UNRESOLVED",
+  "external_reason": "Missing independent matched Fiesta pair and its refinement.",
+  "coarse_local_heat": {
+    "baseline": 10.555263458498871,
+    "inward": 56.43789901219888,
+    "delta": 45.88263555370001,
+    "ratio": 5.34689628867163
+  },
+  "fine_local_heat": {
+    "baseline": 10.45222309612593,
+    "inward": 56.04329069852227,
+    "delta": 45.591067602396336,
+    "ratio": 5.361853663389032
+  },
+  "heat_refinement_sum_MW_m2": 0.497648676049554,
+  "published_Fiesta_baseline_offset_from_local_fine_m": 0.0020351956565766837
+}

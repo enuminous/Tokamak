@@ -1,0 +1,34 @@
+{
+  "case": "inward-5cm",
+  "inward_shift_per_p9_pack_m": 0.05,
+  "filaments": "inward-5cm-filaments.csv",
+  "wall": "wall.csv",
+  "profiles": "profiles.json",
+  "target_Ip_A": 22774410.551784597,
+  "target_on_axis_pressure_Pa": 1335266.8464644956,
+  "F_edge_T_m": 11.52,
+  "R_minmax_m": [
+    0.5,
+    9.0
+  ],
+  "Z_minmax_m": [
+    -10.0,
+    10.0
+  ],
+  "main_grid_R_Z": [
+    257,
+    513
+  ],
+  "comparison_grid_R_Z": [
+    129,
+    257
+  ],
+  "wall_corner_R_Z_m": [
+    5.855,
+    -8.52316
+  ],
+  "flux": "total psi, Wb/rad; BR=-dpsi/dZ/R, BZ=dpsi/dR/R",
+  "launch": "Z=0, own outboard midplane separatrix radius + 0.001 m; follow +B to first lower-wall hit",
+  "source_commit": "6f66ae09c60b361d600b178416ef3f22b8d0aa6a",
+  "protocol_sha256": "c8e1348a25d214982e5a9aa1d72cf14489daa8f5d341a79b483e9cf2e8c9808b"
+}

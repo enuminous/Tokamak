@@ -1,0 +1,7 @@
+{
+  "operator": "uncached freeBoundaryHagenow",
+  "saved_field_defect": 3.074193976124274e-08,
+  "perturbed_field_defect": 0.012020113591540933,
+  "threshold": 1e-05,
+  "passed": true
+}
